@@ -1,0 +1,238 @@
+# Phrases anglaises : niveau|thème|anglais|français|astuce (facultatif)
+# [a|b] : formulations au choix (la première est affichée) ; [a|] : mot facultatif ; « || » sépare deux phrases entières acceptées.
+# Les contractions (I'm / I am, don't / do not…) sont toujours acceptées dans les deux sens : inutile de les écrire.
+A1|présentations|My name is Sarah.|Je m'appelle Sarah. || Mon nom est Sarah.|« Je m'appelle » se dit « My name is » (mon nom est).
+A1|présentations|I'm twenty years old.|J'ai vingt ans.|L'âge se dit avec « be » : I am 20 (years old).
+A1|présentations|I'm from France.|Je viens de France. || Je suis français. || Je suis française.|« Je viens de » : I'm from.
+A1|présentations|I live in Paris.|J'habite à Paris. || Je vis à Paris.
+A1|présentations|Nice to meet you.|Enchanté. || Ravi de te rencontrer. || Ravi de vous rencontrer. || Enchantée.
+A1|présentations|This is my friend Tom.|Je te présente mon ami Tom. || Voici mon ami Tom. || C'est mon ami Tom.|Pour présenter quelqu'un : « This is… ».
+A1|présentations|I'm a student.|Je suis étudiant. || Je suis étudiante.|Pour un métier, on garde « a » : I'm a teacher.
+A1|présentations|She's a nurse.|Elle est infirmière.|Le métier prend toujours « a » ou « an » en anglais.
+A1|présentations|Do you speak English?|Tu parles anglais ? || Vous parlez anglais ? || Parlez-vous anglais ?|Question au présent : Do + sujet + verbe.
+A1|présentations|I don't speak Spanish.|Je ne parle pas espagnol.|Négation : don't + verbe.
+A1|salutations|How are you?|Comment ça va ? || Comment vas-tu ? || Comment allez-vous ? || Ça va ?
+A1|salutations|I'm fine, thanks.|Ça va bien, merci. || Je vais bien, merci. || Bien, merci.
+A1|salutations|See you tomorrow!|À demain !
+A1|salutations|Have a nice day!|Bonne journée !
+A1|salutations|Good night!|Bonne nuit !
+A1|famille|I have two brothers.|J'ai deux frères.
+A1|famille|My sister is [very|really] tall.|Ma sœur est très grande.
+A1|famille|Do you have [any|] children?|Tu as des enfants ? || Avez-vous des enfants ? || Vous avez des enfants ?
+A1|famille|His wife is a doctor.|Sa femme est médecin.|« Sa » se dit « his » si c'est la femme d'un homme, « her » si c'est celle d'une femme.
+A1|famille|Her brother lives in London.|Son frère habite à Londres. || Son frère vit à Londres.|« Son » = his (à lui) ou her (à elle) : ici le frère d'une femme.
+A1|maison|My house is [small|little].|Ma maison est petite.
+A1|maison|The keys are on the table.|Les clés sont sur la table.
+A1|maison|Where is the bathroom?|Où est la salle de bain ? || Où sont les toilettes ?
+A1|maison|There is a cat in the garden.|Il y a un chat dans le jardin.|« Il y a » : there is (un seul), there are (plusieurs).
+A1|maison|There are [two|2] bedrooms.|Il y a deux chambres.
+A1|nourriture|I'm hungry.|J'ai faim.|Faim, soif, chaud, froid : avec « be » en anglais (I'm hungry).
+A1|nourriture|I'm thirsty.|J'ai soif.
+A1|nourriture|I'd like a coffee, please.|Je voudrais un café, s'il vous plaît. || Je voudrais un café, s'il te plaît. || Un café, s'il vous plaît.|« Je voudrais » : I'd like (= I would like), plus poli que « I want ».
+A1|nourriture|I don't eat meat.|Je ne mange pas de viande.
+A1|nourriture|Do you like chocolate?|Tu aimes le chocolat ? || Vous aimez le chocolat ?|Pas d'article devant un nom pris en général : I like chocolate.
+A1|nourriture|I love pizza.|J'adore la pizza. || J'aime la pizza.
+A1|nourriture|Can I have some water, please?|Je peux avoir de l'eau, s'il vous plaît ? || Est-ce que je peux avoir de l'eau, s'il te plaît ?
+A1|nourriture|How much is it?|C'est combien ? || Combien ça coûte ? || Ça coûte combien ?
+A1|quotidien|I get up at seven.|Je me lève à sept heures.
+A1|quotidien|I go to work by bus.|Je vais au travail en bus.|En bus, en voiture : by bus, by car.
+A1|quotidien|She works in a shop.|Elle travaille dans un magasin.|Présent : il/elle + verbe + s (she works).
+A1|quotidien|He doesn't like his job.|Il n'aime pas son travail. || Il n'aime pas son boulot.|Négation avec he/she : doesn't + verbe sans s.
+A1|quotidien|What time is it?|Quelle heure est-il ? || Il est quelle heure ?
+A1|quotidien|It's ten o'clock.|Il est dix heures.
+A1|quotidien|I'm tired.|Je suis fatigué. || Je suis fatiguée.
+A1|quotidien|I watch TV in the evening.|Je regarde la télé le soir.
+A1|quotidien|We often go to the cinema.|On va souvent au cinéma. || Nous allons souvent au cinéma.|Often, always, never se placent avant le verbe.
+A1|quotidien|I never drink coffee.|Je ne bois jamais de café.
+A1|temps|It's hot today.|Il fait chaud aujourd'hui.|« Il fait… » : It's…
+A1|temps|It's raining.|Il pleut.
+A1|temps|It's cold outside.|Il fait froid dehors.
+A1|questions|Where do you live?|Où est-ce que tu habites ? || Tu habites où ? || Où habites-tu ? || Où habitez-vous ?
+A1|questions|What's your name?|Comment tu t'appelles ? || Comment vous appelez-vous ? || Quel est ton nom ?
+A1|questions|What do you do?|Qu'est-ce que tu fais dans la vie ? || Tu fais quoi dans la vie ? || Que faites-vous dans la vie ?|« What do you do? » demande le métier.
+A1|questions|Why are you sad?|Pourquoi tu es triste ? || Pourquoi es-tu triste ?
+A1|questions|Who is that man?|Qui est cet homme ? || C'est qui, cet homme ?
+A1|questions|Can you help me?|Tu peux m'aider ? || Pouvez-vous m'aider ? || Vous pouvez m'aider ?
+A1|questions|I don't understand.|Je ne comprends pas.
+A1|questions|Can you repeat, please?|Tu peux répéter, s'il te plaît ? || Pouvez-vous répéter, s'il vous plaît ?
+A1|maintenant|I'm eating.|Je suis en train de manger. || Je mange.|Action en cours : be + verbe-ing.
+A1|maintenant|What are you doing?|Qu'est-ce que tu fais ? || Tu fais quoi ?
+A1|maintenant|She's sleeping.|Elle dort. || Elle est en train de dormir.
+A1|possession|This is my phone.|C'est mon téléphone.
+A1|possession|Is this your bag?|C'est ton sac ? || C'est votre sac ? || Est-ce que c'est ton sac ?
+A1|capacité|I can swim.|Je sais nager.|« Savoir faire » : can.
+A1|capacité|I can't come tomorrow.|Je ne peux pas venir demain.
+A2|passé|I went to London last year.|Je suis allé à Londres l'année dernière. || Je suis allée à Londres l'année dernière.|Passé daté : prétérit. go → went.
+A2|passé|We watched a film yesterday.|On a regardé un film hier. || Nous avons regardé un film hier.|Verbe régulier au passé : + ed.
+A2|passé|I didn't sleep well.|Je n'ai pas bien dormi. || J'ai mal dormi.|Négation au passé : didn't + verbe à la base.
+A2|passé|Did you see the match?|Tu as vu le match ? || Est-ce que tu as vu le match ? || Vous avez vu le match ?|Question au passé : Did + sujet + verbe à la base.
+A2|passé|She called me this morning.|Elle m'a appelé ce matin. || Elle m'a appelée ce matin.
+A2|passé|It was [really|very] good.|C'était vraiment bien. || C'était très bon. || C'était vraiment bon.
+A2|passé|Where were you?|Où étais-tu ? || Tu étais où ? || Où étiez-vous ?
+A2|passé|I lost my keys.|J'ai perdu mes clés.
+A2|passé|We met in Paris.|On s'est rencontrés à Paris. || Nous nous sommes rencontrés à Paris.
+A2|passé|I was born in 1995.|Je suis né en 1995. || Je suis née en 1995.|« Je suis né » : I was born.
+A2|futur|I'm going to buy a car.|Je vais acheter une voiture.|Projet : be going to + verbe.
+A2|futur|It's going to rain.|Il va pleuvoir.
+A2|futur|I'll call you tonight.|Je t'appelle ce soir. || Je t'appellerai ce soir.|Décision sur le moment : will (I'll).
+A2|futur|What are you doing this weekend?|Qu'est-ce que tu fais ce week-end ? || Tu fais quoi ce week-end ?|Projet déjà organisé : présent en -ing.
+A2|futur|We're leaving tomorrow.|On part demain. || Nous partons demain.
+A2|comparer|My brother is taller than me.|Mon frère est plus grand que moi.|Adjectif court + er + than.
+A2|comparer|This book is more interesting than the film.|Ce livre est plus intéressant que le film.|Adjectif long : more + adjectif + than.
+A2|comparer|It's the best restaurant in town.|C'est le meilleur restaurant de la ville.|good → better → the best.
+A2|comparer|Today is colder than yesterday.|Aujourd'hui, il fait plus froid qu'hier.
+A2|comparer|She's as tall as her mother.|Elle est aussi grande que sa mère.|« Aussi… que » : as… as.
+A2|obligation|I have to work tomorrow.|Je dois travailler demain.|Obligation : have to.
+A2|obligation|You don't have to come.|Tu n'es pas obligé de venir. || Tu n'as pas besoin de venir.|« Don't have to » = pas obligé (et pas « interdit »).
+A2|obligation|You must wear a seatbelt.|Tu dois mettre ta ceinture. || Vous devez mettre votre ceinture.
+A2|conseil|You should see a doctor.|Tu devrais voir un médecin. || Tu devrais aller chez le médecin.|Conseil : should + verbe.
+A2|conseil|You shouldn't eat so much sugar.|Tu ne devrais pas manger autant de sucre.
+A2|demander|Could you open the window, please?|Tu pourrais ouvrir la fenêtre, s'il te plaît ? || Pourriez-vous ouvrir la fenêtre, s'il vous plaît ?|Demande polie : Could you… ?
+A2|demander|Can I [borrow|use] your pen?|Je peux emprunter ton stylo ? || Je peux t'emprunter ton stylo ?
+A2|demander|Do you mind if I sit here?|Ça vous dérange si je m'assois ici ? || Ça te dérange si je m'assieds ici ?
+A2|demander|Would you like [some|] tea?|Tu veux du thé ? || Voulez-vous du thé ? || Vous voulez du thé ?|Proposer poliment : Would you like… ?
+A2|voyage|I'd like to book a room.|Je voudrais réserver une chambre.
+A2|voyage|How do I get to the station?|Comment je vais à la gare ? || Comment est-ce que je vais à la gare ? || Comment aller à la gare ?
+A2|voyage|Turn left at the traffic lights.|Tournez à gauche au feu. || Tourne à gauche au feu.
+A2|voyage|Is it far from here?|C'est loin d'ici ?
+A2|voyage|The train is late.|Le train est en retard. || Le train a du retard.
+A2|voyage|I missed my flight.|J'ai raté mon vol. || J'ai manqué mon vol.
+A2|magasin|I'm just looking, thanks.|Je regarde juste, merci. || Je regarde seulement, merci.
+A2|magasin|Do you have this in a smaller size?|Vous l'avez dans une taille plus petite ? || Vous avez ça en plus petit ?
+A2|magasin|Can I pay by card?|Je peux payer par carte ? || Est-ce que je peux payer par carte ?
+A2|magasin|It's too expensive.|C'est trop cher.
+A2|restaurant|A table for two, please.|Une table pour deux, s'il vous plaît.
+A2|restaurant|Can we have the bill, please?|L'addition, s'il vous plaît. || On peut avoir l'addition, s'il vous plaît ?
+A2|restaurant|I'll have the chicken.|Je vais prendre le poulet. || Je prends le poulet.|Commander : I'll have…
+A2|sentiments|I'm worried about you.|Je m'inquiète pour toi. || Je suis inquiet pour toi.
+A2|sentiments|I miss you.|Tu me manques.|Attention : l'ordre est inversé ! I miss you = tu me manques.
+A2|sentiments|I'm afraid of spiders.|J'ai peur des araignées.
+A2|sentiments|Don't worry, it's not a problem.|Ne t'inquiète pas, ce n'est pas un problème. || Ne t'inquiète pas, c'est pas grave.
+A2|sentiments|I'm [really|very] happy for you.|Je suis vraiment content pour toi. || Je suis très heureux pour toi. || Je suis vraiment contente pour toi.
+A2|expérience|Have you ever been to Japan?|Tu es déjà allé au Japon ? || Êtes-vous déjà allé au Japon ? || Es-tu déjà allé au Japon ?|Expérience de vie : present perfect (have + participe).
+A2|expérience|I've never seen snow.|Je n'ai jamais vu la neige.
+A2|expérience|I've already eaten.|J'ai déjà mangé.
+A2|expérience|She has just left.|Elle vient de partir.|« Venir de » : have just + participe.
+A2|durée|I've lived here for five years.|J'habite ici depuis cinq ans.|« Depuis » + durée : for, et le verbe au present perfect.
+A2|durée|I've known him since 2015.|Je le connais depuis 2015.|« Depuis » + date : since.
+A2|durée|How long have you been here?|Depuis combien de temps tu es là ? || Tu es là depuis combien de temps ? || Depuis combien de temps êtes-vous ici ?
+B1|opinion|I think it's a good idea.|Je pense que c'est une bonne idée. || Je trouve que c'est une bonne idée.
+B1|opinion|In my opinion, it's too expensive.|À mon avis, c'est trop cher. || Selon moi, c'est trop cher.
+B1|opinion|I don't agree with you.|Je ne suis pas d'accord avec toi. || Je ne suis pas d'accord avec vous.|« Être d'accord » : agree (sans « be » !).
+B1|opinion|It depends on the price.|Ça dépend du prix.|« Dépendre de » : depend on.
+B1|opinion|I'm not sure it's a good idea.|Je ne suis pas sûr que ce soit une bonne idée. || Je ne suis pas sûre que ce soit une bonne idée.
+B1|opinion|What do you think about it?|Qu'est-ce que tu en penses ? || Tu en penses quoi ? || Qu'en pensez-vous ?
+B1|conditions|If it rains, we'll stay at home.|S'il pleut, on restera à la maison. || S'il pleut, on reste à la maison.|Si + présent, will + verbe.
+B1|conditions|If I had more time, I would travel more.|Si j'avais plus de temps, je voyagerais plus.|Si + passé, would + verbe (imaginaire).
+B1|conditions|What would you do if you won the lottery?|Que ferais-tu si tu gagnais au loto ? || Qu'est-ce que tu ferais si tu gagnais au loto ?
+B1|conditions|I would help you if I could.|Je t'aiderais si je pouvais. || Je t'aiderais si je le pouvais.
+B1|conditions|Unless you hurry, you'll miss the bus.|Si tu ne te dépêches pas, tu vas rater le bus. || À moins que tu te dépêches, tu vas rater le bus.
+B1|habitudes|I used to play football.|Avant, je jouais au foot. || Je jouais au foot avant. || J'avais l'habitude de jouer au foot.|Habitude du passé : used to + verbe.
+B1|habitudes|I'm used to getting up early.|J'ai l'habitude de me lever tôt.|Be used to + -ing : être habitué à.
+B1|habitudes|I'm getting used to the noise.|Je m'habitue au bruit.
+B1|récit|I was cooking when the phone rang.|Je cuisinais quand le téléphone a sonné. || J'étais en train de cuisiner quand le téléphone a sonné.|Action en cours (was + -ing) interrompue (prétérit).
+B1|récit|While I was waiting, I read a book.|Pendant que j'attendais, j'ai lu un livre.
+B1|récit|When I arrived, the film had already started.|Quand je suis arrivé, le film avait déjà commencé. || Quand je suis arrivée, le film avait déjà commencé.|Action encore plus ancienne : had + participe.
+B1|récit|Suddenly, the lights went out.|Tout à coup, la lumière s'est éteinte. || Soudain, les lumières se sont éteintes.
+B1|récit|In the end, we decided to stay.|Finalement, on a décidé de rester. || Au final, nous avons décidé de rester.
+B1|durée|I've been waiting for an hour.|J'attends depuis une heure. || Ça fait une heure que j'attends.|Action qui dure encore : have been + -ing.
+B1|durée|How long have you been learning English?|Depuis combien de temps tu apprends l'anglais ? || Tu apprends l'anglais depuis combien de temps ?
+B1|durée|It's been raining all day.|Il pleut depuis ce matin. || Il a plu toute la journée. || Il pleut toute la journée.
+B1|passif|The museum was built in 1900.|Le musée a été construit en 1900.|Passif : be + participe passé.
+B1|passif|English is spoken all over the world.|L'anglais est parlé dans le monde entier. || On parle anglais partout dans le monde.|« On » se traduit souvent par un passif.
+B1|passif|My bike was stolen.|On m'a volé mon vélo. || Mon vélo a été volé.
+B1|rapporter|She said she was tired.|Elle a dit qu'elle était fatiguée.
+B1|rapporter|He told me he would come.|Il m'a dit qu'il viendrait.|Say something / tell someone something.
+B1|rapporter|She asked me where I lived.|Elle m'a demandé où j'habitais.|Question rapportée : pas d'inversion (where I lived).
+B1|rapporter|I don't know where he is.|Je ne sais pas où il est.
+B1|but|I came here to learn English.|Je suis venu ici pour apprendre l'anglais. || Je suis venue ici pour apprendre l'anglais.|« Pour + verbe » : to + verbe (jamais « for to »).
+B1|but|I'm saving money to buy a house.|J'économise pour acheter une maison. || Je mets de l'argent de côté pour acheter une maison.
+B1|travail|I'm looking for a job.|Je cherche du travail. || Je cherche un travail. || Je cherche un emploi.
+B1|travail|I've applied for a new job.|J'ai postulé pour un nouveau poste. || J'ai postulé à un nouveau travail.
+B1|travail|I have a meeting at ten.|J'ai une réunion à dix heures.
+B1|travail|She's in charge of the project.|C'est elle qui s'occupe du projet. || Elle est responsable du projet.
+B1|travail|I work from home on Fridays.|Je travaille de chez moi le vendredi. || Je télétravaille le vendredi.
+B1|relations|I get on well with my sister.|Je m'entends bien avec ma sœur.
+B1|relations|We fell out last year.|On s'est fâchés l'année dernière. || Nous nous sommes brouillés l'année dernière.
+B1|relations|Thank you for inviting me.|Merci de m'avoir invité. || Merci de m'avoir invitée. || Merci pour l'invitation.|Après une préposition : verbe en -ing.
+B1|relations|I'm looking forward to seeing you.|J'ai hâte de te voir. || J'ai hâte de vous voir.|Look forward to + -ing.
+B1|relations|It's up to you.|C'est toi qui vois. || C'est à toi de décider. || C'est vous qui voyez.
+B1|santé|I've got a headache.|J'ai mal à la tête.
+B1|santé|My back hurts.|J'ai mal au dos.
+B1|santé|You look tired.|Tu as l'air fatigué. || Tu as l'air fatiguée. || Vous avez l'air fatigué.|« Avoir l'air » : look + adjectif.
+B1|santé|I feel much better.|Je me sens beaucoup mieux. || Je vais beaucoup mieux.
+B1|choses|It's worth visiting.|Ça vaut le coup d'y aller. || Ça vaut la peine d'être visité. || Ça vaut le détour.
+B1|choses|There's no point in waiting.|Ça ne sert à rien d'attendre.
+B1|choses|We've run out of milk.|On n'a plus de lait. || Il n'y a plus de lait.
+B1|choses|I can't afford it.|Je n'ai pas les moyens. || Je ne peux pas me le permettre.
+B1|choses|I'd rather stay at home.|Je préfère rester à la maison. || Je préférerais rester à la maison.|« Je préférerais » : I'd rather + verbe.
+B1|choses|It's not worth it.|Ça n'en vaut pas la peine. || Ça ne vaut pas le coup.
+B2|nuance|I wish I had more time.|J'aimerais avoir plus de temps. || Si seulement j'avais plus de temps.|Regret présent : wish + passé.
+B2|nuance|I wish I hadn't said that.|Je regrette d'avoir dit ça. || J'aurais aimé ne pas dire ça.|Regret passé : wish + had + participe.
+B2|nuance|If I had known, I would have come.|Si j'avais su, je serais venu. || Si j'avais su, je serais venue.|Passé imaginaire : if + had + participe, would have + participe.
+B2|nuance|You should have told me.|Tu aurais dû me le dire. || Tu aurais dû me prévenir.|« Aurais dû » : should have + participe.
+B2|nuance|He must have forgotten.|Il a dû oublier.|Déduction sur le passé : must have + participe.
+B2|nuance|She can't have left already.|Elle ne peut pas être déjà partie.
+B2|nuance|It might be too late.|C'est peut-être trop tard. || Il est peut-être trop tard.|Possibilité : might.
+B2|nuance|I'd rather you didn't smoke here.|Je préférerais que tu ne fumes pas ici. || Je préférerais que vous ne fumiez pas ici.
+B2|nuance|It's time we went home.|Il est temps de rentrer. || Il est temps qu'on rentre.
+B2|faire faire|I had my car repaired.|J'ai fait réparer ma voiture.|« Faire faire » : have + chose + participe.
+B2|faire faire|I need to get my hair cut.|Je dois me faire couper les cheveux.
+B2|faire faire|She made me laugh.|Elle m'a fait rire.|Make + personne + verbe : faire faire quelque chose à quelqu'un.
+B2|faire faire|Let me know if you need anything.|Dis-moi si tu as besoin de quoi que ce soit. || Fais-moi savoir si tu as besoin de quelque chose. || Dis-moi si tu as besoin de quelque chose.
+B2|argumenter|On the one hand it's cheap, on the other hand it's far.|D'un côté c'est pas cher, de l'autre c'est loin. || D'un côté c'est bon marché, de l'autre c'est loin.
+B2|argumenter|Despite the rain, we had a great time.|Malgré la pluie, on s'est bien amusés. || Malgré la pluie, nous avons passé un super moment.
+B2|argumenter|Although he's rich, he isn't happy.|Bien qu'il soit riche, il n'est pas heureux. || Même s'il est riche, il n'est pas heureux.
+B2|argumenter|The more I read, the more I learn.|Plus je lis, plus j'apprends.|« Plus… plus… » : the more… the more…
+B2|argumenter|It's not as easy as it looks.|Ce n'est pas aussi facile que ça en a l'air.
+B2|argumenter|As far as I know, he's still in Paris.|Pour autant que je sache, il est toujours à Paris. || À ma connaissance, il est encore à Paris.
+B2|argumenter|That's why I left.|C'est pour ça que je suis parti. || C'est pour ça que je suis partie. || C'est pourquoi je suis parti.
+B2|relations|I can't stand people who lie.|Je ne supporte pas les gens qui mentent.|Can't stand + nom ou -ing.
+B2|relations|She's the one who helped me.|C'est elle qui m'a aidé. || C'est elle qui m'a aidée.
+B2|relations|I didn't mean to hurt you.|Je ne voulais pas te faire de mal. || Je ne voulais pas te blesser.
+B2|relations|You can count on me.|Tu peux compter sur moi. || Vous pouvez compter sur moi.
+B2|relations|I ran into an old friend yesterday.|Je suis tombé sur un vieil ami hier. || J'ai croisé un vieil ami hier.
+B2|travail|We need to come up with a solution.|On doit trouver une solution. || Il faut qu'on trouve une solution.
+B2|travail|The meeting has been put off until Monday.|La réunion a été repoussée à lundi. || La réunion a été reportée à lundi.
+B2|travail|She turned down the offer.|Elle a refusé l'offre. || Elle a décliné l'offre.
+B2|travail|I'm not used to working at night.|Je n'ai pas l'habitude de travailler la nuit.
+B2|travail|It's hard to keep up with all the changes.|C'est dur de suivre tous les changements. || C'est difficile de suivre tous les changements.
+B2|travail|I'll look into it and get back to you.|Je vais me renseigner et je reviens vers vous. || Je regarde ça et je te redis.
+B2|vie|I'm about to leave.|Je suis sur le point de partir. || Je vais partir.
+B2|vie|It took me two hours to get here.|J'ai mis deux heures pour venir. || Il m'a fallu deux heures pour arriver ici.|« Mettre du temps » : it takes + personne + durée.
+B2|vie|I'm fed up with this weather.|J'en ai marre de ce temps. || J'en ai assez de ce temps.
+B2|vie|No wonder you're tired!|Pas étonnant que tu sois fatigué ! || Pas étonnant que tu sois fatiguée !
+B2|vie|It's not a big deal.|Ce n'est pas grave. || C'est pas grave. || Ce n'est pas un drame.
+B2|vie|Make yourself at home.|Fais comme chez toi. || Faites comme chez vous.
+B2|vie|I couldn't help laughing.|Je n'ai pas pu m'empêcher de rire.|Can't help + -ing : ne pas pouvoir s'empêcher de.
+C1|style|Had I known, I would have acted differently.|Si j'avais su, j'aurais agi autrement. || Si j'avais su, j'aurais fait autrement.|Inversion soutenue : Had I known = If I had known.
+C1|style|Not only did she win, but she also broke the record.|Non seulement elle a gagné, mais elle a aussi battu le record.|Après « not only » en tête : inversion (did she).
+C1|style|Never have I seen such a mess.|Je n'ai jamais vu un tel désordre. || Je n'ai jamais vu un tel bazar.
+C1|style|Little did they know what was coming.|Ils étaient loin de se douter de ce qui allait arriver. || Ils ne savaient pas du tout ce qui les attendait.
+C1|style|It's high time we addressed the issue.|Il est grand temps qu'on s'attaque au problème. || Il est grand temps de régler le problème.
+C1|style|Were it not for your help, I would have failed.|Sans ton aide, j'aurais échoué. || Si tu ne m'avais pas aidé, j'aurais échoué.
+C1|style|What I need is a good night's sleep.|Ce dont j'ai besoin, c'est d'une bonne nuit de sommeil.|Mise en relief : What I need is…
+C1|style|It was only then that I realised my mistake.|Ce n'est qu'à ce moment-là que j'ai compris mon erreur. || C'est seulement là que j'ai compris mon erreur.
+C1|style|The sooner we start, the better.|Le plus tôt sera le mieux. || Plus tôt on commence, mieux c'est.
+C1|style|Hardly had I sat down when the phone rang.|À peine m'étais-je assis que le téléphone a sonné. || Je venais à peine de m'asseoir quand le téléphone a sonné.
+C1|nuance|She's bound to find out.|Elle va forcément l'apprendre. || Elle finira forcément par le savoir.|Be bound to : c'est sûr que.
+C1|nuance|There's no way I'm doing that.|Il est hors de question que je fasse ça. || Pas question que je fasse ça.
+C1|nuance|I'd sooner die than apologise.|Plutôt mourir que de m'excuser. || Je préférerais mourir plutôt que de m'excuser.
+C1|nuance|You might as well tell him the truth.|Autant lui dire la vérité. || Tu ferais aussi bien de lui dire la vérité.|Might as well : autant…
+C1|nuance|It goes without saying that you're welcome.|Il va sans dire que tu es le bienvenu. || Ça va sans dire, tu es le bienvenu.
+C1|nuance|I'm not in the mood for going out.|Je n'ai pas envie de sortir. || Je ne suis pas d'humeur à sortir.
+C1|nuance|For all I know, he could be in Brazil.|Pour ce que j'en sais, il pourrait être au Brésil. || Si ça se trouve, il est au Brésil.
+C1|débat|By and large, the project was a success.|Dans l'ensemble, le projet a été un succès. || Globalement, le projet a été une réussite.
+C1|débat|To some extent, I agree with you.|Dans une certaine mesure, je suis d'accord avec toi. || Jusqu'à un certain point, je suis d'accord avec vous.
+C1|débat|This raises the question of who is responsible.|Ça pose la question de savoir qui est responsable. || Cela soulève la question de la responsabilité.
+C1|débat|The figures speak for themselves.|Les chiffres parlent d'eux-mêmes.
+C1|débat|It remains to be seen whether it will work.|Reste à savoir si ça va marcher. || Il reste à voir si ça marchera.
+C1|débat|That's beside the point.|Là n'est pas la question. || Ça n'a rien à voir.
+C1|débat|Let's not jump to conclusions.|Ne tirons pas de conclusions hâtives. || Ne tirons pas de conclusions trop vite.
+C1|vie|I'm still on the fence about it.|J'hésite encore. || Je ne suis pas encore décidé.
+C1|vie|Stop beating around the bush.|Arrête de tourner autour du pot.
+C1|vie|That was the last straw.|C'était la goutte d'eau qui fait déborder le vase. || C'était la goutte de trop.
+C1|vie|Losing that job was a blessing in disguise.|Perdre ce travail a été un mal pour un bien.
+C1|vie|I'll take your word for it.|Je te crois sur parole. || Je vous crois sur parole.
+C1|vie|She takes after her father.|Elle tient de son père. || Elle ressemble à son père.
+C1|vie|Don't take it for granted.|Ne le considère pas comme acquis. || Ne crois pas que ça va de soi.

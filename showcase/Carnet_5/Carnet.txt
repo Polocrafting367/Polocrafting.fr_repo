@@ -1,0 +1,3 @@
+/Carnet
+Carnet
+Carnet réunit notes, tâches et rappels au même endroit : listes à cocher, couleurs et motifs, images et dessins dans les notes, calendrier et rappels avec notifications. Synchronisé en temps réel entre tous tes appareils, et utilisable hors ligne. Le mode local permet de l'utiliser sans compte : tout reste sur l'appareil, rien ne passe par le serveur.

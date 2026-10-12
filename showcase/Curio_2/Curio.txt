@@ -1,0 +1,3 @@
+/Curio
+Curio
+Curio est un fil infini pour apprendre : des sujets réels (sciences, histoire, nature, arts…), résumés en quelques phrases et illustrés, mêlés à l’actualité de la presse avec le contexte pour la comprendre. Un algorithme apprend de ce que tu lis pour affiner ton fil, en France ou dans le monde. Synchronisé en temps réel entre tes appareils, gratuit, sur le web et en application Android avec un sujet du jour en notification et en widget. (Les langues ont maintenant leur propre app : Kalima.)

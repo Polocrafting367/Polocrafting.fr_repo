@@ -1,0 +1,88 @@
+# Expressions arabes du quotidien (arabe standard, formulation la plus courante, comprise partout).
+# niveau|thème|arabe|transcription|traduction;autres acceptées|astuce
+A1|salutations|السَّلَامُ عَلَيْكُمْ|as-salâmou ʿalaykoum|bonjour;salut;la paix soit sur vous|La salutation la plus courante, à toute heure. Mot à mot : « la paix sur vous ».
+A1|salutations|وَعَلَيْكُمُ السَّلَام|wa ʿalaykoumou s-salâm|bonjour (réponse);et sur vous la paix|La réponse à « as-salâmou ʿalaykoum ».
+A1|salutations|مَرْحَبًا|marḥaban|bonjour;salut;bienvenue|Salut simple et amical.
+A1|salutations|أَهْلًا وَسَهْلًا|ahlan wa sahlan|bienvenue|Pour accueillir quelqu'un.
+A1|salutations|صَبَاحُ الخَيْر|ṣabâḥou l-khayr|bonjour (le matin)|Mot à mot : « matin du bien ».
+A1|salutations|صَبَاحُ النُّور|ṣabâḥou n-noûr|bonjour (réponse, le matin)|Réponse à « ṣabâḥ al-khayr » : « matin de lumière ».
+A1|salutations|مَسَاءُ الخَيْر|masâ'ou l-khayr|bonsoir|À partir de l'après-midi.
+A1|salutations|مَعَ السَّلَامَة|maʿa s-salâma|au revoir|C'est ce qu'on dit vraiment pour « au revoir », partout dans le monde arabe. Mot à mot : « avec la paix ».
+A1|salutations|إِلَى اللِّقَاء|ilâ l-liqâ'|au revoir;à la prochaine|Plus formel : « jusqu'à la rencontre ».
+A1|salutations|تُصْبِحُ عَلَى خَيْر|touṣbiḥou ʿalâ khayr|bonne nuit|Mot à mot : « que tu te réveilles dans le bien ».
+A1|salutations|أَرَاكَ غَدًا|arâka ghadan|à demain|Mot à mot : « je te vois demain ».
+A1|politesse|شُكْرًا|choukran|merci|
+A1|politesse|شُكْرًا جَزِيلًا|choukran jazîlan|merci beaucoup|
+A1|politesse|عَفْوًا|ʿafwan|de rien;pardon|Répond à « merci » ; sert aussi à dire « pardon ».
+A1|politesse|مِنْ فَضْلِكَ|min faḍlik|s'il te plaît;s'il vous plaît|« min faḍliki » quand on parle à une femme.
+A1|politesse|آسِف|âsif|désolé;pardon|Une femme dit « âsifa ».
+A1|politesse|لَا بَأْس|lâ ba's|pas de problème;ce n'est pas grave;ça va|Très courant : « pas de mal ».
+A1|politesse|تَفَضَّل|tafaḍḍal|je vous en prie;tenez;entrez|Pour offrir, inviter à entrer ou à se servir. « tafaḍḍalî » à une femme.
+A1|état|كَيْفَ حَالُكَ؟|kayfa ḥâlouk ?|comment vas-tu ?;comment ça va ?;comment allez-vous ?|À une femme : « kayfa ḥâlouki ? ».
+A1|état|أَنَا بِخَيْر، الحَمْدُ لِلّٰه|anâ bikhayr, al-ḥamdou lillâh|je vais bien, Dieu merci;je vais bien|« al-ḥamdou lillâh » s'ajoute presque toujours à « ça va ».
+A1|état|بِخَيْر|bikhayr|bien;ça va|Réponse courte à « comment ça va ».
+A1|état|وَأَنْتَ؟|wa anta ?|et toi ?|À une femme : « wa anti ? ».
+A1|présentations|مَا اسْمُكَ؟|mâ smouk ?|comment tu t'appelles ?;quel est ton nom ?|À une femme : « mâ smouki ? ».
+A1|présentations|اِسْمِي سَارَة|ismî sâra|je m'appelle Sarah;mon nom est Sarah|« ismî » = mon nom.
+A1|présentations|تَشَرَّفْنَا|tacharrafnâ|enchanté;ravi de vous rencontrer|Mot à mot : « nous sommes honorés ».
+A1|présentations|أَنَا مِنْ فَرَنْسَا|anâ min faransâ|je viens de France;je suis de France|
+A1|présentations|هَلْ تَتَكَلَّمُ العَرَبِيَّة؟|hal tatakallamou l-ʿarabiyya ?|tu parles arabe ?;parlez-vous arabe ?|
+A1|présentations|قَلِيلًا|qalîlan|un peu|
+A1|présentations|أَنَا أَتَعَلَّمُ العَرَبِيَّة|anâ ataʿallamou l-ʿarabiyya|j'apprends l'arabe|
+A1|comprendre|لَا أَفْهَم|lâ afham|je ne comprends pas|
+A1|comprendre|مَرَّةً أُخْرَى، مِنْ فَضْلِكَ|marratan oukhrâ, min faḍlik|encore une fois, s'il vous plaît;répète, s'il te plaît|
+A1|comprendre|بِبُطْء، مِنْ فَضْلِكَ|bibouṭ', min faḍlik|lentement, s'il vous plaît;plus lentement, s'il te plaît|
+A1|comprendre|مَا مَعْنَى هٰذَا؟|mâ maʿnâ hâdhâ ?|qu'est-ce que ça veut dire ?;ça veut dire quoi ?|
+A1|réponses|نَعَم|naʿam|oui|
+A1|réponses|لَا|lâ|non|
+A1|réponses|طَيِّب|ṭayyib|d'accord;bien;ok|Très courant à l'oral.
+A1|réponses|إِنْ شَاءَ اللّٰه|in châ'a llâh|si Dieu le veut;j'espère;avec un peu de chance|Pour tout ce qui concerne l'avenir.
+A1|réponses|مَا شَاءَ اللّٰه|mâ châ'a llâh|c'est magnifique;bravo;que c'est beau|Pour complimenter (un enfant, une réussite…).
+A1|besoins|أُرِيدُ مَاءً|ourîdou mâ'an|je veux de l'eau;je voudrais de l'eau|
+A1|besoins|أَيْنَ الحَمَّام؟|ayna l-ḥammâm ?|où sont les toilettes ?|
+A1|besoins|بِكَمْ هٰذَا؟|bikam hâdhâ ?|combien ça coûte ?;c'est combien ?|La façon la plus courante de demander un prix.
+A1|besoins|الحِسَاب، مِنْ فَضْلِكَ|al-ḥisâb, min faḍlik|l'addition, s'il vous plaît|
+A1|besoins|أَنَا جَائِع|anâ jâ'iʿ|j'ai faim|Une femme dit « anâ jâ'iʿa ».
+A2|rencontres|أَيْنَ تَسْكُنُ؟|ayna taskoun ?|où habites-tu ?;tu habites où ?|
+A2|rencontres|أَسْكُنُ فِي بَارِيس|askounou fî bârîs|j'habite à Paris|
+A2|rencontres|مَاذَا تَعْمَلُ؟|mâdhâ taʿmal ?|qu'est-ce que tu fais dans la vie ?;quel est ton métier ?|
+A2|rencontres|كَمْ عُمْرُكَ؟|kam ʿoumrouk ?|quel âge as-tu ?|
+A2|rencontres|عُمْرِي عِشْرُونَ سَنَة|ʿoumrî ʿichroûna sana|j'ai vingt ans|
+A2|rencontres|هَلْ أَنْتَ مُتَزَوِّج؟|hal anta moutazawwij ?|tu es marié ?;êtes-vous marié ?|
+A2|rencontres|عِنْدِي أَخ وَأُخْت|ʿindî akh wa oukht|j'ai un frère et une sœur|
+A2|sorties|هَيَّا بِنَا|hayyâ binâ|allons-y;on y va|
+A2|sorties|أَنَا مُتَأَخِّر، آسِف|anâ mouta'akhkhir, âsif|je suis en retard, désolé|
+A2|sorties|مَتَى نَلْتَقِي؟|matâ naltaqî ?|quand est-ce qu'on se voit ?;quand nous retrouvons-nous ?|
+A2|sorties|أَنَا مَشْغُول اليَوْم|anâ machghoûl al-yawm|je suis occupé aujourd'hui|
+A2|sorties|لَا مُشْكِلَة|lâ mouchkila|pas de problème|
+A2|ville|أَيْنَ المَحَطَّة؟|ayna l-maḥaṭṭa ?|où est la gare ?|
+A2|ville|هَلْ هُوَ بَعِيد؟|hal houwa baʿîd ?|c'est loin ?|
+A2|ville|عَلَى اليَمِين|ʿala l-yamîn|à droite|
+A2|ville|عَلَى اليَسَار|ʿala l-yasâr|à gauche|
+A2|ville|إِلَى الأَمَام|ila l-amâm|tout droit;en avant|
+A2|repas|بِالهَنَاءِ وَالشِّفَاء|bil-hanâ'i wach-chifâ'|bon appétit|Se dit à quelqu'un qui mange.
+A2|repas|الأَكْلُ لَذِيذ جِدًّا|al-aklou ladhîdh jiddan|c'est très bon;le repas est délicieux|
+A2|repas|أَنَا شَبْعَان|anâ chabʿân|je n'ai plus faim;je suis rassasié|
+A2|repas|قَهْوَة بِدُونِ سُكَّر|qahwa bidoûni soukkar|un café sans sucre|
+A2|santé|أَنَا مَرِيض|anâ marîḍ|je suis malade|
+A2|santé|عِنْدِي صُدَاع|ʿindî ṣoudâʿ|j'ai mal à la tête|
+A2|santé|سَلَامَتُكَ|salâmatouk|prompt rétablissement;bon rétablissement|À quelqu'un de malade.
+A2|souhaits|عِيد مُبَارَك|ʿîd moubârak|bonne fête;joyeuse fête|Pour les fêtes de l'Aïd.
+A2|souhaits|كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر|koullou ʿâmin wa antoum bikhayr|bonne année;bonne fête|Se dit pour une fête ou un anniversaire.
+A2|souhaits|مَبْرُوك|mabroûk|félicitations|Réponse : « allâh youbârik fîk ».
+A2|souhaits|بِالتَّوْفِيق|bit-tawfîq|bonne chance|
+A2|souhaits|رِحْلَة سَعِيدَة|riḥla saʿîda|bon voyage|
+B1|opinion|أَعْتَقِدُ أَنَّ هٰذِهِ فِكْرَة جَيِّدَة|aʿtaqidou anna hâdhihi fikra jayyida|je pense que c'est une bonne idée|
+B1|opinion|أَنَا مُوَافِق|anâ mouwâfiq|je suis d'accord|
+B1|opinion|لَسْتُ مُتَأَكِّدًا|lastou mouta'akkidan|je ne suis pas sûr|
+B1|opinion|فِي رَأْيِي|fî ra'yî|à mon avis|
+B1|opinion|هٰذَا يَعْتَمِدُ عَلَى السِّعْر|hâdhâ yaʿtamidou ʿala s-siʿr|ça dépend du prix|
+B1|projets|سَأُسَافِرُ الأُسْبُوعَ القَادِم|sa'ousâfirou l-ousboûʿa l-qâdim|je vais voyager la semaine prochaine;je pars en voyage la semaine prochaine|« sa- » devant le verbe = futur.
+B1|projets|أُرِيدُ أَنْ أَتَعَلَّمَ العَرَبِيَّة|ourîdou an ataʿallama l-ʿarabiyya|je veux apprendre l'arabe|
+B1|projets|لَيْسَ عِنْدِي وَقْت|laysa ʿindî waqt|je n'ai pas le temps|
+B1|passé|ذَهَبْتُ إِلَى السُّوقِ أَمْس|dhahabtou ila s-soûqi ams|je suis allé au marché hier|
+B1|passé|لَمْ أَفْهَمْ|lam afham|je n'ai pas compris|« lam » + verbe = négation du passé.
+B1|passé|كَانَ الجَوُّ جَمِيلًا|kâna l-jawwou jamîlan|il faisait beau|
+B1|sentiments|اِشْتَقْتُ إِلَيْكَ|ichtaqtou ilayk|tu m'as manqué;tu me manques|
+B1|sentiments|لَا تَقْلَقْ|lâ taqlaq|ne t'inquiète pas|
+B1|sentiments|أَنَا فَخُور بِكَ|anâ fakhoûr bik|je suis fier de toi|

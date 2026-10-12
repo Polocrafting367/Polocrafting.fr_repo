@@ -1,0 +1,25 @@
+# Premiers pas en anglais : parcours pour un vrai débutant, deux ou trois mots à la fois.
+# titre|sous-titre|éléments séparés par « ; » (mot de en-words-*.txt, « mot.nature » s'il y en a plusieurs ; « s: » = phrase de en-sentences.txt)
+Bonjour|hello · hi|hello;hi
+Merci, s'il te plaît|thank you · please|thank you;please
+Oui et non|yes · no|yes;no
+Au revoir, pardon|goodbye · sorry|goodbye;sorry
+Maman et papa|mother · father|mother;father
+Frère et sœur|brother · sister|brother;sister
+Homme, femme, enfant|man · woman · child|man;woman;child
+Amis et famille|friend · family|friend;family
+Je m'appelle…|My name is…|name;s:My name is Sarah.
+Eau, pain, café|water · bread · coffee|water;bread;coffee
+Thé, lait, pomme|tea · milk · apple|tea;milk;apple
+Je viens de France|I'm from France.|s:I'm from France.
+La maison|house · room · door|house;room;door
+Grand et petit|big · small|big;small
+Bon et mauvais|good · bad|good;bad
+Aujourd'hui, demain, hier|today · tomorrow · yesterday|today;tomorrow;yesterday
+Matin, soir, nuit|morning · evening · night|morning;evening;night
+Manger et boire|eat · drink|eat;drink
+Aller et venir|go · come|go;come
+Vouloir, aimer|want · like · love|want;like;love
+Quoi ? Où ? Qui ?|what · where · who|what;where;who
+Comment ? Pourquoi ? Quand ?|how · why · when|how;why;when
+Compter : 1, 2, 3|one · two · three|one;two;three

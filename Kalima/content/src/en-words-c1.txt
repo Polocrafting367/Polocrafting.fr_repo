@@ -1,0 +1,100 @@
+# Anglais C1
+C1|acknowledge|v|reconnaître;admettre|He *acknowledged* his mistake.|Il a reconnu son erreur.
+C1|advocate|v|prôner;défendre;préconiser|She *advocates* a four-day week.|Elle prône la semaine de quatre jours.
+C1|allocate|v|attribuer;allouer;affecter|We *allocated* more money to schools.|On a attribué plus d'argent aux écoles.
+C1|anticipate|v|anticiper;prévoir;s'attendre à|We didn't *anticipate* the problem.|On n'avait pas prévu le problème.
+C1|commit|v|commettre;s'engager|He *committed* a crime.|Il a commis un crime.
+C1|compensate|v|compenser;dédommager|Nothing can *compensate* for this loss.|Rien ne peut compenser cette perte.
+C1|comply|v|se conformer;respecter|You must *comply* with the rules.|Tu dois respecter les règles.
+C1|convey|v|transmettre;exprimer;faire passer|It's hard to *convey* emotions in a text.|C'est dur de faire passer des émotions dans un message.
+C1|deteriorate|v|se détériorer;se dégrader;empirer|His health *deteriorated* quickly.|Sa santé s'est vite dégradée.
+C1|discard|v|jeter;se débarrasser de;écarter|*Discard* the old files.|Jette les anciens fichiers.
+C1|endure|v|supporter;endurer;durer|She *endured* years of pain.|Elle a supporté des années de douleur.
+C1|enhance|v|améliorer;renforcer;mettre en valeur|Good lighting *enhances* a room.|Un bon éclairage met en valeur une pièce.
+C1|exaggerate|v|exagérer|Don't *exaggerate*!|N'exagère pas !
+C1|exploit|v|exploiter;profiter de|They *exploit* their workers.|Ils exploitent leurs employés.
+C1|foster|v|favoriser;encourager;accueillir|Sport *fosters* team spirit.|Le sport favorise l'esprit d'équipe.
+C1|hinder|v|gêner;entraver;freiner|The rain *hindered* the search.|La pluie a gêné les recherches.
+C1|implement|v|mettre en œuvre;appliquer|The plan was never *implemented*.|Le plan n'a jamais été mis en œuvre.
+C1|imply|v|sous-entendre;impliquer|What are you *implying*?|Qu'est-ce que tu sous-entends ?
+C1|undermine|v|saper;affaiblir;miner|Stress *undermines* your health.|Le stress mine ta santé.
+C1|overcome|v|surmonter;vaincre|She *overcame* her fear of flying.|Elle a surmonté sa peur de l'avion.
+C1|overlook|v|négliger;ne pas voir;donner sur|I *overlooked* a small detail.|J'ai négligé un petit détail.
+C1|pursue|v|poursuivre;suivre|She decided to *pursue* her dream.|Elle a décidé de poursuivre son rêve.
+C1|reinforce|v|renforcer|This *reinforces* my point.|Ça renforce mon argument.
+C1|resent|v|en vouloir à;mal supporter|He *resents* his brother.|Il en veut à son frère.
+C1|scrutinise|v|examiner minutieusement;scruter|The contract was *scrutinised*.|Le contrat a été examiné de près.
+C1|undertake|v|entreprendre;se charger de|They *undertook* a long journey.|Ils ont entrepris un long voyage.
+C1|withdraw|v|retirer;se retirer|I need to *withdraw* some cash.|Je dois retirer de l'argent.
+C1|yield|v|produire;rapporter;céder|The investment *yielded* good results.|L'investissement a donné de bons résultats.
+C1|dwell on|v|ressasser;s'attarder sur|Don't *dwell on* the past.|Ne ressasse pas le passé.
+C1|stem from|v|venir de;provenir de;découler de|His fear *stems from* his childhood.|Sa peur vient de son enfance.
+C1|brush up on|v|rafraîchir;réviser|I need to *brush up on* my German.|Je dois rafraîchir mon allemand.
+C1|come across|v|tomber sur;donner l'impression|I *came across* an old photo.|Je suis tombé sur une vieille photo.
+C1|fall through|v|tomber à l'eau;échouer|Our plans *fell through*.|Nos projets sont tombés à l'eau.
+C1|live up to|v|être à la hauteur de|The film didn't *live up to* my expectations.|Le film n'a pas été à la hauteur de mes attentes.
+C1|abundance|n|abondance|There's an *abundance* of fruit in summer.|Il y a des fruits en abondance l'été.
+C1|accountability|n|responsabilité;obligation de rendre des comptes|Leaders need more *accountability*.|Les dirigeants doivent rendre davantage de comptes.
+C1|backlash|n|réaction violente;levée de boucliers|The decision caused a *backlash*.|La décision a provoqué une levée de boucliers.
+C1|bias|n|préjugé;parti pris;biais|The article shows a clear *bias*.|L'article montre un parti pris évident.
+C1|breakthrough|n|percée;avancée;découverte majeure|It's a medical *breakthrough*.|C'est une avancée médicale.
+C1|burden|n|fardeau;charge|I don't want to be a *burden*.|Je ne veux pas être un fardeau.
+C1|commitment|n|engagement|Marriage is a big *commitment*.|Le mariage est un grand engagement.
+C1|controversy|n|polémique;controverse|The film caused a lot of *controversy*.|Le film a fait beaucoup polémique.
+C1|drawback|n|inconvénient|The main *drawback* is the price.|Le principal inconvénient, c'est le prix.
+C1|dilemma|n|dilemme|I'm facing a *dilemma*.|Je suis face à un dilemme.
+C1|insight|n|aperçu;compréhension;éclairage|The book gives an *insight* into her life.|Le livre donne un aperçu de sa vie.
+C1|leverage|n|influence;moyen de pression;levier|They have no *leverage*.|Ils n'ont aucun moyen de pression.
+C1|loophole|n|faille;vide juridique|They found a *loophole* in the law.|Ils ont trouvé une faille dans la loi.
+C1|outlook|n|perspective;vision;point de vue|She has a positive *outlook* on life.|Elle a une vision positive de la vie.
+C1|pitfall|n|piège;écueil|Avoid the common *pitfalls*.|Évite les pièges classiques.
+C1|premise|n|prémisse;principe;locaux|The *premise* of the film is simple.|Le principe du film est simple.
+C1|setback|n|revers;contretemps|We had a small *setback*.|On a eu un petit contretemps.
+C1|stance|n|position;prise de position|What's your *stance* on this issue?|Quelle est ta position sur cette question ?
+C1|threshold|n|seuil|The pain *threshold* varies from person to person.|Le seuil de douleur varie d'une personne à l'autre.
+C1|turmoil|n|chaos;agitation;tourmente|The country is in *turmoil*.|Le pays est en plein chaos.
+C1|upbringing|n|éducation|She had a strict *upbringing*.|Elle a reçu une éducation stricte.
+C1|whereabouts|n|où se trouve;localisation|His *whereabouts* are unknown.|On ne sait pas où il se trouve.
+C1|ambiguous|adj|ambigu|His answer was *ambiguous*.|Sa réponse était ambiguë.
+C1|arbitrary|adj|arbitraire|The decision seems *arbitrary*.|La décision semble arbitraire.
+C1|blunt|adj|direct;franc;émoussé|Sorry to be *blunt*, but it's bad.|Désolé d'être direct, mais c'est mauvais.
+C1|compelling|adj|convaincant;captivant;irrésistible|It's a *compelling* argument.|C'est un argument convaincant.
+C1|comprehensive|adj|complet;exhaustif;global|We need a *comprehensive* plan.|Il nous faut un plan complet.
+C1|daunting|adj|intimidant;décourageant|It's a *daunting* task.|C'est une tâche intimidante.
+C1|elusive|adj|insaisissable;difficile à trouver|Happiness can be *elusive*.|Le bonheur peut être insaisissable.
+C1|feasible|adj|faisable;réalisable|Is this plan *feasible*?|Ce plan est-il réalisable ?
+C1|inevitable|adj|inévitable|Change is *inevitable*.|Le changement est inévitable.
+C1|meticulous|adj|méticuleux;minutieux|She's *meticulous* in her work.|Elle est méticuleuse dans son travail.
+C1|negligible|adj|négligeable|The difference is *negligible*.|La différence est négligeable.
+C1|plausible|adj|plausible;vraisemblable|His story sounds *plausible*.|Son histoire paraît plausible.
+C1|prone|adj|sujet à;enclin à|He's *prone* to headaches.|Il est sujet aux maux de tête.
+C1|reckless|adj|imprudent;irresponsable;téméraire|That was a *reckless* decision.|C'était une décision imprudente.
+C1|resilient|adj|résilient;résistant;solide|Children are very *resilient*.|Les enfants sont très résilients.
+C1|scarce|adj|rare;peu abondant|Water is *scarce* in the desert.|L'eau est rare dans le désert.
+C1|shrewd|adj|astucieux;malin;perspicace|She's a *shrewd* businesswoman.|C'est une femme d'affaires très maline.
+C1|subtle|adj|subtil;discret|There's a *subtle* difference.|Il y a une différence subtile.
+C1|tedious|adj|fastidieux;pénible;ennuyeux|Filling in forms is *tedious*.|Remplir des formulaires, c'est fastidieux.
+C1|thriving|adj|florissant;prospère|It's a *thriving* business.|C'est une entreprise florissante.
+C1|unprecedented|adj|sans précédent|It's an *unprecedented* situation.|C'est une situation sans précédent.
+C1|vague|adj|vague;flou|His answer was very *vague*.|Sa réponse était très floue.
+C1|viable|adj|viable;réalisable|Is the project *viable*?|Le projet est-il viable ?
+C1|vulnerable|adj|vulnérable|Elderly people are more *vulnerable*.|Les personnes âgées sont plus vulnérables.
+C1|arguably|adv|sans doute;on peut dire que|It's *arguably* the best film of the year.|C'est sans doute le meilleur film de l'année.
+C1|inherently|adv|intrinsèquement;par nature|Nothing is *inherently* good or bad.|Rien n'est bon ou mauvais par nature.
+C1|notably|adv|notamment;en particulier|Several countries, *notably* Spain, agreed.|Plusieurs pays, notamment l'Espagne, ont accepté.
+C1|seemingly|adv|apparemment;en apparence|She was *seemingly* calm.|Elle était calme en apparence.
+C1|thereby|adv|ainsi;de ce fait|He left early, *thereby* missing the speech.|Il est parti tôt, ratant ainsi le discours.
+C1|hence|adv|d'où;donc;c'est pourquoi|It's cheaper, *hence* its success.|C'est moins cher, d'où son succès.
+C1|albeit|conj|quoique;bien que;même si|It worked, *albeit* slowly.|Ça a marché, quoique lentement.
+C1|notwithstanding|prep|malgré;nonobstant|*Notwithstanding* the rain, the event took place.|Malgré la pluie, l'événement a eu lieu.
+C1|by and large|phr|dans l'ensemble;globalement|*By and large*, it was a success.|Dans l'ensemble, ce fut un succès.
+C1|to some extent|phr|dans une certaine mesure;en partie|*To some extent*, you're right.|Dans une certaine mesure, tu as raison.
+C1|in the long run|phr|à long terme;à la longue|*In the long run*, it will pay off.|À long terme, ça va payer.
+C1|a blessing in disguise|phr|un mal pour un bien|Losing that job was *a blessing in disguise*.|Perdre ce travail a été un mal pour un bien.
+C1|beat around the bush|phr|tourner autour du pot|Stop *beating around the bush*!|Arrête de tourner autour du pot !
+C1|the last straw|phr|la goutte d'eau qui fait déborder le vase|That was *the last straw*.|C'était la goutte d'eau qui fait déborder le vase.
+C1|on the fence|phr|indécis;hésitant|I'm still *on the fence* about it.|J'hésite encore.
+C1|bear in mind|v|garder à l'esprit;tenir compte de|*Bear in mind* that it's late.|Garde à l'esprit qu'il est tard.
+C1|take for granted|v|considérer comme acquis;tenir pour acquis|We often *take for granted* the people we love.|On considère souvent comme acquis les gens qu'on aime.
+C1|get the hang of|v|prendre le coup de main;piger|You'll soon *get the hang of* it.|Tu vas vite prendre le coup de main.
+C1|cut corners|v|bâcler;rogner sur la qualité|Don't *cut corners* on safety.|Ne rogne pas sur la sécurité.

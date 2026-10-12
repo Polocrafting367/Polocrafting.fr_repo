@@ -1,0 +1,317 @@
+# Anglais, mots ajoutés (B1-B2)
+B1|business|n|entreprise;affaires;commerce|She runs her own *business*.|Elle dirige sa propre entreprise.
+B1|chance|n|occasion;chance|This is your last *chance*.|C'est ta dernière chance.
+B1|situation|n|situation|It's a difficult *situation*.|C'est une situation difficile.
+B1|moment|n|moment;instant|Wait a *moment*.|Attends un instant.
+B1|future|n|avenir;futur|I think about the *future*.|Je pense à l'avenir.
+B1|past|n|passé|Forget the *past*.|Oublie le passé.
+B1|power|n|pouvoir;électricité;puissance|There's no *power* in the house.|Il n'y a pas d'électricité dans la maison.
+B1|energy|n|énergie|I have no *energy* today.|Je n'ai aucune énergie aujourd'hui.
+B1|control|n|contrôle|Everything is under *control*.|Tout est sous contrôle.
+B1|information|n|informations;renseignements|I need more *information*.|J'ai besoin de plus d'informations.
+B1|report|n|rapport;reportage|I have to write a *report*.|Je dois écrire un rapport.
+B1|news report|n|reportage;journal télévisé|Did you see the *news report*?|Tu as vu le reportage ?
+B1|interview|n|entretien;interview|I have a job *interview* tomorrow.|J'ai un entretien d'embauche demain.
+B1|contract|n|contrat|Read the *contract* carefully.|Lis bien le contrat.
+B1|staff|n|personnel;équipe|The *staff* are very friendly.|Le personnel est très sympa.
+B1|manager|n|responsable;directeur;gérant|I want to speak to the *manager*.|Je veux parler au responsable.
+B1|client|n|client|I have a meeting with a *client*.|J'ai rendez-vous avec un client.
+B1|project|n|projet|We're working on a new *project*.|On travaille sur un nouveau projet.
+B1|plan|n|plan;projet|What's the *plan*?|C'est quoi le plan ?
+B1|system|n|système|The *system* doesn't work.|Le système ne marche pas.
+B1|program|n|programme;émission|It's my favourite TV *program*.|C'est mon émission préférée.
+B1|machine|n|machine|The coffee *machine* is broken.|La machine à café est en panne.
+B1|engine|n|moteur|The *engine* won't start.|Le moteur ne démarre pas.
+B1|tool|n|outil|Pass me that *tool*.|Passe-moi cet outil.
+B1|screen|n|écran|My phone *screen* is broken.|L'écran de mon téléphone est cassé.
+B1|password|n|mot de passe|I forgot my *password*.|J'ai oublié mon mot de passe.
+B1|website|n|site internet;site web|Check our *website*.|Consulte notre site internet.
+B1|app|n|appli;application|Download the *app*.|Télécharge l'appli.
+B1|battery|n|batterie;pile|My *battery* is dead.|Je n'ai plus de batterie.
+B1|charger|n|chargeur|Can I borrow your *charger*?|Je peux t'emprunter ton chargeur ?
+B1|science|n|science;sciences|I love *science*.|J'adore les sciences.
+B1|history|n|histoire|I'm interested in *history*.|L'histoire m'intéresse.
+B1|art|n|art|She studies *art*.|Elle étudie l'art.
+B1|painting|n|tableau;peinture|This *painting* is beautiful.|Ce tableau est magnifique.
+B1|museum|n|musée|Let's visit the *museum*.|Visitons le musée.
+B1|theatre|n|théâtre|We went to the *theatre*.|On est allés au théâtre.
+B1|concert|n|concert|The *concert* starts at eight.|Le concert commence à huit heures.
+B1|band|n|groupe (de musique)|They play in a *band*.|Ils jouent dans un groupe.
+B1|novel|n|roman|I'm reading a good *novel*.|Je lis un bon roman.
+B1|magazine|n|magazine|She reads fashion *magazines*.|Elle lit des magazines de mode.
+B1|subject|n|sujet;matière|Maths is my favourite *subject*.|Les maths, c'est ma matière préférée.
+B1|university|n|université;fac|My sister is at *university*.|Ma sœur est à la fac.
+B1|course|n|cours;formation|I'm taking an English *course*.|Je suis un cours d'anglais.
+B1|grade|n|note|I got a good *grade*.|J'ai eu une bonne note.
+B1|degree|n|diplôme|He has a *degree* in law.|Il a un diplôme de droit.
+B1|nature|n|nature|I love being in *nature*.|J'adore être dans la nature.
+B1|weather|n|temps;météo|What's the *weather* like?|Quel temps fait-il ?
+B1|storm|n|tempête;orage|There was a big *storm* last night.|Il y a eu un gros orage cette nuit.
+B1|cloud|n|nuage|There isn't a *cloud* in the sky.|Il n'y a pas un nuage dans le ciel.
+B1|heat|n|chaleur|I can't stand the *heat*.|Je ne supporte pas la chaleur.
+B1|climate|n|climat|The *climate* is changing.|Le climat change.
+B1|pollution|n|pollution|*Pollution* is a big problem.|La pollution est un gros problème.
+B1|planet|n|planète|We must protect the *planet*.|On doit protéger la planète.
+B1|ocean|n|océan|They crossed the *ocean*.|Ils ont traversé l'océan.
+B1|coast|n|côte|We drove along the *coast*.|On a longé la côte en voiture.
+B1|desert|n|désert|It's very hot in the *desert*.|Il fait très chaud dans le désert.
+B1|crowd|n|foule|There was a huge *crowd*.|Il y avait une foule énorme.
+B1|police officer|n|policier|Ask a *police officer*.|Demande à un policier.
+B1|crime|n|crime;délit;criminalité|*Crime* is rising.|La criminalité augmente.
+B1|thief|n|voleur|The *thief* ran away.|Le voleur s'est enfui.
+B1|victim|n|victime|The *victim* is in hospital.|La victime est à l'hôpital.
+B1|danger|n|danger|There's no *danger*.|Il n'y a aucun danger.
+B1|safety|n|sécurité|*Safety* first.|La sécurité d'abord.
+B1|security|n|sécurité|*Security* is very strict here.|La sécurité est très stricte ici.
+B1|attack|n|attaque;attentat|There was an *attack* last night.|Il y a eu une attaque hier soir.
+B1|fight|n|bagarre;combat;dispute|There was a *fight* outside the bar.|Il y a eu une bagarre devant le bar.
+B1|enemy|n|ennemi|He's not your *enemy*.|Ce n'est pas ton ennemi.
+B1|hero|n|héros|You're my *hero*!|Tu es mon héros !
+B1|respect|n|respect|Show some *respect*!|Un peu de respect !
+B1|trust|n|confiance|*Trust* is important.|La confiance, c'est important.
+B1|faith|n|foi;confiance|Don't lose *faith*.|Ne perds pas espoir.
+B1|soul|n|âme|She has a kind *soul*.|Elle a une âme bienveillante.
+B1|spirit|n|esprit|Team *spirit* is important.|L'esprit d'équipe, c'est important.
+B1|sense|n|sens|It makes *sense*.|Ça a du sens.
+B1|sense of humour|n|sens de l'humour|He has a great *sense of humour*.|Il a un super sens de l'humour.
+B1|mood|n|humeur|I'm in a good *mood*.|Je suis de bonne humeur.
+B1|pleasure|n|plaisir|It's a *pleasure*.|C'est un plaisir.
+B1|surprise|n|surprise|What a nice *surprise*!|Quelle belle surprise !
+B1|shame|n|dommage;honte|What a *shame*!|Quel dommage !
+B1|pity|n|dommage;pitié|It's a *pity* you can't come.|C'est dommage que tu ne puisses pas venir.
+B1|doubt|n|doute|There's no *doubt*.|Il n'y a aucun doute.
+B1|loss|n|perte|It's a big *loss*.|C'est une grosse perte.
+B1|price|n|prix|The *price* went up.|Le prix a augmenté.
+B1|tax|n|impôt;taxe|We pay too much *tax*.|On paie trop d'impôts.
+B1|rent|n|loyer|The *rent* is very high.|Le loyer est très élevé.
+B1|bill|n|facture|I have to pay the electricity *bill*.|Je dois payer la facture d'électricité.
+B1|loan|n|prêt;emprunt|We got a *loan* from the bank.|On a obtenu un prêt de la banque.
+B1|account|n|compte|I opened a bank *account*.|J'ai ouvert un compte en banque.
+B1|receipt|n|ticket de caisse;reçu|Keep the *receipt*.|Garde le ticket de caisse.
+B1|discount|n|réduction;remise|Can I get a *discount*?|Je peux avoir une réduction ?
+B1|sale|n|soldes;vente|The shoes were on *sale*.|Les chaussures étaient en soldes.
+B1|size|n|taille;pointure|What *size* are you?|Tu fais quelle taille ?
+B1|luggage|n|bagages|Where is my *luggage*?|Où sont mes bagages ?
+B1|passport|n|passeport|Don't forget your *passport*.|N'oublie pas ton passeport.
+B1|flight|n|vol|My *flight* is delayed.|Mon vol est retardé.
+B1|delay|n|retard|There's a two-hour *delay*.|Il y a deux heures de retard.
+B1|border|n|frontière|We crossed the *border*.|On a passé la frontière.
+B1|abroad|adv|à l'étranger|I'd love to live *abroad*.|J'adorerais vivre à l'étranger.
+B1|tourist|n|touriste|The city is full of *tourists*.|La ville est pleine de touristes.
+B1|guide|n|guide|Our *guide* was great.|Notre guide était génial.
+B1|view|n|vue|What a beautiful *view*!|Quelle belle vue !
+B1|corner|n|coin;angle|The shop is on the *corner*.|Le magasin est au coin de la rue.
+B1|bridge|n|pont|Cross the *bridge*.|Traverse le pont.
+B1|square|n|place;carré|We met in the main *square*.|On s'est retrouvés sur la place principale.
+B1|traffic lights|n|feu rouge;feux|Turn left at the *traffic lights*.|Tourne à gauche au feu.
+B1|parking|n|stationnement;parking|*Parking* is free on Sunday.|Le stationnement est gratuit le dimanche.
+B1|neighbour|n|voisin|My *neighbour* is very kind.|Mon voisin est très gentil.
+B1|guest|n|invité|We're expecting ten *guests*.|On attend dix invités.
+B1|host|n|hôte;animateur|Thank the *host* for the dinner.|Remercie l'hôte pour le dîner.
+B1|member|n|membre|She's a *member* of the club.|Elle est membre du club.
+B1|leader|n|chef;dirigeant;leader|He's a natural *leader*.|C'est un meneur né.
+B1|character|n|personnage;caractère|He's my favourite *character*.|C'est mon personnage préféré.
+B1|personality|n|personnalité|She has a strong *personality*.|Elle a une forte personnalité.
+B1|behave|v|se comporter;être sage|*Behave* yourself!|Tiens-toi bien !
+B1|apologize|v|s'excuser|You should *apologize*.|Tu devrais t'excuser.
+B1|argue|v|se disputer;argumenter|They *argue* all the time.|Ils se disputent tout le temps.
+B1|blame|v|reprocher;accuser|Don't *blame* yourself.|Ne t'en veux pas.
+B1|cheat|v|tricher;tromper|He *cheated* on the test.|Il a triché à l'examen.
+B1|lie down|v|s'allonger|I need to *lie down*.|J'ai besoin de m'allonger.
+B1|rest|v|se reposer|You need to *rest*.|Tu dois te reposer.
+B1|breathe|v|respirer|*Breathe* slowly.|Respire lentement.
+B1|shake|v|secouer;trembler|*Shake* the bottle.|Secoue la bouteille.
+B1|touch|v|toucher|Don't *touch* that!|Ne touche pas à ça !
+B1|hug|v|serrer dans ses bras|She *hugged* me.|Elle m'a serré dans ses bras.
+B1|wave|v|faire signe de la main|He *waved* at me.|Il m'a fait signe de la main.
+B1|point|v|montrer du doigt|Don't *point* at people.|Ne montre pas les gens du doigt.
+B1|reach|v|atteindre;joindre|I can't *reach* the top shelf.|Je n'arrive pas à atteindre l'étagère du haut.
+B1|fill|v|remplir|*Fill* the glass.|Remplis le verre.
+B1|pour|v|verser;pleuvoir à verse|*Pour* the milk.|Verse le lait.
+B1|mix|v|mélanger|*Mix* the eggs and the sugar.|Mélange les œufs et le sucre.
+B1|boil|v|bouillir;faire bouillir|*Boil* some water.|Fais bouillir de l'eau.
+B1|fry|v|frire;faire frire|I *fried* some eggs.|J'ai fait des œufs au plat.
+B1|bake|v|faire cuire au four|She *bakes* her own bread.|Elle fait son propre pain.
+B1|taste|v|goûter|*Taste* this!|Goûte ça !
+B1|burn|v|brûler|I *burnt* my hand.|Je me suis brûlé la main.
+B1|cut|v|couper|*Cut* the bread, please.|Coupe le pain, s'il te plaît.
+B1|tie|v|attacher;nouer|*Tie* your shoes.|Attache tes lacets.
+B1|wrap|v|emballer|I *wrapped* the present.|J'ai emballé le cadeau.
+B1|hang|v|accrocher;pendre|*Hang* your coat here.|Accroche ton manteau ici.
+B1|fold|v|plier|*Fold* the towels.|Plie les serviettes.
+B1|press|v|appuyer|*Press* the red button.|Appuie sur le bouton rouge.
+B1|type|v|taper (au clavier)|I *type* very fast.|Je tape très vite.
+B1|download|v|télécharger|*Download* the file.|Télécharge le fichier.
+B1|upload|v|mettre en ligne|I *uploaded* the photos.|J'ai mis les photos en ligne.
+B1|print|v|imprimer|Can you *print* this?|Tu peux imprimer ça ?
+B1|record|v|enregistrer|They *recorded* a new song.|Ils ont enregistré une nouvelle chanson.
+B1|join|v|rejoindre|Can I *join* you?|Je peux me joindre à vous ?
+B1|accept|v|accepter|I *accept* your offer.|J'accepte ton offre.
+B1|attend|v|assister à|I *attended* the meeting.|J'ai assisté à la réunion.
+B1|book|v|réserver|I *booked* a table for two.|J'ai réservé une table pour deux.
+B1|check in|v|s'enregistrer|We *checked in* at the hotel.|On s'est enregistrés à l'hôtel.
+B1|cancel|v|annuler|They *cancelled* the flight.|Ils ont annulé le vol.
+B1|charge|v|recharger;faire payer|I need to *charge* my phone.|Je dois recharger mon téléphone.
+B1|earn|v|gagner (de l'argent)|How much do you *earn*?|Tu gagnes combien ?
+B1|owe|v|devoir (de l'argent)|You *owe* me ten euros.|Tu me dois dix euros.
+B1|waste|v|gaspiller;perdre|Don't *waste* your time.|Ne perds pas ton temps.
+B1|afford|v|avoir les moyens|I can't *afford* it.|Je n'ai pas les moyens.
+B1|survive|v|survivre|They *survived* the accident.|Ils ont survécu à l'accident.
+B1|escape|v|s'échapper;échapper|The dog *escaped*.|Le chien s'est échappé.
+B1|arrest|v|arrêter (police)|The police *arrested* him.|La police l'a arrêté.
+B1|rescue|v|secourir;sauver|They *rescued* the children.|Ils ont secouru les enfants.
+B1|hide|v|cacher;se cacher|Where did you *hide* the key?|Où as-tu caché la clé ?
+B1|search|v|chercher;fouiller|They *searched* the house.|Ils ont fouillé la maison.
+B1|solve|v|résoudre|We *solved* the problem.|On a résolu le problème.
+B1|test|v|tester;essayer|*Test* the water before you swim.|Teste l'eau avant de nager.
+B1|measure|v|mesurer|*Measure* the room.|Mesure la pièce.
+B1|weigh|v|peser|How much do you *weigh*?|Tu pèses combien ?
+B1|fit|v|aller (taille)|This shirt doesn't *fit*.|Cette chemise ne me va pas.
+B1|suit|v|aller (bien);convenir|Red *suits* you.|Le rouge te va bien.
+B1|matter|n|affaire;question|What's the *matter*?|Qu'est-ce qui ne va pas ?
+B1|kind of|adv|un peu;plutôt|I'm *kind of* tired.|Je suis un peu fatigué.
+B1|alright|adj|bien;d'accord|Are you *alright*?|Ça va ?
+B1|possible|adj|possible|As soon as *possible*.|Dès que possible.
+B1|impossible|adj|impossible|Nothing is *impossible*.|Rien n'est impossible.
+B1|amazing|adj|incroyable;génial|The view is *amazing*.|La vue est incroyable.
+B1|awful|adj|horrible;affreux|The weather is *awful*.|Il fait un temps affreux.
+B1|horrible|adj|horrible|What a *horrible* day!|Quelle journée horrible !
+B1|fantastic|adj|fantastique;génial|You look *fantastic*!|Tu es superbe !
+B1|excellent|adj|excellent|*Excellent* work!|Excellent travail !
+B1|brilliant|adj|génial;brillant|What a *brilliant* idea!|Quelle idée géniale !
+B1|incredible|adj|incroyable|It's *incredible*!|C'est incroyable !
+B1|ridiculous|adj|ridicule|That's *ridiculous*!|C'est ridicule !
+B1|silly|adj|bête;idiot|Don't be *silly*.|Ne sois pas bête.
+B1|smart|adj|intelligent;malin|She's very *smart*.|Elle est très intelligente.
+B1|clever|adj|intelligent;malin|What a *clever* dog!|Quel chien intelligent !
+B1|brave|adj|courageux|You're very *brave*.|Tu es très courageux.
+B1|shy|adj|timide|He's very *shy*.|Il est très timide.
+B1|rude|adj|impoli;grossier|Don't be *rude*.|Ne sois pas impoli.
+B1|friendly|adj|sympathique;amical|The people here are very *friendly*.|Les gens ici sont très sympas.
+B1|generous|adj|généreux|Thank you, you're very *generous*.|Merci, tu es très généreux.
+B1|selfish|adj|égoïste|Don't be so *selfish*.|Ne sois pas si égoïste.
+B1|calm|adj|calme|Stay *calm*.|Reste calme.
+B1|relaxed|adj|détendu|I feel very *relaxed*.|Je me sens très détendu.
+B1|stressed|adj|stressé|I'm really *stressed*.|Je suis vraiment stressé.
+B1|exhausted|adj|épuisé;crevé|I'm *exhausted*.|Je suis crevé.
+B1|annoyed|adj|agacé;énervé|I'm a bit *annoyed*.|Je suis un peu agacé.
+B1|pleased|adj|content;ravi|I'm very *pleased* with the result.|Je suis très content du résultat.
+B1|grateful|adj|reconnaissant|I'm very *grateful*.|Je suis très reconnaissant.
+B1|curious|adj|curieux|I'm *curious*.|Je suis curieux.
+B1|missing|adj|disparu;manquant|My wallet is *missing*.|Mon portefeuille a disparu.
+B1|broken|adj|cassé;en panne|The lift is *broken*.|L'ascenseur est en panne.
+B1|empty|adj|vide|The bottle is *empty*.|La bouteille est vide.
+B1|crowded|adj|bondé|The bus was *crowded*.|Le bus était bondé.
+B1|modern|adj|moderne|It's a very *modern* building.|C'est un bâtiment très moderne.
+B1|ancient|adj|antique;très ancien|We visited an *ancient* temple.|On a visité un temple antique.
+B1|local|adj|local;du coin|I buy *local* products.|J'achète des produits locaux.
+B1|foreign|adj|étranger|I love *foreign* films.|J'adore les films étrangers.
+B1|national|adj|national|It's a *national* holiday.|C'est un jour férié national.
+B1|public|adj|public|Smoking in *public* places is forbidden.|Il est interdit de fumer dans les lieux publics.
+B1|private|adj|privé|This is a *private* beach.|C'est une plage privée.
+B1|personal|adj|personnel|It's a *personal* question.|C'est une question personnelle.
+B1|main|adj|principal|This is the *main* road.|C'est la route principale.
+B1|total|adj|total|The *total* cost is 50 euros.|Le coût total est de 50 euros.
+B1|extra|adj|en plus;supplémentaire|Can I have an *extra* blanket?|Je peux avoir une couverture en plus ?
+B1|exact|adj|exact|What's the *exact* time?|Quelle est l'heure exacte ?
+B1|correct|adj|correct;juste|That's *correct*.|C'est exact.
+B1|wrong|adj|qui ne va pas|What's *wrong*?|Qu'est-ce qui ne va pas ?
+B1|lately|adv|ces derniers temps|I've been tired *lately*.|Je suis fatigué ces derniers temps.
+B1|eventually|adv|finalement|He *eventually* said yes.|Il a finalement dit oui.
+B1|properly|adv|correctement;bien|Close the door *properly*.|Ferme bien la porte.
+B1|seriously|adv|sérieusement|*Seriously*?|Sérieux ?
+B1|totally|adv|totalement;complètement|I *totally* agree.|Je suis complètement d'accord.
+B1|absolutely|adv|absolument|*Absolutely* not!|Absolument pas !
+B1|especially|adv|surtout;particulièrement|I love fruit, *especially* apples.|J'adore les fruits, surtout les pommes.
+B1|together|adv|ensemble|We live *together*.|On vit ensemble.
+B1|alone|adv|seul|Leave me *alone*!|Laisse-moi tranquille !
+B1|ahead|adv|devant;en avant|Go *ahead*!|Vas-y !
+B1|apart|adv|séparés;à part|They live *apart*.|Ils vivent séparés.
+B1|instead of|prep|au lieu de|I'll have tea *instead of* coffee.|Je prendrai du thé au lieu du café.
+B1|in front of|prep|devant|Wait *in front of* the cinema.|Attends devant le cinéma.
+B1|on time|phr|à l'heure|The train arrived *on time*.|Le train est arrivé à l'heure.
+B1|in time|phr|à temps|We arrived just *in time*.|On est arrivés juste à temps.
+B1|so what|phr|et alors|*So what*? I don't care.|Et alors ? Je m'en fiche.
+B1|I'm afraid|phr|je crains que;malheureusement|*I'm afraid* I can't come.|Je crains de ne pas pouvoir venir.
+B1|it depends|phr|ça dépend|"Are you coming?" "*It depends*."|« Tu viens ? » « Ça dépend. »
+B1|what a pity|phr|quel dommage|*What a pity*!|Quel dommage !
+B1|cheers|int|santé;merci;salut|*Cheers*! To your health!|Santé ! À ta santé !
+B2|pregnant|adj|enceinte|She's *pregnant*.|Elle est enceinte.
+B2|divorce|n|divorce|They're getting a *divorce*.|Ils divorcent.
+B2|relationship|n|relation;couple|They're in a *relationship*.|Ils sont en couple.
+B2|stranger|n|inconnu|Never get in a car with a *stranger*.|Ne monte jamais en voiture avec un inconnu.
+B2|investigation|n|enquête|The police opened an *investigation*.|La police a ouvert une enquête.
+B2|suspect|n|suspect|The *suspect* was arrested.|Le suspect a été arrêté.
+B2|evidence|n|preuves|They found new *evidence*.|Ils ont trouvé de nouvelles preuves.
+B2|trial|n|procès|The *trial* starts on Monday.|Le procès commence lundi.
+B2|justice|n|justice|They want *justice*.|Ils veulent que justice soit faite.
+B2|freedom|n|liberté|*Freedom* is precious.|La liberté est précieuse.
+B2|election|n|élection|Who won the *election*?|Qui a gagné l'élection ?
+B2|vote|v|voter|Did you *vote*?|Tu as voté ?
+B2|government|n|gouvernement|The *government* announced new measures.|Le gouvernement a annoncé de nouvelles mesures.
+B2|economy|n|économie|The *economy* is growing.|L'économie progresse.
+B2|unemployment|n|chômage|*Unemployment* is falling.|Le chômage baisse.
+B2|strike|n|grève|There's a train *strike* today.|Il y a une grève des trains aujourd'hui.
+B2|protest|n|manifestation|There was a big *protest* in Paris.|Il y a eu une grosse manifestation à Paris.
+B2|disaster|n|catastrophe|It was a *disaster*.|Ce fut une catastrophe.
+B2|flood|n|inondation|The *flood* destroyed many houses.|L'inondation a détruit beaucoup de maisons.
+B2|earthquake|n|tremblement de terre;séisme|There was an *earthquake* in Turkey.|Il y a eu un séisme en Turquie.
+B2|disease|n|maladie|It's a rare *disease*.|C'est une maladie rare.
+B2|treatment|n|traitement|The *treatment* works well.|Le traitement marche bien.
+B2|surgery|n|opération;chirurgie|He needs *surgery*.|Il doit se faire opérer.
+B2|injury|n|blessure|It's a serious *injury*.|C'est une blessure grave.
+B2|recover|v|se remettre;guérir|She *recovered* quickly.|Elle s'est vite remise.
+B2|cure|n|remède;traitement|There's no *cure* yet.|Il n'y a pas encore de remède.
+B2|research|v|faire des recherches|I *researched* the topic.|J'ai fait des recherches sur le sujet.
+B2|data|n|données|We collect a lot of *data*.|On collecte beaucoup de données.
+B2|device|n|appareil|Turn off your *devices*.|Éteignez vos appareils.
+B2|update|n|mise à jour|There's a new *update*.|Il y a une nouvelle mise à jour.
+B2|commute|v|faire le trajet (domicile-travail)|I *commute* by train.|Je fais le trajet en train.
+B2|deadline|n|date limite;échéance|The *deadline* is tomorrow.|La date limite, c'est demain.
+B2|salary|n|salaire|He asked for a higher *salary*.|Il a demandé une augmentation.
+B2|promotion|n|promotion|She got a *promotion*.|Elle a eu une promotion.
+B2|resign|v|démissionner|He *resigned* last week.|Il a démissionné la semaine dernière.
+B2|fire|v|virer;renvoyer|He was *fired*.|Il a été viré.
+B2|hire|v|embaucher;louer|They *hired* two new people.|Ils ont embauché deux nouvelles personnes.
+B2|retire|v|prendre sa retraite|My father *retired* last year.|Mon père a pris sa retraite l'année dernière.
+B2|achieve|v|réussir;accomplir|You can *achieve* anything.|Tu peux tout réussir.
+B2|gain|v|prendre;gagner|I *gained* three kilos.|J'ai pris trois kilos.
+B2|lose weight|v|maigrir;perdre du poids|I want to *lose weight*.|Je veux maigrir.
+B2|quit|v|arrêter;quitter|I *quit* smoking.|J'ai arrêté de fumer.
+B2|bother|v|déranger;embêter|Sorry to *bother* you.|Désolé de te déranger.
+B2|annoy|v|agacer;énerver|You're *annoying* me.|Tu m'énerves.
+B2|upset|v|contrarier;faire de la peine|I didn't mean to *upset* you.|Je ne voulais pas te faire de peine.
+B2|scare|v|faire peur|You *scared* me!|Tu m'as fait peur !
+B2|surprise|v|surprendre|Nothing *surprises* me.|Rien ne me surprend.
+B2|disappoint|v|décevoir|Don't *disappoint* me.|Ne me déçois pas.
+B2|admire|v|admirer|I *admire* your courage.|J'admire ton courage.
+B2|envy|v|envier|I *envy* you.|Je t'envie.
+B2|deserve|v|mériter|You *deserve* it.|Tu le mérites.
+B2|manage|v|se débrouiller;gérer|Don't worry, I'll *manage*.|T'inquiète, je vais me débrouiller.
+B2|rely|v|compter (sur)|You can *rely* on me.|Tu peux compter sur moi.
+B2|bargain|n|bonne affaire|It's a real *bargain*.|C'est une vraie bonne affaire.
+B2|rip-off|n|arnaque|Twenty euros for a coffee? What a *rip-off*!|Vingt euros pour un café ? Quelle arnaque !
+B2|scam|n|arnaque|This email is a *scam*.|Ce mail est une arnaque.
+B2|mess|n|bazar;désordre|What a *mess*!|Quel bazar !
+B2|nonsense|n|bêtises;n'importe quoi|That's *nonsense*!|C'est n'importe quoi !
+B2|bullshit|n|conneries (vulgaire)|That's *bullshit*!|C'est des conneries !
+B2|bastard|n|salaud;enfoiré (vulgaire)|You *bastard*!|Espèce de salaud !
+B2|asshole|n|connard (vulgaire)|He's a real *asshole*.|C'est un vrai connard.
+B2|fuck|int|putain;merde (très vulgaire)|*Fuck*, I missed the bus!|Putain, j'ai raté le bus !
+B2|pissed off|adj|énervé;furax (familier)|I'm really *pissed off*.|Je suis vraiment énervé.
+B2|dude|n|mec;gars|Hey *dude*, how are you?|Salut mec, ça va ?
+B2|mate|n|pote;copain|He's my best *mate*.|C'est mon meilleur pote.
+B2|kidding|v|plaisanter;rigoler|Are you *kidding*?|Tu rigoles ?
+B2|chill out|v|se détendre;se calmer|Just *chill out*!|Détends-toi !
+B2|hang out|v|traîner;passer du temps|We *hang out* at the park.|On traîne au parc.
+B2|show up|v|venir;se pointer|He didn't *show up*.|Il n'est pas venu.
+B2|give back|v|rendre|Please *give back* the money.|Rends l'argent, s'il te plaît.
+B2|break up|v|rompre;se séparer|They *broke up* last month.|Ils se sont séparés le mois dernier.
+B2|make up|v|se réconcilier;inventer|They argued, then *made up*.|Ils se sont disputés, puis réconciliés.
+B2|run out|v|ne plus avoir;manquer|We *ran out* of time.|On a manqué de temps.
+B2|turn out|v|s'avérer;finir par|It *turned out* fine.|Ça s'est bien terminé.
+B2|end up|v|finir par|We *ended up* at a bar.|On a fini dans un bar.
+B2|look up|v|chercher (une info)|*Look up* the word in the dictionary.|Cherche le mot dans le dictionnaire.
+B2|put up with|v|supporter|I can't *put up with* this noise.|Je ne supporte plus ce bruit.
+B2|get along|v|s'entendre|We *get along* really well.|On s'entend vraiment bien.
+B2|catch up|v|rattraper;se raconter les nouvelles|Let's *catch up* over coffee.|On se raconte tout autour d'un café.

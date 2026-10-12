@@ -1,0 +1,199 @@
+# Anglais B1
+B1|achieve|v|atteindre;réaliser;réussir|She *achieved* her goal.|Elle a atteint son objectif.
+B1|admit|v|admettre;avouer|He *admitted* his mistake.|Il a admis son erreur.
+B1|advise|v|conseiller|I *advise* you to wait.|Je te conseille d'attendre.
+B1|advice|n|conseil;conseils|Can you give me some *advice*?|Tu peux me donner un conseil ?
+B1|allow|v|permettre;autoriser|Dogs are not *allowed* here.|Les chiens ne sont pas autorisés ici.
+B1|apply|v|postuler;s'appliquer|I *applied* for the job.|J'ai postulé pour ce poste.
+B1|avoid|v|éviter|I try to *avoid* sugar.|J'essaie d'éviter le sucre.
+B1|complain|v|se plaindre|He always *complains*.|Il se plaint tout le temps.
+B1|deal with|v|gérer;s'occuper de;traiter|I'll *deal with* it tomorrow.|Je m'en occupe demain.
+B1|depend|v|dépendre|It *depends* on the weather.|Ça dépend du temps.
+B1|describe|v|décrire|Can you *describe* the man?|Tu peux décrire l'homme ?
+B1|develop|v|développer;se développer|The city has *developed* a lot.|La ville s'est beaucoup développée.
+B1|disappear|v|disparaître|My keys have *disappeared*.|Mes clés ont disparu.
+B1|discover|v|découvrir|We *discovered* a small café.|On a découvert un petit café.
+B1|discuss|v|discuter de;parler de|Let's *discuss* it later.|On en parlera plus tard.
+B1|earn|v|gagner|She *earns* a good salary.|Elle gagne bien sa vie.
+B1|encourage|v|encourager|My parents always *encouraged* me.|Mes parents m'ont toujours encouragé.
+B1|expect|v|s'attendre à;attendre;prévoir|I didn't *expect* that.|Je ne m'attendais pas à ça.
+B1|fail|v|échouer;rater|He *failed* his driving test.|Il a raté son permis.
+B1|fit|v|aller;être à la bonne taille|These jeans don't *fit* me.|Ce jean ne me va pas.
+B1|follow|v|suivre|*Follow* me, please.|Suivez-moi, s'il vous plaît.
+B1|guess|v|deviner|*Guess* who I saw today!|Devine qui j'ai vu aujourd'hui !
+B1|hide|v|cacher;se cacher|The cat is *hiding* under the bed.|Le chat se cache sous le lit.
+B1|hurt|v|faire mal;blesser|My back *hurts*.|J'ai mal au dos.
+B1|imagine|v|imaginer|*Imagine* a world without cars.|Imagine un monde sans voitures.
+B1|improve|v|améliorer;s'améliorer;progresser|I want to *improve* my English.|Je veux améliorer mon anglais.
+B1|include|v|inclure;comprendre|Breakfast is *included*.|Le petit-déjeuner est compris.
+B1|increase|v|augmenter|Prices have *increased*.|Les prix ont augmenté.
+B1|manage|v|réussir à;arriver à;gérer;diriger|I *managed* to finish on time.|J'ai réussi à finir à temps.
+B1|mean|v|vouloir dire;signifier|What does this word *mean*?|Que veut dire ce mot ?
+B1|mention|v|mentionner;parler de|She didn't *mention* it.|Elle n'en a pas parlé.
+B1|offer|v|proposer;offrir|He *offered* to help me.|Il a proposé de m'aider.
+B1|organise|v|organiser|We're *organising* a party.|On organise une fête.
+B1|pass|v|passer;réussir|Can you *pass* me the salt?|Tu peux me passer le sel ?
+B1|prepare|v|préparer|I need to *prepare* for the exam.|Je dois préparer l'examen.
+B1|promise|v|promettre|I *promise* I'll call you.|Je te promets de t'appeler.
+B1|protect|v|protéger|Sun cream *protects* your skin.|La crème solaire protège ta peau.
+B1|prove|v|prouver|Can you *prove* it?|Tu peux le prouver ?
+B1|realise|v|se rendre compte;réaliser|I *realised* I was wrong.|Je me suis rendu compte que j'avais tort.
+B1|recognise|v|reconnaître|I didn't *recognise* you!|Je ne t'ai pas reconnu !
+B1|recommend|v|recommander;conseiller|Can you *recommend* a good restaurant?|Tu peux me conseiller un bon restaurant ?
+B1|reduce|v|réduire;diminuer|We need to *reduce* our costs.|On doit réduire nos coûts.
+B1|refuse|v|refuser|She *refused* to answer.|Elle a refusé de répondre.
+B1|relax|v|se détendre;se reposer|I need to *relax*.|J'ai besoin de me détendre.
+B1|replace|v|remplacer|We need to *replace* the battery.|Il faut remplacer la batterie.
+B1|reply|v|répondre|She didn't *reply* to my message.|Elle n'a pas répondu à mon message.
+B1|save|v|économiser;sauver;sauvegarder;enregistrer|I'm *saving* money for a car.|J'économise pour une voiture.
+B1|seem|v|sembler;avoir l'air|You *seem* tired.|Tu as l'air fatigué.
+B1|suggest|v|proposer;suggérer|I *suggest* we take a taxi.|Je propose qu'on prenne un taxi.
+B1|support|v|soutenir;supporter|My family *supports* me.|Ma famille me soutient.
+B1|suppose|v|supposer|I *suppose* you're right.|Je suppose que tu as raison.
+B1|trust|v|faire confiance à;avoir confiance en|I *trust* you.|Je te fais confiance.
+B1|wonder|v|se demander|I *wonder* why she left.|Je me demande pourquoi elle est partie.
+B1|belong|v|appartenir|This bag *belongs* to me.|Ce sac m'appartient.
+B1|compare|v|comparer|Don't *compare* yourself to others.|Ne te compare pas aux autres.
+B1|continue|v|continuer|*Continue* straight on.|Continuez tout droit.
+B1|count|v|compter|Can you *count* to ten in English?|Tu sais compter jusqu'à dix en anglais ?
+B1|create|v|créer|She *created* her own company.|Elle a créé sa propre entreprise.
+B1|deliver|v|livrer|They *deliver* pizza until midnight.|Ils livrent des pizzas jusqu'à minuit.
+B1|destroy|v|détruire|The storm *destroyed* the roof.|La tempête a détruit le toit.
+B1|forgive|v|pardonner|Please *forgive* me.|Pardonne-moi, s'il te plaît.
+B1|introduce|v|présenter|Let me *introduce* my wife.|Je vous présente ma femme.
+B1|notice|v|remarquer|Did you *notice* anything strange?|Tu as remarqué quelque chose de bizarre ?
+B1|pick up|v|aller chercher;récupérer;ramasser|I'll *pick up* the kids at five.|Je récupère les enfants à cinq heures.
+B1|run out of|v|ne plus avoir de;manquer de|We've *run out of* milk.|On n'a plus de lait.
+B1|get on with|v|s'entendre avec|I *get on with* my colleagues.|Je m'entends bien avec mes collègues.
+B1|set up|v|créer;installer;monter|They *set up* a small business.|Ils ont monté une petite entreprise.
+B1|take care of|v|s'occuper de;prendre soin de|I *take care of* my grandmother.|Je m'occupe de ma grand-mère.
+B1|bring up|v|élever;aborder|She *brought up* three children alone.|Elle a élevé trois enfants seule.
+B1|grow up|v|grandir|I *grew up* in Marseille.|J'ai grandi à Marseille.
+B1|carry on|v|continuer|*Carry on*, I'm listening.|Continue, je t'écoute.
+B1|work out|v|faire du sport;trouver;comprendre|I *work out* three times a week.|Je fais du sport trois fois par semaine.
+B1|accident|n|accident|He had a car *accident*.|Il a eu un accident de voiture.
+B1|advantage|n|avantage|What are the *advantages*?|Quels sont les avantages ?
+B1|area|n|quartier;zone;région|I live in a quiet *area*.|J'habite dans un quartier calme.
+B1|argument|n|dispute;argument|We had an *argument* yesterday.|On s'est disputés hier.
+B1|attention|n|attention|Pay *attention*!|Fais attention !
+B1|behaviour|n|comportement|His *behaviour* is strange.|Son comportement est bizarre.
+B1|career|n|carrière|She has a great *career*.|Elle a une belle carrière.
+B1|choice|n|choix|You have no *choice*.|Tu n'as pas le choix.
+B1|colleague|n|collègue|My *colleagues* are very nice.|Mes collègues sont très sympas.
+B1|company|n|entreprise;société;compagnie|He works for a big *company*.|Il travaille pour une grande entreprise.
+B1|competition|n|concours;compétition;concurrence|She won the *competition*.|Elle a gagné le concours.
+B1|condition|n|état;condition|The car is in good *condition*.|La voiture est en bon état.
+B1|culture|n|culture|I love Japanese *culture*.|J'adore la culture japonaise.
+B1|customer|n|client|The *customer* is always right.|Le client a toujours raison.
+B1|danger|n|danger|You are in *danger*.|Tu es en danger.
+B1|decision|n|décision|It was a difficult *decision*.|C'était une décision difficile.
+B1|degree|n|diplôme;degré|She has a *degree* in law.|Elle a un diplôme de droit.
+B1|difference|n|différence|What's the *difference*?|Quelle est la différence ?
+B1|environment|n|environnement|We must protect the *environment*.|On doit protéger l'environnement.
+B1|event|n|événement|It's a big *event*.|C'est un grand événement.
+B1|experience|n|expérience|I have no *experience*.|Je n'ai pas d'expérience.
+B1|fact|n|fait|In *fact*, I agree.|En fait, je suis d'accord.
+B1|feeling|n|sentiment;sensation;impression|I have a bad *feeling*.|J'ai un mauvais pressentiment.
+B1|goal|n|objectif;but|What's your *goal*?|C'est quoi ton objectif ?
+B1|government|n|gouvernement|The *government* raised taxes.|Le gouvernement a augmenté les impôts.
+B1|habit|n|habitude|It's a bad *habit*.|C'est une mauvaise habitude.
+B1|knowledge|n|connaissances;savoir|Her *knowledge* of history is amazing.|Ses connaissances en histoire sont incroyables.
+B1|law|n|loi;droit|It's against the *law*.|C'est contraire à la loi.
+B1|level|n|niveau|What's your *level* in English?|C'est quoi ton niveau en anglais ?
+B1|luck|n|chance|Good *luck*!|Bonne chance !
+B1|memory|n|souvenir;mémoire|I have a bad *memory*.|J'ai une mauvaise mémoire.
+B1|mind|n|esprit;tête|I changed my *mind*.|J'ai changé d'avis.
+B1|opinion|n|avis;opinion|In my *opinion*, it's too expensive.|À mon avis, c'est trop cher.
+B1|opportunity|n|occasion;opportunité;chance|It's a great *opportunity*.|C'est une super occasion.
+B1|patience|n|patience|Thank you for your *patience*.|Merci pour votre patience.
+B1|purpose|n|but;objectif|What's the *purpose* of your visit?|Quel est le but de votre visite ?
+B1|reason|n|raison|There's no *reason* to worry.|Il n'y a aucune raison de s'inquiéter.
+B1|relationship|n|relation;couple|They have a good *relationship*.|Ils s'entendent bien.
+B1|result|n|résultat|The *results* are good.|Les résultats sont bons.
+B1|rule|n|règle|Those are the *rules*.|Ce sont les règles.
+B1|salary|n|salaire|My *salary* is not very high.|Mon salaire n'est pas très élevé.
+B1|skill|n|compétence;talent;savoir-faire|Communication is an important *skill*.|La communication est une compétence importante.
+B1|society|n|société|We live in a modern *society*.|On vit dans une société moderne.
+B1|solution|n|solution|There's always a *solution*.|Il y a toujours une solution.
+B1|stress|n|stress|I'm under a lot of *stress*.|Je suis très stressé.
+B1|success|n|succès;réussite|The party was a *success*.|La fête a été un succès.
+B1|traffic|n|circulation;trafic;embouteillages|There's a lot of *traffic* today.|Il y a beaucoup de circulation aujourd'hui.
+B1|truth|n|vérité|Tell me the *truth*.|Dis-moi la vérité.
+B1|journey|n|trajet;voyage|How was your *journey*?|Ton trajet s'est bien passé ?
+B1|appointment|n|rendez-vous|I have a doctor's *appointment*.|J'ai rendez-vous chez le médecin.
+B1|guest|n|invité;client|We have *guests* tonight.|On a des invités ce soir.
+B1|stranger|n|inconnu;étranger|Don't talk to *strangers*.|Ne parle pas aux inconnus.
+B1|neighbourhood|n|quartier|It's a nice *neighbourhood*.|C'est un quartier sympa.
+B1|rubbish|n|déchets;ordures;n'importe quoi|Take out the *rubbish*, please.|Sors les poubelles, s'il te plaît.
+B1|available|adj|disponible;libre|Is this seat *available*?|Cette place est libre ?
+B1|aware|adj|conscient;au courant|Are you *aware* of the problem?|Tu es au courant du problème ?
+B1|certain|adj|certain;sûr|Are you *certain*?|Tu en es sûr ?
+B1|comfortable|adj|confortable;à l'aise|This sofa is very *comfortable*.|Ce canapé est très confortable.
+B1|common|adj|courant;commun;fréquent|It's a *common* mistake.|C'est une erreur courante.
+B1|confident|adj|sûr de soi;confiant|She's very *confident*.|Elle est très sûre d'elle.
+B1|confused|adj|perdu;confus|I'm a bit *confused*.|Je suis un peu perdu.
+B1|disappointed|adj|déçu|I'm *disappointed* with the results.|Je suis déçu des résultats.
+B1|embarrassed|adj|gêné;mal à l'aise|I was so *embarrassed*!|J'avais tellement honte !
+B1|excited|adj|impatient;enthousiaste;excité|I'm so *excited* about the trip!|J'ai trop hâte de partir en voyage !
+B1|fair|adj|juste;équitable|It's not *fair*!|Ce n'est pas juste !
+B1|familiar|adj|familier|Your face looks *familiar*.|Ton visage me dit quelque chose.
+B1|healthy|adj|sain;en bonne santé|I try to eat *healthy* food.|J'essaie de manger sain.
+B1|honest|adj|honnête|To be *honest*, I don't like it.|Pour être honnête, je n'aime pas ça.
+B1|huge|adj|énorme|Their house is *huge*.|Leur maison est énorme.
+B1|lazy|adj|paresseux;fainéant|Don't be *lazy*!|Ne sois pas paresseux !
+B1|lucky|adj|chanceux|You're so *lucky*!|Tu as trop de chance !
+B1|necessary|adj|nécessaire|Is it *necessary*?|C'est nécessaire ?
+B1|normal|adj|normal|It's *normal* to be nervous.|C'est normal d'être stressé.
+B1|patient|adj|patient|Be *patient*.|Sois patient.
+B1|polite|adj|poli|Be *polite* to the guests.|Sois poli avec les invités.
+B1|possible|adj|possible|Is it *possible* to change my seat?|C'est possible de changer de place ?
+B1|proud|adj|fier|I'm *proud* of you.|Je suis fier de toi.
+B1|recent|adj|récent|It's a *recent* photo.|C'est une photo récente.
+B1|responsible|adj|responsable|Who is *responsible* for this?|Qui est responsable de ça ?
+B1|serious|adj|sérieux;grave|Are you *serious*?|Tu es sérieux ?
+B1|similar|adj|similaire;semblable;pareil|Our ideas are *similar*.|Nos idées se ressemblent.
+B1|strange|adj|bizarre;étrange|That's *strange*.|C'est bizarre.
+B1|successful|adj|qui réussit;à succès;réussi|She's a *successful* lawyer.|C'est une avocate qui a réussi.
+B1|terrible|adj|horrible;affreux;terrible|The food was *terrible*.|La nourriture était horrible.
+B1|useful|adj|utile|This app is very *useful*.|Cette appli est très utile.
+B1|useless|adj|inutile;nul|This map is *useless*.|Ce plan ne sert à rien.
+B1|upset|adj|contrarié;vexé;bouleversé|She was *upset* about the news.|Elle était bouleversée par la nouvelle.
+B1|actually|adv|en fait;en réalité|*Actually*, I'm not hungry.|En fait, je n'ai pas faim.
+B1|anyway|adv|de toute façon;bref;en tout cas|*Anyway*, I have to go.|Bref, je dois y aller.
+B1|apparently|adv|apparemment|*Apparently*, she's moving.|Apparemment, elle déménage.
+B1|completely|adv|complètement;totalement|I *completely* forgot.|J'ai complètement oublié.
+B1|definitely|adv|vraiment;sans aucun doute;absolument|I'll *definitely* come.|Je viendrai, c'est sûr.
+B1|easily|adv|facilement|You can *easily* walk there.|Tu peux facilement y aller à pied.
+B1|exactly|adv|exactement|*Exactly*!|Exactement !
+B1|finally|adv|enfin;finalement|We *finally* arrived.|On est enfin arrivés.
+B1|hardly|adv|à peine;presque pas|I can *hardly* hear you.|Je t'entends à peine.
+B1|immediately|adv|immédiatement;tout de suite|Come here *immediately*!|Viens ici tout de suite !
+B1|instead|adv|à la place;plutôt|Let's take the train *instead*.|Prenons plutôt le train.
+B1|nearly|adv|presque;failli|I *nearly* fell.|J'ai failli tomber.
+B1|recently|adv|récemment;dernièrement|I've been busy *recently*.|J'ai été occupé ces derniers temps.
+B1|suddenly|adv|soudain;tout à coup|*Suddenly*, the lights went out.|Tout à coup, la lumière s'est éteinte.
+B1|unfortunately|adv|malheureusement|*Unfortunately*, I can't come.|Malheureusement, je ne peux pas venir.
+B1|otherwise|adv|sinon;autrement|Hurry up, *otherwise* we'll be late.|Dépêche-toi, sinon on va être en retard.
+B1|although|conj|bien que;même si|*Although* it was raining, we went out.|Même s'il pleuvait, on est sortis.
+B1|however|adv|cependant;pourtant;toutefois|It's cheap. *However*, it's far.|C'est pas cher. Par contre, c'est loin.
+B1|unless|conj|à moins que;sauf si|I'll come *unless* it rains.|Je viendrai sauf s'il pleut.
+B1|while|conj|pendant que;alors que|I cook *while* he cleans.|Je cuisine pendant qu'il fait le ménage.
+B1|whether|conj|si|I don't know *whether* he's coming.|Je ne sais pas s'il vient.
+B1|despite|prep|malgré|We went out *despite* the rain.|On est sortis malgré la pluie.
+B1|towards|prep|vers|He walked *towards* me.|Il a marché vers moi.
+B1|across|prep|de l'autre côté de;à travers|The bank is *across* the road.|La banque est de l'autre côté de la route.
+B1|through|prep|à travers;par|We walked *through* the park.|On a traversé le parc à pied.
+B1|against|prep|contre|I'm *against* this idea.|Je suis contre cette idée.
+B1|by the way|phr|au fait;d'ailleurs|*By the way*, did you call Tom?|Au fait, tu as appelé Tom ?
+B1|as soon as|conj|dès que;aussitôt que|Call me *as soon as* you arrive.|Appelle-moi dès que tu arrives.
+B1|in the end|phr|finalement;au final|*In the end*, we stayed at home.|Finalement, on est restés à la maison.
+B1|at least|phr|au moins|*At least* it's not raining.|Au moins, il ne pleut pas.
+B1|on purpose|phr|exprès|He did it *on purpose*.|Il l'a fait exprès.
+B1|it's up to you|phr|c'est toi qui vois;c'est à toi de décider|Pizza or pasta? *It's up to you*.|Pizza ou pâtes ? C'est toi qui vois.
+B1|never mind|phr|tant pis;laisse tomber;ce n'est pas grave|*Never mind*, I'll do it.|Laisse tomber, je vais le faire.
+B1|make sure|v|s'assurer;vérifier|*Make sure* the door is locked.|Vérifie que la porte est fermée à clé.
+B1|be used to|v|être habitué à;avoir l'habitude de|I'm *used to* getting up early.|J'ai l'habitude de me lever tôt.
+B1|used to|v|faisait avant (habitude passée);avant;avoir l'habitude de|I *used to* play the piano.|Avant, je jouais du piano.
+B1|look forward to|v|avoir hâte de;attendre avec impatience|I *look forward to* seeing you.|J'ai hâte de te voir.
+B1|take place|v|avoir lieu|The concert *takes place* on Friday.|Le concert a lieu vendredi.
+B1|pay attention|v|faire attention|*Pay attention* to the road.|Fais attention à la route.

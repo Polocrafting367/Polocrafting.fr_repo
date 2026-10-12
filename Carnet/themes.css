@@ -1,0 +1,896 @@
+/* ===================================================================================
+   Thèmes fantaisie (Réglages → Apparence → Thèmes fantaisie)
+   Chaque thème = :root[data-skin=…], posé sur un thème de base (clair ou sombre).
+   Il habille tout : barres, notes, fenêtres, menus, boutons, champs, cases, bulles,
+   volet latéral (PC) et notifications, avec ses formes et ses emplacements.
+   =================================================================================== */
+
+/* ---------- Commun ---------- */
+:root[data-skin] .tabs .ic{color:inherit;background:none!important}
+:root[data-skin] .tabs button.on .ic svg{animation:none}
+
+/* ---------- Fenêtres (XP, Vista, Windows 3.1) ----------
+   Notes, sections des réglages, dialogues et fiche tâche deviennent de vraies fenêtres :
+   cadre, barre de titre avec son titre et ses boutons. Variables propres à chaque thème :
+   --wbar barre, --wbtn boutons de la barre, --wi texte, --wf cadre, --wr arrondi, --wh hauteur. */
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) :is(.grid:not(.v-compact) .note,.card.sg,.dlg,.sheet){border:var(--wf);border-radius:var(--wr);box-shadow:var(--wshadow);overflow:hidden}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) :is(.grid:not(.v-compact) .note,.dlg,.sheet){padding-top:0}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) :is(.grid:not(.v-compact) .note,.dlg,.sheet)::before{display:block;flex:none;height:var(--wh);line-height:var(--wh);background:var(--wbtn),var(--wbar);color:var(--wi);font:var(--wfont);text-align:var(--wta,left);text-shadow:var(--wts,none);padding:0 var(--wpr,62px) 0 var(--wpl,8px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .grid:not(.v-compact) .note::before{content:attr(data-t);margin:0 -14px 8px;background:var(--wbar);padding:0 10px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .grid.v-grid .note::before{margin:0 -12px 6px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .grid:not(.v-compact) .note h3{display:none}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .grid:not(.v-compact) .note .n-imgs{margin-top:-8px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .note .sel-mark{top:calc(var(--wh) + 6px)}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .note .pin-mark{margin-top:2px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .dlg::before{content:'Rappels';margin:0 -20px 12px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .dlg.menu::before{content:'Menu'}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .sheet::before{content:'Tâche';margin:0 -16px 10px}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .sheet .grab{display:none}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .card.sg>summary{background:var(--wbar);color:var(--wi);text-shadow:var(--wts,none);padding:7px 10px;min-height:var(--wh)}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .card.sg>summary :is(h2,.sg-hint){color:inherit}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .card.sg>summary::after{border-color:currentColor}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .card.sg .sg-body{border-top:0}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .editor{border:var(--wf)}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .ed-top{background:var(--wbar);color:var(--wi)}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .ed-top :is(.icon-btn,.ed-status){color:var(--wi)}
+@media (min-width:900px){:root:is([data-skin=xp],[data-skin=vista],[data-skin=win31]) .editor{border-radius:var(--wr)}}
+
+/* Barre du bas pleine largeur, collée en bas */
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=kitkat],[data-skin=froyo],[data-skin=win31],[data-skin=ios6],[data-skin=metro],[data-skin=gameboy],[data-skin=crt],[data-skin=mac84]) .tabs{left:0;right:0;bottom:0;width:auto;max-width:none;transform:none;border-radius:0;border-width:1px 0 0;padding:0 0 env(safe-area-inset-bottom);gap:0;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=kitkat],[data-skin=froyo],[data-skin=win31],[data-skin=ios6],[data-skin=metro],[data-skin=gameboy],[data-skin=crt],[data-skin=mac84]) .tabs button{border-radius:0;padding:8px 0}
+:root:is([data-skin=xp],[data-skin=vista],[data-skin=kitkat],[data-skin=froyo],[data-skin=win31],[data-skin=ios6],[data-skin=metro],[data-skin=gameboy],[data-skin=crt],[data-skin=mac84]) .fab{bottom:calc(74px + env(safe-area-inset-bottom))}
+@media (min-width:900px){:root[data-skin] .fab{bottom:28px}}
+
+/* Thèmes anguleux : aucun arrondi nulle part */
+:root:is([data-skin=win31],[data-skin=metro],[data-skin=gameboy],[data-skin=crt]) *,
+:root:is([data-skin=win31],[data-skin=metro],[data-skin=gameboy],[data-skin=crt]) *::before,
+:root:is([data-skin=win31],[data-skin=metro],[data-skin=gameboy],[data-skin=crt]) *::after{border-radius:0!important}
+/* KitKat (Holo) : carré partout, comme à l'époque (seul le voyant de synchro reste rond) */
+:root[data-skin=kitkat] *,:root[data-skin=kitkat] *::before,:root[data-skin=kitkat] *::after{border-radius:0!important}
+:root[data-skin=kitkat] .dot{border-radius:50%!important}
+
+/* ===================================================================================
+   Liquid Glass (iOS 26) : fond coloré, verre clair, reflets, pilules flottantes
+   =================================================================================== */
+:root[data-skin=glass]{
+  --bg:#eef1f8; --surface:rgba(255,255,255,.5); --surface2:rgba(255,255,255,.62); --text:#0f1117; --muted:#4b5262; --line:rgba(255,255,255,.75);
+  --radius:26px; --shadow:0 8px 28px rgba(40,50,120,.10),inset 0 1px 0 rgba(255,255,255,.9);
+  --bar-bg:rgba(255,255,255,.4); --bar-line:rgba(255,255,255,.85); --bar-shadow:0 10px 30px rgba(40,50,120,.16),inset 0 1px 1px #fff;
+  --c-red:rgba(255,140,130,.42); --c-orange:rgba(255,185,110,.44); --c-yellow:rgba(255,226,110,.46); --c-green:rgba(140,225,150,.42); --c-teal:rgba(110,220,210,.4);
+  --c-blue:rgba(130,180,255,.42); --c-purple:rgba(185,150,255,.4); --c-pink:rgba(255,150,205,.4); --c-brown:rgba(210,170,130,.4); --c-gray:rgba(190,198,210,.42);
+  --glass:blur(24px) saturate(1.9);
+}
+:root[data-skin=glass] body{font-family:-apple-system,"SF Pro Text",system-ui,sans-serif;background:radial-gradient(at 12% 8%,#8ec5ff 0,transparent 42%),radial-gradient(at 88% 18%,#d5a6ff 0,transparent 42%),radial-gradient(at 75% 88%,#ffc39e 0,transparent 48%),radial-gradient(at 8% 92%,#9ff0d4 0,transparent 42%),#eef1f8;background-attachment:fixed}
+:root[data-skin=glass] :is(.note,.task,.card,.chip-btn,.search,.gal-row,.day-prog,.takenote,.vseg,.cm-day){border-color:rgba(255,255,255,.8)}
+:root[data-skin=glass] :is(.top,.tabs,.selbar,.side,.dlg,.sheet,.pop-menu,.ed-link,.toast,.editor,.editor::before,.editor::after){-webkit-backdrop-filter:var(--glass);backdrop-filter:var(--glass)}
+/* Fonds de fenêtre : du verre clair et flou, jamais un voile sombre (la note ne s'assombrit plus) */
+:root[data-skin=glass] :is(.backdrop,.dlg-backdrop,.ed-backdrop){background:rgba(255,255,255,.22);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+:root[data-skin=glass] .editor{background-color:color-mix(in srgb,var(--card,rgba(255,255,255,.4)) 45%,rgba(255,255,255,.95))}
+:root[data-skin=glass] :is(.dlg,.sheet,.pop-menu,.ed-link,.selbar){background-color:rgba(255,255,255,.72)}
+:root[data-skin=glass] .sheet{background-color:color-mix(in srgb,var(--card,rgba(255,255,255,.4)) 55%,rgba(255,255,255,.85))}
+:root[data-skin=glass] .dlg{border-radius:30px;border:1px solid rgba(255,255,255,.9);box-shadow:0 24px 60px rgba(40,50,120,.25),inset 0 1px 1px #fff}
+:root[data-skin=glass] .pop-menu{border-radius:22px;border-color:rgba(255,255,255,.9)}
+:root[data-skin=glass] .pop-menu button{border-radius:14px}
+:root[data-skin=glass] .tabs{border-radius:32px;padding:5px}
+:root[data-skin=glass] .tabs button{border-radius:26px}
+:root[data-skin=glass] .tabs button.on{background:rgba(255,255,255,.75);box-shadow:inset 0 1px 1px #fff,0 2px 10px rgba(40,50,120,.14);color:var(--accent)}
+:root[data-skin=glass] .top{border-radius:0 0 28px 28px}
+:root[data-skin=glass] .fab{border-radius:50%;background:rgba(255,255,255,.45);color:var(--accent);-webkit-backdrop-filter:var(--glass);backdrop-filter:var(--glass);box-shadow:0 8px 24px rgba(40,50,120,.2),inset 0 1px 1px #fff,inset 0 0 0 1px rgba(255,255,255,.75)}
+:root[data-skin=glass] :is(.btn,.cal-today){background:rgba(255,255,255,.6);box-shadow:inset 0 1px 0 #fff,0 1px 4px rgba(40,50,120,.12)}
+:root[data-skin=glass] .btn.primary{background:var(--accent);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 4px 12px color-mix(in srgb,var(--accent) 40%,transparent)}
+:root[data-skin=glass] .btn.danger-text{background:none;box-shadow:none}
+:root[data-skin=glass] .seg{background:rgba(255,255,255,.35);box-shadow:inset 0 0 0 1px rgba(255,255,255,.7)}
+:root[data-skin=glass] .seg button.on{background:rgba(255,255,255,.9);box-shadow:0 2px 8px rgba(40,50,120,.15);color:var(--text)}
+:root[data-skin=glass] .chip-btn.on{background:rgba(255,255,255,.85);color:var(--accent)}
+:root[data-skin=glass] .chip{background:rgba(255,255,255,.55);border-color:rgba(255,255,255,.85)}
+:root[data-skin=glass] .switch{background:rgba(120,120,128,.18);border-color:transparent;width:51px;height:31px}
+:root[data-skin=glass] .switch::after{width:27px;height:27px;box-shadow:0 3px 8px rgba(0,0,0,.18)}
+:root[data-skin=glass] .switch:checked{background:#34c759;border-color:#34c759}
+:root[data-skin=glass] .switch:checked::after{transform:translateX(20px)}
+:root[data-skin=glass] .toast{background:rgba(255,255,255,.7);color:var(--text);border:1px solid rgba(255,255,255,.9);border-radius:24px;box-shadow:0 10px 30px rgba(40,50,120,.2)}
+:root[data-skin=glass] .toast button{color:var(--accent)}
+:root[data-skin=glass] .side{background:rgba(255,255,255,.35);border-color:rgba(255,255,255,.8)}
+:root[data-skin=glass] .nav-item.on{background:rgba(255,255,255,.75);color:var(--accent);box-shadow:inset 0 1px 1px #fff}
+:root[data-skin=glass] .cm-day.td .cm-n,:root[data-skin=glass] .cw-dh.td b{background:var(--accent)}
+
+/* Pas d'onde « Material » sur les systèmes d'avant (seul Liquid Glass la garde) */
+:root[data-skin]:not([data-skin=glass]) .ripple{display:none}
+
+/* ===================================================================================
+   Windows XP (Luna bleu) — fenêtres, barre des tâches et « démarrer », volet des tâches
+   =================================================================================== */
+:root[data-skin=xp]{
+  --bg:#ece9d8; --surface:#fff; --surface2:#f4f3ee; --text:#000; --muted:#5a5a5a; --line:color-mix(in srgb,var(--accent) 35%,#a3a9b0);
+  --radius:3px; --shadow:none; --bar-shadow:none; --accent-ink:color-mix(in srgb,var(--accent) 70%,#000);
+  --wbar:linear-gradient(color-mix(in srgb,var(--accent) 62%,#fff),var(--accent) 8%,var(--accent) 40%,color-mix(in srgb,var(--accent) 88%,#fff) 88%,color-mix(in srgb,var(--accent) 92%,#fff) 95%,color-mix(in srgb,var(--accent) 78%,#000));
+  --wbtn:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cdefs%3E%3ClinearGradient id='r' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ea8a6d'/%3E%3Cstop offset='1' stop-color='%23c23c1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='.5' y='.5' width='20' height='20' rx='3' fill='url(%23r)' stroke='%23fff'/%3E%3Cpath d='M6 6l9 9M15 6l-9 9' stroke='%23fff' stroke-width='2.4'/%3E%3C/svg%3E") right 4px center/19px 19px no-repeat;
+  --wi:#fff; --wf:3px solid color-mix(in srgb,var(--accent) 85%,#000); --wr:8px 8px 3px 3px; --wh:28px; --wpr:32px;
+  --wfont:700 13.5px/28px "Trebuchet MS",Tahoma,sans-serif; --wts:1px 1px color-mix(in srgb,var(--accent) 40%,#000);
+  --wshadow:2px 3px 8px rgba(0,0,0,.3);
+  --xp-btn:linear-gradient(#fff,#f3f3ef 40%,#ecebe6 86%,#d6d0c5);
+}
+:root[data-skin=xp] body{font-family:Tahoma,Verdana,"Segoe UI",sans-serif;background:#ece9d8}
+:root[data-skin=xp] :is(.top,.selbar){background:var(--wbar);color:#fff;border:0;border-radius:0;box-shadow:0 2px 4px rgba(0,0,0,.25);-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=xp] .top{border-radius:0 0 6px 6px}
+:root[data-skin=xp] :is(.top,.selbar) :is(.icon-btn,.sub,b,.offline-lbl){color:#fff}
+:root[data-skin=xp] .top h1{font-family:"Trebuchet MS",Tahoma,sans-serif;text-shadow:1px 1px color-mix(in srgb,var(--accent) 40%,#000)}
+/* Barre des tâches */
+:root[data-skin=xp] .tabs{background:linear-gradient(color-mix(in srgb,var(--accent) 85%,#fff),color-mix(in srgb,var(--accent) 65%,#fff) 6%,var(--accent) 18%,var(--accent) 82%,color-mix(in srgb,var(--accent) 75%,#000));border-color:color-mix(in srgb,var(--accent) 50%,#000);padding:3px 3px calc(3px + env(safe-area-inset-bottom));gap:3px}
+:root[data-skin=xp] .tabs button{color:#fff;border-radius:3px;padding:5px 0;background:linear-gradient(color-mix(in srgb,var(--accent) 60%,#fff),color-mix(in srgb,var(--accent) 85%,#fff) 15%,var(--accent) 85%,color-mix(in srgb,var(--accent) 85%,#000));box-shadow:inset 0 0 0 1px rgba(0,0,0,.25),inset 1px 1px rgba(255,255,255,.35);text-shadow:1px 1px rgba(0,0,0,.4)}
+:root[data-skin=xp] .tabs button.on{background:linear-gradient(color-mix(in srgb,var(--accent) 65%,#000),color-mix(in srgb,var(--accent) 78%,#000));box-shadow:inset 1px 1px 3px rgba(0,0,0,.6);font-weight:700}
+:root[data-skin=xp] .fab{border-radius:6px;background:linear-gradient(#64c053,#3c8d2f 45%,#2f7a26 90%,#2a6a22);border:1px solid #1e5a17;box-shadow:inset 0 1px 1px rgba(255,255,255,.6),2px 2px 5px rgba(0,0,0,.4)}
+:root[data-skin=xp] .fab svg{filter:drop-shadow(1px 1px 1px rgba(0,0,0,.5))}
+/* PC : vraie barre des tâches en bas de l'écran, « démarrer » à gauche */
+@media (min-width:900px){
+  :root[data-skin=xp] body::after{content:'';position:fixed;left:0;right:0;bottom:0;height:34px;z-index:24;background:linear-gradient(90deg,transparent calc(100% - 120px),color-mix(in srgb,var(--accent) 80%,#000) calc(100% - 120px),color-mix(in srgb,var(--accent) 80%,#000) calc(100% - 119px),color-mix(in srgb,var(--accent) 70%,#fff) calc(100% - 119px)),linear-gradient(color-mix(in srgb,var(--accent) 85%,#fff),color-mix(in srgb,var(--accent) 65%,#fff) 6%,var(--accent) 18%,var(--accent) 82%,color-mix(in srgb,var(--accent) 75%,#000));border-top:1px solid color-mix(in srgb,var(--accent) 50%,#000)}
+  :root[data-skin=xp] .fab{bottom:50px}
+  :root[data-skin=xp] .side{bottom:34px}
+  :root[data-skin=xp] main{padding-bottom:80px}
+  :root[data-skin=xp] .toast{left:auto;right:12px;bottom:44px;transform:translateY(10px)}
+  :root[data-skin=xp] .toast.show{transform:none}
+}
+/* Volet des tâches de l'Explorateur (PC) */
+:root[data-skin=xp] .side{background:linear-gradient(color-mix(in srgb,var(--accent) 55%,#fff),color-mix(in srgb,var(--accent) 78%,#fff));border-right:1px solid color-mix(in srgb,var(--accent) 70%,#000);padding:12px;gap:0}
+:root[data-skin=xp] :is(.side .brand,.side-h){margin:12px 0 0;padding:6px 12px;border-radius:5px 5px 0 0;background:linear-gradient(90deg,#fff,color-mix(in srgb,var(--accent) 25%,#fff));color:color-mix(in srgb,var(--accent) 85%,#000);font:700 13px Tahoma,sans-serif;text-transform:none;letter-spacing:0}
+:root[data-skin=xp] .side .brand{margin-top:0;font-size:15px}
+:root[data-skin=xp] .side .brand img{width:22px;height:22px}
+:root[data-skin=xp] .nav-item{background:color-mix(in srgb,var(--accent) 17%,#fff);color:color-mix(in srgb,var(--accent) 85%,#000);border-radius:0;padding:6px 12px;font-size:13.5px;gap:10px}
+:root[data-skin=xp] .nav-item svg{width:18px;height:18px}
+:root[data-skin=xp] .nav-item:hover{background:color-mix(in srgb,var(--accent) 17%,#fff);text-decoration:underline}
+:root[data-skin=xp] .nav-item.on{background:color-mix(in srgb,var(--accent) 17%,#fff);color:var(--accent-ink);font-weight:700}
+:root[data-skin=xp] .side-sp{background:none}
+:root[data-skin=xp] .side-foot{background:color-mix(in srgb,var(--accent) 17%,#fff);color:color-mix(in srgb,var(--accent) 85%,#000);border:0;border-radius:0 0 5px 5px;margin-top:12px;padding:10px}
+:root[data-skin=xp] .side-foot b{color:var(--accent-ink)}
+/* Boutons */
+:root[data-skin=xp] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.vseg button){background:var(--xp-btn);border:1px solid color-mix(in srgb,var(--accent) 45%,#000);border-radius:3px;color:#000;font-weight:400;box-shadow:none}
+:root[data-skin=xp] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.vseg button):hover{box-shadow:inset 0 -2px #f8b636,inset 0 2px #fedf9c,inset 2px 0 #fedf9c,inset -2px 0 #fedf9c}
+:root[data-skin=xp] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.vseg button):active{background:linear-gradient(#cdcac3,#e3e2da 15%,#ecebe6)}
+:root[data-skin=xp] .btn.primary{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 25%,#fff),inset 0 0 0 2px color-mix(in srgb,var(--accent) 60%,#fff);font-weight:700}
+:root[data-skin=xp] .btn.danger-text{background:none;border:0;color:#c00;text-decoration:underline}
+:root[data-skin=xp] :is(.chip-btn.on,.days button.on,.vseg button.on){background:linear-gradient(#e0ded6,#f2f1ec);box-shadow:inset 1px 1px 2px rgba(0,0,0,.35);color:#000;font-weight:700}
+:root[data-skin=xp] .vseg{background:none;border:0;padding:0;gap:2px}
+:root[data-skin=xp] .vseg button{width:32px;height:30px}
+:root[data-skin=xp] .icon-btn{border-radius:3px}
+:root[data-skin=xp] .icon-btn:hover{background:var(--xp-btn);box-shadow:inset 0 0 0 1px #c4c0b0}
+:root[data-skin=xp] .quick .icon-btn{background:var(--xp-btn);color:#000;border:1px solid color-mix(in srgb,var(--accent) 45%,#000)}
+/* Onglets (contrôle segmenté) */
+:root[data-skin=xp] .seg{background:none;border-bottom:1px solid #919b9c;border-radius:0;padding:0;gap:2px;box-shadow:none}
+:root[data-skin=xp] .seg button{border:1px solid #919b9c;border-bottom:0;border-radius:3px 3px 0 0;background:linear-gradient(#fff,#ecebe6);color:#000}
+:root[data-skin=xp] .seg button.on{background:#fcfcfe;box-shadow:inset 0 3px #ffc73c;color:#000;margin-bottom:-1px}
+/* Champs */
+:root[data-skin=xp] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select,.search){background:#fff!important;border:1px solid color-mix(in srgb,var(--accent) 35%,#a3a9b0)!important;border-radius:0!important;box-shadow:none}
+:root[data-skin=xp] .search input{border:0!important}
+:root[data-skin=xp] .quick input{border-radius:0}
+/* Cases à cocher XP (tâches, notes, éditeur, interrupteurs) */
+:root[data-skin=xp] :is(.chk,.md .cbx,.switch){width:18px;height:18px;border:1px solid color-mix(in srgb,var(--accent) 55%,#000);border-radius:0;background:linear-gradient(135deg,#dcdcd7,#fff);margin:3px 4px 0}
+:root[data-skin=xp] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7l3 3 5-6' fill='none' stroke='%2321a121' stroke-width='2.4'/%3E%3C/svg%3E") center/14px no-repeat,linear-gradient(135deg,#dcdcd7,#fff);border-color:color-mix(in srgb,var(--accent) 55%,#000)}
+:root[data-skin=xp] :is(.chk,.md .cbx) svg,:root[data-skin=xp] .switch::after{display:none}
+:root[data-skin=xp] .live .pfx-ck::before{border:1px solid color-mix(in srgb,var(--accent) 55%,#000);border-radius:0;background:linear-gradient(135deg,#dcdcd7,#fff)}
+:root[data-skin=xp] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7l3 3 5-6' fill='none' stroke='%2321a121' stroke-width='2.4'/%3E%3C/svg%3E") center/14px no-repeat,#fff}
+:root[data-skin=xp] .live .ck.on .pfx-ck::after{display:none}
+/* Conteneurs */
+:root[data-skin=xp] :is(.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats){border-radius:0;border:1px solid color-mix(in srgb,var(--accent) 35%,#a3a9b0)}
+:root[data-skin=xp] .task.sel,:root[data-skin=xp] .note.sel{outline:2px dotted #000;outline-offset:2px}
+:root[data-skin=xp] .chip{border-radius:2px;background:#fff;border-color:color-mix(in srgb,var(--accent) 35%,#a3a9b0);color:#000}
+:root[data-skin=xp] .group-h{color:color-mix(in srgb,var(--accent) 85%,#000);font:700 13px Tahoma,sans-serif;text-transform:none;letter-spacing:0;padding-bottom:3px;border-bottom:1px solid;border-image:linear-gradient(90deg,color-mix(in srgb,var(--accent) 60%,#fff),transparent) 1}
+:root[data-skin=xp] .sg-ic{background:rgba(255,255,255,.2);color:#fff;border-radius:3px}
+:root[data-skin=xp] :is(.ed-tools,.ed-pop,.ed-tcolors){background:linear-gradient(#fbfbf9,#ece9d8);border-top:1px solid #aca899}
+/* Menus */
+:root[data-skin=xp] .pop-menu{border-radius:0;border:1px solid #aca899;box-shadow:2px 2px 4px rgba(0,0,0,.4);padding:2px;animation:none}
+:root[data-skin=xp] :is(.pop-menu button,.dlg-items button){border-radius:0}
+:root[data-skin=xp] :is(.pop-menu button,.dlg-items button) svg{color:color-mix(in srgb,var(--accent) 85%,#000)}
+:root[data-skin=xp] :is(.pop-menu button,.dlg-items button):hover{background:color-mix(in srgb,var(--accent) 28%,#fff);box-shadow:inset 0 0 0 1px var(--accent);color:#000}
+:root[data-skin=xp] .dlg-items button.danger svg{color:#c00}
+:root[data-skin=xp] .dlg{background:#ece9d8}
+:root[data-skin=xp] .dlg h3{font:700 15px Tahoma,sans-serif}
+:root[data-skin=xp] .dlg-btns .btn{min-width:84px;padding:5px 14px}
+:root[data-skin=xp] .sheet{background:#ece9d8}
+:root[data-skin=xp] .switch-row b{font-weight:400}
+/* Bulle de notification (zone de notification) */
+:root[data-skin=xp] .toast{background:#ffffe1;color:#000;border:1px solid #000;border-radius:8px;box-shadow:3px 3px 6px rgba(0,0,0,.35);font:13.5px Tahoma,sans-serif}
+:root[data-skin=xp] .toast::before{content:'i';flex:none;width:20px;height:20px;border-radius:50%;background:radial-gradient(circle at 35% 30%,color-mix(in srgb,var(--accent) 50%,#fff),var(--accent));color:#fff;font:700 14px/20px Georgia,serif;text-align:center}
+:root[data-skin=xp] .toast button{color:var(--accent-ink);text-decoration:underline}
+:root[data-skin=xp] .cm-day{background:#fff}
+:root[data-skin=xp] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--accent);border-radius:0}
+:root[data-skin=xp] .switch-row{gap:8px}
+@media (hover:hover){
+  :root[data-skin=xp] ::-webkit-scrollbar{width:17px;height:17px;background:#f4f4f0}
+  :root[data-skin=xp] ::-webkit-scrollbar-thumb{background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 25%,#fff),color-mix(in srgb,var(--accent) 33%,#fff) 50%,color-mix(in srgb,var(--accent) 40%,#fff));border:1px solid #fff;border-radius:3px;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 45%,#fff)}
+}
+
+/* ===================================================================================
+   Windows Vista (Aero) — cadres de verre, barre des tâches noire, orbe
+   =================================================================================== */
+:root[data-skin=vista]{
+  --bg:#cfe8ea; --surface:#fff; --surface2:#eef3f8; --text:#1e1e1e; --muted:#566576; --line:#a9c0d6;
+  --radius:6px; --shadow:0 1px 3px rgba(0,0,0,.2); --accent-ink:#1a5ea8;
+  --aero:linear-gradient(rgba(255,255,255,.55),rgba(255,255,255,.18) 50%,rgba(255,255,255,.04) 50%,rgba(255,255,255,.3));
+  --wbar:var(--aero),rgba(105,150,185,.7);
+  --wbtn:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 92 20'%3E%3Cdefs%3E%3ClinearGradient id='g' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='.6'/%3E%3Cstop offset='.5' stop-color='%23fff' stop-opacity='.15'/%3E%3Cstop offset='.5' stop-color='%23000' stop-opacity='.1'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='.25'/%3E%3C/linearGradient%3E%3ClinearGradient id='r' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23e8a493'/%3E%3Cstop offset='.5' stop-color='%23d0563c'/%3E%3Cstop offset='.5' stop-color='%23b42e14'/%3E%3Cstop offset='1' stop-color='%23d86a43'/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect x='.5' y='.5' width='25' height='17' rx='3' fill='url(%23g)' stroke='%233a4a5c'/%3E%3Cpath d='M8 12h10' stroke='%23fff' stroke-width='2.4'/%3E%0A%3Crect x='25.5' y='.5' width='25' height='17' rx='3' fill='url(%23g)' stroke='%233a4a5c'/%3E%3Crect x='33.5' y='4.5' width='9' height='8' fill='none' stroke='%23fff' stroke-width='1.6'/%3E%0A%3Crect x='50.5' y='.5' width='41' height='17' rx='3' fill='url(%23r)' stroke='%234a1c10'/%3E%3Cpath d='M66 5l9 8M75 5l-9 8' stroke='%23fff' stroke-width='2.2'/%3E%3C/svg%3E") right 6px top 0/84px 18px no-repeat;
+  --wi:#0d1a26; --wts:0 0 6px #fff,0 0 2px #fff; --wf:1px solid rgba(20,30,40,.7); --wr:7px; --wh:28px; --wpr:96px;
+  --wfont:400 13.5px/28px "Segoe UI",Tahoma,sans-serif;
+  --wshadow:0 0 0 5px rgba(150,195,225,.6),0 0 0 6px rgba(20,30,40,.55),0 10px 26px rgba(0,0,0,.35);
+  --vbtn:linear-gradient(#f2f2f2,#ebebeb 50%,#ddd 50%,#cfcfcf);
+  --vhover:linear-gradient(#eaf6fd,#d9f0fc 50%,#bee6fd 50%,#a7d9f5);
+}
+:root[data-skin=vista] body{font-family:"Segoe UI",Tahoma,sans-serif;background:radial-gradient(ellipse at 20% 105%,#8fe6bf 0,transparent 55%),radial-gradient(ellipse at 95% -5%,#6cc0e6 0,transparent 55%),linear-gradient(160deg,#e2f5f1,#a8dbe0 45%,#7cc8b8);background-attachment:fixed}
+:root[data-skin=vista] .grid:not(.v-compact) .note{margin:6px 6px 18px}
+:root[data-skin=vista] .card.sg{margin:6px 6px 16px}
+:root[data-skin=vista] :is(.top,.selbar){background:var(--aero),rgba(105,150,185,.45);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(0,0,0,.45);border-top:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.55),0 4px 14px rgba(0,0,0,.25);border-radius:0 0 8px 8px}
+:root[data-skin=vista] .top h1{text-shadow:0 0 10px #fff,0 0 3px #fff;font-weight:400}
+:root[data-skin=vista] .ed-top{background:linear-gradient(#e3eef9,#cbdcef 50%,#b9cfe8 50%,#c9dcf0);color:#0d1a26}
+/* Barre des tâches noire et orbe */
+:root[data-skin=vista] .tabs{background:linear-gradient(rgba(70,70,70,.9),rgba(15,15,15,.95) 50%,#000);border-color:#000;box-shadow:inset 0 1px rgba(255,255,255,.3);padding:3px 3px calc(3px + env(safe-area-inset-bottom));gap:3px}
+:root[data-skin=vista] .tabs button{color:#e8e8e8;border-radius:3px}
+:root[data-skin=vista] .tabs button.on{background:var(--aero),rgba(110,170,220,.25);box-shadow:inset 0 0 0 1px rgba(255,255,255,.45),0 0 8px rgba(120,190,255,.35);color:#fff}
+:root[data-skin=vista] .fab{border-radius:50%;background:radial-gradient(circle at 50% 26%,#e2f5ff 0,#5ab6f2 30%,#0c5aa8 66%,#062f5e);box-shadow:0 0 0 2px #0a2a4a,inset 0 2px 4px rgba(255,255,255,.8),0 0 18px rgba(80,180,255,.8)}
+@media (min-width:900px){
+  :root[data-skin=vista] body::after{content:'';position:fixed;left:0;right:0;bottom:0;height:36px;z-index:24;background:linear-gradient(rgba(70,70,70,.92),rgba(15,15,15,.96) 50%,#000);border-top:1px solid #000;box-shadow:inset 0 1px rgba(255,255,255,.3)}
+  :root[data-skin=vista] .fab{bottom:52px}
+  :root[data-skin=vista] .side{bottom:36px}
+  :root[data-skin=vista] main{padding-bottom:80px}
+  :root[data-skin=vista] .toast{left:auto;right:12px;bottom:46px;transform:translateY(10px)}
+  :root[data-skin=vista] .toast.show{transform:none}
+}
+/* Volet : colonne droite du menu Démarrer */
+:root[data-skin=vista] .side{background:linear-gradient(rgba(35,48,60,.9),rgba(10,16,22,.95));border-right:1px solid #000;box-shadow:inset -1px 0 rgba(255,255,255,.2);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+:root[data-skin=vista] .side :is(.brand,.nav-item,.side-foot b){color:#fff}
+:root[data-skin=vista] :is(.side-h,.side-foot){color:#a9b8c6}
+:root[data-skin=vista] .side-foot{border-color:rgba(255,255,255,.2)}
+:root[data-skin=vista] .nav-item{border-radius:3px}
+:root[data-skin=vista] .nav-item:hover{background:var(--aero),rgba(110,170,220,.25)}
+:root[data-skin=vista] .nav-item.on{background:var(--aero),rgba(110,170,220,.35);box-shadow:inset 0 0 0 1px rgba(255,255,255,.4);color:#fff}
+/* Boutons */
+:root[data-skin=vista] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.vseg button,.quick .icon-btn){background:var(--vbtn);border:1px solid #707070;border-radius:3px;color:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.7)}
+:root[data-skin=vista] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.vseg button,.quick .icon-btn):hover{background:var(--vhover);border-color:#3c7fb1}
+:root[data-skin=vista] .btn.primary{background:var(--vhover);border-color:#3c7fb1;animation:vistaGlow 2s ease-in-out infinite alternate}
+@keyframes vistaGlow{to{box-shadow:inset 0 0 0 1px rgba(255,255,255,.7),0 0 6px rgba(60,160,230,.8)}}
+:root[data-skin=vista] .btn.danger-text{background:none;border:0;box-shadow:none;color:#c00}
+:root[data-skin=vista] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){background:linear-gradient(#f1f8fd,#d5effc);border-color:#84acdd;box-shadow:inset 0 0 0 1px #fff;color:#000}
+:root[data-skin=vista] .vseg{background:none;border:0;padding:0;gap:2px}
+:root[data-skin=vista] .icon-btn{border-radius:3px}
+:root[data-skin=vista] .icon-btn:hover{background:var(--vhover);box-shadow:inset 0 0 0 1px #3c7fb1}
+:root[data-skin=vista] .seg{background:rgba(255,255,255,.4);border:1px solid #8ea4c1;border-radius:3px;padding:2px}
+:root[data-skin=vista] .seg button{border-radius:2px}
+:root[data-skin=vista] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select,.search){background:#fff!important;border:1px solid #abadb3!important;border-top-color:#707070!important;border-radius:2px!important}
+:root[data-skin=vista] .search input{border:0!important}
+:root[data-skin=vista] :is(input,textarea,select):focus{border-color:#3d7bad!important}
+:root[data-skin=vista] :is(.chk,.md .cbx,.switch){width:17px;height:17px;border:1px solid #8f8f8f;border-radius:2px;background:linear-gradient(135deg,#e8e8e8,#fafafa);box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 3px #cfdbe7;margin:3px 4px 0}
+:root[data-skin=vista] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.5l2.6 2.8L11 3.8' fill='none' stroke='%231a3b6e' stroke-width='2.2'/%3E%3C/svg%3E") center/13px no-repeat,linear-gradient(135deg,#e8e8e8,#fafafa);border-color:#8f8f8f}
+:root[data-skin=vista] :is(.chk,.md .cbx) svg,:root[data-skin=vista] .switch::after{display:none}
+:root[data-skin=vista] .live .pfx-ck::before{border:1px solid #8f8f8f;border-radius:2px;background:#fafafa}
+:root[data-skin=vista] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.5l2.6 2.8L11 3.8' fill='none' stroke='%231a3b6e' stroke-width='2.2'/%3E%3C/svg%3E") center/13px no-repeat,#fafafa}
+:root[data-skin=vista] .live .ck.on .pfx-ck::after{display:none}
+:root[data-skin=vista] :is(.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats){border:1px solid #a9c0d6;border-radius:5px;background-color:var(--card,rgba(255,255,255,.92))}
+:root[data-skin=vista] .chip{background:linear-gradient(#fff,#eef3f8);border-color:#a9c0d6;color:#1e395b}
+:root[data-skin=vista] .group-h{color:#1e395b;font-weight:400;font-size:15px;text-transform:none;letter-spacing:0;padding-bottom:3px;border-bottom:1px solid;border-image:linear-gradient(90deg,#1e395b,transparent) 1}
+:root[data-skin=vista] .sg-ic{background:rgba(255,255,255,.5);color:#1e395b}
+:root[data-skin=vista] .pop-menu{background:#f0f0f0;border:1px solid #979797;border-radius:0;box-shadow:3px 3px 4px rgba(0,0,0,.3);background-image:linear-gradient(90deg,transparent 31px,#e2e3e3 31px,#e2e3e3 32px,#fff 32px,#fff 33px,transparent 33px)}
+:root[data-skin=vista] :is(.pop-menu button,.dlg-items button){border-radius:3px;border:1px solid transparent}
+:root[data-skin=vista] :is(.pop-menu button,.dlg-items button):hover{background:linear-gradient(#f2f9fd,#dcf0fb);border-color:#a8d8eb}
+:root[data-skin=vista] .dlg{background:#f0f0f0}
+:root[data-skin=vista] .dlg h3{color:#003399;font-weight:400;font-size:17px}
+:root[data-skin=vista] .dlg-btns{margin:4px -20px -16px;padding:12px 20px;background:#f0f0f0;border-top:1px solid #dfdfdf}
+:root[data-skin=vista] .dlg-btns .btn{min-width:80px;padding:5px 14px}
+:root[data-skin=vista] .toast{background:linear-gradient(#fff,#e4eef8);color:#000;border:1px solid #7a8da3;border-radius:6px;box-shadow:0 3px 10px rgba(0,0,0,.3)}
+:root[data-skin=vista] .toast button{color:#0066cc}
+:root[data-skin=vista] :is(.cm-day.td .cm-n,.cw-dh.td b){background:linear-gradient(#5ab6f2,#1e7fcf)}
+
+/* ===================================================================================
+   Windows 3.1 — bureau bleu canard, fenêtres grises, Gestionnaire de programmes
+   =================================================================================== */
+:root[data-skin=win31]{
+  --bg:#008080; --surface:#fff; --surface2:#c0c0c0; --text:#000; --muted:#404040; --line:#000;
+  --radius:0; --shadow:none; --bar-shadow:none; --accent-ink:color-mix(in srgb,var(--accent) 80%,#000);
+  --c-red:#ff8080; --c-orange:#ffc080; --c-yellow:#ffff80; --c-green:#80ff80; --c-teal:#80ffff; --c-blue:#8080ff; --c-purple:#c080ff; --c-pink:#ff80ff; --c-brown:#c0a080; --c-gray:#c0c0c0;
+  --wbar:var(--accent); --wbtn:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Crect width='22' height='22' fill='%23c0c0c0'/%3E%3Cpath d='M0 .5h22M.5 0v22' stroke='%23fff'/%3E%3Cpath d='M0 21.5h22M21.5 0v22' stroke='%23000'/%3E%3Crect x='5' y='9' width='12' height='3' fill='%23fff' stroke='%23000'/%3E%3C/svg%3E") left top/22px 22px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 22'%3E%3Cg%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 9l5 5 5-5z' fill='%23000'/%3E%3C/g%3E%3Cg transform='translate(22)'%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 13l5-5 5 5z' fill='%23000'/%3E%3C/g%3E%3C/svg%3E") right top/44px 22px no-repeat;
+  --wi:#fff; --wf:4px solid #c0c0c0; --wr:0; --wh:22px; --wta:center; --wpl:28px; --wpr:50px;
+  --wfont:700 13px/22px "MS Sans Serif","Microsoft Sans Serif",Arial,sans-serif;
+  --wshadow:0 0 0 1px #000,inset 0 0 0 1px #000;
+  --bevel:inset -2px -2px #808080,inset 2px 2px #fff;
+}
+:root[data-skin=win31] body{font-family:"MS Sans Serif","Microsoft Sans Serif",Arial,sans-serif;background:#008080}
+:root[data-skin=win31] .grid:not(.v-compact) .note{margin-bottom:14px}
+:root[data-skin=win31] :is(.top,.selbar){background:#c0c0c0;color:#000;border:0;border-bottom:2px solid #000;box-shadow:var(--bevel);-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=win31] .top h1{font-size:20px}
+:root[data-skin=win31] :is(.top,.selbar) :is(.icon-btn,.sub,b){color:#000}
+:root[data-skin=win31] :is(.group-h,.empty,.list-head h2,.cal-title,.cm-head,.trash-info,.rq-hint){color:#fff}
+:root[data-skin=win31] .group-h{font-weight:700;letter-spacing:0}
+/* Gestionnaire de programmes : la navigation est une fenêtre d'icônes */
+:root[data-skin=win31] .tabs{background:#fff;border:0;border-top:4px solid #c0c0c0;box-shadow:0 -1px #000,inset 0 1px #000;padding-top:4px;overflow:visible}
+:root[data-skin=win31] .tabs::before{content:'Gestionnaire de programmes';position:absolute;left:0;right:0;bottom:100%;height:22px;margin-bottom:4px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Crect width='22' height='22' fill='%23c0c0c0'/%3E%3Cpath d='M0 .5h22M.5 0v22' stroke='%23fff'/%3E%3Cpath d='M0 21.5h22M21.5 0v22' stroke='%23000'/%3E%3Crect x='5' y='9' width='12' height='3' fill='%23fff' stroke='%23000'/%3E%3C/svg%3E") left top/22px 22px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 22'%3E%3Cg%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 9l5 5 5-5z' fill='%23000'/%3E%3C/g%3E%3Cg transform='translate(22)'%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 13l5-5 5 5z' fill='%23000'/%3E%3C/g%3E%3C/svg%3E") right top/44px 22px no-repeat,var(--accent);color:#fff;font:700 12.5px/22px Arial,sans-serif;text-align:center;border:1px solid #000;box-shadow:0 0 0 4px #c0c0c0}
+:root[data-skin=win31] .tabs button{color:#000;font-size:11px}
+:root[data-skin=win31] .tabs button.on{background:none;color:#fff;box-shadow:inset 0 -17px var(--accent)}
+:root[data-skin=win31] .tabs button.on .ic{color:#000;outline:1px dotted #000}
+:root[data-skin=win31] main{padding-bottom:calc(170px + env(safe-area-inset-bottom))}
+:root[data-skin=win31] .fab{bottom:calc(100px + env(safe-area-inset-bottom));background:#c0c0c0;color:#000;border:1px solid #000;box-shadow:var(--bevel)}
+:root[data-skin=win31] .fab:active{box-shadow:inset 2px 2px #808080}
+:root[data-skin=win31] .side{background:#fff;border:4px solid #c0c0c0;box-shadow:0 0 0 1px #000,inset 0 0 0 1px #000;padding-top:0}
+:root[data-skin=win31] .side::before{content:'Gestionnaire de programmes';display:block;flex:none;height:22px;margin:0 -12px 8px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Crect width='22' height='22' fill='%23c0c0c0'/%3E%3Cpath d='M0 .5h22M.5 0v22' stroke='%23fff'/%3E%3Cpath d='M0 21.5h22M21.5 0v22' stroke='%23000'/%3E%3Crect x='5' y='9' width='12' height='3' fill='%23fff' stroke='%23000'/%3E%3C/svg%3E") left top/22px 22px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 22'%3E%3Cg%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 9l5 5 5-5z' fill='%23000'/%3E%3C/g%3E%3Cg transform='translate(22)'%3E%3Crect width='22' height='22' fill='%23c0c0c0' stroke='%23000'/%3E%3Cpath d='M1 1.5h20M1.5 1v20' stroke='%23fff' stroke-width='2'/%3E%3Cpath d='M6 13l5-5 5 5z' fill='%23000'/%3E%3C/g%3E%3C/svg%3E") right top/44px 22px no-repeat,var(--accent);color:#fff;font:700 12.5px/22px Arial,sans-serif;text-align:center}
+:root[data-skin=win31] .nav-item{color:#000;padding:4px 10px}
+:root[data-skin=win31] .nav-item:hover{background:none}
+:root[data-skin=win31] .nav-item.on{background:var(--accent);color:#fff}
+:root[data-skin=win31] .side-foot{border-top:1px solid #000}
+:root[data-skin=win31] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.vseg button,.seg button,.quick .icon-btn){background:#c0c0c0;color:#000;border:1px solid #000;box-shadow:var(--bevel);font-weight:700}
+:root[data-skin=win31] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.vseg button,.seg button,.icon-btn):active{box-shadow:inset 2px 2px #808080;background:#c0c0c0}
+:root[data-skin=win31] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){box-shadow:inset 2px 2px #808080;background:#c0c0c0;color:#000}
+:root[data-skin=win31] .btn.primary{border-width:2px}
+:root[data-skin=win31] .btn.danger-text{background:none;border:0;box-shadow:none;color:#800000}
+:root[data-skin=win31] :is(.seg,.vseg){background:none;border:0;box-shadow:none;padding:0;gap:4px}
+:root[data-skin=win31] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select,.search){background:#fff!important;border:1px solid #000!important;color:#000}
+:root[data-skin=win31] .search input{border:0!important}
+:root[data-skin=win31] :is(.chk,.md .cbx,.switch){width:16px;height:16px;border:1px solid #000;background:#fff;margin:3px 4px 0}
+:root[data-skin=win31] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M2 2l10 10M12 2L2 12' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center/12px no-repeat,#fff;border-color:#000}
+:root[data-skin=win31] :is(.chk,.md .cbx) svg,:root[data-skin=win31] .switch::after{display:none}
+:root[data-skin=win31] .live .pfx-ck::before{border:1px solid #000;background:#fff}
+:root[data-skin=win31] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M2 2l10 10M12 2L2 12' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center/12px no-repeat,#fff}
+:root[data-skin=win31] .live .ck.on .pfx-ck::after{display:none}
+:root[data-skin=win31] :is(.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats){border:1px solid #000;box-shadow:none}
+:root[data-skin=win31] .chip{background:#fff;border-color:#000;color:#000}
+:root[data-skin=win31] .sg-ic{background:none;color:#fff}
+:root[data-skin=win31] :is(.ed-tools,.ed-pop,.ed-tcolors){background:#c0c0c0;border-top:1px solid #000}
+:root[data-skin=win31] .pop-menu{border:1px solid #000;box-shadow:2px 2px 0 #000;padding:0;animation:none;background:#fff}
+:root[data-skin=win31] :is(.pop-menu button,.dlg-items button):hover{background:var(--accent);color:#fff}
+:root[data-skin=win31] :is(.pop-menu button,.dlg-items button):hover svg{color:#fff}
+:root[data-skin=win31] .dlg,:root[data-skin=win31] .sheet{background:#fff}
+:root[data-skin=win31] .toast{background:#fff;color:#000;border:4px solid #c0c0c0;box-shadow:0 0 0 1px #000,inset 0 0 0 1px #000;font-weight:700}
+:root[data-skin=win31] .toast button{background:#c0c0c0;border:1px solid #000;box-shadow:var(--bevel);color:#000;padding:2px 10px}
+:root[data-skin=win31] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--accent);color:#fff}
+:root[data-skin=win31] :is(.backdrop,.dlg-backdrop){background:none}
+@media (hover:hover){
+  :root[data-skin=win31] ::-webkit-scrollbar{width:17px;height:17px;background:repeating-conic-gradient(#c0c0c0 0 25%,#fff 0 50%) 0 0/2px 2px}
+  :root[data-skin=win31] ::-webkit-scrollbar-thumb{background:#c0c0c0;border:1px solid #000;box-shadow:inset -2px -2px #808080,inset 2px 2px #fff}
+}
+
+/* ===================================================================================
+   Mac OS X Lion — Aqua affiné : barre unifiée, Dock, feuilles qui descendent, Growl
+   =================================================================================== */
+:root[data-skin=lion]{
+  --bg:#dcdee2; --surface:#fff; --surface2:#ececec; --text:#1a1a1a; --muted:#6a6a6a; --line:#c4c4c4;
+  --radius:6px; --shadow:0 1px 3px rgba(0,0,0,.22),0 0 0 1px rgba(0,0,0,.05); --accent-ink:#2463c7;
+  --metal:linear-gradient(#ececec,#d3d3d3);
+  --aqua:linear-gradient(#fff,#f1f1f1 50%,#e2e2e2 50%,#f4f4f4);
+  --aqua-blue:linear-gradient(#cfe6fc,#86bdf3 50%,#5aa1ee 50%,#92ccfb);
+}
+:root[data-skin=lion] body{font-family:"Lucida Grande","Helvetica Neue",Helvetica,Arial,sans-serif;background-color:#dcdee2;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.12) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(0,0,0,.035) 0 1px,transparent 1px 3px)}
+:root[data-skin=lion] :is(.top,.selbar,.ed-top){background:var(--metal);border:0;border-bottom:1px solid #9a9a9a;box-shadow:inset 0 1px #fafafa,0 1px 3px rgba(0,0,0,.15);-webkit-backdrop-filter:none;backdrop-filter:none;text-shadow:0 1px #fff}
+:root[data-skin=lion] .top{border-radius:0 0 7px 7px}
+:root[data-skin=lion] .top h1{font-weight:700;font-size:19px}
+:root[data-skin=lion] .ed-top{border-radius:0}
+:root[data-skin=lion] :is(.group-h,.side-h){color:#6f7c8a;font-size:11.5px;font-weight:700;letter-spacing:.04em;text-shadow:0 1px rgba(255,255,255,.8)}
+/* Dock : étagère de verre, petit point lumineux sous l'appli active */
+:root[data-skin=lion] .tabs{background:linear-gradient(rgba(255,255,255,.55),rgba(210,216,226,.82));border:1px solid rgba(255,255,255,.9);border-radius:8px 8px 4px 4px;box-shadow:0 8px 24px rgba(0,0,0,.32),inset 0 1px #fff,inset 0 -6px 8px -4px rgba(0,0,0,.12)}
+:root[data-skin=lion] .tabs button{color:#333;text-shadow:0 1px #fff}
+:root[data-skin=lion] .tabs button.on{background:none;box-shadow:none;color:#000}
+:root[data-skin=lion] .tabs button.on::after{content:'';position:absolute;bottom:0;left:50%;width:10px;height:4px;margin-left:-5px;border-radius:50%;background:radial-gradient(#fff,#8fd8ff 45%,transparent 75%);box-shadow:0 0 6px #7fd3ff}
+:root[data-skin=lion] .tabs button:active .ic{transform:translateY(-6px);transition:transform .12s}
+:root[data-skin=lion] .fab{border-radius:50%;background:var(--aqua-blue);color:#0b1a33;box-shadow:0 2px 6px rgba(0,0,0,.4),inset 0 1px 1px rgba(255,255,255,.9),inset 0 0 0 1px rgba(0,40,120,.35)}
+/* Boutons Aqua : pilules, bouton par défaut bleu qui « respire » */
+:root[data-skin=lion] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.quick .icon-btn){background:var(--aqua);border:1px solid #9a9a9a;border-radius:999px;color:#111;box-shadow:0 1px 1px rgba(0,0,0,.12);text-shadow:0 1px #fff}
+:root[data-skin=lion] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today):active{background:linear-gradient(#d8d8d8,#ececec)}
+:root[data-skin=lion] :is(.btn.primary,.install-btn,.quick .icon-btn,.days button.on){background:var(--aqua-blue);border-color:#4a6fa5;color:#0b1a33;animation:aquaPulse 1.6s ease-in-out infinite alternate}
+@keyframes aquaPulse{to{filter:brightness(1.12) saturate(1.15)}}
+:root[data-skin=lion] .btn.danger-text{background:none;border:0;box-shadow:none;color:var(--danger)}
+:root[data-skin=lion] .chip-btn.on{background:linear-gradient(#c9c9c9,#b8b8b8);box-shadow:inset 0 1px 3px rgba(0,0,0,.35);color:#000}
+:root[data-skin=lion] :is(.seg,.vseg){background:linear-gradient(#fdfdfd,#e2e2e2);border:1px solid #a6a6a6;border-radius:5px;padding:0;gap:0;box-shadow:0 1px 1px rgba(0,0,0,.08)}
+:root[data-skin=lion] :is(.seg,.vseg) button{border-radius:0;border-left:1px solid #b5b5b5}
+:root[data-skin=lion] :is(.seg,.vseg) button:first-child{border-left:0}
+:root[data-skin=lion] :is(.seg,.vseg) button.on{background:linear-gradient(#c9c9c9,#b8b8b8);box-shadow:inset 0 1px 3px rgba(0,0,0,.3);color:#000}
+:root[data-skin=lion] .vseg button{width:36px;height:28px}
+/* Champs creusés, halo bleu au focus, recherche arrondie */
+:root[data-skin=lion] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:#fff!important;border:1px solid #a5a5a5!important;border-radius:3px!important;box-shadow:inset 0 1px 2px rgba(0,0,0,.2)}
+:root[data-skin=lion] :is(input,textarea,select):focus{box-shadow:0 0 0 3px rgba(80,150,240,.55)!important;border-color:#6d9ce0!important}
+:root[data-skin=lion] .search{background:#fff;border:1px solid #a5a5a5;box-shadow:inset 0 1px 2px rgba(0,0,0,.22)}
+:root[data-skin=lion] .search input{border:0!important;box-shadow:none!important;background:none!important}
+:root[data-skin=lion] .quick input{border-radius:999px!important}
+/* Cases Aqua (pas d'interrupteurs sous Lion : une case à cocher) */
+:root[data-skin=lion] :is(.chk,.md .cbx,.switch){width:18px;height:18px;border:1px solid #8f8f8f;border-radius:4px;background:linear-gradient(#fff,#e6e6e6);box-shadow:inset 0 1px 1px #fff,0 1px 1px rgba(0,0,0,.1);margin:3px 4px 0}
+:root[data-skin=lion] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.5l2.8 3L11.5 3' fill='none' stroke='%230b1a33' stroke-width='2.2'/%3E%3C/svg%3E") center/13px no-repeat,var(--aqua-blue);border-color:#4a6fa5}
+:root[data-skin=lion] :is(.chk,.md .cbx) svg,:root[data-skin=lion] .switch::after{display:none}
+:root[data-skin=lion] .live .pfx-ck::before{border:1px solid #8f8f8f;border-radius:4px;background:linear-gradient(#fff,#e6e6e6)}
+:root[data-skin=lion] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M3 7.5l2.8 3L11.5 3' fill='none' stroke='%230b1a33' stroke-width='2.2'/%3E%3C/svg%3E") center/13px no-repeat,var(--aqua-blue);border-color:#4a6fa5}
+:root[data-skin=lion] .live .ck.on .pfx-ck::after{display:none}
+/* Fenêtres : notes et sections comme des fenêtres Lion (coins arrondis en haut, ombre douce) */
+:root[data-skin=lion] :is(.note,.card,.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats){border:1px solid rgba(0,0,0,.18);box-shadow:0 2px 6px rgba(0,0,0,.14)}
+:root[data-skin=lion] .grid:not(.v-compact) .note{border-radius:6px 6px 3px 3px}
+:root[data-skin=lion] .card.sg>summary{background:var(--metal);border-bottom:1px solid #b0b0b0;text-shadow:0 1px #fff}
+:root[data-skin=lion] .card.sg .sg-body{border-top:0}
+:root[data-skin=lion] .sg-ic{background:var(--aqua-blue);color:#0b1a33;border-radius:5px}
+:root[data-skin=lion] .chip{background:linear-gradient(#fff,#eee);border-color:#b8b8b8;color:#444}
+:root[data-skin=lion] :is(.ed-tools,.ed-pop,.ed-tcolors){background:var(--metal);border-top:1px solid #a5a5a5}
+/* Volet : liste source du Finder */
+:root[data-skin=lion] .side{background:#dfe5ec;border-right:1px solid #a9b2bd}
+:root[data-skin=lion] .nav-item{border-radius:0;margin:0 -12px;padding:6px 26px;width:calc(100% + 24px);text-shadow:0 1px rgba(255,255,255,.7)}
+:root[data-skin=lion] .nav-item:hover{background:none}
+:root[data-skin=lion] .nav-item.on{background:linear-gradient(#72a8e8,#3b7cd5);color:#fff;text-shadow:0 -1px rgba(0,0,0,.3);border-top:1px solid #5a8fd8}
+/* Dialogues = feuilles qui descendent du haut de la fenêtre */
+:root[data-skin=lion] .dlg,:root[data-skin=lion] .dlg.menu{top:0;bottom:auto;left:50%;right:auto;width:min(440px,calc(100vw - 24px));transform:translate(-50%,-105%);border-radius:0 0 8px 8px;background:#ececec;box-shadow:0 18px 50px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.25);transition:transform .3s cubic-bezier(.2,.8,.2,1),opacity .2s,visibility .3s;padding-top:calc(18px + env(safe-area-inset-top))}
+:root[data-skin=lion] .dlg.show,:root[data-skin=lion] .dlg.menu.show{transform:translate(-50%,0)}
+:root[data-skin=lion] .dlg h3{font-size:14px;font-weight:700}
+:root[data-skin=lion] .pop-menu{background:rgba(248,248,248,.96);border:1px solid rgba(0,0,0,.2);border-radius:5px;padding:4px 0;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+:root[data-skin=lion] :is(.pop-menu button,.dlg-items button){border-radius:0}
+:root[data-skin=lion] :is(.pop-menu button,.dlg-items button):hover{background:linear-gradient(#648ff0,#2d63e0);color:#fff}
+:root[data-skin=lion] :is(.pop-menu button,.dlg-items button):hover svg{color:#fff}
+/* Notification Growl (fumée) */
+:root[data-skin=lion] .toast{background:rgba(0,0,0,.72);color:#fff;border-radius:9px;box-shadow:0 6px 18px rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.15)}
+@media (min-width:900px){
+  :root[data-skin=lion] .toast{top:20px;bottom:auto;left:auto;right:20px;transform:translateY(-10px)}
+  :root[data-skin=lion] .toast.show{transform:none}
+}
+:root[data-skin=lion] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--aqua-blue);color:#0b1a33}
+
+/* ===================================================================================
+   Android KitKat (Holo) — angles vifs, bleu Holo, barre d'action, appui qui s'illumine
+   =================================================================================== */
+:root[data-skin=kitkat]{
+  --bg:#000; --surface:#1d1d1d; --surface2:#2e2e2e; --text:#f2f2f2; --muted:#9e9e9e; --line:#333;
+  --radius:2px; --shadow:0 1px 1px rgba(0,0,0,.8); --bar-bg:#222; --bar-line:#222; --bar-shadow:none; --accent-ink:var(--accent);
+  --holo:var(--accent); --press:color-mix(in srgb,var(--accent) 40%,transparent);
+}
+:root[data-skin=kitkat] body{font-family:Roboto,"Droid Sans",sans-serif}
+:root[data-skin=kitkat] :is(button,.note,.task,.nav-item,summary,.gal-tile):active{background-color:var(--press)!important}
+:root[data-skin=kitkat] :is(.top,.selbar,.ed-top){background:#222;border:0;border-bottom:1px solid #000;box-shadow:0 2px 3px rgba(0,0,0,.6);-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=kitkat] .top h1{font-weight:300;font-size:21px}
+:root[data-skin=kitkat] .top h1::before{content:'‹';color:var(--holo);font-weight:300;margin-right:8px}
+/* Onglets Holo : majuscules, trait bleu sous l'onglet actif */
+:root[data-skin=kitkat] .tabs{background:#222;border-color:#000}
+:root[data-skin=kitkat] .tabs button{color:#aaa;text-transform:uppercase;font-size:10.5px;letter-spacing:.04em;border-right:1px solid #2c2c2c}
+:root[data-skin=kitkat] .tabs button.on{background:none;box-shadow:inset 0 -4px var(--holo);color:#fff}
+:root[data-skin=kitkat] .fab{background:#222;color:var(--holo);border:1px solid #3a3a3a;box-shadow:0 2px 4px rgba(0,0,0,.8),inset 0 -3px var(--holo)}
+:root[data-skin=kitkat] :is(.group-h,.side-h,.row-label){color:var(--holo);text-transform:uppercase;font-size:12.5px;font-weight:700;letter-spacing:.03em;border-bottom:1px solid var(--holo);padding-bottom:5px}
+:root[data-skin=kitkat] .row-label{border:0;padding:0}
+/* Boutons Holo (plats), sauf les filtres en onglets */
+:root[data-skin=kitkat] :is(.btn,.quick-dates button,.days button,.cal-today,.install-btn,.quick .icon-btn){background:#3a3a3a;border:0;box-shadow:0 1px 1px #000;color:#f2f2f2}
+:root[data-skin=kitkat] .btn.primary,:root[data-skin=kitkat] .install-btn,:root[data-skin=kitkat] .days button.on,:root[data-skin=kitkat] .quick .icon-btn{background:color-mix(in srgb,var(--accent) 78%,#000)}
+:root[data-skin=kitkat] .btn.danger-text{background:none;box-shadow:none}
+:root[data-skin=kitkat] .chip-btn{background:none;border:0;color:#aaa;text-transform:uppercase;font-size:12.5px;letter-spacing:.03em}
+:root[data-skin=kitkat] .chip-btn.on{background:none;color:#fff;box-shadow:inset 0 -3px var(--holo)}
+:root[data-skin=kitkat] :is(.seg,.vseg){background:none;box-shadow:none;border:0;border-bottom:1px solid #333}
+:root[data-skin=kitkat] :is(.seg,.vseg) button{text-transform:uppercase;font-size:12.5px}
+:root[data-skin=kitkat] :is(.seg,.vseg) button.on{background:none;box-shadow:inset 0 -3px var(--holo);color:#fff}
+/* Champs Holo : un trait souligné avec ses petits crochets */
+:root[data-skin=kitkat] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:linear-gradient(currentColor,currentColor) left bottom/100% 1px no-repeat,linear-gradient(currentColor,currentColor) left bottom/1px 7px no-repeat,linear-gradient(currentColor,currentColor) right bottom/1px 7px no-repeat!important;color:#f2f2f2;border:0!important;border-radius:0!important;caret-color:var(--holo)}
+:root[data-skin=kitkat] :is(input,textarea,select):not([type=checkbox]){color:#666}
+:root[data-skin=kitkat] :is(input,textarea,select):not([type=checkbox]):focus{color:var(--holo)}
+:root[data-skin=kitkat] :is(input,textarea,select):not([type=checkbox]){-webkit-text-fill-color:#f2f2f2}
+:root[data-skin=kitkat] .search{background:none;border:0;border-bottom:1px solid #666}
+:root[data-skin=kitkat] .search input{background:none!important}
+/* Cases Holo : contour gris, coche bleue qui déborde */
+:root[data-skin=kitkat] :is(.chk,.md .cbx){width:20px;height:20px;border:2px solid #8a8a8a;background:transparent;margin-top:2px;display:grid;place-items:center}
+:root[data-skin=kitkat] :is(.task.done .chk,.md .ck.on .cbx){border-color:var(--holo)}
+:root[data-skin=kitkat] :is(.task.done .chk,.md .ck.on .cbx)::after{content:'';width:6px;height:12px;margin-top:-3px;border:solid var(--holo);border-width:0 3px 3px 0;transform:rotate(45deg)}
+:root[data-skin=kitkat] :is(.chk,.md .cbx) svg{display:none}
+:root[data-skin=kitkat] .live .pfx-ck::before{border-color:#8a8a8a;background:transparent}
+:root[data-skin=kitkat] .live .ck.on .pfx-ck::before{background:transparent;border-color:var(--holo)}
+:root[data-skin=kitkat] .live .ck.on .pfx-ck::after{display:block;left:7px;top:2px;width:6px;height:12px;border-color:var(--holo);border-width:0 3px 3px 0}
+/* Interrupteur Holo : rectangle « OFF / ON » */
+:root[data-skin=kitkat] .switch{width:78px;height:30px;background:linear-gradient(#444,#444) center/64px 12px no-repeat;border:0}
+:root[data-skin=kitkat] .switch::after{content:'OFF';top:1px;left:2px;width:38px;height:28px;background:#5a5a5a;box-shadow:0 1px 2px #000;color:#ddd;font:700 11px/28px Roboto,sans-serif;text-align:center}
+:root[data-skin=kitkat] .switch:checked{background:linear-gradient(color-mix(in srgb,var(--accent) 45%,#000),color-mix(in srgb,var(--accent) 45%,#000)) center/64px 12px no-repeat}
+:root[data-skin=kitkat] .switch:checked::after{content:'ON';background:var(--holo);color:#fff;transform:translateX(36px)}
+/* Listes : tâches en lignes séparées, notes en cartes Keep 2013 */
+:root[data-skin=kitkat] .task{background-color:var(--card,transparent);border:0;border-bottom:1px solid #2a2a2a;box-shadow:none;margin:0}
+:root[data-skin=kitkat] :is(.note,.card,.takenote,.day-prog,.gal-row){border:0;box-shadow:0 1px 2px #000;background-color:var(--card,#1d1d1d)}
+:root[data-skin=kitkat] .chip{background:none;border-color:var(--holo);color:var(--holo)}
+:root[data-skin=kitkat] .sg-ic{background:none;color:var(--holo)}
+:root[data-skin=kitkat] :is(.ed-tools,.ed-pop,.ed-tcolors){background:#222;border-top:1px solid #000}
+:root[data-skin=kitkat] .side{background:#222;border-color:#000;gap:0}
+:root[data-skin=kitkat] .nav-item{border-bottom:1px solid #2c2c2c}
+:root[data-skin=kitkat] .nav-item.on{background:color-mix(in srgb,var(--accent) 18%,transparent);color:#fff;box-shadow:inset 4px 0 var(--holo)}
+/* Dialogues : titre bleu souligné, barre de boutons séparés */
+:root[data-skin=kitkat] .dlg{background:#282828;box-shadow:0 0 0 1px #3a3a3a,0 10px 30px #000}
+:root[data-skin=kitkat] .dlg h3{color:var(--holo);font-weight:400;font-size:19px;border-bottom:2px solid var(--holo);padding:0 20px 14px;margin:0 -20px}
+:root[data-skin=kitkat] .dlg-btns{margin:6px -20px -16px;gap:0;border-top:1px solid #3a3a3a;flex-wrap:nowrap}
+:root[data-skin=kitkat] .dlg-btns .btn{flex:1;background:none;box-shadow:none;border-radius:0;padding:14px 6px;color:#f2f2f2}
+:root[data-skin=kitkat] .dlg-btns .btn+.btn{border-left:1px solid #3a3a3a}
+:root[data-skin=kitkat] .dlg-items button{border-bottom:1px solid #333}
+:root[data-skin=kitkat] .pop-menu{background:#282828;border:1px solid #3a3a3a;padding:0;box-shadow:0 6px 18px #000}
+:root[data-skin=kitkat] .pop-menu button{border-bottom:1px solid #333;padding:13px 16px}
+:root[data-skin=kitkat] .toast{background:#2e2e2e;border:1px solid #444;color:#eee;box-shadow:0 2px 6px #000;font-size:14px}
+:root[data-skin=kitkat] .toast button{color:var(--holo);text-transform:uppercase}
+:root[data-skin=kitkat] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--holo)}
+:root[data-skin=kitkat] .cm-day{background:#111;border-color:#2a2a2a}
+
+/* ===================================================================================
+   Android 2.2 (Froyo) — dégradés gris, surbrillance orange, champs blancs, coche verte
+   =================================================================================== */
+:root[data-skin=froyo]{
+  --bg:#000; --surface:#141414; --surface2:#2b2b2b; --text:#fff; --muted:#9b9b9b; --line:#3c3c3c;
+  --radius:4px; --shadow:none; --bar-shadow:none; --accent-ink:color-mix(in srgb,var(--accent) 80%,#fff);
+  --froyo-hi:linear-gradient(color-mix(in srgb,var(--accent) 65%,#fff),var(--accent));
+  --froyo-btn:linear-gradient(#f6f6f6,#d6d6d6 50%,#c4c4c4 50%,#e2e2e2);
+  --froyo-bar:linear-gradient(#5c5c5c,#3a3a3a 50%,#2a2a2a 50%,#1e1e1e);
+}
+:root[data-skin=froyo] body{font-family:"Droid Sans",Roboto,Arial,sans-serif}
+:root[data-skin=froyo] ::selection{background:var(--accent);color:#000}
+:root[data-skin=froyo] :is(.top,.selbar,.ed-top){background:var(--froyo-bar);border:0;border-bottom:1px solid #000;border-radius:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=froyo] .top h1{font-size:19px;text-shadow:0 -1px #000}
+:root[data-skin=froyo] .tabs{background:linear-gradient(#4a4a4a,#262626);border-color:#6a6a6a}
+:root[data-skin=froyo] .tabs button{color:#aaa;border-right:1px solid #111;box-shadow:inset 1px 0 #555}
+:root[data-skin=froyo] .tabs button.on{background:linear-gradient(#fff,#cfcfcf);color:#000;box-shadow:none}
+:root[data-skin=froyo] :is(button,.note,.task,.nav-item,.dlg-items button,.pop-menu button):active{background:var(--froyo-hi)!important;color:#000!important}
+:root[data-skin=froyo] :is(.btn,.btn.primary,.quick-dates button,.days button,.cal-today,.install-btn,.chip-btn,.quick .icon-btn){background:var(--froyo-btn);color:#000;border:1px solid #777;border-radius:5px;box-shadow:0 1px 2px #000}
+:root[data-skin=froyo] .btn.danger-text{background:none;border:0;box-shadow:none;color:#ff6b5e}
+:root[data-skin=froyo] .fab{border-radius:50%;background:var(--froyo-btn);color:#222;box-shadow:0 2px 6px rgba(0,0,0,.7),inset 0 0 0 1px #777}
+:root[data-skin=froyo] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){background:var(--froyo-hi);color:#000;box-shadow:none;border-color:color-mix(in srgb,var(--accent) 60%,#000)}
+:root[data-skin=froyo] :is(.seg,.vseg){background:#222;box-shadow:inset 0 0 0 1px #444;border:0;border-radius:5px}
+:root[data-skin=froyo] :is(.seg,.vseg) button{border-radius:4px}
+:root[data-skin=froyo] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select,.search){background:#fff!important;color:#000!important;-webkit-text-fill-color:#000;border:1px solid #888!important;border-radius:5px!important;box-shadow:inset 0 2px 3px rgba(0,0,0,.35)}
+:root[data-skin=froyo] :is(input,textarea,select):focus{border:2px solid var(--accent)!important}
+:root[data-skin=froyo] .search input{border:0!important;box-shadow:none}
+:root[data-skin=froyo] .search svg{color:#555}
+:root[data-skin=froyo] :is(.chk,.md .cbx,.switch){width:22px;height:22px;border:1px solid #666;border-radius:3px;background:linear-gradient(#e8e8e8,#b8b8b8);box-shadow:inset 0 1px #fff;margin:1px 4px 0}
+:root[data-skin=froyo] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12.5l5.5 5.5L21 5' fill='none' stroke='%235ecf1e' stroke-width='4'/%3E%3C/svg%3E") center/18px no-repeat,linear-gradient(#e8e8e8,#b8b8b8)}
+:root[data-skin=froyo] :is(.chk,.md .cbx) svg,:root[data-skin=froyo] .switch::after{display:none}
+:root[data-skin=froyo] .live .pfx-ck::before{border:1px solid #666;border-radius:3px;background:linear-gradient(#e8e8e8,#b8b8b8)}
+:root[data-skin=froyo] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12.5l5.5 5.5L21 5' fill='none' stroke='%235ecf1e' stroke-width='4'/%3E%3C/svg%3E") center/16px no-repeat,linear-gradient(#e8e8e8,#b8b8b8)}
+:root[data-skin=froyo] .live .ck.on .pfx-ck::after{display:none}
+:root[data-skin=froyo] .task{background-color:var(--card,#000);border:0;border-bottom:1px solid #333;box-shadow:none;margin:0;border-radius:0}
+:root[data-skin=froyo] :is(.note,.card,.takenote,.day-prog,.gal-row){border:1px solid #3c3c3c}
+:root[data-skin=froyo] .group-h{background:linear-gradient(#5c5c5c,#3c3c3c);color:#fff;margin:16px -16px 0;padding:4px 16px;text-transform:none;letter-spacing:0;font-size:14px}
+:root[data-skin=froyo] .chip{background:#333;border-color:#555;color:#ddd}
+:root[data-skin=froyo] .sg-ic{background:var(--froyo-bar);color:#fff}
+:root[data-skin=froyo] :is(.ed-tools,.ed-pop,.ed-tcolors){background:linear-gradient(#4a4a4a,#262626);border-top:1px solid #6a6a6a}
+:root[data-skin=froyo] .side{background:#000;border-color:#333;gap:0}
+:root[data-skin=froyo] .nav-item{border-radius:0;border-bottom:1px solid #2a2a2a}
+:root[data-skin=froyo] .nav-item.on{background:var(--froyo-hi);color:#000}
+:root[data-skin=froyo] .dlg{background:#2b2b2b;border:1px solid #888;border-radius:6px;box-shadow:0 0 0 1px #000}
+:root[data-skin=froyo] .dlg h3{background:var(--froyo-bar);margin:-22px -20px 0;padding:12px 20px;border-bottom:1px solid #000;font-size:17px}
+:root[data-skin=froyo] .dlg-btns{background:#555;margin:6px -20px -16px;padding:8px}
+:root[data-skin=froyo] .dlg-btns .btn{flex:1}
+/* Menu des options façon Android 2 : grille d'icônes en bas */
+:root[data-skin=froyo] .pop-menu{background:rgba(40,40,40,.97);border:1px solid #666;border-radius:4px;padding:0}
+:root[data-skin=froyo] .pop-menu button{border-bottom:1px solid #444;border-radius:0}
+:root[data-skin=froyo] .toast{background:#333;color:#fff;border:1px solid #aaa;border-radius:8px;box-shadow:0 2px 8px #000}
+:root[data-skin=froyo] .toast button{color:color-mix(in srgb,var(--accent) 80%,#fff)}
+:root[data-skin=froyo] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--froyo-hi);color:#000}
+
+/* ===================================================================================
+   Macintosh 1984 — 1 bit noir et blanc, barres rayées, cadres nets, ombres franches
+   =================================================================================== */
+:root[data-skin=mac84]{
+  --ink:var(--accent);
+  --bg:#fff; --surface:#fff; --surface2:#fff; --text:var(--ink); --muted:var(--ink); --line:var(--ink); --danger:var(--ink); --ok:var(--ink); --star:var(--ink);
+  --radius:0; --shadow:2px 2px 0 var(--ink); --bar-shadow:none; --accent-ink:var(--accent); --pat:color-mix(in srgb,var(--ink) 35%,transparent);
+  --c-red:#d8d8d8; --c-orange:#e4e4e4; --c-yellow:#f0f0f0; --c-green:#dcdcdc; --c-teal:#e8e8e8; --c-blue:#d0d0d0; --c-purple:#c8c8c8; --c-pink:#ececec; --c-brown:#c0c0c0; --c-gray:#e0e0e0;
+  --stripes:repeating-linear-gradient(var(--ink) 0 1px,#fff 1px 3px);
+}
+:root[data-skin=mac84] body{font-family:"Pixelify Sans","Chicago","Geneva",monospace;background:#fff radial-gradient(var(--ink) .55px,transparent .8px) 0 0/4px 4px;-webkit-font-smoothing:none}
+:root[data-skin=mac84] ::selection{background:var(--ink);color:#fff}
+/* Barre des menus en haut */
+:root[data-skin=mac84] :is(.top,.selbar,.ed-top){background:#fff;border:0;border-bottom:2px solid var(--ink);border-radius:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=mac84] .top h1{font-size:20px}
+:root[data-skin=mac84] :is(.group-h,.empty,.list-head h2,.trash-info,.cal-title){background:#fff;display:table;padding:0 6px;color:var(--ink)}
+/* Fenêtres : barre de titre rayée, case de fermeture, titre au centre dans un cartouche blanc */
+:root[data-skin=mac84] :is(.note,.card.sg,.dlg,.sheet,.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats,.search,.pop-menu,.vseg,.toast){border:1px solid var(--ink)!important;box-shadow:2px 2px 0 var(--ink)}
+:root[data-skin=mac84] .grid:not(.v-compact) .note{padding-top:0}
+:root[data-skin=mac84] .grid:not(.v-compact) .note::before{content:'';display:block;flex:none;height:20px;margin:0 -14px 8px;border-bottom:1px solid var(--ink);background:var(--stripes) 0 4px/100% 12px no-repeat,#fff}
+:root[data-skin=mac84] .grid.v-grid .note::before{margin:0 -12px 6px}
+:root[data-skin=mac84] .grid:not(.v-compact) .note::after{content:attr(data-t);position:absolute;top:0;left:50%;transform:translateX(-50%);max-width:62%;height:19px;line-height:19px;padding:0 6px;background:#fff;font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+:root[data-skin=mac84] .grid:not(.v-compact) .note h3{display:none}
+:root[data-skin=mac84] .grid:not(.v-compact) .note .n-imgs{margin-top:-8px}
+:root[data-skin=mac84] .note .sel-mark{top:26px}
+:root[data-skin=mac84] .card.sg>summary{background:linear-gradient(#fff,#fff) 10px center/11px 9px no-repeat,linear-gradient(var(--ink),var(--ink)) 9px center/13px 11px no-repeat,var(--stripes) 0 50%/100% 12px no-repeat,#fff;border-bottom:1px solid var(--ink);padding:5px 10px 5px 30px}
+:root[data-skin=mac84] .card.sg>summary :is(h2,.sg-hint,.sg-ic){background:#fff;padding:0 6px;color:var(--ink)}
+:root[data-skin=mac84] .card.sg .sg-body{border-top:0}
+/* Alerte : double cadre */
+:root[data-skin=mac84] .dlg{box-shadow:inset 0 0 0 3px #fff,inset 0 0 0 5px var(--ink),3px 3px 0 var(--ink);animation:none;transition:none}
+:root[data-skin=mac84] :is(.backdrop,.dlg-backdrop,.ed-backdrop){background:none}
+:root[data-skin=mac84] .tabs{background:#fff;border-top:2px solid var(--ink)}
+:root[data-skin=mac84] .tabs button{color:var(--ink)}
+:root[data-skin=mac84] .tabs button.on{background:var(--ink);color:#fff}
+:root[data-skin=mac84] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.quick .icon-btn,.seg button,.vseg button){background:#fff;color:var(--ink);border:1px solid var(--ink);border-radius:8px;box-shadow:none;font-weight:700}
+:root[data-skin=mac84] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.seg button,.vseg button,.icon-btn,.tabs button,.fab):active{background:var(--ink)!important;color:#fff!important}
+:root[data-skin=mac84] .btn.primary{outline:3px solid var(--ink);outline-offset:2px}
+:root[data-skin=mac84] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){background:var(--ink);color:#fff}
+:root[data-skin=mac84] .btn.danger-text{border:0;text-decoration:underline}
+:root[data-skin=mac84] :is(.seg,.vseg){background:none;box-shadow:none;border:0;gap:6px;padding:0}
+:root[data-skin=mac84] .fab{background:#fff;color:var(--ink);border:1px solid var(--ink);border-radius:8px;box-shadow:2px 2px 0 var(--ink)}
+:root[data-skin=mac84] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:#fff!important;border:1px solid var(--ink)!important;border-radius:0!important;color:var(--ink)}
+:root[data-skin=mac84] .search input{border:0!important}
+:root[data-skin=mac84] :is(.chk,.md .cbx,.switch){width:16px;height:16px;border:1px solid var(--ink);border-radius:0;background:#fff;margin:3px 4px 0}
+:root[data-skin=mac84] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:linear-gradient(45deg,transparent 43%,var(--ink) 43% 57%,transparent 57%) center/11px 11px no-repeat,linear-gradient(-45deg,transparent 43%,var(--ink) 43% 57%,transparent 57%) center/11px 11px no-repeat,#fff;border-color:var(--ink)}
+:root[data-skin=mac84] :is(.chk,.md .cbx) svg,:root[data-skin=mac84] .switch::after{display:none}
+:root[data-skin=mac84] .live .pfx-ck::before{border:1px solid var(--ink);border-radius:0;background:#fff}
+:root[data-skin=mac84] .live .ck.on .pfx-ck::before{background:linear-gradient(45deg,transparent 43%,var(--ink) 43% 57%,transparent 57%) center/11px 11px no-repeat,linear-gradient(-45deg,transparent 43%,var(--ink) 43% 57%,transparent 57%) center/11px 11px no-repeat,#fff}
+:root[data-skin=mac84] .live .ck.on .pfx-ck::after{display:none}
+:root[data-skin=mac84] :is(.chip,.sel-mark){border-color:var(--ink);color:var(--ink);background:#fff}
+:root[data-skin=mac84] .sg-ic{color:var(--ink)}
+:root[data-skin=mac84] :is(.ed-tools,.ed-pop,.ed-tcolors){background:#fff;border-top:2px solid var(--ink)}
+:root[data-skin=mac84] .pop-menu{padding:0;animation:none}
+:root[data-skin=mac84] :is(.pop-menu button,.dlg-items button){border-radius:0}
+:root[data-skin=mac84] :is(.pop-menu button,.dlg-items button):hover{background:var(--ink);color:#fff}
+:root[data-skin=mac84] :is(.pop-menu button,.dlg-items button):hover svg{color:#fff}
+:root[data-skin=mac84] .side{background:#fff;border-right:2px solid var(--ink)}
+:root[data-skin=mac84] .nav-item{border-radius:0}
+:root[data-skin=mac84] .nav-item.on{background:var(--ink);color:#fff}
+:root[data-skin=mac84] .toast{background:#fff;color:var(--ink);border-radius:0;font-weight:700}
+:root[data-skin=mac84] .toast button{color:var(--ink);border:1px solid var(--ink);border-radius:8px;padding:2px 10px}
+:root[data-skin=mac84] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--ink);color:#fff}
+:root[data-skin=mac84] .note.sel,:root[data-skin=mac84] .task.sel{outline:3px solid var(--ink)}
+
+/* ===================================================================================
+   iOS 6 — barre bleu-gris en relief, bloc-notes jaune, cuir cousu, alertes bleues vitrées
+   =================================================================================== */
+:root[data-skin=ios6]{
+  --bg:#c5ccd4; --surface:#fff; --surface2:#f2f2f2; --text:#000; --muted:#6d6d72; --line:#abb1b9;
+  --radius:10px; --shadow:0 1px 0 #fff; --bar-shadow:none; --accent-ink:#385487;
+  --nav:linear-gradient(#b0bccd,#8a9db6 50%,#7b91ad 50%,#6d84a2);
+  --gloss:linear-gradient(#fff,#ececec 50%,#dedede 50%,#f2f2f2);
+  --blue:linear-gradient(#7ab1f7,#3c80ea 50%,#266fe3 50%,#3883ef);
+  --pad:#fff7b8; --felt:"Noteworthy","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;
+}
+:root[data-skin=ios6] body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:repeating-linear-gradient(90deg,#c5ccd4 0 5px,#cbd2d8 5px 7px)}
+:root[data-skin=ios6] :is(.top,.selbar){background:var(--nav);border:0;border-bottom:1px solid #2d3642;border-radius:0;box-shadow:inset 0 1px rgba(255,255,255,.4),0 1px 3px rgba(0,0,0,.35);color:#fff;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=ios6] .top h1{text-shadow:0 -1px rgba(0,0,0,.45);font-size:20px}
+:root[data-skin=ios6] :is(.top,.selbar) :is(.icon-btn,.sub,b,.offline-lbl){color:#fff;text-shadow:0 -1px rgba(0,0,0,.4)}
+:root[data-skin=ios6] :is(.top,.selbar) .icon-btn{background:linear-gradient(#93a4bc,#5f7697);border:1px solid #3d4e66;border-radius:6px;width:38px;height:32px;box-shadow:inset 0 1px rgba(255,255,255,.35),0 1px rgba(255,255,255,.25)}
+:root[data-skin=ios6] :is(.group-h,.side-h){color:#4c566c;font-size:16px;font-weight:700;text-transform:none;letter-spacing:0;text-shadow:0 1px #fff}
+:root[data-skin=ios6] :is(.empty,.trash-info,.rq-hint){color:#4c566c;text-shadow:0 1px #fff}
+/* Barre d'onglets noire brillante, icône active en bleu lumineux */
+:root[data-skin=ios6] .tabs{background:linear-gradient(#3b3b3b,#151515 50%,#0a0a0a 50%,#000);border-color:#000;padding:2px 2px env(safe-area-inset-bottom)}
+:root[data-skin=ios6] .tabs button{color:#9a9a9a;font-size:10.5px;font-weight:700;border-radius:4px;margin:2px}
+:root[data-skin=ios6] .tabs button.on{background:rgba(255,255,255,.14);color:#fff;box-shadow:none}
+:root[data-skin=ios6] .tabs button.on .ic{color:#5bb4ff;filter:drop-shadow(0 0 4px rgba(90,180,255,.9))}
+:root[data-skin=ios6] .fab{border-radius:12px;background:var(--blue);border:1px solid #1d48b5;box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px rgba(255,255,255,.5)}
+/* Notes : bloc-notes jaune ligné, écriture feutre */
+:root[data-skin=ios6] .note{font-family:var(--felt);border:1px solid #d8cc7a;border-radius:3px;box-shadow:0 2px 4px rgba(0,0,0,.25)}
+:root[data-skin=ios6] .note.pat-none:not(.colored){background-color:var(--pad);background-image:linear-gradient(90deg,transparent 10px,#e9a8a8 10px,#e9a8a8 11px,transparent 11px,transparent 13px,#e9a8a8 13px,#e9a8a8 14px,transparent 14px),repeating-linear-gradient(transparent 0 21px,#b8cde4 21px 22px)}
+:root[data-skin=ios6] .note h3{font-family:var(--felt)}
+:root[data-skin=ios6] .editor:not([style*="--card"]).pat-none{background-color:var(--pad);background-image:repeating-linear-gradient(transparent 0 calc(var(--note-fs) * 1.55 - 1px),#b8cde4 0 calc(var(--note-fs) * 1.55))}
+:root[data-skin=ios6] :is(.ed-body,.ed-title){font-family:var(--felt)}
+/* Haut de l'éditeur en cuir cousu (Notes d'iOS 6) */
+:root[data-skin=ios6] .ed-top{background:radial-gradient(rgba(0,0,0,.18) .6px,transparent 1px) 0 0/3px 3px,linear-gradient(#8f5f33,#6a4220);border-bottom:2px dashed rgba(255,235,200,.45);box-shadow:0 3px 6px rgba(0,0,0,.4);color:#fff}
+:root[data-skin=ios6] .ed-top :is(.icon-btn,.ed-status){color:#fde9c8}
+:root[data-skin=ios6] :is(.ed-tools,.ed-pop,.ed-tcolors){background:linear-gradient(#e9e9e9,#c9c9c9);border-top:1px solid #8a8a8a}
+/* Tableaux groupés */
+:root[data-skin=ios6] :is(.card,.task,.takenote,.day-prog,.gal-row,.t-stats,.cw-scroll){background-color:var(--card,#fff);border:1px solid #abb1b9;border-radius:10px;box-shadow:0 1px 0 #fff}
+:root[data-skin=ios6] .card.sg>summary h2{font-weight:700}
+:root[data-skin=ios6] .sg-hint{color:#385487}
+:root[data-skin=ios6] .sg-ic{background:linear-gradient(#8fb3ea,#3a6fc8);color:#fff;border-radius:7px;box-shadow:inset 0 1px rgba(255,255,255,.5)}
+:root[data-skin=ios6] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.seg button,.vseg button){background:var(--gloss);border:1px solid #9ea5ae;border-radius:8px;color:#385487;font-weight:700;box-shadow:0 1px #fff;text-shadow:0 1px #fff}
+:root[data-skin=ios6] :is(.btn.primary,.install-btn,.quick .icon-btn,.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){background:var(--blue);border-color:#1d48b5;color:#fff;text-shadow:0 -1px rgba(0,0,0,.35)}
+:root[data-skin=ios6] .btn.danger-text{background:none;border:0;box-shadow:none;color:#c33}
+:root[data-skin=ios6] :is(.seg,.vseg){background:none;box-shadow:none;border:0;padding:0;gap:0}
+:root[data-skin=ios6] :is(.seg,.vseg) button{border-radius:0}
+:root[data-skin=ios6] :is(.seg,.vseg) button:first-child{border-radius:8px 0 0 8px}
+:root[data-skin=ios6] :is(.seg,.vseg) button:last-child{border-radius:0 8px 8px 0}
+:root[data-skin=ios6] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:#fff!important;border:1px solid #9ea5ae!important;border-radius:8px!important;box-shadow:inset 0 1px 3px rgba(0,0,0,.25)}
+:root[data-skin=ios6] .search{background:#fff;border:1px solid #8e99a8;border-radius:16px;box-shadow:inset 0 1px 3px rgba(0,0,0,.3)}
+:root[data-skin=ios6] .search input{border:0!important;box-shadow:none;background:none!important}
+:root[data-skin=ios6] .notes-bar{background:linear-gradient(#cdd6e0,#a9b6c6);margin:0 -16px 10px;padding:7px 16px;border-bottom:1px solid #8e99a8}
+/* Interrupteur ON / OFF */
+:root[data-skin=ios6] .switch{width:78px;height:28px;border-radius:14px;border:1px solid #9ea5ae;background:linear-gradient(#e0e0e0,#fff);box-shadow:inset 0 2px 3px rgba(0,0,0,.25)}
+:root[data-skin=ios6] .switch::before{content:'OFF';position:absolute;right:12px;top:0;line-height:26px;font:700 14px Helvetica,Arial,sans-serif;color:#808080}
+:root[data-skin=ios6] .switch::after{top:0;left:0;width:26px;height:26px;background:linear-gradient(#e8e8e8,#fff);border:1px solid #a0a0a0;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+:root[data-skin=ios6] .switch:checked{background:linear-gradient(#0b5ad6,#3c8ef8);border-color:#1d48b5}
+:root[data-skin=ios6] .switch:checked::before{content:'ON';left:12px;right:auto;color:#fff;text-shadow:0 -1px rgba(0,0,0,.4)}
+:root[data-skin=ios6] .switch:checked::after{transform:translateX(50px)}
+:root[data-skin=ios6] :is(.task.done .chk){background:var(--blue);border-color:#1d48b5}
+:root[data-skin=ios6] .chip{background:linear-gradient(#fff,#e6e6e6);border-color:#9ea5ae;color:#385487}
+/* Alerte bleue vitrée et feuille d'actions */
+:root[data-skin=ios6] .dlg{background:radial-gradient(120% 60% at 50% -10%,rgba(255,255,255,.45),transparent 60%),rgba(4,23,74,.86);border:2px solid rgba(255,255,255,.9);border-radius:12px;color:#fff;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.6)}
+:root[data-skin=ios6] .dlg :is(h3,p){color:#fff;text-shadow:0 -1px rgba(0,0,0,.6)}
+:root[data-skin=ios6] .dlg-btns{justify-content:center}
+:root[data-skin=ios6] .dlg-btns .btn{flex:1;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.08) 50%,rgba(255,255,255,0) 50%,rgba(255,255,255,.1));border:1px solid rgba(0,0,0,.5);color:#fff;text-shadow:0 -1px rgba(0,0,0,.5);box-shadow:inset 0 1px rgba(255,255,255,.3)}
+:root[data-skin=ios6] .dlg-btns .btn.primary{background:linear-gradient(rgba(255,255,255,.45),rgba(255,255,255,.15) 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.2)),#3d5d9e}
+:root[data-skin=ios6] .dlg.menu{background:linear-gradient(rgba(70,80,100,.85),rgba(20,25,35,.9));text-align:left}
+:root[data-skin=ios6] .dlg-items{gap:8px;margin:4px 0}
+:root[data-skin=ios6] .dlg-items button{background:var(--gloss);color:#000;border:1px solid #333;border-radius:10px;justify-content:center;font-weight:700}
+:root[data-skin=ios6] .dlg-items button.danger{background:linear-gradient(#f08080,#d33 50%,#c00 50%,#e33);color:#fff}
+:root[data-skin=ios6] .dlg-items button.danger svg{color:#fff}
+:root[data-skin=ios6] .pop-menu{background:#fff;border:7px solid #2b3a55;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.5),inset 0 0 0 1px #000}
+:root[data-skin=ios6] .pop-menu button+button{border-top:1px solid #e0e0e0;border-radius:0}
+:root[data-skin=ios6] .toast{background:rgba(0,0,0,.78);color:#fff;border-radius:12px}
+:root[data-skin=ios6] .toast button{color:#7fb6ff}
+:root[data-skin=ios6] .side{background:#fff;border-right:1px solid #2d3642;padding-top:0}
+:root[data-skin=ios6] .side .brand{background:var(--nav);color:#fff;margin:0 -12px 6px;padding:14px 22px;text-shadow:0 -1px rgba(0,0,0,.4);border-bottom:1px solid #2d3642}
+:root[data-skin=ios6] .nav-item{border-radius:0;border-bottom:1px solid #e0e0e0}
+:root[data-skin=ios6] .nav-item.on{background:linear-gradient(#058cf5,#015fe6);color:#fff}
+:root[data-skin=ios6] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--blue)}
+
+/* ===================================================================================
+   Windows Phone — Metro : noir, typo fine en minuscules, tuiles pleines, aucun arrondi
+   =================================================================================== */
+:root[data-skin=metro]{
+  --bg:#000; --surface:#1f1f1f; --surface2:#333; --text:#fff; --muted:#a0a0a0; --line:#333;
+  --radius:0; --shadow:none; --bar-shadow:none; --accent-ink:var(--accent);
+  --c-red:#e51400; --c-orange:#f09609; --c-yellow:#d8c100; --c-green:#339933; --c-teal:#00aba9; --c-blue:#1ba1e2; --c-purple:#a200ff; --c-pink:#e671b8; --c-brown:#a05000; --c-gray:#555;
+}
+:root[data-skin=metro] body{font-family:"Segoe WP","Segoe UI",Roboto,sans-serif}
+:root[data-skin=metro] :is(.top,.selbar){background:#000;border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=metro] .top h1{font-size:40px;font-weight:200;text-transform:lowercase;letter-spacing:-1px}
+:root[data-skin=metro] .top .sub{text-transform:uppercase;font-size:12px;letter-spacing:.06em}
+/* Pivot : les filtres deviennent de grands titres fins */
+:root[data-skin=metro] .chip-btn{background:none;border:0;color:#5a5a5a;font-size:26px;font-weight:200;text-transform:lowercase;padding:2px 14px 2px 0}
+:root[data-skin=metro] .chip-btn svg{display:none}
+:root[data-skin=metro] .chip-btn.on{background:none;color:#fff}
+:root[data-skin=metro] :is(.group-h,.side-h){color:#fff;font-size:24px;font-weight:200;text-transform:lowercase;letter-spacing:0}
+/* Tuiles */
+:root[data-skin=metro] .note{background-color:var(--card,var(--accent));border:0;color:#fff}
+:root[data-skin=metro] .note :is(h3,.md,.mk,.nempty){color:#fff}
+:root[data-skin=metro] .note.sel{outline:4px solid #fff;outline-offset:-4px}
+:root[data-skin=metro] :is(.task,.card,.takenote,.day-prog,.gal-row,.cw-scroll,.t-stats){background-color:var(--card,transparent);border:0;box-shadow:none}
+:root[data-skin=metro] .task .ttitle{font-size:20px;font-weight:300}
+:root[data-skin=metro] .card.sg{border-left:4px solid var(--accent);background:#111}
+:root[data-skin=metro] .card.sg>summary h2{font-size:22px;font-weight:300;text-transform:lowercase}
+:root[data-skin=metro] .sg-ic{background:var(--accent);color:#fff}
+/* Barre d'application : icônes dans des cercles */
+:root[data-skin=metro] .tabs{background:#1f1f1f;border:0}
+:root[data-skin=metro] .tabs button{color:#fff;text-transform:lowercase;font-size:11px;gap:4px}
+:root[data-skin=metro] .tabs .ic{width:38px;height:38px;border:2px solid currentColor;border-radius:50%!important}
+:root[data-skin=metro] .tabs .ic svg{width:20px;height:20px}
+:root[data-skin=metro] .tabs button.on{background:none;box-shadow:none;color:#fff}
+:root[data-skin=metro] .tabs button.on .ic{background:#fff!important;color:#000}
+:root[data-skin=metro] .tabs button:not(.on){opacity:.75}
+:root[data-skin=metro] .fab{background:#000;border:2px solid #fff;border-radius:50%!important;box-shadow:none}
+:root[data-skin=metro] .fab:active{background:var(--accent)}
+:root[data-skin=metro] :is(.btn,.quick-dates button,.days button,.cal-today,.install-btn,.seg button,.vseg button){background:transparent;border:3px solid #fff;color:#fff;font-weight:400;box-shadow:none;text-transform:lowercase}
+:root[data-skin=metro] :is(.btn,.quick-dates button,.days button,.cal-today,.seg button,.vseg button,.chip-btn):active{background:var(--accent)!important;border-color:var(--accent)}
+:root[data-skin=metro] :is(.btn.primary,.seg button.on,.days button.on,.vseg button.on){background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-skin=metro] .btn.danger-text{border:0;color:#e51400}
+:root[data-skin=metro] :is(.seg,.vseg){background:none;box-shadow:none;border:0;gap:6px;padding:0}
+:root[data-skin=metro] .quick .icon-btn{background:var(--accent)}
+/* Champs gris clair, blancs avec bord accent au focus */
+:root[data-skin=metro] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select,.search){background:#cccccc!important;color:#000!important;-webkit-text-fill-color:#000;border:2px solid #cccccc!important}
+:root[data-skin=metro] :is(input,textarea,select):not([type=checkbox]):focus{background:#fff!important;border-color:var(--accent)!important}
+:root[data-skin=metro] .search input{border:0!important}
+:root[data-skin=metro] .search svg{color:#000}
+:root[data-skin=metro] :is(.chk,.md .cbx){width:24px;height:24px;border:2px solid #fff;background:none}
+:root[data-skin=metro] :is(.task.done .chk,.md .ck.on .cbx){background:#fff;color:#000;border-color:#fff}
+/* Interrupteur : rectangle qui se remplit, curseur blanc */
+:root[data-skin=metro] .switch{width:54px;height:22px;border:2px solid #fff;background:#000 content-box;padding:2px;overflow:visible}
+:root[data-skin=metro] .switch::after{top:-6px;left:-4px;width:12px;height:30px;background:#fff;box-shadow:0 0 0 2px #000}
+:root[data-skin=metro] .switch:checked{background:var(--accent) content-box;border-color:#fff}
+:root[data-skin=metro] .switch:checked::after{transform:translateX(42px)}
+:root[data-skin=metro] .chip{background:none;border:0;color:#ccc;padding-left:0}
+:root[data-skin=metro] :is(.ed-tools,.ed-pop,.ed-tcolors,.ed-top){background:#1f1f1f;border:0}
+/* Boîte de message qui descend du haut, sur toute la largeur */
+:root[data-skin=metro] .dlg,:root[data-skin=metro] .dlg.menu{top:0;bottom:auto;left:0;right:0;width:100%;max-width:none;transform:translateY(-100%);background:#1f1f1f;box-shadow:0 0 0 100vmax rgba(0,0,0,.6);padding:calc(26px + env(safe-area-inset-top)) 24px 24px}
+:root[data-skin=metro] .dlg.show,:root[data-skin=metro] .dlg.menu.show{transform:none}
+:root[data-skin=metro] .dlg h3{font-size:28px;font-weight:300}
+:root[data-skin=metro] .dlg-items button{font-size:20px;font-weight:300;text-transform:lowercase}
+:root[data-skin=metro] .dlg-btns .btn{flex:1}
+:root[data-skin=metro] .pop-menu{background:#fff;border:0;padding:6px 0;box-shadow:0 0 0 100vmax rgba(0,0,0,.5);animation:none}
+:root[data-skin=metro] .pop-menu button{color:#000;font-size:19px;font-weight:300;text-transform:lowercase;padding:12px 18px}
+:root[data-skin=metro] .pop-menu button svg{display:none}
+/* Notification : bandeau en haut de l'écran, couleur d'accent */
+:root[data-skin=metro] .toast{top:0;bottom:auto;left:0;right:0;width:auto;max-width:none;transform:translateY(-100%);background:var(--accent);color:#fff;padding:calc(12px + env(safe-area-inset-top)) 18px 12px;box-shadow:none}
+:root[data-skin=metro] .toast.show{transform:none}
+:root[data-skin=metro] .toast button{color:#fff;text-decoration:underline}
+:root[data-skin=metro] .side{background:#000;border-color:#222}
+:root[data-skin=metro] .side .brand{font-weight:200;font-size:26px;text-transform:lowercase}
+:root[data-skin=metro] .nav-item{font-size:20px;font-weight:300;text-transform:lowercase}
+:root[data-skin=metro] .nav-item:hover{background:none}
+:root[data-skin=metro] .nav-item.on{background:none;color:var(--accent)}
+:root[data-skin=metro] .cm-day{background:#111;border:0}
+:root[data-skin=metro] .cm-day.td{background:var(--accent)}
+:root[data-skin=metro] .cm-day.td .cm-n{background:none}
+
+/* ===================================================================================
+   Game Boy — quatre verts, pixels, ombres dures, bouton A
+   =================================================================================== */
+:root[data-skin=gameboy]{
+  --g0:#0f380f; --g1:#306230; --g2:#8bac0f; --g3:#9bbc0f;
+  --bg:var(--g3); --surface:var(--g3); --surface2:var(--g2); --text:var(--g0); --muted:var(--g1); --line:var(--g0);
+  --danger:var(--g0); --ok:var(--g0); --star:var(--g0); --warn:var(--g1);
+  --radius:0; --shadow:4px 4px 0 var(--g0); --bar-shadow:none; --accent-ink:var(--g0); --pat:rgba(15,56,15,.25);
+  --c-red:var(--g2); --c-orange:var(--g2); --c-yellow:var(--g2); --c-green:var(--g2); --c-teal:var(--g2); --c-blue:var(--g2); --c-purple:var(--g2); --c-pink:var(--g2); --c-brown:var(--g2); --c-gray:var(--g2);
+}
+:root[data-skin=gameboy] body{font-family:"Pixelify Sans",monospace;background:var(--g3);background-image:repeating-linear-gradient(0deg,rgba(15,56,15,.05) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(15,56,15,.05) 0 1px,transparent 1px 3px)}
+:root[data-skin=gameboy] ::selection{background:var(--g0);color:var(--g3)}
+:root[data-skin=gameboy] :is(.top,.selbar,.ed-top){background:var(--g0);color:var(--g3);border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=gameboy] :is(.top,.selbar,.ed-top) :is(.icon-btn,.sub,b,.ed-status,.offline-lbl){color:var(--g3)}
+:root[data-skin=gameboy] .top h1{text-transform:uppercase;letter-spacing:.06em}
+:root[data-skin=gameboy] :is(.note,.card,.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats,.search,.dlg,.sheet,.pop-menu,.toast){border:3px solid var(--g0)!important;box-shadow:4px 4px 0 var(--g0)}
+:root[data-skin=gameboy] .note.sel,:root[data-skin=gameboy] .task.sel{background-color:var(--g1);color:var(--g3);outline:none}
+:root[data-skin=gameboy] .group-h{text-transform:uppercase;color:var(--g0)}
+:root[data-skin=gameboy] .tabs{background:var(--g0);border:0}
+:root[data-skin=gameboy] .tabs button{color:var(--g2);text-transform:uppercase}
+:root[data-skin=gameboy] .tabs button.on{background:var(--g3);color:var(--g0);box-shadow:none}
+/* Bouton A */
+:root[data-skin=gameboy] .fab{border-radius:50%!important;background:#9a2257;color:transparent;box-shadow:3px 3px 0 var(--g0),inset -3px -3px 0 rgba(0,0,0,.25)}
+:root[data-skin=gameboy] .fab svg{display:none}
+:root[data-skin=gameboy] .fab::after{content:'A';color:#f3d3e2;font:700 26px "Pixelify Sans",monospace}
+:root[data-skin=gameboy] .fab:active{transform:translate(3px,3px);box-shadow:none}
+:root[data-skin=gameboy] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.seg button,.vseg button,.quick .icon-btn){background:var(--g0);color:var(--g3);border:3px solid var(--g0);box-shadow:3px 3px 0 var(--g1);text-transform:uppercase;font-weight:700}
+:root[data-skin=gameboy] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.seg button,.vseg button):active{transform:translate(3px,3px);box-shadow:none}
+:root[data-skin=gameboy] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on){background:var(--g3);color:var(--g0)}
+:root[data-skin=gameboy] .btn.danger-text{background:none;border:0;box-shadow:none;color:var(--g0);text-decoration:underline}
+:root[data-skin=gameboy] :is(.seg,.vseg){background:none;box-shadow:none;border:0;gap:6px;padding:0}
+:root[data-skin=gameboy] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:var(--g3)!important;color:var(--g0);border:3px solid var(--g0)!important}
+:root[data-skin=gameboy] .search input{border:0!important}
+:root[data-skin=gameboy] :is(.chk,.md .cbx,.switch){width:18px;height:18px;border:3px solid var(--g0);background:var(--g3);margin:3px 4px 0}
+:root[data-skin=gameboy] :is(.task.done .chk,.md .ck.on .cbx,.switch:checked){background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' shape-rendering='crispEdges'%3E%3Cpath d='M1 4h1v1h1v1h1V5h1V4h1V3h1V2h1v1H7v1H6v1H5v1H4v1H3V6H2V5H1z' fill='%230f380f'/%3E%3C/svg%3E") center/12px no-repeat,var(--g2)}
+:root[data-skin=gameboy] :is(.chk,.md .cbx) svg,:root[data-skin=gameboy] .switch::after{display:none}
+:root[data-skin=gameboy] .live .pfx-ck::before{border:3px solid var(--g0);background:var(--g3)}
+:root[data-skin=gameboy] .live .ck.on .pfx-ck::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' shape-rendering='crispEdges'%3E%3Cpath d='M1 4h1v1h1v1h1V5h1V4h1V3h1V2h1v1H7v1H6v1H5v1H4v1H3V6H2V5H1z' fill='%230f380f'/%3E%3C/svg%3E") center/12px no-repeat,var(--g2)}
+:root[data-skin=gameboy] .live .ck.on .pfx-ck::after{display:none}
+:root[data-skin=gameboy] .chip{background:var(--g2);border:2px solid var(--g0);color:var(--g0)}
+:root[data-skin=gameboy] .sg-ic{background:var(--g0);color:var(--g3)}
+:root[data-skin=gameboy] :is(.ed-tools,.ed-pop,.ed-tcolors){background:var(--g2);border-top:3px solid var(--g0)}
+/* Boîte de texte façon jeu : double cadre, flèche devant l'élément choisi */
+:root[data-skin=gameboy] .dlg{background:var(--g3);box-shadow:inset 0 0 0 3px var(--g3),inset 0 0 0 6px var(--g0),4px 4px 0 var(--g0)}
+:root[data-skin=gameboy] .dlg h3{text-transform:uppercase}
+:root[data-skin=gameboy] :is(.dlg-items button,.pop-menu button):hover{background:none}
+:root[data-skin=gameboy] :is(.dlg-items button,.pop-menu button):is(:hover,:focus-visible)::before{content:'';position:absolute;left:2px;width:0;height:0;border:6px solid transparent;border-left:8px solid var(--g0)}
+:root[data-skin=gameboy] :is(.dlg-items button,.pop-menu button){position:relative;padding-left:18px}
+:root[data-skin=gameboy] .pop-menu{background:var(--g3)}
+:root[data-skin=gameboy] .toast{background:var(--g0);color:var(--g3)}
+:root[data-skin=gameboy] .toast button{color:var(--g2)}
+:root[data-skin=gameboy] .side{background:var(--g2);border-right:3px solid var(--g0)}
+:root[data-skin=gameboy] .nav-item.on{background:var(--g0);color:var(--g3)}
+:root[data-skin=gameboy] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--g0);color:var(--g3)}
+
+/* ===================================================================================
+   Terminal — écran cathodique vert, balayage, [crochets], barre de touches F1…F5
+   =================================================================================== */
+:root[data-skin=crt]{
+  --bg:#020403; --surface:#031407; --surface2:#06200d; --crt:var(--accent); --text:var(--crt); --muted:color-mix(in srgb,var(--crt) 68%,#000); --line:color-mix(in srgb,var(--crt) 45%,#000);
+  --danger:#ff5b5b; --ok:var(--crt); --star:color-mix(in srgb,var(--crt) 45%,#fff); --warn:color-mix(in srgb,var(--crt) 45%,#fff);
+  --radius:0; --shadow:none; --bar-shadow:none; --accent-ink:var(--crt); --pat:color-mix(in srgb,var(--crt) 12%,transparent);
+  --c-red:#2a0a0a; --c-orange:#2a1a05; --c-yellow:#25250a; --c-green:#06260f; --c-teal:#05211f; --c-blue:#06142a; --c-purple:#1b0a2a; --c-pink:#2a0a1d; --c-brown:#1f1408; --c-gray:#111;
+}
+:root[data-skin=crt] body{font-family:"VT323","Courier New",monospace;font-size:19px;background:radial-gradient(ellipse at center,color-mix(in srgb,var(--crt) 7%,#020403) 0,#020403 70%,#000);text-shadow:0 0 6px color-mix(in srgb,var(--crt) 50%,transparent)}
+:root[data-skin=crt] body::after{content:'';position:fixed;inset:0;z-index:200;pointer-events:none;background:repeating-linear-gradient(rgba(0,0,0,0) 0 2px,rgba(0,0,0,.28) 2px 3px),radial-gradient(ellipse at center,transparent 60%,rgba(0,0,0,.55))}
+:root[data-skin=crt] ::selection{background:var(--crt);color:#020403;text-shadow:none}
+:root[data-skin=crt] :is(.md,.ed-body,.ttitle,.note h3){font-size:1.1em}
+:root[data-skin=crt] :is(.top,.selbar,.ed-top){background:#020403;border:0;border-bottom:1px dashed color-mix(in srgb,var(--crt) 45%,#000);box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+:root[data-skin=crt] .top h1{text-transform:uppercase;font-weight:400;font-size:28px}
+:root[data-skin=crt] .top h1::before{content:'C:\\> '}
+:root[data-skin=crt] .top h1::after{content:'_';animation:crtBlink 1s steps(1) infinite}
+@keyframes crtBlink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){:root[data-skin=crt] .top h1::after{animation:none}}
+:root[data-skin=crt] .group-h::before{content:'== '}
+:root[data-skin=crt] .group-h::after{content:' =='}
+:root[data-skin=crt] .group-h{letter-spacing:.1em;font-size:16px}
+:root[data-skin=crt] :is(.note,.card,.task,.takenote,.day-prog,.gal-row,.cm-day,.cw-scroll,.t-stats,.search,.vseg){border:1px solid color-mix(in srgb,var(--crt) 45%,#000)!important;box-shadow:none;background-color:var(--card,transparent)}
+:root[data-skin=crt] .note h3::before{content:'# '}
+/* Barre de touches façon Midnight Commander */
+:root[data-skin=crt] .tabs{background:#020403;border-top:1px solid color-mix(in srgb,var(--crt) 45%,#000);counter-reset:fk}
+:root[data-skin=crt] .tabs .ic{display:none}
+:root[data-skin=crt] .tabs button{counter-increment:fk;flex-direction:row;justify-content:center;align-items:center;gap:0;padding:12px 0;font-size:15px;color:#020403;text-transform:uppercase;text-shadow:none;background:var(--crt) content-box;margin:0 2px}
+:root[data-skin=crt] .tabs button::before{content:counter(fk);background:#020403;color:var(--crt);padding:0 3px;margin-right:2px;align-self:stretch;display:flex;align-items:center}
+:root[data-skin=crt] .tabs button.on{background:color-mix(in srgb,var(--crt) 45%,#fff) content-box;color:#020403;box-shadow:none}
+:root[data-skin=crt] .tabs .badge{display:none}
+:root[data-skin=crt] .fab{background:#020403;color:var(--crt);border:2px solid var(--crt);box-shadow:0 0 10px color-mix(in srgb,var(--crt) 40%,transparent)}
+:root[data-skin=crt] .fab:active{background:var(--crt);color:#020403}
+:root[data-skin=crt] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.seg button,.vseg button,.quick .icon-btn){background:none;border:0;box-shadow:none;color:var(--crt);font-weight:400;text-transform:uppercase}
+:root[data-skin=crt] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.seg button)::before{content:'[';margin-right:4px}
+:root[data-skin=crt] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.install-btn,.seg button)::after{content:']';margin-left:4px}
+:root[data-skin=crt] :is(.btn,.chip-btn,.quick-dates button,.days button,.cal-today,.seg button,.vseg button,.icon-btn,.dlg-items button,.pop-menu button,.nav-item):is(:hover,:active){background:var(--crt)!important;color:#020403!important;text-shadow:none}
+:root[data-skin=crt] :is(.chip-btn.on,.seg button.on,.days button.on,.vseg button.on,.btn.primary){background:var(--crt);color:#020403;text-shadow:none}
+:root[data-skin=crt] .btn.danger-text{color:#ff5b5b}
+:root[data-skin=crt] :is(.seg,.vseg){background:none;box-shadow:none;gap:4px;padding:0}
+:root[data-skin=crt] :is(input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title),textarea,select){background:transparent!important;color:var(--crt);border:0!important;border-bottom:1px dashed var(--crt)!important;caret-color:var(--crt)}
+:root[data-skin=crt] .search input{border:0!important}
+:root[data-skin=crt] .search svg{color:var(--crt)}
+:root[data-skin=crt] :is(.chk,.md .cbx){width:auto;height:auto;border:0;background:none;color:var(--crt);min-width:30px}
+:root[data-skin=crt] :is(.chk,.md .cbx) svg{display:none}
+:root[data-skin=crt] :is(.chk,.md .cbx)::before{content:'[ ]'}
+:root[data-skin=crt] :is(.task.done .chk,.md .ck.on .cbx){background:none}
+:root[data-skin=crt] :is(.task.done .chk,.md .ck.on .cbx)::before{content:'[x]'}
+:root[data-skin=crt] .live .pfx-ck::before{border:1px solid var(--crt);background:none}
+:root[data-skin=crt] .live .ck.on .pfx-ck::before{background:var(--crt)}
+:root[data-skin=crt] .live .ck.on .pfx-ck::after{border-color:#020403}
+:root[data-skin=crt] .switch{width:56px;height:24px;border:0;background:none}
+:root[data-skin=crt] .switch::after{content:'[OFF]';inset:0;width:auto;height:auto;background:none;box-shadow:none;color:color-mix(in srgb,var(--crt) 68%,#000);font:19px/24px "VT323",monospace;transform:none}
+:root[data-skin=crt] .switch:checked{background:var(--crt)}
+:root[data-skin=crt] .switch:checked::after{content:'[ON ]';color:#020403;transform:none}
+:root[data-skin=crt] .chip{background:none;border:1px dashed color-mix(in srgb,var(--crt) 45%,#000);color:var(--crt)}
+:root[data-skin=crt] .sg-ic{background:none;color:var(--crt)}
+:root[data-skin=crt] :is(.ed-tools,.ed-pop,.ed-tcolors){background:#020403;border-top:1px dashed color-mix(in srgb,var(--crt) 45%,#000)}
+/* Fenêtres en cadre double, titre en vidéo inverse */
+:root[data-skin=crt] :is(.dlg,.sheet,.pop-menu){background:#020403;border:3px double var(--crt);box-shadow:0 0 18px color-mix(in srgb,var(--crt) 25%,transparent)}
+:root[data-skin=crt] .dlg h3{background:var(--crt);color:#020403;text-shadow:none;margin:-6px -6px 4px;padding:2px 8px;font-weight:400;text-transform:uppercase}
+:root[data-skin=crt] :is(.dlg-items button,.pop-menu button){border-radius:0}
+:root[data-skin=crt] .toast{background:var(--crt);color:#020403;text-shadow:none}
+:root[data-skin=crt] .toast button{color:#020403;text-decoration:underline}
+:root[data-skin=crt] .side{background:#020403;border-right:1px dashed color-mix(in srgb,var(--crt) 45%,#000)}
+:root[data-skin=crt] .nav-item.on{background:none;color:color-mix(in srgb,var(--crt) 45%,#fff)}
+:root[data-skin=crt] .nav-item.on::after{content:'<';margin-left:auto}
+:root[data-skin=crt] :is(.cm-day.td .cm-n,.cw-dh.td b){background:var(--crt);color:#020403}
+:root[data-skin=crt] .editor{background-color:var(--card,#020403)}
+
+/* Barre de recherche : le cadre est celui de la barre, jamais un second contour sur le champ */
+:root[data-skin] .search input:not([type=checkbox]):not([type=color]):not(.big-in):not(.ed-title):not(#_){border:0!important;box-shadow:none!important;background:transparent!important;outline:none}

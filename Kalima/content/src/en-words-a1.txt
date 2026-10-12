@@ -1,0 +1,249 @@
+# Anglais A1 — niveau|mot|nature|traduction principale;autres traductions acceptées|exemple avec *mot*|traduction
+# nature : n nom, v verbe, adj, adv, prep, pron, conj, det, int, num, q (mot interrogatif), phr (expression)
+# La première traduction est celle de l'usage le plus courant : c'est elle qu'on affiche.
+A1|hello|int|bonjour;salut|*Hello*, how are you?|Bonjour, comment ça va ?
+A1|hi|int|salut;bonjour|*Hi*, I'm Tom.|Salut, moi c'est Tom.
+A1|goodbye|int|au revoir|*Goodbye*, see you tomorrow.|Au revoir, à demain.
+A1|bye|int|salut;au revoir;ciao|*Bye*, see you later!|Salut, à plus tard !
+A1|please|adv|s'il te plaît;s'il vous plaît|A coffee, *please*.|Un café, s'il vous plaît.
+A1|thanks|int|merci|*Thanks* for your help.|Merci pour ton aide.
+A1|thank you|phr|merci|*Thank you* very much!|Merci beaucoup !
+A1|sorry|adj|désolé;pardon|I'm *sorry*, I'm late.|Désolé, je suis en retard.
+A1|yes|adv|oui|*Yes*, I like it.|Oui, j'aime ça.
+A1|no|adv|non|*No*, thank you.|Non, merci.
+A1|okay|adj|d'accord;ok|*Okay*, let's go.|D'accord, on y va.
+A1|man|n|homme|The *man* is tall.|L'homme est grand.
+A1|woman|n|femme|The *woman* is my teacher.|La femme est ma prof.
+A1|child|n|enfant|The *child* is playing.|L'enfant joue.
+A1|children|n|enfants|My *children* are at school.|Mes enfants sont à l'école.
+A1|boy|n|garçon|He is a nice *boy*.|C'est un gentil garçon.
+A1|girl|n|fille|The *girl* has a red bag.|La fille a un sac rouge.
+A1|baby|n|bébé|The *baby* is sleeping.|Le bébé dort.
+A1|friend|n|ami;amie;copain;copine|She is my best *friend*.|C'est ma meilleure amie.
+A1|family|n|famille|I love my *family*.|J'aime ma famille.
+A1|mother|n|mère|My *mother* is a doctor.|Ma mère est médecin.
+A1|father|n|père|My *father* works in a bank.|Mon père travaille dans une banque.
+A1|mum|n|maman|*Mum*, where are my keys?|Maman, où sont mes clés ?
+A1|dad|n|papa|My *dad* cooks very well.|Mon papa cuisine très bien.
+A1|parents|n|parents|My *parents* live in Lyon.|Mes parents habitent à Lyon.
+A1|brother|n|frère|I have one *brother*.|J'ai un frère.
+A1|sister|n|sœur|My *sister* is twelve.|Ma sœur a douze ans.
+A1|son|n|fils|Their *son* is a student.|Leur fils est étudiant.
+A1|daughter|n|fille|Our *daughter* likes music.|Notre fille aime la musique.
+A1|husband|n|mari|Her *husband* is from Spain.|Son mari est espagnol.
+A1|wife|n|femme;épouse|His *wife* is a nurse.|Sa femme est infirmière.
+A1|people|n|gens;personnes|There are a lot of *people* here.|Il y a beaucoup de gens ici.
+A1|name|n|nom;prénom|What's your *name*?|Comment tu t'appelles ?
+A1|house|n|maison|They have a big *house*.|Ils ont une grande maison.
+A1|home|n|maison;chez moi;domicile|I'm at *home*.|Je suis à la maison.
+A1|room|n|pièce;chambre;salle|My *room* is small.|Ma chambre est petite.
+A1|bedroom|n|chambre|The *bedroom* is upstairs.|La chambre est en haut.
+A1|kitchen|n|cuisine|We eat in the *kitchen*.|On mange dans la cuisine.
+A1|bathroom|n|salle de bain;toilettes|Where is the *bathroom*?|Où est la salle de bain ?
+A1|door|n|porte|Close the *door*, please.|Ferme la porte, s'il te plaît.
+A1|window|n|fenêtre|Open the *window*.|Ouvre la fenêtre.
+A1|table|n|table|The keys are on the *table*.|Les clés sont sur la table.
+A1|chair|n|chaise|Sit on this *chair*.|Assieds-toi sur cette chaise.
+A1|bed|n|lit|I go to *bed* at eleven.|Je vais au lit à onze heures.
+A1|car|n|voiture|My *car* is blue.|Ma voiture est bleue.
+A1|bus|n|bus|I take the *bus* to work.|Je prends le bus pour aller au travail.
+A1|train|n|train|The *train* is late.|Le train est en retard.
+A1|bike|n|vélo|I go to school by *bike*.|Je vais à l'école à vélo.
+A1|plane|n|avion|The *plane* leaves at six.|L'avion part à six heures.
+A1|street|n|rue|I live in this *street*.|J'habite dans cette rue.
+A1|city|n|ville|Paris is a big *city*.|Paris est une grande ville.
+A1|town|n|ville;petite ville|It's a small *town*.|C'est une petite ville.
+A1|country|n|pays|Japan is a beautiful *country*.|Le Japon est un beau pays.
+A1|school|n|école|The *school* is near my house.|L'école est près de chez moi.
+A1|work|n|travail|I go to *work* by car.|Je vais au travail en voiture.
+A1|job|n|travail;boulot;emploi;métier|I like my *job*.|J'aime mon travail.
+A1|shop|n|magasin;boutique|The *shop* opens at nine.|Le magasin ouvre à neuf heures.
+A1|hotel|n|hôtel|Our *hotel* is near the sea.|Notre hôtel est près de la mer.
+A1|restaurant|n|restaurant|Let's go to a *restaurant*.|Allons au restaurant.
+A1|hospital|n|hôpital|She works in a *hospital*.|Elle travaille dans un hôpital.
+A1|station|n|gare;station|Where is the *station*?|Où est la gare ?
+A1|park|n|parc|The kids play in the *park*.|Les enfants jouent au parc.
+A1|beach|n|plage|We go to the *beach* in summer.|On va à la plage en été.
+A1|sea|n|mer|The *sea* is cold today.|La mer est froide aujourd'hui.
+A1|food|n|nourriture;repas;bouffe|The *food* is very good here.|La nourriture est très bonne ici.
+A1|water|n|eau|Can I have some *water*?|Je peux avoir de l'eau ?
+A1|bread|n|pain|I buy *bread* every morning.|J'achète du pain tous les matins.
+A1|milk|n|lait|Do you want *milk* in your tea?|Tu veux du lait dans ton thé ?
+A1|coffee|n|café|I drink a *coffee* every morning.|Je bois un café tous les matins.
+A1|tea|n|thé|Would you like some *tea*?|Tu veux du thé ?
+A1|apple|n|pomme|I eat an *apple* every day.|Je mange une pomme tous les jours.
+A1|egg|n|œuf|I want two *eggs*, please.|Je voudrais deux œufs, s'il vous plaît.
+A1|meat|n|viande|I don't eat *meat*.|Je ne mange pas de viande.
+A1|fish|n|poisson|We have *fish* for dinner.|On mange du poisson ce soir.
+A1|chicken|n|poulet|I'd like the *chicken*, please.|Je voudrais le poulet, s'il vous plaît.
+A1|rice|n|riz|Do you want *rice* or pasta?|Tu veux du riz ou des pâtes ?
+A1|cheese|n|fromage|I love French *cheese*.|J'adore le fromage français.
+A1|fruit|n|fruit;fruits|Eat more *fruit*.|Mange plus de fruits.
+A1|breakfast|n|petit-déjeuner;petit déjeuner|I have *breakfast* at seven.|Je prends mon petit-déjeuner à sept heures.
+A1|lunch|n|déjeuner;repas de midi|What's for *lunch*?|Qu'est-ce qu'on mange à midi ?
+A1|dinner|n|dîner;repas du soir|*Dinner* is ready!|Le dîner est prêt !
+A1|day|n|jour;journée|Have a nice *day*!|Bonne journée !
+A1|night|n|nuit|Good *night*!|Bonne nuit !
+A1|morning|n|matin;matinée|I run every *morning*.|Je cours tous les matins.
+A1|afternoon|n|après-midi|See you this *afternoon*.|À cet après-midi.
+A1|evening|n|soir;soirée|What are you doing this *evening*?|Tu fais quoi ce soir ?
+A1|week|n|semaine|I work five days a *week*.|Je travaille cinq jours par semaine.
+A1|weekend|n|week-end|What do you do at the *weekend*?|Tu fais quoi le week-end ?
+A1|month|n|mois|My birthday is next *month*.|Mon anniversaire est le mois prochain.
+A1|year|n|an;année|I'm twenty *years* old.|J'ai vingt ans.
+A1|today|adv|aujourd'hui|It's hot *today*.|Il fait chaud aujourd'hui.
+A1|tomorrow|adv|demain|See you *tomorrow*!|À demain !
+A1|yesterday|adv|hier|I saw her *yesterday*.|Je l'ai vue hier.
+A1|now|adv|maintenant|I'm busy *now*.|Je suis occupé maintenant.
+A1|time|n|temps;heure;fois|What *time* is it?|Quelle heure est-il ?
+A1|hour|n|heure|The film is two *hours* long.|Le film dure deux heures.
+A1|minute|n|minute|Wait a *minute*!|Attends une minute !
+A1|birthday|n|anniversaire|Happy *birthday*!|Joyeux anniversaire !
+A1|money|n|argent|I don't have much *money*.|Je n'ai pas beaucoup d'argent.
+A1|book|n|livre|I'm reading a good *book*.|Je lis un bon livre.
+A1|phone|n|téléphone;portable|Where is my *phone*?|Où est mon téléphone ?
+A1|computer|n|ordinateur;ordi|I work on a *computer*.|Je travaille sur un ordinateur.
+A1|bag|n|sac|My *bag* is heavy.|Mon sac est lourd.
+A1|key|n|clé;clef|I can't find my *keys*.|Je ne trouve pas mes clés.
+A1|dog|n|chien|My *dog* is very friendly.|Mon chien est très gentil.
+A1|cat|n|chat|The *cat* is on the bed.|Le chat est sur le lit.
+A1|music|n|musique|I listen to *music* every day.|J'écoute de la musique tous les jours.
+A1|film|n|film|Let's watch a *film* tonight.|Regardons un film ce soir.
+A1|movie|n|film|This *movie* is great.|Ce film est génial.
+A1|game|n|jeu;match;partie|It's a fun *game*.|C'est un jeu amusant.
+A1|sport|n|sport|What *sport* do you play?|Tu fais quel sport ?
+A1|weather|n|temps;météo|The *weather* is nice today.|Il fait beau aujourd'hui.
+A1|sun|n|soleil|The *sun* is hot.|Le soleil est chaud.
+A1|rain|n|pluie|I don't like the *rain*.|Je n'aime pas la pluie.
+A1|head|n|tête|My *head* hurts.|J'ai mal à la tête.
+A1|hand|n|main|Wash your *hands*.|Lave-toi les mains.
+A1|eye|n|œil;yeux|She has blue *eyes*.|Elle a les yeux bleus.
+A1|color|n|couleur|What *color* is your car?|Ta voiture est de quelle couleur ?
+A1|be|v|être|I *am* very happy.|Je suis très content.
+A1|have|v|avoir|I *have* two sisters.|J'ai deux sœurs.
+A1|do|v|faire|What do you *do*?|Qu'est-ce que tu fais dans la vie ?
+A1|go|v|aller|I *go* to work by bus.|Je vais au travail en bus.
+A1|come|v|venir|*Come* with me!|Viens avec moi !
+A1|get|v|obtenir;avoir;recevoir;prendre|Can I *get* a coffee?|Je peux avoir un café ?
+A1|make|v|faire;fabriquer|I *make* a cake every Sunday.|Je fais un gâteau tous les dimanches.
+A1|like|v|aimer;aimer bien|I *like* pizza.|J'aime la pizza.
+A1|love|v|adorer;aimer|I *love* this song!|J'adore cette chanson !
+A1|want|v|vouloir|I *want* a new phone.|Je veux un nouveau téléphone.
+A1|need|v|avoir besoin de|I *need* help.|J'ai besoin d'aide.
+A1|know|v|savoir;connaître|I don't *know*.|Je ne sais pas.
+A1|think|v|penser;croire|I *think* it's a good idea.|Je pense que c'est une bonne idée.
+A1|see|v|voir|I can *see* the sea.|Je vois la mer.
+A1|look|v|regarder|*Look* at this photo!|Regarde cette photo !
+A1|watch|v|regarder|We *watch* TV in the evening.|On regarde la télé le soir.
+A1|listen|v|écouter|*Listen* to me.|Écoute-moi.
+A1|hear|v|entendre|I can't *hear* you.|Je ne t'entends pas.
+A1|say|v|dire|What did you *say*?|Qu'est-ce que tu as dit ?
+A1|speak|v|parler|Do you *speak* English?|Tu parles anglais ?
+A1|talk|v|parler;discuter|We *talk* every day.|On se parle tous les jours.
+A1|ask|v|demander|Can I *ask* a question?|Je peux poser une question ?
+A1|eat|v|manger|We *eat* at eight.|On mange à huit heures.
+A1|drink|v|boire|I *drink* a lot of water.|Je bois beaucoup d'eau.
+A1|sleep|v|dormir|I *sleep* eight hours a night.|Je dors huit heures par nuit.
+A1|live|v|habiter;vivre|I *live* in Paris.|J'habite à Paris.
+A1|work|v|travailler;marcher;fonctionner|I *work* in an office.|Je travaille dans un bureau.
+A1|play|v|jouer|The kids *play* outside.|Les enfants jouent dehors.
+A1|read|v|lire|I *read* before bed.|Je lis avant de dormir.
+A1|write|v|écrire|*Write* your name here.|Écris ton nom ici.
+A1|open|v|ouvrir|Can you *open* the door?|Tu peux ouvrir la porte ?
+A1|close|v|fermer|*Close* the window, please.|Ferme la fenêtre, s'il te plaît.
+A1|buy|v|acheter|I want to *buy* a new bag.|Je veux acheter un nouveau sac.
+A1|pay|v|payer|Can I *pay* by card?|Je peux payer par carte ?
+A1|help|v|aider|Can you *help* me?|Tu peux m'aider ?
+A1|wait|v|attendre|*Wait* for me!|Attends-moi !
+A1|start|v|commencer|The film *starts* at nine.|Le film commence à neuf heures.
+A1|stop|v|arrêter;s'arrêter|*Stop*! It's red.|Arrête-toi ! C'est rouge.
+A1|walk|v|marcher;aller à pied|I *walk* to school.|Je vais à l'école à pied.
+A1|run|v|courir|I *run* in the park.|Je cours dans le parc.
+A1|sit|v|s'asseoir;être assis|Please *sit* down.|Asseyez-vous, je vous en prie.
+A1|stand|v|être debout;se lever|*Stand* up, please.|Levez-vous, s'il vous plaît.
+A1|give|v|donner|*Give* me the book, please.|Donne-moi le livre, s'il te plaît.
+A1|take|v|prendre|*Take* an umbrella.|Prends un parapluie.
+A1|put|v|mettre;poser|*Put* it on the table.|Mets-le sur la table.
+A1|find|v|trouver|I can't *find* my phone.|Je ne trouve pas mon téléphone.
+A1|call|v|appeler|I'll *call* you tonight.|Je t'appelle ce soir.
+A1|cook|v|cuisiner;faire la cuisine|I *cook* every evening.|Je cuisine tous les soirs.
+A1|learn|v|apprendre|I *learn* English at school.|J'apprends l'anglais à l'école.
+A1|study|v|étudier|She *studies* medicine.|Elle étudie la médecine.
+A1|understand|v|comprendre|I don't *understand*.|Je ne comprends pas.
+A1|can|v|pouvoir;savoir|I *can* swim.|Je sais nager.
+A1|good|adj|bon;bien|This cake is very *good*.|Ce gâteau est très bon.
+A1|bad|adj|mauvais|The weather is *bad* today.|Il fait mauvais aujourd'hui.
+A1|big|adj|grand;gros|They live in a *big* house.|Ils habitent dans une grande maison.
+A1|small|adj|petit|I have a *small* car.|J'ai une petite voiture.
+A1|little|adj|petit|They have a *little* girl.|Ils ont une petite fille.
+A1|new|adj|nouveau;neuf|I have a *new* job.|J'ai un nouveau travail.
+A1|old|adj|vieux;ancien;âgé|This is an *old* house.|C'est une vieille maison.
+A1|young|adj|jeune|She is very *young*.|Elle est très jeune.
+A1|hot|adj|chaud;très chaud|It's *hot* today.|Il fait chaud aujourd'hui.
+A1|cold|adj|froid|The water is *cold*.|L'eau est froide.
+A1|happy|adj|heureux;content|I'm so *happy* for you!|Je suis tellement content pour toi !
+A1|sad|adj|triste|Why are you *sad*?|Pourquoi tu es triste ?
+A1|tired|adj|fatigué|I'm very *tired* today.|Je suis très fatigué aujourd'hui.
+A1|hungry|adj|qui a faim;affamé|I'm *hungry*.|J'ai faim.
+A1|thirsty|adj|qui a soif;assoiffé|Are you *thirsty*?|Tu as soif ?
+A1|beautiful|adj|beau;belle;magnifique|What a *beautiful* day!|Quelle belle journée !
+A1|nice|adj|sympa;gentil;agréable;beau|Your sister is very *nice*.|Ta sœur est très sympa.
+A1|easy|adj|facile|This exercise is *easy*.|Cet exercice est facile.
+A1|difficult|adj|difficile|English is not *difficult*.|L'anglais n'est pas difficile.
+A1|expensive|adj|cher|This phone is too *expensive*.|Ce téléphone est trop cher.
+A1|cheap|adj|pas cher;bon marché|The food here is *cheap*.|La nourriture ici n'est pas chère.
+A1|long|adj|long|It's a *long* story.|C'est une longue histoire.
+A1|short|adj|court;petit|My hair is *short*.|J'ai les cheveux courts.
+A1|tall|adj|grand|My brother is very *tall*.|Mon frère est très grand.
+A1|favourite|adj|préféré|What's your *favourite* food?|C'est quoi ton plat préféré ?
+A1|busy|adj|occupé;chargé|I'm *busy* this week.|Je suis occupé cette semaine.
+A1|free|adj|libre;gratuit|Are you *free* tonight?|Tu es libre ce soir ?
+A1|ready|adj|prêt|Are you *ready*?|Tu es prêt ?
+A1|right|adj|juste;exact;correct;bon;raison|You're *right*.|Tu as raison.
+A1|wrong|adj|faux;mauvais;incorrect|This answer is *wrong*.|Cette réponse est fausse.
+A1|red|adj|rouge|I have a *red* car.|J'ai une voiture rouge.
+A1|blue|adj|bleu|The sky is *blue*.|Le ciel est bleu.
+A1|green|adj|vert|I like *green* tea.|J'aime le thé vert.
+A1|black|adj|noir|She has *black* hair.|Elle a les cheveux noirs.
+A1|white|adj|blanc|I want a *white* shirt.|Je veux une chemise blanche.
+A1|very|adv|très|It's *very* cold.|Il fait très froid.
+A1|too|adv|aussi;trop|I like it *too*.|Moi aussi, j'aime ça.
+A1|here|adv|ici|Come *here*!|Viens ici !
+A1|there|adv|là;là-bas|Put it *there*.|Mets-le là.
+A1|always|adv|toujours|He is *always* late.|Il est toujours en retard.
+A1|never|adv|jamais|I *never* drink coffee.|Je ne bois jamais de café.
+A1|often|adv|souvent|I *often* go to the cinema.|Je vais souvent au cinéma.
+A1|sometimes|adv|parfois;quelquefois|I *sometimes* walk to work.|Je vais parfois au travail à pied.
+A1|again|adv|encore;à nouveau;de nouveau|Can you say that *again*?|Tu peux répéter ?
+A1|also|adv|aussi;également|She *also* speaks Spanish.|Elle parle aussi espagnol.
+A1|well|adv|bien|You speak English very *well*.|Tu parles très bien anglais.
+A1|in|prep|dans;en;à|The milk is *in* the fridge.|Le lait est dans le frigo.
+A1|on|prep|sur|The book is *on* the table.|Le livre est sur la table.
+A1|under|prep|sous|The cat is *under* the bed.|Le chat est sous le lit.
+A1|with|prep|avec|I live *with* my parents.|J'habite avec mes parents.
+A1|without|prep|sans|I drink coffee *without* sugar.|Je bois mon café sans sucre.
+A1|for|prep|pour|This is *for* you.|C'est pour toi.
+A1|near|prep|près de|I live *near* the station.|J'habite près de la gare.
+A1|after|prep|après|Let's meet *after* work.|On se voit après le travail.
+A1|before|prep|avant|Wash your hands *before* dinner.|Lave-toi les mains avant le dîner.
+A1|and|conj|et|I have a cat *and* a dog.|J'ai un chat et un chien.
+A1|but|conj|mais|It's small *but* nice.|C'est petit mais joli.
+A1|or|conj|ou|Tea *or* coffee?|Thé ou café ?
+A1|because|conj|parce que;car|I'm tired *because* I worked a lot.|Je suis fatigué parce que j'ai beaucoup travaillé.
+A1|what|q|quoi;que;quel;quelle;qu'est-ce que|*What* is this?|Qu'est-ce que c'est ?
+A1|where|q|où|*Where* do you live?|Où est-ce que tu habites ?
+A1|when|q|quand|*When* is your birthday?|C'est quand ton anniversaire ?
+A1|who|q|qui|*Who* is that man?|Qui est cet homme ?
+A1|why|q|pourquoi|*Why* are you late?|Pourquoi tu es en retard ?
+A1|how|q|comment|*How* are you?|Comment ça va ?
+A1|how much|q|combien|*How much* is it?|C'est combien ?
+A1|how many|q|combien;combien de|*How many* brothers do you have?|Tu as combien de frères ?
+A1|one|num|un;une|I have *one* sister.|J'ai une sœur.
+A1|two|num|deux|*Two* coffees, please.|Deux cafés, s'il vous plaît.
+A1|three|num|trois|I have *three* cats.|J'ai trois chats.
+A1|ten|num|dix|It's *ten* o'clock.|Il est dix heures.
+A1|first|adj|premier;première|It's my *first* time here.|C'est ma première fois ici.
+A1|everything|pron|tout|*Everything* is fine.|Tout va bien.
+A1|something|pron|quelque chose|I want *something* to drink.|Je veux quelque chose à boire.
+A1|nothing|pron|rien|I have *nothing* to say.|Je n'ai rien à dire.
+A1|everyone|pron|tout le monde|*Everyone* is here.|Tout le monde est là.

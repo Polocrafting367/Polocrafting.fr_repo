@@ -1,0 +1,110 @@
+# Phrases supplémentaires pour des mots arabes : mot (tel qu'écrit dans ar-words*.txt)|phrase avec *cible*|transcription|traduction
+بَيْت|بَيْتُنَا *بَيْت* صَغِير.|baytounâ bayt ṣaghîr.|Notre maison est une petite maison.
+بَيْت|أَنَا فِي *البَيْتِ* الآن.|anâ fi l-bayti l-âna.|Je suis à la maison maintenant.
+بَاب|*البَابُ* مُغْلَق.|al-bâbou moughlaq.|La porte est fermée.
+كِتَاب|أَيْنَ *كِتَابِي*؟|ayna kitâbî ?|Où est mon livre ?
+كِتَاب|هٰذَا *الكِتَابُ* مُفِيد.|hâdhâ l-kitâbou moufîd.|Ce livre est utile.
+مَاء|*المَاءُ* بَارِد جِدًّا.|al-mâ'ou bârid jiddan.|L'eau est très froide.
+مَاء|أَشْرَبُ *المَاءَ* كَثِيرًا.|achrabou l-mâ'a kathîran.|Je bois beaucoup d'eau.
+خُبْز|*الخُبْزُ* سَاخِن.|al-khoubzou sâkhin.|Le pain est chaud.
+قَهْوَة|أُرِيدُ *قَهْوَةً* بِالحَلِيب.|ourîdou qahwatan bil-ḥalîb.|Je voudrais un café au lait.
+قَهْوَة|لَا أَشْرَبُ *القَهْوَةَ* فِي المَسَاء.|lâ achrabou l-qahwata fi l-masâ'.|Je ne bois pas de café le soir.
+شَاي|*الشَّايُ* لَذِيذ.|ach-châyou ladhîdh.|Le thé est délicieux.
+شَاي|كَأْس *شَاي*، مِنْ فَضْلِكَ.|ka's chây, min faḍlik.|Un verre de thé, s'il vous plaît.
+أَب|*أَبِي* يَعْمَلُ فِي بَنْك.|abî yaʿmalou fî bank.|Mon père travaille dans une banque.
+أُمّ|*أُمِّي* تَطْبُخُ جَيِّدًا.|oummî taṭboukhou jayyidan.|Ma mère cuisine bien.
+أَخ|*أَخِي* الكَبِير طَبِيب.|akhî l-kabîr ṭabîb.|Mon grand frère est médecin.
+أُخْت|عِنْدِي *أُخْت* وَاحِدَة.|ʿindî oukht wâḥida.|J'ai une sœur.
+صَدِيق|هٰذَا *صَدِيقِي* أَحْمَد.|hâdhâ ṣadîqî aḥmad.|C'est mon ami Ahmed.
+صَدِيق|أَخْرُجُ مَعَ *أَصْدِقَائِي*.|akhroujou maʿa aṣdiqâ'î.|Je sors avec mes amis.
+عَائِلَة|*عَائِلَتِي* كَبِيرَة.|ʿâ'ilatî kabîra.|Ma famille est grande.
+اِسْم|*اِسْمِي* سَارَة.|ismî sâra.|Je m'appelle Sarah.
+اِسْم|مَا *اسْمُ* أَبِيكَ؟|mâ smou abîk ?|Comment s'appelle ton père ?
+مَدْرَسَة|*المَدْرَسَةُ* قَرِيبَة مِنَ البَيْت.|al-madrasatou qarîba mina l-bayt.|L'école est près de la maison.
+سَيَّارَة|عِنْدِي *سَيَّارَة* جَدِيدَة.|ʿindî sayyâra jadîda.|J'ai une nouvelle voiture.
+سَيَّارَة|أَذْهَبُ بِـ*السَّيَّارَة*.|adh-habou bis-sayyâra.|J'y vais en voiture.
+غُرْفَة|*الغُرْفَةُ* نَظِيفَة.|al-ghourfatou naẓîfa.|La chambre est propre.
+كَبِير|هٰذَا مَطْعَم *كَبِير*.|hâdhâ maṭʿam kabîr.|C'est un grand restaurant.
+صَغِير|عِنْدِي بَيْت *صَغِير*.|ʿindî bayt ṣaghîr.|J'ai une petite maison.
+جَمِيل|الجَوُّ *جَمِيل* اليَوْم.|al-jawwou jamîl al-yawm.|Il fait beau aujourd'hui.
+جَمِيل|هٰذِهِ صُورَة *جَمِيلَة*.|hâdhihi ṣoûra jamîla.|C'est une belle photo.
+جَدِيد|هٰذَا كِتَاب *جَدِيد*.|hâdhâ kitâb jadîd.|C'est un nouveau livre.
+بَارِد|الجَوُّ *بَارِد* فِي الشِّتَاء.|al-jawwou bârid fi ch-chitâ'.|Il fait froid en hiver.
+حَارّ|الشَّايُ *حَارّ*.|ach-châyou ḥârr.|Le thé est très chaud.
+سَعِيد|نَحْنُ *سُعَدَاء* جِدًّا.|naḥnou souʿadâ' jiddan.|Nous sommes très heureux.
+تَعْبَان|هُوَ *تَعْبَان* اليَوْم.|houwa taʿbân al-yawm.|Il est fatigué aujourd'hui.
+جَائِع|هَلْ أَنْتَ *جَائِع*؟|hal anta jâ'iʿ ?|Tu as faim ?
+كَثِير|فِي المَدِينَةِ نَاس *كَثِيرُونَ*.|fi l-madînati nâs kathîroûn.|Il y a beaucoup de gens en ville.
+جِدًّا|أَنَا تَعْبَان *جِدًّا*.|anâ taʿbân jiddan.|Je suis très fatigué.
+هُنَا|أَنَا *هُنَا*!|anâ houna !|Je suis ici !
+أَيْنَ|*أَيْنَ* تَسْكُنُ؟|ayna taskoun ?|Où habites-tu ?
+أَيْنَ|*أَيْنَ* المَحَطَّة؟|ayna l-maḥaṭṭa ?|Où est la gare ?
+مَاذَا|*مَاذَا* تَفْعَلُ؟|mâdhâ tafʿal ?|Qu'est-ce que tu fais ?
+مَتَى|*مَتَى* تَرْجِعُ؟|matâ tarjiʿ ?|Quand reviens-tu ?
+لِمَاذَا|*لِمَاذَا* لَا تَأْكُلُ؟|limâdhâ lâ ta'koul ?|Pourquoi tu ne manges pas ?
+كَيْفَ|*كَيْفَ* حَالُ أُمِّكَ؟|kayfa ḥâlou oummik ?|Comment va ta mère ?
+كَمْ|*كَمْ* عُمْرُكَ؟|kam ʿoumrouk ?|Quel âge as-tu ?
+مَنْ|*مَنْ* أَنْتَ؟|man anta ?|Qui es-tu ?
+فِي|القِطُّ *فِي* الحَدِيقَة.|al-qiṭṭou fi l-ḥadîqa.|Le chat est dans le jardin.
+عَلَى|المِفْتَاحُ *عَلَى* الطَّاوِلَة.|al-miftâḥou ʿala ṭ-ṭâwila.|La clé est sur la table.
+مِنْ|هُوَ *مِنْ* الجَزَائِر.|houwa mina l-jazâ'ir.|Il est d'Algérie.
+مَعَ|أَسْكُنُ *مَعَ* أَخِي.|askounou maʿa akhî.|J'habite avec mon frère.
+إِلَى|نَذْهَبُ *إِلَى* البَحْر.|nadh-habou ila l-baḥr.|On va à la mer.
+عِنْدِي|*عِنْدِي* قِطّ وَكَلْب.|ʿindî qiṭṭ wa kalb.|J'ai un chat et un chien.
+عِنْدِي|لَيْسَ *عِنْدِي* وَقْت.|laysa ʿindî waqt.|Je n'ai pas le temps.
+أُرِيدُ|*أُرِيدُ* أَنْ أَنَامَ.|ourîdou an anâma.|Je veux dormir.
+أُرِيدُ|*أُرِيدُ* هٰذَا.|ourîdou hâdhâ.|Je veux ça.
+أُحِبُّ|*أُحِبُّ* المُوسِيقَى.|ouḥibbou l-moûsîqâ.|J'aime la musique.
+أُحِبُّ|لَا *أُحِبُّ* البَرْد.|lâ ouḥibbou l-bard.|Je n'aime pas le froid.
+أَفْهَمُ|*أَفْهَمُ* قَلِيلًا.|afhamou qalîlan.|Je comprends un peu.
+أَعْرِفُ|*أَعْرِفُ* هٰذَا المَكَان.|aʿrifou hâdhâ l-makân.|Je connais cet endroit.
+أَسْكُنُ|*أَسْكُنُ* قَرِيبًا مِنْ هُنَا.|askounou qarîban min houna.|J'habite près d'ici.
+أَعْمَلُ|*أَعْمَلُ* مِنَ البَيْت.|aʿmalou mina l-bayt.|Je travaille depuis la maison.
+أَتَكَلَّمُ|*أَتَكَلَّمُ* العَرَبِيَّةَ قَلِيلًا.|atakallamou l-ʿarabiyyata qalîlan.|Je parle un peu arabe.
+اليَوْم|*اليَوْمَ* الجُمُعَة.|al-yawma l-joumouʿa.|Aujourd'hui, c'est vendredi.
+غَدًا|أُسَافِرُ *غَدًا*.|ousâfirou ghadan.|Je pars en voyage demain.
+أَمْس|رَأَيْتُهُ *أَمْس*.|ra'aytouhou ams.|Je l'ai vu hier.
+صَبَاح|أَشْرَبُ الشَّايَ كُلَّ *صَبَاح*.|achrabou ch-châya koulla ṣabâḥ.|Je bois du thé chaque matin.
+سَاعَة|اِنْتَظِرْ *سَاعَة*.|intaẓir sâʿa.|Attends une heure.
+عَمَل|*العَمَلُ* كَثِير اليَوْم.|al-ʿamalou kathîr al-yawm.|Il y a beaucoup de travail aujourd'hui.
+سُوق|*السُّوقُ* مُزْدَحِم.|as-soûqou mouzdaḥim.|Le marché est bondé.
+مَطْعَم|هٰذَا *المَطْعَمُ* غَالٍ.|hâdhâ l-maṭʿamou ghâlin.|Ce restaurant est cher.
+مَدِينَة|أَسْكُنُ فِي *مَدِينَة* صَغِيرَة.|askounou fî madîna ṣaghîra.|J'habite dans une petite ville.
+بَحْر|*البَحْرُ* هَادِئ اليَوْم.|al-baḥrou hâdi' al-yawm.|La mer est calme aujourd'hui.
+مَال|لَيْسَ مَعِي *مَال*.|laysa maʿî mâl.|Je n'ai pas d'argent sur moi.
+هَاتِف|*هَاتِفِي* لَا يَعْمَلُ.|hâtifî lâ yaʿmal.|Mon téléphone ne marche pas.
+طَبِيب|أَحْتَاجُ إِلَى *طَبِيب*.|aḥtâjou ilâ ṭabîb.|J'ai besoin d'un médecin.
+لُغَة|*اللُّغَةُ* العَرَبِيَّةُ جَمِيلَة.|al-loughatou l-ʿarabiyyatou jamîla.|La langue arabe est belle.
+كَلِمَة|تَعَلَّمْتُ *كَلِمَةً* جَدِيدَة.|taʿallamtou kalimatan jadîda.|J'ai appris un nouveau mot.
+وَقْت|كَمِ *الوَقْتُ*؟|kami l-waqt ?|Quelle heure est-il ?
+قَرِيب|المَحَطَّةُ *قَرِيبَة*.|al-maḥaṭṭatou qarîba.|La gare est proche.
+بَعِيد|بَيْتِي *بَعِيد* عَنِ العَمَل.|baytî baʿîd ʿani l-ʿamal.|Ma maison est loin du travail.
+سَهْل|العَرَبِيَّةُ *سَهْلَة*!|al-ʿarabiyyatou sahla !|L'arabe, c'est facile !
+صَعْب|هٰذَا التَّمْرِينُ *صَعْب*.|hâdhâ t-tamrînou ṣaʿb.|Cet exercice est difficile.
+لَذِيذ|الكُسْكُسُ *لَذِيذ*.|al-kouskousou ladhîdh.|Le couscous est délicieux.
+مَرِيض|أُمِّي *مَرِيضَة*.|oummî marîḍa.|Ma mère est malade.
+يَذْهَبُ|أَيْنَ *تَذْهَبُ*؟|ayna tadh-hab ?|Où vas-tu ?
+يَأْكُلُ|مَاذَا *تَأْكُلُ*؟|mâdhâ ta'koul ?|Qu'est-ce que tu manges ?
+يَشْرَبُ|مَاذَا *تَشْرَبُ*؟|mâdhâ tachrab ?|Qu'est-ce que tu bois ?
+يَعْمَلُ|أَيْنَ *تَعْمَلُ*؟|ayna taʿmal ?|Où travailles-tu ?
+يَسْكُنُ|أَيْنَ *تَسْكُنُ*؟|ayna taskoun ?|Où habites-tu ?
+يَنَامُ|*أَنَامُ* ثَمَانِيَ سَاعَات.|anâmou thamâniya sâʿât.|Je dors huit heures.
+يَفْهَمُ|لَا *أَفْهَمُ* هٰذِهِ الكَلِمَة.|lâ afhamou hâdhihi l-kalima.|Je ne comprends pas ce mot.
+يَعْرِفُ|هَلْ *تَعْرِفُ* أَحْمَد؟|hal taʿrifou aḥmad ?|Tu connais Ahmed ?
+يَتَكَلَّمُ|هَلْ *تَتَكَلَّمُ* الفَرَنْسِيَّة؟|hal tatakallamou l-faransiyya ?|Tu parles français ?
+يَسْتَطِيعُ|هَلْ *تَسْتَطِيعُ* أَنْ تُسَاعِدَنِي؟|hal tastaṭîʿou an tousâʿidanî ?|Est-ce que tu peux m'aider ?
+يُرِيدُ|هَلْ *تُرِيدُ* شَايًا؟|hal tourîdou châyan ?|Tu veux du thé ?
+يَحْتَاجُ|*أَحْتَاجُ* إِلَى وَقْت.|aḥtâjou ilâ waqt.|J'ai besoin de temps.
+مُشْكِلَة|عِنْدِي *مُشْكِلَة*.|ʿindî mouchkila.|J'ai un problème.
+فِكْرَة|عِنْدِي *فِكْرَة*!|ʿindî fikra !|J'ai une idée !
+مُهِمّ|الصِّحَّةُ *مُهِمَّة*.|aṣ-ṣiḥḥatou mouhimma.|La santé, c'est important.
+رُبَّمَا|*رُبَّمَا* يَأْتِي غَدًا.|roubbamâ ya'tî ghadan.|Il viendra peut-être demain.
+طِفْل|*الطِّفْلُ* يَلْعَبُ.|aṭ-ṭiflou yalʿab.|L'enfant joue.
+نَافِذَة|*النَّافِذَةُ* مَفْتُوحَة.|an-nâfidhatou maftoûḥa.|La fenêtre est ouverte.
+مَطْبَخ|*المَطْبَخُ* صَغِير.|al-maṭbakhou ṣaghîr.|La cuisine est petite.
+عَصِير|*العَصِيرُ* بَارِد.|al-ʿaṣîrou bârid.|Le jus est frais.
+تَعَالَ|*تَعَالَ* مَعِي!|taʿâla maʿî !|Viens avec moi !
+قِطَار|نُسَافِرُ بِـ*القِطَار*.|nousâfirou bil-qiṭâr.|On voyage en train.
+حَقِيبَة|أَيْنَ *حَقِيبَتِي*؟|ayna ḥaqîbatî ?|Où est mon sac ?
+حَدِيقَة|*الحَدِيقَةُ* جَمِيلَة.|al-ḥadîqatou jamîla.|Le jardin est beau.
+دَوَاء|هَلْ أَخَذْتَ *الدَّوَاءَ*؟|hal akhadhta d-dawâ' ?|Tu as pris le médicament ?

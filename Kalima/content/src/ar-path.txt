@@ -1,0 +1,63 @@
+# Premiers pas en arabe : pour quelqu'un qui n'a jamais entendu ni lu l'arabe. UN mot à la fois au début, deux au plus ensuite.
+# On écoute et on lit la prononciation en lettres latines ; l'écriture arabe arrive par les étapes d'alphabet (2 lettres).
+# titre|sous-titre|éléments séparés par « ; » (mot de ar-words*.txt, sinon expression de ar-phrases.txt ; « s: » force l'expression)
+# alpha|n : étape n de l'alphabet (ar-letters.json).
+Ton premier mot : bonjour|marḥaban|مَرْحَبًا
+Merci|choukran|شُكْرًا
+Oui|naʿam|نَعَمْ
+Non|lâ|لَا
+Le bonjour de tous les jours|as-salâmou ʿalaykoum|s:السَّلَامُ عَلَيْكُمْ
+Répondre à ce bonjour|wa ʿalaykoumou s-salâm|s:وَعَلَيْكُمُ السَّلَام
+Moi|anâ|أَنَا
+Toi|anta|أَنْتَ
+L'eau|mâ'|مَاء
+Le pain|khoubz|خُبْز
+alpha|0
+Au revoir|maʿa s-salâma|مَعَ السَّلَامَة
+Bonjour le matin|ṣabâḥ al-khayr|صَبَاح الخَيْر
+S'il te plaît|min faḍlik|مِنْ فَضْلِكَ
+De rien|ʿafwan|s:عَفْوًا
+alpha|1
+Père et mère|ab · oumm|أَب;أُمّ
+Frère et sœur|akh · oukht|أَخ;أُخْت
+alpha|2
+Ça va ?|kayfa ḥâlouk ?|s:كَيْفَ حَالُكَ؟
+Ça va bien|bikhayr · wa anta ?|s:بِخَيْر;s:وَأَنْتَ؟
+Compter : 1 et 2|wâḥid · ithnân|وَاحِد;اِثْنَان
+alpha|3
+Comment tu t'appelles ?|mâ smouk ?|s:مَا اسْمُكَ؟
+Je m'appelle…|ismî|s:اِسْمِي سَارَة
+Enchanté|tacharrafnâ|s:تَشَرَّفْنَا
+alpha|4
+Café et thé|qahwa · chây|قَهْوَة;شَاي
+Compter : 3 et 4|thalâtha · arbaʿa|ثَلَاثَة;أَرْبَعَة
+Je viens de France|anâ min faransâ|s:أَنَا مِنْ فَرَنْسَا
+alpha|5
+Je ne comprends pas|lâ afham|s:لَا أَفْهَم
+Un peu|qalîlan|s:قَلِيلًا
+Lait et riz|ḥalîb · arouzz|حَلِيب;أُرْز
+alpha|6
+Où ?|ayna|أَيْنَ
+Combien ?|kam · bikam hâdhâ ?|كَمْ;s:بِكَمْ هٰذَا؟
+Compter : 5 et 6|khamsa · sitta|خَمْسَة;سِتَّة
+alpha|7
+Maison et porte|bayt · bâb|بَيْت;بَاب
+Aujourd'hui et demain|al-yawm · ghadan|اليَوْم;غَدًا
+Hier|ams|أَمْس
+alpha|8
+Grand et petit|kabîr · ṣaghîr|كَبِير;صَغِير
+Compter : 7 et 8|sabʿa · thamâniya|سَبْعَة;ثَمَانِيَة
+Beau et nouveau|jamîl · jadîd|جَمِيل;جَدِيد
+alpha|9
+Je veux|ourîdou|أُرِيدُ
+J'aime|ouḥibbou|أُحِبُّ
+Pardon, pas de problème|âsif · lâ ba's|s:آسِف;s:لَا بَأْس
+alpha|10
+Si Dieu le veut|in châ'a llâh|s:إِنْ شَاءَ اللّٰه
+C'est magnifique|mâ châ'a llâh|s:مَا شَاءَ اللّٰه
+Compter : 9 et 10|tisʿa · ʿachara|تِسْعَة;عَشَرَة
+alpha|11
+Livre et voiture|kitâb · sayyâra|كِتَاب;سَيَّارَة
+alpha|12
+Ami et famille|ṣadîq · ʿâ'ila|صَدِيق;عَائِلَة
+alpha|13

@@ -1,0 +1,3 @@
+/BD
+Badgeuse HS
+Comme son nom l'indique permet de visualiser via un historique, un planning et des stats le calcul automatique des heure supplémentaire, heurs de nuit, heur supp de nuit. toutes les données reste local sur le téléphone, tout les calcul en local

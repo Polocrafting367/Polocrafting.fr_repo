@@ -1,0 +1,135 @@
+# Anglais B2
+B2|afford|v|avoir les moyens de;se permettre|I can't *afford* a new car.|Je n'ai pas les moyens d'acheter une nouvelle voiture.
+B2|appreciate|v|apprécier;être reconnaissant de|I really *appreciate* your help.|Je te remercie vraiment pour ton aide.
+B2|approach|v|s'approcher de;aborder|A man *approached* me in the street.|Un homme s'est approché de moi dans la rue.
+B2|assume|v|supposer;présumer|I *assume* you're tired.|Je suppose que tu es fatigué.
+B2|attempt|v|tenter;essayer|He *attempted* to climb the wall.|Il a tenté d'escalader le mur.
+B2|attend|v|assister à;participer à;aller à|Did you *attend* the meeting?|Tu as assisté à la réunion ?
+B2|blame|v|reprocher;accuser;rejeter la faute sur|Don't *blame* me!|Ce n'est pas ma faute !
+B2|cancel|v|annuler|The flight was *cancelled*.|Le vol a été annulé.
+B2|claim|v|affirmer;prétendre;réclamer|He *claims* he's innocent.|Il affirme qu'il est innocent.
+B2|concern|v|concerner;inquiéter|This *concerns* everyone.|Ça concerne tout le monde.
+B2|consider|v|envisager;considérer;réfléchir à|I'm *considering* moving abroad.|J'envisage de partir à l'étranger.
+B2|convince|v|convaincre|You've *convinced* me.|Tu m'as convaincu.
+B2|cope|v|faire face;s'en sortir;gérer|How do you *cope* with stress?|Comment tu gères le stress ?
+B2|demand|v|exiger;réclamer|They *demanded* an apology.|Ils ont exigé des excuses.
+B2|deny|v|nier|He *denied* everything.|Il a tout nié.
+B2|deserve|v|mériter|You *deserve* a break.|Tu mérites une pause.
+B2|emphasise|v|souligner;insister sur|She *emphasised* the importance of sleep.|Elle a insisté sur l'importance du sommeil.
+B2|ensure|v|garantir;veiller à;s'assurer|Please *ensure* the door is locked.|Veillez à ce que la porte soit fermée à clé.
+B2|establish|v|établir;fonder;créer|The company was *established* in 1990.|L'entreprise a été fondée en 1990.
+B2|estimate|v|estimer;évaluer|We *estimate* the cost at 500 euros.|On estime le coût à 500 euros.
+B2|handle|v|gérer;s'occuper de;manier|She *handled* the situation well.|Elle a bien géré la situation.
+B2|hesitate|v|hésiter|Don't *hesitate* to call me.|N'hésite pas à m'appeler.
+B2|identify|v|identifier;reconnaître|Can you *identify* the problem?|Tu peux identifier le problème ?
+B2|ignore|v|ignorer;ne pas tenir compte de|Just *ignore* him.|Ne fais pas attention à lui.
+B2|insist|v|insister|He *insisted* on paying.|Il a insisté pour payer.
+B2|involve|v|impliquer;comporter;faire participer|The job *involves* a lot of travel.|Le poste implique beaucoup de déplacements.
+B2|maintain|v|entretenir;maintenir;affirmer|It's expensive to *maintain* an old house.|Ça coûte cher d'entretenir une vieille maison.
+B2|negotiate|v|négocier|We *negotiated* a better price.|On a négocié un meilleur prix.
+B2|obtain|v|obtenir|You need to *obtain* a visa.|Tu dois obtenir un visa.
+B2|persuade|v|persuader;convaincre|I *persuaded* him to come.|Je l'ai convaincu de venir.
+B2|predict|v|prédire;prévoir|Nobody can *predict* the future.|Personne ne peut prédire l'avenir.
+B2|pretend|v|faire semblant;prétendre|He *pretended* to be asleep.|Il a fait semblant de dormir.
+B2|prevent|v|empêcher;éviter;prévenir|This *prevents* accidents.|Ça évite les accidents.
+B2|regret|v|regretter|I don't *regret* anything.|Je ne regrette rien.
+B2|rely on|v|compter sur;dépendre de|You can *rely on* me.|Tu peux compter sur moi.
+B2|require|v|nécessiter;exiger;demander|This job *requires* patience.|Ce travail demande de la patience.
+B2|reveal|v|révéler|She *revealed* her secret.|Elle a révélé son secret.
+B2|struggle|v|avoir du mal;se battre;lutter|I *struggle* to wake up in the morning.|J'ai du mal à me réveiller le matin.
+B2|succeed|v|réussir|She *succeeded* in her exams.|Elle a réussi ses examens.
+B2|tend|v|avoir tendance à|I *tend* to eat too much.|J'ai tendance à trop manger.
+B2|threaten|v|menacer|He *threatened* to leave.|Il a menacé de partir.
+B2|warn|v|prévenir;avertir|I *warned* you!|Je t'avais prévenu !
+B2|figure out|v|comprendre;trouver|I can't *figure out* how it works.|Je n'arrive pas à comprendre comment ça marche.
+B2|come up with|v|trouver;avoir;imaginer|She *came up with* a great idea.|Elle a eu une super idée.
+B2|put off|v|repousser;reporter|Don't *put off* until tomorrow what you can do today.|Ne remets pas à demain ce que tu peux faire aujourd'hui.
+B2|turn down|v|refuser;baisser|She *turned down* the job offer.|Elle a refusé l'offre d'emploi.
+B2|point out|v|signaler;faire remarquer|He *pointed out* a mistake.|Il a signalé une erreur.
+B2|get rid of|v|se débarrasser de|I need to *get rid of* these old clothes.|Je dois me débarrasser de ces vieux vêtements.
+B2|keep up with|v|suivre;se tenir au courant de|It's hard to *keep up with* the news.|C'est dur de suivre l'actualité.
+B2|run into|v|tomber sur;croiser|I *ran into* an old friend.|Je suis tombé sur un vieil ami.
+B2|look into|v|examiner;se renseigner sur;étudier|I'll *look into* it.|Je vais me renseigner.
+B2|ability|n|capacité;aptitude;faculté|She has the *ability* to stay calm.|Elle a la capacité de rester calme.
+B2|access|n|accès|Do you have *access* to the internet?|Tu as accès à internet ?
+B2|achievement|n|réussite;exploit;accomplissement|It's a great *achievement*.|C'est une belle réussite.
+B2|approach|n|approche;méthode|We need a new *approach*.|Il nous faut une nouvelle approche.
+B2|attitude|n|attitude;état d'esprit|I like her positive *attitude*.|J'aime son état d'esprit positif.
+B2|awareness|n|conscience;sensibilisation|We need more *awareness* of the problem.|Il faut une meilleure prise de conscience du problème.
+B2|benefit|n|avantage;bénéfice;bienfait|The *benefits* of sport are huge.|Les bienfaits du sport sont énormes.
+B2|challenge|n|défi|It's a real *challenge*.|C'est un vrai défi.
+B2|consequence|n|conséquence|Think about the *consequences*.|Pense aux conséquences.
+B2|debt|n|dette|He has a lot of *debt*.|Il a beaucoup de dettes.
+B2|evidence|n|preuves;preuve|There's no *evidence*.|Il n'y a aucune preuve.
+B2|feature|n|caractéristique;fonction;fonctionnalité|This phone has a lot of *features*.|Ce téléphone a beaucoup de fonctions.
+B2|growth|n|croissance;développement|Economic *growth* is slow.|La croissance économique est lente.
+B2|impact|n|impact;effet|It had a big *impact* on my life.|Ça a eu un gros impact sur ma vie.
+B2|issue|n|problème;question;sujet|We have an *issue* with the delivery.|On a un problème avec la livraison.
+B2|lack|n|manque|The *lack* of sleep makes me tired.|Le manque de sommeil me fatigue.
+B2|outcome|n|résultat;issue|We're waiting for the *outcome*.|On attend le résultat.
+B2|policy|n|politique;règlement|The company has a new *policy*.|L'entreprise a un nouveau règlement.
+B2|pressure|n|pression|I work well under *pressure*.|Je travaille bien sous pression.
+B2|priority|n|priorité|Your health is the *priority*.|Ta santé est la priorité.
+B2|requirement|n|exigence;condition|What are the *requirements* for the job?|Quelles sont les conditions pour le poste ?
+B2|research|n|recherche;recherches|She does *research* on climate change.|Elle fait des recherches sur le changement climatique.
+B2|resource|n|ressource|Water is a precious *resource*.|L'eau est une ressource précieuse.
+B2|risk|n|risque|It's not worth the *risk*.|Ça ne vaut pas le risque.
+B2|shortage|n|pénurie;manque|There's a *shortage* of doctors.|Il y a une pénurie de médecins.
+B2|strength|n|force;point fort|What are your *strengths*?|Quels sont tes points forts?
+B2|weakness|n|faiblesse;point faible|Chocolate is my *weakness*.|Le chocolat, c'est mon point faible.
+B2|survey|n|sondage;enquête|According to a *survey*, people sleep less.|D'après un sondage, les gens dorment moins.
+B2|tool|n|outil|A phone is a useful *tool*.|Un téléphone est un outil utile.
+B2|trend|n|tendance|It's the latest *trend*.|C'est la dernière tendance.
+B2|witness|n|témoin|Was there a *witness*?|Il y avait un témoin ?
+B2|accurate|adj|précis;exact;juste|The information is *accurate*.|L'information est exacte.
+B2|appropriate|adj|approprié;adapté;convenable|Is this dress *appropriate*?|Cette robe est appropriée ?
+B2|aggressive|adj|agressif|Don't be so *aggressive*.|Ne sois pas si agressif.
+B2|anxious|adj|anxieux;inquiet|I feel *anxious* before exams.|Je suis anxieux avant les examens.
+B2|ashamed|adj|honteux;qui a honte|I'm *ashamed* of what I did.|J'ai honte de ce que j'ai fait.
+B2|capable|adj|capable|She's *capable* of anything.|Elle est capable de tout.
+B2|complex|adj|complexe;compliqué|It's a *complex* problem.|C'est un problème complexe.
+B2|crucial|adj|crucial;essentiel;décisif|This step is *crucial*.|Cette étape est cruciale.
+B2|current|adj|actuel|What's your *current* job?|C'est quoi ton travail actuel ?
+B2|efficient|adj|efficace;performant|This system is very *efficient*.|Ce système est très efficace.
+B2|essential|adj|essentiel;indispensable|Water is *essential* for life.|L'eau est essentielle à la vie.
+B2|exhausted|adj|épuisé;crevé|I'm *exhausted*.|Je suis épuisé.
+B2|flexible|adj|flexible;souple|My hours are *flexible*.|Mes horaires sont flexibles.
+B2|guilty|adj|coupable|I feel *guilty*.|Je me sens coupable.
+B2|likely|adj|probable|It's *likely* to rain.|Il va probablement pleuvoir.
+B2|obvious|adj|évident;clair|The answer is *obvious*.|La réponse est évidente.
+B2|reliable|adj|fiable;sérieux|This car is very *reliable*.|Cette voiture est très fiable.
+B2|relevant|adj|pertinent;en rapport|Is this information *relevant*?|Cette information est-elle pertinente ?
+B2|reluctant|adj|réticent;peu disposé|He was *reluctant* to help.|Il n'avait pas très envie d'aider.
+B2|sensitive|adj|sensible|She's very *sensitive*.|Elle est très sensible.
+B2|significant|adj|important;considérable;significatif|There's a *significant* difference.|Il y a une différence importante.
+B2|suitable|adj|adapté;approprié;convenable|This film isn't *suitable* for children.|Ce film n'est pas adapté aux enfants.
+B2|temporary|adj|temporaire;provisoire|It's only a *temporary* job.|C'est juste un travail temporaire.
+B2|thorough|adj|minutieux;approfondi;complet|She did a *thorough* job.|Elle a fait un travail minutieux.
+B2|unexpected|adj|inattendu;imprévu|It was an *unexpected* visit.|C'était une visite inattendue.
+B2|willing|adj|prêt à;disposé à|I'm *willing* to help.|Je suis prêt à aider.
+B2|worth|adj|qui vaut;valoir la peine|This film is *worth* seeing.|Ce film vaut le coup.
+B2|accordingly|adv|en conséquence|Plan *accordingly*.|Organise-toi en conséquence.
+B2|eventually|adv|finalement;au bout du compte|He *eventually* found a job.|Il a finalement trouvé du travail.
+B2|frankly|adv|franchement|*Frankly*, I don't care.|Franchement, je m'en fiche.
+B2|gradually|adv|progressivement;peu à peu|Things are *gradually* improving.|Les choses s'améliorent peu à peu.
+B2|mostly|adv|surtout;principalement;la plupart du temps|I *mostly* work from home.|Je travaille surtout de chez moi.
+B2|obviously|adv|évidemment;bien sûr|*Obviously*, I said yes.|Évidemment, j'ai dit oui.
+B2|rather|adv|plutôt;assez|It's *rather* cold today.|Il fait plutôt froid aujourd'hui.
+B2|slightly|adv|légèrement;un peu|I'm *slightly* tired.|Je suis un peu fatigué.
+B2|whereas|conj|alors que;tandis que|I like tea, *whereas* she prefers coffee.|J'aime le thé, alors qu'elle préfère le café.
+B2|therefore|adv|donc;par conséquent|I think, *therefore* I am.|Je pense, donc je suis.
+B2|meanwhile|adv|pendant ce temps;en attendant|*Meanwhile*, I'll make some tea.|En attendant, je fais du thé.
+B2|nevertheless|adv|néanmoins;pourtant;malgré tout|It was hard. *Nevertheless*, we won.|C'était dur. Malgré tout, on a gagné.
+B2|in spite of|prep|malgré|We went out *in spite of* the rain.|On est sortis malgré la pluie.
+B2|according to|prep|selon;d'après|*According to* the news, it will snow.|D'après les infos, il va neiger.
+B2|as long as|conj|tant que;du moment que|You can stay *as long as* you're quiet.|Tu peux rester du moment que tu es calme.
+B2|in case|conj|au cas où|Take an umbrella *in case* it rains.|Prends un parapluie au cas où il pleuvrait.
+B2|on the other hand|phr|d'un autre côté;en revanche;par contre|*On the other hand*, it's very expensive.|D'un autre côté, c'est très cher.
+B2|so far|phr|jusqu'ici;jusqu'à présent|*So far*, so good.|Jusqu'ici, tout va bien.
+B2|no wonder|phr|pas étonnant;ce n'est pas étonnant|*No wonder* you're tired!|Pas étonnant que tu sois fatigué !
+B2|it's worth it|phr|ça vaut le coup;ça vaut la peine|It's expensive, but *it's worth it*.|C'est cher, mais ça vaut le coup.
+B2|take advantage of|v|profiter de|*Take advantage of* the sun!|Profite du soleil !
+B2|make up your mind|v|se décider|*Make up your mind*!|Décide-toi !
+B2|keep in touch|v|rester en contact;garder le contact|Let's *keep in touch*.|Restons en contact.
+B2|get used to|v|s'habituer à|You'll *get used to* it.|Tu vas t'y habituer.
+B2|be about to|v|être sur le point de|I'm *about to* leave.|Je suis sur le point de partir.

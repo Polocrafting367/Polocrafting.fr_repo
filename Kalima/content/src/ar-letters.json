@@ -1,0 +1,507 @@
+{
+ "letters": [
+  {
+   "l": "ا",
+   "name": "alif",
+   "nameAr": "ألف",
+   "fr": "a",
+   "sound": "« a » long, comme dans « papa ». Sert aussi de support aux voyelles.",
+   "join": false,
+   "ex": [
+    "أَنَا",
+    "anâ",
+    "moi, je"
+   ]
+  },
+  {
+   "l": "ب",
+   "name": "bâ",
+   "nameAr": "باء",
+   "fr": "b",
+   "sound": "« b » comme dans « bateau ». Un point en dessous.",
+   "join": true,
+   "ex": [
+    "بَاب",
+    "bâb",
+    "porte"
+   ]
+  },
+  {
+   "l": "ت",
+   "name": "tâ",
+   "nameAr": "تاء",
+   "fr": "t",
+   "sound": "« t » comme dans « tapis ». Deux points au-dessus.",
+   "join": true,
+   "ex": [
+    "تَمْر",
+    "tamr",
+    "dattes"
+   ]
+  },
+  {
+   "l": "ث",
+   "name": "thâ",
+   "nameAr": "ثاء",
+   "fr": "th",
+   "sound": "« th » de l'anglais « think » : la langue entre les dents. Trois points.",
+   "join": true,
+   "ex": [
+    "ثَلَاثَة",
+    "thalâtha",
+    "trois"
+   ]
+  },
+  {
+   "l": "ج",
+   "name": "jîm",
+   "nameAr": "جيم",
+   "fr": "dj",
+   "sound": "« dj » comme dans « Djibouti » (« j » au Maghreb).",
+   "join": true,
+   "ex": [
+    "جَمِيل",
+    "jamîl",
+    "beau"
+   ]
+  },
+  {
+   "l": "ح",
+   "name": "hâ",
+   "nameAr": "حاء",
+   "fr": "ḥ",
+   "sound": "« h » soufflé du fond de la gorge, comme pour embuer une vitre.",
+   "join": true,
+   "ex": [
+    "حَلِيب",
+    "halîb",
+    "lait"
+   ]
+  },
+  {
+   "l": "خ",
+   "name": "khâ",
+   "nameAr": "خاء",
+   "fr": "kh",
+   "sound": "« kh » raclé, comme la jota espagnole ou « Bach » en allemand.",
+   "join": true,
+   "ex": [
+    "خُبْز",
+    "khoubz",
+    "pain"
+   ]
+  },
+  {
+   "l": "د",
+   "name": "dâl",
+   "nameAr": "دال",
+   "fr": "d",
+   "sound": "« d » comme dans « dos ». Ne s'attache jamais à la lettre suivante.",
+   "join": false,
+   "ex": [
+    "دَار",
+    "dâr",
+    "maison"
+   ]
+  },
+  {
+   "l": "ذ",
+   "name": "dhâl",
+   "nameAr": "ذال",
+   "fr": "dh",
+   "sound": "« th » de l'anglais « this » : la langue entre les dents, voisé.",
+   "join": false,
+   "ex": [
+    "هَذَا",
+    "hâdhâ",
+    "ceci, c'est"
+   ]
+  },
+  {
+   "l": "ر",
+   "name": "râ",
+   "nameAr": "راء",
+   "fr": "r",
+   "sound": "« r » roulé, comme en espagnol.",
+   "join": false,
+   "ex": [
+    "رَجُل",
+    "rajoul",
+    "homme"
+   ]
+  },
+  {
+   "l": "ز",
+   "name": "zây",
+   "nameAr": "زاي",
+   "fr": "z",
+   "sound": "« z » comme dans « zèbre ».",
+   "join": false,
+   "ex": [
+    "زَيْت",
+    "zayt",
+    "huile"
+   ]
+  },
+  {
+   "l": "س",
+   "name": "sîn",
+   "nameAr": "سين",
+   "fr": "s",
+   "sound": "« s » comme dans « sel ».",
+   "join": true,
+   "ex": [
+    "سَلَام",
+    "salâm",
+    "paix"
+   ]
+  },
+  {
+   "l": "ش",
+   "name": "chîn",
+   "nameAr": "شين",
+   "fr": "ch",
+   "sound": "« ch » comme dans « chat ». Trois points au-dessus.",
+   "join": true,
+   "ex": [
+    "شُكْرًا",
+    "choukran",
+    "merci"
+   ]
+  },
+  {
+   "l": "ص",
+   "name": "sâd",
+   "nameAr": "صاد",
+   "fr": "ṣ",
+   "sound": "« s » emphatique : plus grave, la langue plaquée en arrière.",
+   "join": true,
+   "ex": [
+    "صَبَاح",
+    "sabâh",
+    "matin"
+   ]
+  },
+  {
+   "l": "ض",
+   "name": "dâd",
+   "nameAr": "ضاد",
+   "fr": "ḍ",
+   "sound": "« d » emphatique, grave. Lettre emblématique de l'arabe.",
+   "join": true,
+   "ex": [
+    "ضَيْف",
+    "dayf",
+    "invité"
+   ]
+  },
+  {
+   "l": "ط",
+   "name": "tâ emphatique",
+   "nameAr": "طاء",
+   "fr": "ṭ",
+   "sound": "« t » emphatique, grave et appuyé.",
+   "join": true,
+   "ex": [
+    "طَعَام",
+    "ta'âm",
+    "nourriture"
+   ]
+  },
+  {
+   "l": "ظ",
+   "name": "zâ emphatique",
+   "nameAr": "ظاء",
+   "fr": "ẓ",
+   "sound": "« dh » emphatique, grave.",
+   "join": true,
+   "ex": [
+    "ظُهْر",
+    "zouhr",
+    "midi"
+   ]
+  },
+  {
+   "l": "ع",
+   "name": "'ayn",
+   "nameAr": "عين",
+   "fr": "'",
+   "sound": "Son propre à l'arabe : la gorge se serre, comme un « a » étranglé.",
+   "join": true,
+   "ex": [
+    "عَرَبِي",
+    "'arabî",
+    "arabe"
+   ]
+  },
+  {
+   "l": "غ",
+   "name": "ghayn",
+   "nameAr": "غين",
+   "fr": "gh",
+   "sound": "« r » grasseyé à la française, comme dans « Paris ».",
+   "join": true,
+   "ex": [
+    "غَدًا",
+    "ghadan",
+    "demain"
+   ]
+  },
+  {
+   "l": "ف",
+   "name": "fâ",
+   "nameAr": "فاء",
+   "fr": "f",
+   "sound": "« f » comme dans « fête ». Un point au-dessus.",
+   "join": true,
+   "ex": [
+    "فَم",
+    "fam",
+    "bouche"
+   ]
+  },
+  {
+   "l": "ق",
+   "name": "qâf",
+   "nameAr": "قاف",
+   "fr": "q",
+   "sound": "« k » très profond, au fond de la gorge. Deux points.",
+   "join": true,
+   "ex": [
+    "قَهْوَة",
+    "qahwa",
+    "café"
+   ]
+  },
+  {
+   "l": "ك",
+   "name": "kâf",
+   "nameAr": "كاف",
+   "fr": "k",
+   "sound": "« k » comme dans « kilo ».",
+   "join": true,
+   "ex": [
+    "كِتَاب",
+    "kitâb",
+    "livre"
+   ]
+  },
+  {
+   "l": "ل",
+   "name": "lâm",
+   "nameAr": "لام",
+   "fr": "l",
+   "sound": "« l » comme dans « lune ».",
+   "join": true,
+   "ex": [
+    "لَا",
+    "lâ",
+    "non"
+   ]
+  },
+  {
+   "l": "م",
+   "name": "mîm",
+   "nameAr": "ميم",
+   "fr": "m",
+   "sound": "« m » comme dans « maman ».",
+   "join": true,
+   "ex": [
+    "مَاء",
+    "mâ'",
+    "eau"
+   ]
+  },
+  {
+   "l": "ن",
+   "name": "noûn",
+   "nameAr": "نون",
+   "fr": "n",
+   "sound": "« n » comme dans « nez ». Un point au-dessus.",
+   "join": true,
+   "ex": [
+    "نَعَم",
+    "na'am",
+    "oui"
+   ]
+  },
+  {
+   "l": "ه",
+   "name": "hâ léger",
+   "nameAr": "هاء",
+   "fr": "h",
+   "sound": "« h » expiré, léger, comme dans l'anglais « hello ».",
+   "join": true,
+   "ex": [
+    "هُوَ",
+    "houwa",
+    "lui, il"
+   ]
+  },
+  {
+   "l": "و",
+   "name": "wâw",
+   "nameAr": "واو",
+   "fr": "w / oû",
+   "sound": "« w » comme dans « watt », ou « oû » long. Signifie aussi « et ».",
+   "join": false,
+   "ex": [
+    "وَلَد",
+    "walad",
+    "garçon, enfant"
+   ]
+  },
+  {
+   "l": "ي",
+   "name": "yâ",
+   "nameAr": "ياء",
+   "fr": "y / î",
+   "sound": "« y » comme dans « yoga », ou « î » long. Deux points en dessous.",
+   "join": true,
+   "ex": [
+    "يَوْم",
+    "yawm",
+    "jour"
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "title": "Tes 2 premières lettres",
+   "letters": [
+    "ا",
+    "ب"
+   ],
+   "tip": "ا (alif) est un simple trait vertical. ب (bâ) est une barque avec un point en dessous."
+  },
+  {
+   "title": "Le t et le n",
+   "letters": [
+    "ت",
+    "ن"
+   ],
+   "tip": "ت (tâ) : la même barque que ب, avec 2 points au-dessus. ن (noûn) : un bol plus rond avec 1 point."
+  },
+  {
+   "title": "Les voyelles courtes",
+   "vowels": true,
+   "tip": "Les voyelles a, i, ou sont de petits signes au-dessus ou en dessous des lettres. Avec ب ت ن, tu peux déjà lire des syllabes : بَ ba, تِ ti, نُ nou."
+  },
+  {
+   "title": "m et l",
+   "letters": [
+    "م",
+    "ل"
+   ],
+   "tip": "م (mîm) a une petite boucle ; ل (lâm) ressemble à un grand crochet. Avec elles, tu lis déjà لَا (lâ, non)."
+  },
+  {
+   "title": "y et w",
+   "letters": [
+    "ي",
+    "و"
+   ],
+   "tip": "ي (yâ) a 2 points en dessous, و (wâw) ressemble à une virgule. Elles servent aussi de voyelles longues : î et oû."
+  },
+  {
+   "title": "r et d",
+   "letters": [
+    "ر",
+    "د"
+   ],
+   "tip": "ر (râ) descend sous la ligne, د (dâl) reste dessus. Toutes deux ne s'attachent jamais à la lettre suivante."
+  },
+  {
+   "title": "k et q",
+   "letters": [
+    "ك",
+    "ق"
+   ],
+   "tip": "ك (kâf) se prononce k ; ق (qâf, 2 points) est un k prononcé au fond de la gorge."
+  },
+  {
+   "title": "f et th",
+   "letters": [
+    "ف",
+    "ث"
+   ],
+   "tip": "ف (fâ) a 1 point, comme ق qui en a 2. ث (thâ) : la barque de ب avec 3 points, « th » comme en anglais « think »."
+  },
+  {
+   "title": "s et ch",
+   "letters": [
+    "س",
+    "ش"
+   ],
+   "tip": "س (sîn) : trois petites dents. ش (chîn) : les mêmes dents avec 3 points, « ch »."
+  },
+  {
+   "title": "La famille du j",
+   "letters": [
+    "ج",
+    "ح",
+    "خ"
+   ],
+   "tip": "Même forme, le point fait la différence : en dessous (j), aucun (h soufflé), au-dessus (kh, comme la jota espagnole)."
+  },
+  {
+   "title": "z et dh",
+   "letters": [
+    "ز",
+    "ذ"
+   ],
+   "tip": "ز (zây) : un ر avec un point. ذ (dhâl) : un د avec un point, « th » comme en anglais « this »."
+  },
+  {
+   "title": "Les sons de la gorge",
+   "letters": [
+    "ع",
+    "غ",
+    "ه"
+   ],
+   "tip": "ع ('ayn) et غ (ghayn, avec un point) ont la même forme : ce sont les sons les plus nouveaux pour un francophone. ه (hâ) est un h léger."
+  },
+  {
+   "title": "s et d emphatiques",
+   "letters": [
+    "ص",
+    "ض"
+   ],
+   "tip": "ص (sâd) et ض (dâd) : un s et un d plus graves, la langue en arrière. ض est la lettre « typique » de l'arabe."
+  },
+  {
+   "title": "t et z emphatiques",
+   "letters": [
+    "ط",
+    "ظ"
+   ],
+   "tip": "ط (tâ) et ظ (zâ) : un t et un z graves. Avec elles, tu connais les 28 lettres !"
+  }
+ ],
+ "vowels": [
+  {
+   "mark": "َ",
+   "name": "fatha",
+   "fr": "a",
+   "sound": "petit trait au-dessus : « a »"
+  },
+  {
+   "mark": "ِ",
+   "name": "kasra",
+   "fr": "i",
+   "sound": "petit trait en dessous : « i »"
+  },
+  {
+   "mark": "ُ",
+   "name": "damma",
+   "fr": "ou",
+   "sound": "petit « و » au-dessus : « ou »"
+  },
+  {
+   "mark": "ْ",
+   "name": "soukoun",
+   "fr": "∅",
+   "sound": "petit rond : pas de voyelle"
+  }
+ ]
+}

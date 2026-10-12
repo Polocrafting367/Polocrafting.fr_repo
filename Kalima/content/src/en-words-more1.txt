@@ -1,0 +1,378 @@
+# Anglais, mots ajoutés (oral du quotidien, A1-A2)
+A1|four|num|quatre|I have *four* cousins.|J'ai quatre cousins.
+A1|five|num|cinq|We have *five* minutes.|On a cinq minutes.
+A1|six|num|six|The shop opens at *six*.|Le magasin ouvre à six heures.
+A1|seven|num|sept|There are *seven* days in a week.|Il y a sept jours dans une semaine.
+A1|eight|num|huit|I start work at *eight*.|Je commence le travail à huit heures.
+A1|nine|num|neuf|She is *nine* years old.|Elle a neuf ans.
+A1|twenty|num|vingt|I'm *twenty*.|J'ai vingt ans.
+A1|hundred|num|cent|It costs a *hundred* euros.|Ça coûte cent euros.
+A1|thousand|num|mille|There were a *thousand* people.|Il y avait mille personnes.
+A1|second|adj|deuxième;second|It's my *second* time in London.|C'est ma deuxième fois à Londres.
+A1|Monday|n|lundi|I work on *Monday*.|Je travaille lundi.
+A1|Friday|n|vendredi|See you on *Friday*!|À vendredi !
+A1|Saturday|n|samedi|We go out on *Saturday*.|On sort samedi.
+A1|Sunday|n|dimanche|I sleep late on *Sunday*.|Je dors tard le dimanche.
+A1|Christmas|n|Noël|*Christmas* is in December.|Noël, c'est en décembre.
+A1|mom|n|maman|*Mom*, I'm home!|Maman, je suis rentré !
+A1|kid|n|enfant;gamin;gosse|Their *kid* is very funny.|Leur enfant est très drôle.
+A1|guy|n|gars;type|He's a nice *guy*.|C'est un gars sympa.
+A1|lady|n|dame|Ask the *lady* at the desk.|Demande à la dame à l'accueil.
+A1|person|n|personne|She's a good *person*.|C'est une bonne personne.
+A1|uncle|n|oncle|My *uncle* lives in Canada.|Mon oncle habite au Canada.
+A1|aunt|n|tante|My *aunt* has three dogs.|Ma tante a trois chiens.
+A1|grandmother|n|grand-mère;mamie|My *grandmother* is ninety.|Ma grand-mère a quatre-vingt-dix ans.
+A1|grandfather|n|grand-père;papi|My *grandfather* was a farmer.|Mon grand-père était agriculteur.
+A1|cousin|n|cousin;cousine|My *cousin* is coming tomorrow.|Mon cousin vient demain.
+A1|boyfriend|n|copain;petit ami|Her *boyfriend* is Italian.|Son copain est italien.
+A1|girlfriend|n|copine;petite amie|His *girlfriend* is a doctor.|Sa copine est médecin.
+A1|number|n|numéro;nombre|What's your phone *number*?|C'est quoi ton numéro de téléphone ?
+A1|address|n|adresse|What's your *address*?|C'est quoi ton adresse ?
+A1|ticket office|n|guichet|Where is the *ticket office*?|Où est le guichet ?
+A1|toilet|n|toilettes|Where is the *toilet*, please?|Où sont les toilettes, s'il vous plaît ?
+A1|shower|n|douche|I take a *shower* every morning.|Je prends une douche tous les matins.
+A1|sofa|n|canapé|The cat is on the *sofa*.|Le chat est sur le canapé.
+A1|fridge|n|frigo;réfrigérateur|The milk is in the *fridge*.|Le lait est dans le frigo.
+A1|cup|n|tasse|Do you want a *cup* of tea?|Tu veux une tasse de thé ?
+A1|glass|n|verre|Can I have a *glass* of water?|Je peux avoir un verre d'eau ?
+A1|bottle|n|bouteille|Bring a *bottle* of water.|Apporte une bouteille d'eau.
+A1|plate|n|assiette|Put the *plate* on the table.|Mets l'assiette sur la table.
+A1|knife|n|couteau|I need a *knife*.|J'ai besoin d'un couteau.
+A1|cake|n|gâteau|I made a chocolate *cake*.|J'ai fait un gâteau au chocolat.
+A1|sugar|n|sucre|No *sugar*, thanks.|Pas de sucre, merci.
+A1|salt|n|sel|Can you pass the *salt*?|Tu peux me passer le sel ?
+A1|soup|n|soupe|The *soup* is hot.|La soupe est chaude.
+A1|pizza|n|pizza|Let's order a *pizza*.|Commandons une pizza.
+A1|beer|n|bière|I'd like a *beer*, please.|Je voudrais une bière, s'il vous plaît.
+A1|wine|n|vin|Red or white *wine*?|Vin rouge ou blanc ?
+A1|juice|n|jus|I drink orange *juice* every morning.|Je bois du jus d'orange tous les matins.
+A1|banana|n|banane|I eat a *banana* after sport.|Je mange une banane après le sport.
+A1|potato|n|pomme de terre;patate|I love *potatoes*.|J'adore les pommes de terre.
+A1|vegetables|n|légumes|Eat your *vegetables*!|Mange tes légumes !
+A1|chocolate|n|chocolat|I love dark *chocolate*.|J'adore le chocolat noir.
+A1|ice cream|n|glace|Do you want an *ice cream*?|Tu veux une glace ?
+A1|clothes shop|n|magasin de vêtements|There's a *clothes shop* near here.|Il y a un magasin de vêtements près d'ici.
+A1|supermarket|n|supermarché|I go to the *supermarket* on Saturday.|Je vais au supermarché le samedi.
+A1|bank|n|banque|The *bank* is closed today.|La banque est fermée aujourd'hui.
+A1|church|n|église|There's an old *church* in the village.|Il y a une vieille église dans le village.
+A1|village|n|village|I grew up in a small *village*.|J'ai grandi dans un petit village.
+A1|road|n|route|This *road* goes to the beach.|Cette route va à la plage.
+A1|taxi|n|taxi|Let's take a *taxi*.|Prenons un taxi.
+A1|boat|n|bateau|We crossed the lake by *boat*.|On a traversé le lac en bateau.
+A1|TV|n|télé;télévision|What's on *TV* tonight?|Qu'est-ce qu'il y a à la télé ce soir ?
+A1|song|n|chanson|I love this *song*!|J'adore cette chanson !
+A1|photo album|n|album photo|Look at this *photo album*.|Regarde cet album photo.
+A1|class|n|classe;cours|There are twenty students in my *class*.|Il y a vingt élèves dans ma classe.
+A1|exam|n|examen|I have an *exam* tomorrow.|J'ai un examen demain.
+A1|pen|n|stylo|Can I borrow your *pen*?|Je peux t'emprunter ton stylo ?
+A1|paper|n|papier|I need some *paper*.|J'ai besoin de papier.
+A1|desk|n|bureau|My keys are on my *desk*.|Mes clés sont sur mon bureau.
+A1|hat|n|chapeau;bonnet|Put on your *hat*, it's cold.|Mets ton bonnet, il fait froid.
+A1|jacket|n|veste;blouson|Take your *jacket*.|Prends ta veste.
+A1|trousers|n|pantalon|These *trousers* are too long.|Ce pantalon est trop long.
+A1|jeans|n|jean|I always wear *jeans*.|Je porte toujours un jean.
+A1|T-shirt|n|t-shirt;tee-shirt|I bought a new *T-shirt*.|J'ai acheté un nouveau t-shirt.
+A1|ear|n|oreille|My *ear* hurts.|J'ai mal à l'oreille.
+A1|nose|n|nez|He has a big *nose*.|Il a un grand nez.
+A1|back|n|dos|My *back* hurts.|J'ai mal au dos.
+A1|stomach|n|ventre;estomac|I have a *stomach* ache.|J'ai mal au ventre.
+A1|morning|n|matin|I run every *morning*.|Je cours tous les matins.
+A1|weather forecast|n|météo|Did you see the *weather forecast*?|Tu as vu la météo ?
+A1|hot chocolate|n|chocolat chaud|A *hot chocolate*, please.|Un chocolat chaud, s'il vous plaît.
+A1|fun|n|amusement;plaisir|Have *fun*!|Amuse-toi bien !
+A1|great|adj|génial;super;grand|That's a *great* idea!|C'est une super idée !
+A1|fine|adj|bien;bon;d'accord|I'm *fine*, thanks.|Je vais bien, merci.
+A1|cool|adj|cool;génial;frais|Your bike is really *cool*.|Ton vélo est vraiment cool.
+A1|real|adj|vrai;réel|Is this a *real* diamond?|C'est un vrai diamant ?
+A1|true|adj|vrai|Is it *true*?|C'est vrai ?
+A1|hard|adj|dur;difficile|This exercise is *hard*.|Cet exercice est dur.
+A1|clear|adj|clair|Is that *clear*?|C'est clair ?
+A1|warm|adj|chaud;doux|It's *warm* today.|Il fait doux aujourd'hui.
+A1|sweet|adj|sucré;mignon;gentil|This cake is too *sweet*.|Ce gâteau est trop sucré.
+A1|open|adj|ouvert|Is the shop *open*?|Le magasin est ouvert ?
+A1|closed|adj|fermé|The museum is *closed* on Monday.|Le musée est fermé le lundi.
+A1|lovely|adj|charmant;adorable;très beau|What a *lovely* house!|Quelle jolie maison !
+A1|perfect|adj|parfait|Your English is *perfect*.|Ton anglais est parfait.
+A1|wonderful|adj|merveilleux;génial|We had a *wonderful* time.|On a passé un moment merveilleux.
+A1|stupid|adj|bête;stupide;idiot|That's a *stupid* question.|C'est une question bête.
+A1|crazy|adj|fou;dingue|You're *crazy*!|T'es fou !
+A1|scared|adj|qui a peur;effrayé|I'm *scared* of the dark.|J'ai peur du noir.
+A1|glad|adj|content;ravi|I'm *glad* you're here.|Je suis content que tu sois là.
+A1|sure|adj|sûr|Are you *sure*?|Tu es sûr ?
+A1|special|adj|spécial|Today is a *special* day.|Aujourd'hui, c'est un jour spécial.
+A1|whole|adj|tout;entier|I ate the *whole* pizza.|J'ai mangé toute la pizza.
+A1|own|adj|propre (à soi)|I have my *own* room.|J'ai ma propre chambre.
+A1|else|adv|d'autre;autre|Anything *else*?|Autre chose ?
+A1|away|adv|loin;absent|Go *away*!|Va-t'en !
+A1|back|adv|de retour|I'll be *back* in five minutes.|Je reviens dans cinq minutes.
+A1|tonight|adv|ce soir|What are you doing *tonight*?|Tu fais quoi ce soir ?
+A1|soon|adv|bientôt|See you *soon*.|À bientôt.
+A1|still|adv|toujours;encore|Do you *still* live in Paris?|Tu habites toujours à Paris ?
+A1|ever|adv|déjà;jamais|Have you *ever* been to Spain?|Tu es déjà allé en Espagne ?
+A1|maybe|adv|peut-être|*Maybe* later.|Peut-être plus tard.
+A1|anyone|pron|quelqu'un;n'importe qui;personne|Is *anyone* here?|Il y a quelqu'un ?
+A1|someone|pron|quelqu'un|*Someone* is calling you.|Quelqu'un t'appelle.
+A1|everybody|pron|tout le monde|Hello *everybody*!|Bonjour tout le monde !
+A1|let|v|laisser|*Let* me help you.|Laisse-moi t'aider.
+A1|bring|v|apporter;amener|*Bring* your friends!|Amène tes amis !
+A1|send|v|envoyer|*Send* me a photo.|Envoie-moi une photo.
+A1|wash|v|laver|*Wash* your hands.|Lave-toi les mains.
+A1|clean|v|nettoyer;ranger|I *clean* the kitchen every day.|Je nettoie la cuisine tous les jours.
+A1|dance|v|danser|Let's *dance*!|Dansons !
+A1|smile|v|sourire|She always *smiles*.|Elle sourit toujours.
+A1|cry|v|pleurer|Don't *cry*.|Ne pleure pas.
+A1|kiss|v|embrasser|*Kiss* me.|Embrasse-moi.
+A1|sing|v|chanter|I *sing* in the shower.|Je chante sous la douche.
+A1|swim|v|nager|Can you *swim*?|Tu sais nager ?
+A1|travel|v|voyager|I want to *travel* more.|Je veux voyager plus.
+A1|visit|v|visiter;rendre visite|I *visit* my grandmother on Sunday.|Je rends visite à ma grand-mère le dimanche.
+A1|move|v|bouger;déménager|Don't *move*!|Ne bouge pas !
+A1|turn|v|tourner|*Turn* right.|Tourne à droite.
+A1|enjoy|v|aimer;profiter de|*Enjoy* your meal!|Bon appétit !
+A1|try|v|essayer|*Try* again!|Essaie encore !
+A1|finish|v|finir;terminer|I *finish* at five.|Je finis à cinq heures.
+A1|happen|v|arriver;se passer|What *happened*?|Qu'est-ce qui s'est passé ?
+A1|change|v|changer|I want to *change* my seat.|Je veux changer de place.
+A1|forget|v|oublier|Don't *forget*!|N'oublie pas !
+A1|remember|v|se souvenir;se rappeler|Do you *remember* me?|Tu te souviens de moi ?
+A1|lose|v|perdre|I always *lose* my keys.|Je perds toujours mes clés.
+A1|win|v|gagner|Our team *won*!|Notre équipe a gagné !
+A1|sell|v|vendre|They *sell* bread here.|Ils vendent du pain ici.
+A1|show|v|montrer|*Show* me!|Montre-moi !
+A1|tell|v|dire;raconter|*Tell* me everything.|Raconte-moi tout.
+A1|meet|v|rencontrer;retrouver|Let's *meet* at the café.|Retrouvons-nous au café.
+A1|leave|v|partir;quitter|I *leave* home at eight.|Je pars de chez moi à huit heures.
+A1|arrive|v|arriver|The train *arrives* at ten.|Le train arrive à dix heures.
+A1|hurry|v|se dépêcher|*Hurry*!|Dépêche-toi !
+A1|sorry|int|pardon;désolé|*Sorry*? Can you repeat?|Pardon ? Tu peux répéter ?
+A1|excuse me|phr|excusez-moi;pardon|*Excuse me*, where is the station?|Excusez-moi, où est la gare ?
+A1|welcome|int|bienvenue|*Welcome* to London!|Bienvenue à Londres !
+A1|you're welcome|phr|de rien;je vous en prie|"Thank you." "*You're welcome*."|« Merci. » « De rien. »
+A1|good morning|phr|bonjour|*Good morning*, everyone!|Bonjour à tous !
+A1|good evening|phr|bonsoir|*Good evening*, sir.|Bonsoir, monsieur.
+A1|see you|phr|à plus;à bientôt|*See you* tomorrow!|À demain !
+A1|congratulations|int|félicitations|*Congratulations* on your new job!|Félicitations pour ton nouveau travail !
+A1|wow|int|waouh;oh là là|*Wow*, that's beautiful!|Waouh, c'est magnifique !
+A1|oops|int|oups|*Oops*, sorry!|Oups, désolé !
+A2|matter|v|compter;importer|It doesn't *matter*.|Ce n'est pas grave.
+A2|mind|v|déranger;faire attention|Do you *mind* if I open the window?|Ça te dérange si j'ouvre la fenêtre ?
+A2|wish|v|souhaiter;aimerais bien|I *wish* you a happy birthday.|Je te souhaite un joyeux anniversaire.
+A2|hold|v|tenir|*Hold* my hand.|Tiens-moi la main.
+A2|pull|v|tirer|*Pull* the door.|Tire la porte.
+A2|push|v|pousser|*Push* the button.|Appuie sur le bouton.
+A2|throw|v|lancer;jeter|*Throw* the ball!|Lance la balle !
+A2|drop|v|laisser tomber;faire tomber|I *dropped* my phone.|J'ai fait tomber mon téléphone.
+A2|hit|v|frapper;taper|Don't *hit* your brother!|Ne tape pas ton frère !
+A2|kill|v|tuer|Smoking can *kill* you.|Fumer peut te tuer.
+A2|die|v|mourir|My old dog *died* last year.|Mon vieux chien est mort l'année dernière.
+A2|fight|v|se battre;se disputer|Stop *fighting*!|Arrêtez de vous battre !
+A2|shut up|v|se taire;la ferme|*Shut up* and listen!|Tais-toi et écoute !
+A2|lie|v|mentir|Don't *lie* to me.|Ne me mens pas.
+A2|steal|v|voler|Someone *stole* my bike.|Quelqu'un a volé mon vélo.
+A2|shoot|v|tirer|Don't *shoot*!|Ne tirez pas !
+A2|jump|v|sauter|The cat *jumped* on the table.|Le chat a sauté sur la table.
+A2|climb|v|grimper;monter|We *climbed* the mountain.|On a escaladé la montagne.
+A2|ride|v|faire du (vélo, cheval);monter|I *ride* my bike to work.|Je vais au travail à vélo.
+A2|fly|v|prendre l'avion;voler|We're *flying* to Rome.|On prend l'avion pour Rome.
+A2|marry|v|épouser;se marier|Will you *marry* me?|Veux-tu m'épouser ?
+A2|grow up|v|grandir|I *grew up* in a village.|J'ai grandi dans un village.
+A2|dream|v|rêver|I *dreamt* about you.|J'ai rêvé de toi.
+A2|guess|v|deviner|*Guess* what!|Devine quoi !
+A2|hope|v|espérer|I *hope* so.|J'espère bien.
+A2|seem|v|sembler;avoir l'air|It *seems* easy.|Ça a l'air facile.
+A2|look like|v|ressembler à|You *look like* your mother.|Tu ressembles à ta mère.
+A2|taste|v|avoir un goût;goûter|It *tastes* good!|C'est bon !
+A2|smell|v|sentir|It *smells* good in here.|Ça sent bon ici.
+A2|sound|v|sembler;paraître|That *sounds* great!|Ça a l'air génial !
+A2|feel like|v|avoir envie de|I *feel like* a pizza.|J'ai envie d'une pizza.
+A2|be born|v|naître|I *was born* in Lyon.|Je suis né à Lyon.
+A2|sign|v|signer|*Sign* here, please.|Signez ici, s'il vous plaît.
+A2|count|v|compter|*Count* to ten.|Compte jusqu'à dix.
+A2|cook|n|cuisinier;cuisinière|My dad is a great *cook*.|Mon père est un super cuisinier.
+A2|knock|v|frapper (à la porte)|*Knock* before you come in.|Frappe avant d'entrer.
+A2|lock|v|fermer à clé|Did you *lock* the door?|Tu as fermé la porte à clé ?
+A2|switch off|v|éteindre|*Switch off* the light.|Éteins la lumière.
+A2|wake up|v|se réveiller|*Wake up*, it's late!|Réveille-toi, il est tard !
+A2|calm down|v|se calmer|*Calm down*, it's OK.|Calme-toi, ça va.
+A2|get back|v|rentrer;revenir|When did you *get back*?|Tu es rentré quand ?
+A2|chance|n|chance;occasion;possibilité|Give me a *chance*.|Donne-moi une chance.
+A2|trouble|n|ennuis;problème|Are you in *trouble*?|Tu as des ennuis ?
+A2|stuff|n|trucs;affaires|Take your *stuff* with you.|Prends tes affaires.
+A2|bit|n|morceau;un peu|Just a *bit*, please.|Juste un peu, s'il te plaît.
+A2|side|n|côté|Which *side* are you on?|Tu es de quel côté ?
+A2|top|n|haut;sommet|The view from the *top* is amazing.|La vue d'en haut est incroyable.
+A2|middle|n|milieu|Sit in the *middle*.|Assieds-toi au milieu.
+A2|fire|n|feu;incendie|*Fire*! Call the fire brigade!|Au feu ! Appelle les pompiers !
+A2|air|n|air|I need some fresh *air*.|J'ai besoin d'air frais.
+A2|earth|n|terre;Terre|The *Earth* goes around the sun.|La Terre tourne autour du soleil.
+A2|moon|n|lune|Look at the *moon*!|Regarde la lune !
+A2|star|n|étoile;star|There are so many *stars* tonight.|Il y a tellement d'étoiles ce soir.
+A2|ground|n|sol;terre|Sit on the *ground*.|Assieds-toi par terre.
+A2|land|n|terre;terrain|They bought some *land*.|Ils ont acheté un terrain.
+A2|field|n|champ;terrain|There are cows in the *field*.|Il y a des vaches dans le champ.
+A2|forest|n|forêt|We walked in the *forest*.|On s'est promenés dans la forêt.
+A2|lake|n|lac|We swam in the *lake*.|On s'est baignés dans le lac.
+A2|hill|n|colline|The house is on a *hill*.|La maison est sur une colline.
+A2|rock|n|rocher;rock|Sit on that *rock*.|Assieds-toi sur ce rocher.
+A2|stone|n|pierre;caillou|The wall is made of *stone*.|Le mur est en pierre.
+A2|ice|n|glace|Do you want *ice* in your drink?|Tu veux des glaçons dans ta boisson ?
+A2|wood|n|bois|The table is made of *wood*.|La table est en bois.
+A2|gold|n|or|Her ring is made of *gold*.|Sa bague est en or.
+A2|money|n|argent|I don't have any *money*.|Je n'ai pas d'argent.
+A2|cash|n|liquide;espèces|Can I pay in *cash*?|Je peux payer en liquide ?
+A2|dollar|n|dollar|It costs ten *dollars*.|Ça coûte dix dollars.
+A2|card|n|carte|Do you take *cards*?|Vous prenez la carte ?
+A2|half|n|moitié;demi|I ate *half* of the cake.|J'ai mangé la moitié du gâteau.
+A2|couple|n|couple;quelques|I'll be back in a *couple* of minutes.|Je reviens dans quelques minutes.
+A2|team|n|équipe|Our *team* won.|Notre équipe a gagné.
+A2|group|n|groupe|We travel in a *group*.|On voyage en groupe.
+A2|club|n|club|I joined a tennis *club*.|Je me suis inscrit dans un club de tennis.
+A2|ball|n|ballon;balle|Throw me the *ball*.|Lance-moi le ballon.
+A2|box|n|boîte;carton|What's in the *box*?|Qu'est-ce qu'il y a dans la boîte ?
+A2|bag|n|sac|Don't forget your *bag*.|N'oublie pas ton sac.
+A2|wallet|n|portefeuille|I lost my *wallet*.|J'ai perdu mon portefeuille.
+A2|umbrella|n|parapluie|Take an *umbrella*.|Prends un parapluie.
+A2|watch|n|montre|What a nice *watch*!|Quelle belle montre !
+A2|clock|n|horloge;pendule|The *clock* is slow.|L'horloge retarde.
+A2|light|n|lumière;feu|Turn on the *light*.|Allume la lumière.
+A2|wall|n|mur|There's a picture on the *wall*.|Il y a un tableau au mur.
+A2|roof|n|toit|The cat is on the *roof*.|Le chat est sur le toit.
+A2|stairs|n|escalier|Take the *stairs*.|Prends l'escalier.
+A2|lift|n|ascenseur|The *lift* is broken.|L'ascenseur est en panne.
+A2|seat|n|place;siège|Is this *seat* free?|Cette place est libre ?
+A2|bed|n|lit|Go to *bed*!|Va au lit !
+A2|pocket|n|poche|My phone is in my *pocket*.|Mon téléphone est dans ma poche.
+A2|key|n|clé|Where's the *key*?|Où est la clé ?
+A2|noise|n|bruit|What's that *noise*?|C'est quoi ce bruit ?
+A2|voice|n|voix|She has a beautiful *voice*.|Elle a une belle voix.
+A2|sound|n|son;bruit|I heard a strange *sound*.|J'ai entendu un bruit bizarre.
+A2|smell|n|odeur|I love the *smell* of coffee.|J'adore l'odeur du café.
+A2|taste|n|goût|I don't like the *taste*.|Je n'aime pas le goût.
+A2|dream|n|rêve|I had a strange *dream*.|J'ai fait un rêve bizarre.
+A2|secret|n|secret|Can you keep a *secret*?|Tu sais garder un secret ?
+A2|joke|n|blague|Tell me a *joke*.|Raconte-moi une blague.
+A2|game|n|jeu;match;partie|Do you want to play a *game*?|Tu veux faire une partie ?
+A2|match|n|match|Did you watch the *match*?|Tu as regardé le match ?
+A2|race|n|course|He won the *race*.|Il a gagné la course.
+A2|war|n|guerre|My grandfather fought in the *war*.|Mon grand-père a fait la guerre.
+A2|peace|n|paix|We want *peace*.|Nous voulons la paix.
+A2|king|n|roi|The *king* lives in a castle.|Le roi habite dans un château.
+A2|queen|n|reine|The *queen* is very old.|La reine est très âgée.
+A2|castle|n|château|We visited an old *castle*.|On a visité un vieux château.
+A2|army|n|armée|My brother is in the *army*.|Mon frère est dans l'armée.
+A2|soldier|n|soldat|The *soldiers* are coming back.|Les soldats rentrent.
+A2|gun|n|arme;pistolet|He had a *gun*.|Il avait une arme.
+A2|prison|n|prison|He spent five years in *prison*.|Il a passé cinq ans en prison.
+A2|judge|n|juge|The *judge* was very fair.|Le juge a été très juste.
+A2|lawyer|n|avocat|I need a *lawyer*.|J'ai besoin d'un avocat.
+A2|president|n|président|The *president* is on TV.|Le président est à la télé.
+A2|country|n|campagne|I live in the *country*.|J'habite à la campagne.
+A2|wedding|n|mariage|We're going to a *wedding* on Saturday.|On va à un mariage samedi.
+A2|funeral|n|enterrement;obsèques|The *funeral* is on Monday.|L'enterrement est lundi.
+A2|baby|n|bébé|They had a *baby*.|Ils ont eu un bébé.
+A2|age|n|âge|What's your *age*?|Quel est ton âge ?
+A2|death|n|mort;décès|His *death* was a shock.|Sa mort a été un choc.
+A2|blood|n|sang|There's *blood* on your shirt.|Il y a du sang sur ta chemise.
+A2|skin|n|peau|She has very soft *skin*.|Elle a la peau très douce.
+A2|finger|n|doigt|I cut my *finger*.|Je me suis coupé le doigt.
+A2|neck|n|cou|My *neck* hurts.|J'ai mal au cou.
+A2|shoulder|n|épaule|I hurt my *shoulder*.|Je me suis fait mal à l'épaule.
+A2|knee|n|genou|My *knee* hurts when I run.|J'ai mal au genou quand je cours.
+A2|brain|n|cerveau|Use your *brain*!|Réfléchis un peu !
+A2|fever|n|fièvre|I have a *fever*.|J'ai de la fièvre.
+A2|cold|n|rhume|I have a *cold*.|J'ai un rhume.
+A2|headache|n|mal de tête|I have a *headache*.|J'ai mal à la tête.
+A2|pill|n|comprimé;cachet|Take one *pill* in the morning.|Prends un comprimé le matin.
+A2|hospital|n|hôpital|He's in *hospital*.|Il est à l'hôpital.
+A2|emergency|n|urgence|It's an *emergency*!|C'est une urgence !
+A2|help|n|aide|Thanks for your *help*.|Merci pour ton aide.
+A2|fault|n|faute|It's not my *fault*!|Ce n'est pas ma faute !
+A2|truth|n|vérité|Tell me the *truth*.|Dis-moi la vérité.
+A2|lie|n|mensonge|That's a *lie*!|C'est un mensonge !
+A2|fear|n|peur|I have a *fear* of heights.|J'ai peur du vide.
+A2|love|n|amour|It was *love* at first sight.|Ça a été le coup de foudre.
+A2|hate|n|haine|There's no *hate* in his heart.|Il n'y a pas de haine dans son cœur.
+A2|kiss|n|bisou;baiser|Give me a *kiss*.|Fais-moi un bisou.
+A2|hug|n|câlin|Come here, give me a *hug*.|Viens là, fais-moi un câlin.
+A2|honey|n|chéri;chérie;miel|*Honey*, I'm home!|Chérie, je suis rentré !
+A2|darling|n|chéri;chérie|Good night, *darling*.|Bonne nuit, chéri.
+A2|sir|n|monsieur|Yes, *sir*.|Oui, monsieur.
+A2|madam|n|madame|Can I help you, *madam*?|Je peux vous aider, madame ?
+A2|boss|n|patron;chef|The *boss* is angry.|Le patron est en colère.
+A2|job|n|poste;boulot|I got the *job*!|J'ai eu le poste !
+A2|idiot|n|idiot;imbécile|Don't be an *idiot*.|Ne fais pas l'idiot.
+A2|fool|n|idiot;imbécile;fou|I felt like a *fool*.|Je me suis senti idiot.
+A2|damn|int|zut;mince;putain (familier)|*Damn*, I forgot my keys!|Zut, j'ai oublié mes clés !
+A2|shit|n|merde (vulgaire)|*Shit*, we're late!|Merde, on est en retard !
+A2|hell|n|enfer|What the *hell* is that?|C'est quoi ce truc ?
+A2|weird|adj|bizarre;étrange|That's *weird*.|C'est bizarre.
+A2|cute|adj|mignon|What a *cute* dog!|Quel chien mignon !
+A2|ugly|adj|moche;laid|This shirt is *ugly*.|Cette chemise est moche.
+A2|fat|adj|gros|My cat is very *fat*.|Mon chat est très gros.
+A2|thin|adj|mince;fin|She's very *thin*.|Elle est très mince.
+A2|blind|adj|aveugle|My grandfather is *blind*.|Mon grand-père est aveugle.
+A2|deaf|adj|sourd|Are you *deaf*?|Tu es sourd ?
+A2|dead|adj|mort|The plant is *dead*.|La plante est morte.
+A2|alive|adj|vivant;en vie|Is he still *alive*?|Il est encore en vie ?
+A2|awake|adj|réveillé|Are you *awake*?|Tu es réveillé ?
+A2|asleep|adj|endormi|The baby is *asleep*.|Le bébé dort.
+A2|nervous|adj|nerveux;stressé|I'm *nervous* about the exam.|Je stresse pour l'examen.
+A2|jealous|adj|jaloux|Are you *jealous*?|Tu es jaloux ?
+A2|lonely|adj|seul;isolé|I feel *lonely*.|Je me sens seul.
+A2|careful|adj|prudent|Be *careful*!|Fais attention !
+A2|quick|adj|rapide|Can I ask a *quick* question?|Je peux poser une petite question ?
+A2|easy|adj|facile|It's *easy*!|C'est facile !
+A2|simple|adj|simple|It's very *simple*.|C'est très simple.
+A2|high|adj|haut;élevé|The mountain is very *high*.|La montagne est très haute.
+A2|low|adj|bas|The prices are *low*.|Les prix sont bas.
+A2|deep|adj|profond|The lake is very *deep*.|Le lac est très profond.
+A2|wide|adj|large|The river is very *wide*.|La rivière est très large.
+A2|narrow|adj|étroit|The street is *narrow*.|La rue est étroite.
+A2|wet|adj|mouillé|My shoes are *wet*.|Mes chaussures sont mouillées.
+A2|dry|adj|sec|The towel is *dry*.|La serviette est sèche.
+A2|soft|adj|doux;mou|This pillow is *soft*.|Cet oreiller est moelleux.
+A2|loud|adj|fort;bruyant|The music is too *loud*.|La musique est trop forte.
+A2|fresh|adj|frais|The bread is *fresh*.|Le pain est frais.
+A2|fair|adj|blond;clair|She has *fair* hair.|Elle a les cheveux blonds.
+A2|brown|adj|marron;brun|He has *brown* eyes.|Il a les yeux marron.
+A2|yellow|adj|jaune|I have a *yellow* car.|J'ai une voiture jaune.
+A2|grey|adj|gris|The sky is *grey*.|Le ciel est gris.
+A2|pink|adj|rose|She loves *pink*.|Elle adore le rose.
+A2|orange|adj|orange|I bought an *orange* T-shirt.|J'ai acheté un t-shirt orange.
+A2|purple|adj|violet|She has a *purple* bag.|Elle a un sac violet.
+A2|next|adj|prochain;suivant|See you *next* week!|À la semaine prochaine !
+A2|last|adj|dernier|I saw him *last* night.|Je l'ai vu hier soir.
+A2|enough|adj|assez de|We have *enough* food.|On a assez à manger.
+A2|several|adj|plusieurs|I called him *several* times.|Je l'ai appelé plusieurs fois.
+A2|pretty|adv|assez;plutôt|It's *pretty* good.|C'est plutôt bien.
+A2|quite|adv|assez;plutôt;tout à fait|It's *quite* far.|C'est assez loin.
+A2|once|adv|une fois|I've been there *once*.|J'y suis allé une fois.
+A2|twice|adv|deux fois|I called you *twice*.|Je t'ai appelé deux fois.
+A2|anymore|adv|plus (ne… plus)|I don't smoke *anymore*.|Je ne fume plus.
+A2|anyway|adv|de toute façon|Thanks *anyway*.|Merci quand même.
+A2|perhaps|adv|peut-être|*Perhaps* you're right.|Tu as peut-être raison.
+A2|forever|adv|pour toujours|I'll love you *forever*.|Je t'aimerai pour toujours.
+A2|straight|adv|tout droit|Go *straight* on.|Allez tout droit.
+A2|nowhere|adv|nulle part|I have *nowhere* to go.|Je n'ai nulle part où aller.
+A2|anywhere|adv|n'importe où;nulle part|Sit *anywhere* you like.|Assieds-toi où tu veux.
+A2|though|adv|pourtant;quand même|It's cold. Nice, *though*.|Il fait froid. C'est joli quand même.
+A2|except|prep|sauf|Everyone came *except* Paul.|Tout le monde est venu sauf Paul.
+A2|without|prep|sans|I can't live *without* you.|Je ne peux pas vivre sans toi.
+A2|along|prep|le long de|We walked *along* the river.|On a marché le long de la rivière.
+A2|around|prep|autour de;vers|We sat *around* the table.|On s'est assis autour de la table.
+A2|inside|prep|à l'intérieur de|What's *inside* the box?|Qu'est-ce qu'il y a dans la boîte ?
+A2|till|prep|jusqu'à|Wait *till* tomorrow.|Attends jusqu'à demain.
+A2|whatever|pron|n'importe quoi;peu importe|*Whatever* you want.|Ce que tu veux.
+A2|none|pron|aucun|*None* of my friends came.|Aucun de mes amis n'est venu.
+A2|nothing|pron|rien|*Nothing* happened.|Il ne s'est rien passé.
+A2|everyone|pron|tout le monde|*Everyone* knows him.|Tout le monde le connaît.
+A2|excuse|n|excuse|That's not an *excuse*.|Ce n'est pas une excuse.
+A2|by the way|phr|au fait|*By the way*, where's Tom?|Au fait, où est Tom ?
+A2|no way|phr|pas question;impossible;sans blague|*No way*! Really?|Sans blague ! Vraiment ?
+A2|come on|phr|allez;viens|*Come on*, let's go!|Allez, on y va !
+A2|take care|phr|prends soin de toi;fais attention à toi|Bye, *take care*!|Salut, prends soin de toi !
+A2|good luck|phr|bonne chance|*Good luck* with your exam!|Bonne chance pour ton examen !
+A2|of course not|phr|bien sûr que non|*Of course not*!|Bien sûr que non !
+A2|I don't care|phr|je m'en fiche;ça m'est égal|*I don't care* what he says.|Je me fiche de ce qu'il dit.
+A2|what's up|phr|quoi de neuf;ça va|Hey, *what's up*?|Salut, quoi de neuf ?
+A2|never mind|phr|laisse tomber;ce n'est pas grave|Oh, *never mind*.|Oh, laisse tomber.

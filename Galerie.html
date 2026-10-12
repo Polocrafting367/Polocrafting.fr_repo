@@ -6,203 +6,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='description' content='Découvrez ici tous mes projets.'>
     <title>Mes projets</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <style>
-        /* --- ESTHÉTIQUE GÉNÉRALE --- */
+        :root {
+            --bg: #0e0f13;
+            --card: rgba(23, 24, 30, 0.55);
+            --card-hover: rgba(32, 34, 42, 0.65);
+            --line: rgba(255, 255, 255, 0.08);
+            --text: #ecedf1;
+            --muted: #8b8e9a;
+            --accent: #ff7a50;
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
             padding: 0;
             background-color: transparent;
             min-height: 100vh;
-            color: #fff;
+            color: var(--text);
         }
 
         body.standalone {
-            background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
-            padding: 20px;
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
-
-            100% {
-                background-position: 0% 50%;
-            }
+            background: var(--bg);
+            padding: 32px 20px;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
 
-        .iframe-mode {
-            background: transparent !important;
-            border: none !important;
-            box-shadow: none !important;
-            padding: 5px !important;
-        }
+        .iframe-mode { padding: 4px !important; }
 
         .iframe-mode h1,
-        .iframe-mode .search-container {
-            display: none !important;
-        }
+        .iframe-mode .search-container { display: none !important; }
 
         h1 {
-            text-align: center;
-            font-size: 1.8em;
+            font-size: 22px;
             font-weight: 600;
-            margin-top: 0;
-            margin-bottom: 15px;
-            letter-spacing: -0.5px;
-            /* Aqua-White Gradient */
-            background: linear-gradient(to bottom, #ffffff, #abf0fb);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.8));
-            text-transform: uppercase;
+            letter-spacing: -0.3px;
+            margin: 0 0 4px;
         }
 
-        /* --- SEARCH --- */
-        .search-container {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 25px;
+        .subtitle {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 0 0 20px;
         }
+
+        .iframe-mode .subtitle { display: none; }
+
+        /* --- RECHERCHE --- */
+        .search-container { margin-bottom: 20px; }
 
         #searchInput {
-            width: 90%;
-            max-width: 380px;
-            padding: 10px 20px;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.05);
-            color: #fff;
+            width: 100%;
+            max-width: 320px;
+            padding: 9px 14px;
+            border-radius: 10px;
+            border: 1px solid var(--line);
+            background: var(--card);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            color: var(--text);
             outline: none;
+            font: inherit;
             font-size: 14px;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            transition: border-color 0.2s;
         }
 
-        #searchInput:focus {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 255, 255, 0.3);
-            box-shadow: 0 0 15px rgba(171, 240, 251, 0.1);
-        }
+        #searchInput:focus { border-color: rgba(255, 122, 80, 0.6); }
 
-        /* --- GALLERY --- */
+        /* --- GALERIE --- */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 15px;
-            justify-items: center;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 12px;
         }
 
         .project {
-            width: 180px;
-            height: 185px;
-            /* 135px (img 4:3) + 50px (text) */
             display: flex;
             flex-direction: column;
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: inherit;
+            background: var(--card);
+            border: 1px solid var(--line);
             border-radius: 12px;
             overflow: hidden;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
         }
 
         .project:hover {
-            transform: translateY(-8px) scale(1.02);
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(171, 240, 251, 0.3);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            transform: translateY(-3px);
+            background: var(--card-hover);
+            border-color: rgba(255, 255, 255, 0.16);
         }
 
         .project img {
             width: 100%;
-            height: 135px;
+            aspect-ratio: 16 / 10;
             object-fit: cover;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            transition: transform 0.4s ease;
-        }
-
-        .project:hover img {
-            transform: scale(1.05);
+            display: block;
+            background: #22242c;
         }
 
         .project-info {
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-top: 1px solid var(--line);
+            padding: 9px 11px 10px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.3;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .project:first-child .project-info::after {
+            content: "Nouveau";
+            margin-left: 6px;
+            padding: 1px 6px;
+            border-radius: 6px;
+            font-size: 10px;
             font-weight: 600;
-            text-align: center;
-            line-height: 1.2;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-
-            /* Grayish Center Gradient Background */
-            background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent);
-
-            /* Aqua-White Text Gradient */
-            background-color: white;
-            /* Fallback */
-            background: linear-gradient(to bottom, #ffffff, #abf0fb);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+            color: var(--accent);
+            background: rgba(255, 122, 80, 0.12);
+            vertical-align: 1px;
         }
 
         /* --- RESPONSIVE --- */
         @media screen and (max-width: 600px) {
-            body:not(.standalone) .container {
-                border-radius: 0;
-                padding: 10px;
-                border: none;
-                background: transparent;
-            }
+            body.standalone { padding: 20px 12px; }
+            .gallery { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+            #searchInput { max-width: none; }
+        }
 
-            .gallery {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 8px;
-            }
-
-            .project {
-                width: 100%;
-                height: auto;
-            }
-
-            .project img {
-                height: 110px;
-            }
-
-            .project-info {
-                height: 45px;
-                font-size: 14px;
-            }
-
-            h1 {
-                font-size: 1.4em;
-            }
+        @media (prefers-reduced-motion: reduce) {
+            .project { transition: none; }
+            .project:hover { transform: none; }
         }
     </style>
 </head>
@@ -210,133 +159,119 @@
 <body>
 
     <div class="container">
-        <h1>Mes Projets</h1>
+        <h1>Mes projets</h1>
+        <p class="subtitle">Applications, outils et expériences.</p>
 
         <div class="search-container">
-            <input type="text" id="searchInput" onkeyup="filterProjects()" placeholder="Rechercher un projet...">
+            <input type="text" id="searchInput" onkeyup="filterProjects()" placeholder="Rechercher un projet…">
         </div>
 
         <div class="gallery" id="galleryGrid">
 
-            <a href="G-MAPP/" class="project" target="_blank">
-                <img src="G-MAPP/IMG/Illu.png" alt="G-MAPP" onerror="this.src='ERR.webp'">
-                <div class="project-info">Démo de G-MAPP</div>
+            <a href="Kalima/" class="project" target="_blank">
+                <img src="Kalima/Illu.png" alt="Kalima" loading="lazy" onerror="this.src='ERR.webp'">
+                <div class="project-info">Kalima</div>
             </a>
-
-             <a href="MasterPaint/" class="project" target="_blank">
-                <img src="MasterPaint/illu.png" alt="SVG" onerror="this.src='ERR.webp'">
+            <a href="Carnet/" class="project" target="_blank">
+                <img src="Carnet/Illu.png" alt="Carnet" loading="lazy" onerror="this.src='ERR.webp'">
+                <div class="project-info">Carnet</div>
+            </a>
+            <a href="MasterPaint/" class="project" target="_blank">
+                <img src="MasterPaint/IMG/illu.jpeg" alt="SVG" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">MasterPaint</div>
             </a>
+            <a href="Curio/" class="project" target="_blank">
+                <img src="Curio/Illu.png" alt="Curio" loading="lazy" onerror="this.src='ERR.webp'">
+                <div class="project-info">Curio</div>
+            </a>
+            <a href="BD/" class="project" target="_blank">
+                <img src="BD/Illu.png" alt="BD" loading="lazy" onerror="this.src='ERR.webp'">
+                <div class="project-info">Pointeuse H. Supp</div>
+            </a>
+            <a href="G-MAPP/" class="project" target="_blank">
+                <img src="G-MAPP/IMG/Illu.png" alt="G-MAPP" loading="lazy" onerror="this.src='ERR.webp'">
+                <div class="project-info">Démo de G-MAPP</div>
+            </a>
             <a href="VIDEO/" class="project" target="_blank">
-                <img src="VIDEO/Illu.png" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="VIDEO/Illu.png" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">VHS EFFECT</div>
             </a>
             <a href="G-MAPP/Notes/OK.html" class="project" target="_blank">
-                <img src="G-MAPP/Notes/Illu.png" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="G-MAPP/Notes/Illu.png" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">ToDoListe</div>
             </a>
             <a href="Polocraft 3.67/index.html" class="project" target="_blank">
-                <img src="Polocraft 3.67/Illu.png" alt="Polocraft" onerror="this.src='ERR.webp'">
+                <img src="Polocraft 3.67/Illu.png" alt="Polocraft" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Polocraft 3.67</div>
             </a>
-
-
             <a href="G-MAPP/outils/json%20cleaner.html" class="project" target="_blank">
-                <img src="G-MAPP/outils/IMG/JSON.png" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="G-MAPP/outils/IMG/JSON.png" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">JSON Cleaner</div>
             </a>
-
             <a href="G-MAPP/outils/code%20compteur.html" class="project" target="_blank">
-                <img src="G-MAPP/outils/IMG/NB.png" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="G-MAPP/outils/IMG/NB.png" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Compteur de ligne code</div>
             </a>
-
-           <a href="BD/" class="project" target="_blank">
-                <img src="BD/Illu.png" alt="BD" onerror="this.src='ERR.webp'">
-                <div class="project-info">Pointeuse H. Supp</div>
-            </a>
             <a href="HAPPY/" class="project" target="_blank">
-                <img src="HAPPY/Illu.png" alt="Happy" onerror="this.src='ERR.webp'">
+                <img src="HAPPY/Illu.png" alt="Happy" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">HabitMaster</div>
             </a>
-                  <a href="Boot/bios.html" class="project" target="_blank">
-                <img src="Annexe/windows.png" alt="Windows" onerror="this.src='ERR.webp'">
+            <a href="Boot/bios.html" class="project" target="_blank">
+                <img src="Annexe/windows.png" alt="Windows" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Windows 367</div>
             </a>
-
-
-                        <a href="STOPMOTION/index.html" class="project" target="_blank">
-                <img src="STOPMOTION/Illu.png" alt="StopMotion" onerror="this.src='ERR.webp'">
+            <a href="STOPMOTION/index.html" class="project" target="_blank">
+                <img src="STOPMOTION/Illu.png" alt="StopMotion" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">StopMotion Creator</div>
             </a>
             <a href="Annexe/Photos.html" class="project" target="_blank">
-                <img src="Annexe/Photos.jpeg" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="Annexe/Photos.jpeg" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Photos</div>
             </a>
-
             <a href="G-MAPP/outils/back.html" class="project" target="_blank">
-                <img src="G-MAPP/outils/IMG/back.png" alt="Photos" onerror="this.src='ERR.webp'">
+                <img src="G-MAPP/outils/IMG/back.png" alt="Photos" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">LV background type</div>
             </a>
-
-
-      
-
-
-
-
             <a href="Annexe/Blog/index.html" class="project" target="_blank">
-                <img src="Annexe/Blog/illu.png" alt="Blog" onerror="this.src='ERR.webp'">
+                <img src="Annexe/Blog/illu.png" alt="Blog" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Blog (Archive)</div>
             </a>
-
             <a href="jeux3D/index.html" class="project" target="_blank">
-                <img src="jeux3D/illu.png" alt="Jeux NES" onerror="this.src='ERR.webp'">
+                <img src="jeux3D/illu.png" alt="Jeux NES" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Jeux NES</div>
             </a>
-
-
-
             <a href="Annexe/OOBE.html" class="project" target="_blank">
-                <img src="Annexe/OOBE.jpeg" alt="OOBE" onerror="this.src='ERR.webp'">
+                <img src="Annexe/OOBE.jpeg" alt="OOBE" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">OOBE (Win. 11)</div>
             </a>
-
             <a href="jeux 3d old/index.html" class="project" target="_blank">
-                <img src="jeux 3d old/illu.png" alt="Jeux 3D" onerror="this.src='ERR.webp'">
+                <img src="jeux 3d old/illu.png" alt="Jeux 3D" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Jeux 3D Old</div>
             </a>
-
             <a href="Windows 367 V2/index.html" class="project" target="_blank">
-                <img src="Windows 367 V2/Illu.png" alt="Win 367 V2" onerror="this.src='ERR.webp'">
+                <img src="Windows 367 V2/Illu.png" alt="Win 367 V2" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Windows 367 V2</div>
             </a>
-
             <a href="Annexe/mosaic.html" class="project" target="_blank">
-                <img src="Annexe/Photomosaic.png" alt="Mosaic" onerror="this.src='ERR.webp'">
+                <img src="Annexe/Photomosaic.png" alt="Mosaic" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Photomosaic</div>
             </a>
-
             <a href="Annexe/Img.html" class="project" target="_blank">
-                <img src="Annexe/IMG.png" alt="Planning" onerror="this.src='ERR.webp'">
+                <img src="Annexe/IMG.png" alt="Planning" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Planning</div>
             </a>
-
             <a href="cube/index.html" class="project" target="_blank">
-                <img src="cube/index.png" alt="Cube" onerror="this.src='ERR.webp'">
+                <img src="cube/index.png" alt="Cube" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Jeux Chelou</div>
             </a>
-
             <a href="Annexe/jeux couleur.html" class="project" target="_blank">
-                <img src="Annexe/jeux.png" alt="Couleur" onerror="this.src='ERR.webp'">
+                <img src="Annexe/jeux.png" alt="Couleur" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Jeux Couleur</div>
             </a>
-
             <a href="Annexe/Fack.html" class="project" target="_blank">
-                <img src="Annexe/Kack.jpeg" alt="Faux bureau" onerror="this.src='ERR.webp'">
+                <img src="Annexe/Kack.jpeg" alt="Faux bureau" loading="lazy" onerror="this.src='ERR.webp'">
                 <div class="project-info">Faux Bureau</div>
             </a>
-
 
         </div>
     </div>
@@ -367,7 +302,7 @@
         }
 
 
-        trackVisit('TOUT PROJET')
+        //trackVisit('TOUT PROJET')
 
         function trackVisit(pageName = "Accueil") {
             // 1. Générer ou récupérer un ID Appareil unique

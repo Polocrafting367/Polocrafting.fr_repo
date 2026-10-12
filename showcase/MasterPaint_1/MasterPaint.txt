@@ -1,0 +1,3 @@
+/MasterPaint
+MasterPaint
+MasterPaint s’inspire de Paint.NET, Photoshop et Illustrator. Créez des images bitmap et vectorielles au même endroit, sans publicité ni traceurs. Tout fonctionne à 100 % en local : le navigateur peut utiliser localStorage et IndexedDB pour une sauvegarde temporaire sur votre machine.

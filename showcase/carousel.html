@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine projets</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: #111;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    .stage {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      opacity: 0;
+      transform: scale(1.03);
+      transition: opacity .45s ease, transform .45s ease, filter .35s ease;
+      filter: saturate(1.06);
+    }
+
+    .image.show {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .image.leaving {
+      opacity: 0;
+      transform: scale(1.015);
+      filter: blur(1px);
+    }
+
+    .image.leaving-left {
+      transform: translateX(-14%) scale(1.02);
+    }
+
+    .image.leaving-right {
+      transform: translateX(14%) scale(1.02);
+    }
+
+    .image.enter-from-left {
+      opacity: 0;
+      transform: translateX(-14%) scale(1.05);
+    }
+
+    .image.enter-from-right {
+      opacity: 0;
+      transform: translateX(14%) scale(1.05);
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.65) 0%,
+        rgba(0, 0, 0, 0.22) 55%,
+        rgba(0, 0, 0, 0.06) 100%
+      );
+      pointer-events: none;
+    }
+
+    .content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-height: 30%;
+      padding: 6px 12px 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      pointer-events: auto;
+      overflow: hidden;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Style verre partagé (sans anim d'opacité = pas de scintillement) */
+    .glass {
+      background: rgba(0, 0, 0, 0.32);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      isolation: isolate;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: capitalize;
+      text-shadow:
+        0 0 4px rgba(255, 255, 255, 0.32),
+        0 2px 10px rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      transform: translateY(36px) scale(0.94);
+      transition:
+        opacity .5s ease,
+        transform .6s cubic-bezier(0.22, 1, 0.36, 1);
+      transition-delay: .04s, .04s;
+    }
+
+    .desc-box {
+      max-height: 4.6em;
+      overflow: hidden;
+      padding: 9px 11px;
+      border-radius: 12px;
+      text-shadow:
+        0 0 4px rgba(255, 255, 255, 0.25),
+        0 1px 4px rgba(0, 0, 0, 0.85);
+      transform: translateY(44px) scale(0.96);
+      transition:
+        max-height .5s cubic-bezier(0.22, 1, 0.36, 1),
+        border-radius .35s ease,
+        transform .6s cubic-bezier(0.22, 1, 0.36, 1);
+      transition-delay: 0s, 0s, .12s;
+    }
+
+    .desc-box.expanded {
+      max-height: min(52vh, 280px);
+      border-radius: 14px;
+      overflow: auto;
+    }
+
+    .desc {
+      margin: 0;
+      line-height: 1.35;
+      font-size: 14px;
+      white-space: pre-wrap;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .desc-box.expanded .desc {
+      display: block;
+      -webkit-line-clamp: initial;
+      overflow: visible;
+    }
+    .desc-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      color: #fff;
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      transform: translateY(52px) scale(0.94);
+      transition:
+        transform .6s cubic-bezier(0.22, 1, 0.36, 1),
+        background .2s ease;
+      transition-delay: .18s, 0s;
+    }
+
+    .desc-toggle.is-hidden {
+      display: none !important;
+    }
+
+    .link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+      transform: translateY(52px) scale(0.94);
+      transition:
+        transform .6s cubic-bezier(0.22, 1, 0.36, 1),
+        background .2s ease;
+      transition-delay: .2s, 0s;
+    }
+
+    .link.glass {
+      background: rgba(32, 108, 195, 0.52);
+      border-color: rgba(150, 205, 255, 0.38);
+    }
+
+    .link.glass:hover {
+      background: rgba(48, 128, 220, 0.62);
+    }
+
+    .content.show .link:hover {
+      transform: translateY(-2px) scale(1.04);
+    }
+
+    .controls {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      pointer-events: none;
+    }
+
+    .nav {
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      pointer-events: auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform .2s ease, background .2s ease;
+    }
+
+    .nav#prev {
+      padding-right: 2px;
+      padding-bottom: 3px;
+    }
+
+    .nav#next {
+      padding-left: 2px;
+      padding-bottom: 3px;
+    }
+
+    .nav:hover {
+      transform: scale(1.07);
+      background: rgba(0, 0, 0, 0.48);
+    }
+
+    .meta {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.92);
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85);
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity .35s ease, transform .35s ease;
+      transition-delay: .26s;
+    }
+
+    .meta.subtle {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .empty {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 18px;
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .content.show .title {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .content.show .desc-box,
+    .content.show .link,
+    .content.show .desc-toggle {
+      transform: translateY(0) scale(1);
+    }
+
+    .content.show .desc-toggle:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    /* Hauteur faible (iframe index) : nav en haut */
+    @media (max-height: 520px) {
+      .controls {
+        top: 10px;
+        bottom: auto;
+        transform: none;
+      }
+
+      .nav {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .content {
+        max-height: 34%;
+        padding: 6px 10px 6px;
+        gap: 6px;
+      }
+
+      .title {
+        font-size: 18px;
+      }
+
+      .desc {
+        font-size: 14px;
+      }
+
+      .desc-box {
+        max-height: 4.2em;
+        padding: 7px 9px;
+      }
+
+      .desc-box.expanded {
+        max-height: min(48vh, 240px);
+      }
+
+      .header-actions {
+        gap: 6px;
+      }
+
+      .desc-toggle,
+      .link {
+        padding: 6px 9px;
+        font-size: 11px;
+      }
+    }
+
+    @media (max-height: 420px) {
+      .content { max-height: 36%; padding: 6px 10px 6px; gap: 5px; }
+      .title { font-size: 16px; }
+      .desc-box { max-height: 3.6em; padding: 7px 9px; }
+      .desc { font-size: 12px; -webkit-line-clamp: 1; }
+      .desc-box.expanded { max-height: min(42vh, 200px); }
+    }
+
+    @media (max-width: 420px) {
+      .content {
+        max-height: 36%;
+      }
+
+      .title {
+        font-size: 17px;
+      }
+
+      .desc-box {
+        padding: 6px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage" id="app">
+    <div class="empty">Chargement...</div>
+  </div>
+
+  <script>
+    const app = document.getElementById('app');
+    let projects = [];
+    let index = 0;
+    let isTransitioning = false;
+    let resizeTimer = null;
+    let lastDirection = 1;
+    let sizeObserver = null;
+    let autoplayTimer = null;
+    let autoplayResumeTimer = null;
+    const AUTOPLAY_DELAY_MS = 6500;
+    const AUTOPLAY_RESUME_DELAY_MS = 3200;
+
+    function cleanTitle(name) {
+      return name
+        .replace(/\d+/g, '')
+        .replace(/[_-]+/g, ' ')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+    }
+
+    function buildRelativePath(...segments) {
+      return segments
+        .filter((segment) => typeof segment === 'string' && segment.length > 0)
+        .map((segment) => encodeURIComponent(segment))
+        .join('/');
+    }
+
+    function preloadImage(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve({ width: img.naturalWidth, height: img.naturalHeight, src });
+        img.onerror = reject;
+        img.src = src;
+      });
+    }
+
+    function chooseBestVariant(project, viewportW, viewportH) {
+      if (!project.variants.length) return null;
+
+      const viewportRatio = viewportW / Math.max(viewportH, 1);
+      const targetArea = viewportW * viewportH;
+
+      let best = project.variants[0];
+      let bestScore = Infinity;
+
+      for (const candidate of project.variants) {
+        const ratioScore = Math.abs(candidate.ratio - viewportRatio);
+        const area = candidate.width * candidate.height;
+        const areaScore = Math.abs(Math.log(area + 1) - Math.log(targetArea + 1));
+        const score = ratioScore * 10 + areaScore;
+        if (score < bestScore) {
+          best = candidate;
+          bestScore = score;
+        }
+      }
+
+      return best;
+    }
+
+    async function readTxt(txtPath) {
+      if (!txtPath) {
+        return { url: '#', description: 'Aucune description disponible.' };
+      }
+
+      try {
+        const response = await fetch(`${txtPath}?ts=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return { url: '#', description: 'Aucune description disponible.' };
+
+        const txt = await response.text();
+        const lines = txt.replace(/\r\n/g, '\n').split('\n');
+        return {
+          url: (lines[0] || '').trim() || '#',
+          description: lines.slice(2).join('\n').trim() || 'Aucune description disponible.'
+        };
+      } catch {
+        return { url: '#', description: 'Aucune description disponible.' };
+      }
+    }
+
+    async function init() {
+      try {
+        const response = await fetch(`list.php?ts=${Date.now()}`, { cache: 'no-store' });
+        const data = await response.json();
+        const rawProjects = Array.isArray(data.projects) ? data.projects : [];
+
+        if (!rawProjects.length) {
+          app.innerHTML = '<div class="empty">Aucun dossier projet detecte dans /showcase.</div>';
+          return;
+        }
+
+        const loadedProjects = [];
+        for (const item of rawProjects) {
+          const folder = (item && item.folder) ? String(item.folder) : '';
+          const images = Array.isArray(item && item.images) ? item.images : [];
+          if (!folder || !images.length) {
+            continue;
+          }
+
+          const txtPath = item.txt ? buildRelativePath(folder, item.txt) : null;
+          const txtData = await readTxt(txtPath);
+          const variants = [];
+
+          for (const imageName of images) {
+            const imagePath = buildRelativePath(folder, imageName);
+            try {
+              const imgData = await preloadImage(imagePath);
+              variants.push({
+                src: imagePath,
+                width: imgData.width,
+                height: imgData.height,
+                ratio: imgData.width / Math.max(imgData.height, 1)
+              });
+            } catch {
+              // Ignore les images corrompues/non lisibles
+            }
+          }
+
+          if (!variants.length) {
+            continue;
+          }
+
+          loadedProjects.push({
+            key: folder,
+            title: cleanTitle(item.name || folder),
+            url: txtData.url,
+            description: txtData.description,
+            variants
+          });
+        }
+
+        projects = loadedProjects;
+        if (!projects.length) {
+          app.innerHTML = '<div class="empty">Aucun projet exploitable dans les dossiers de /showcase.</div>';
+          return;
+        }
+
+        render();
+      } catch {
+        app.innerHTML = '<div class="empty">Erreur de chargement du carousel.</div>';
+      }
+    }
+
+    function render() {
+      app.innerHTML = `
+        <img id="image" class="image" alt="Capture projet">
+        <div class="overlay"></div>
+        <div id="content" class="content">
+          <div class="header">
+            <h2 id="title" class="title"></h2>
+            <div class="header-actions">
+              <button id="descToggle" class="desc-toggle glass" type="button">Afficher plus</button>
+              <a id="link" class="link glass" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+            </div>
+          </div>
+          <div class="desc-box glass">
+            <p id="desc" class="desc"></p>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="nav glass" id="prev" aria-label="Precedent">&#10094;</button>
+          <button class="nav glass" id="next" aria-label="Suivant">&#10095;</button>
+        </div>
+      `;
+
+      document.getElementById('prev').addEventListener('click', () => move(-1));
+      document.getElementById('next').addEventListener('click', () => move(1));
+      document.getElementById('descToggle').addEventListener('click', toggleDescription);
+      update(false);
+      setupAutoplayInteractions();
+      startAutoplay();
+
+      const handleLiveResize = () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+          update(false, true);
+        }, 90);
+      };
+
+      window.addEventListener('resize', handleLiveResize);
+
+      if ('ResizeObserver' in window) {
+        sizeObserver = new ResizeObserver(() => {
+          handleLiveResize();
+        });
+        sizeObserver.observe(document.documentElement);
+        sizeObserver.observe(document.body);
+        sizeObserver.observe(app);
+      }
+    }
+
+    function updateDescToggleVisibility() {
+      const descEl = document.getElementById('desc');
+      const descBoxEl = document.querySelector('.desc-box');
+      const toggle = document.getElementById('descToggle');
+      if (!descEl || !descBoxEl || !toggle) return;
+
+      descBoxEl.classList.remove('expanded');
+      const hasOverflow = descEl.scrollHeight > descEl.clientHeight + 1;
+
+      toggle.classList.toggle('is-hidden', !hasOverflow);
+      toggle.setAttribute('aria-hidden', hasOverflow ? 'false' : 'true');
+      if (!hasOverflow) {
+        toggle.textContent = 'Afficher plus';
+      }
+    }
+
+    function toggleDescription() {
+      const box = document.querySelector('.desc-box');
+      const toggle = document.getElementById('descToggle');
+      if (!box || !toggle || toggle.classList.contains('is-hidden')) return;
+
+      box.classList.toggle('expanded');
+      toggle.textContent = box.classList.contains('expanded') ? 'Afficher moins' : 'Afficher plus';
+    }
+
+    function move(step) {
+      if (isTransitioning || !projects.length) return;
+      pauseAutoplayTemporarily();
+      lastDirection = step >= 0 ? 1 : -1;
+      index = (index + step + projects.length) % projects.length;
+      update(true);
+    }
+
+    function moveAuto(step) {
+      if (isTransitioning || !projects.length) return;
+      lastDirection = step >= 0 ? 1 : -1;
+      index = (index + step + projects.length) % projects.length;
+      update(true);
+    }
+
+    function clearAutoplayTimers() {
+      if (autoplayTimer) {
+        clearInterval(autoplayTimer);
+        autoplayTimer = null;
+      }
+      if (autoplayResumeTimer) {
+        clearTimeout(autoplayResumeTimer);
+        autoplayResumeTimer = null;
+      }
+    }
+
+    function startAutoplay() {
+      clearAutoplayTimers();
+      autoplayTimer = setInterval(() => {
+        moveAuto(1);
+      }, AUTOPLAY_DELAY_MS);
+    }
+
+    function pauseAutoplay() {
+      if (autoplayTimer) {
+        clearInterval(autoplayTimer);
+        autoplayTimer = null;
+      }
+      if (autoplayResumeTimer) {
+        clearTimeout(autoplayResumeTimer);
+        autoplayResumeTimer = null;
+      }
+    }
+
+    function pauseAutoplayTemporarily() {
+      pauseAutoplay();
+      autoplayResumeTimer = setTimeout(() => {
+        startAutoplay();
+      }, AUTOPLAY_RESUME_DELAY_MS);
+    }
+
+    function setupAutoplayInteractions() {
+      const stage = document.querySelector('.stage');
+      if (!stage) return;
+
+      stage.addEventListener('mouseenter', pauseAutoplay);
+      stage.addEventListener('mouseleave', startAutoplay);
+
+      stage.addEventListener('touchstart', pauseAutoplayTemporarily, { passive: true });
+      stage.addEventListener('pointerdown', pauseAutoplayTemporarily);
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          pauseAutoplay();
+        } else {
+          startAutoplay();
+        }
+      });
+    }
+
+    async function update(withTransition = true, keepTextAnimation = false) {
+      if (!projects.length) return;
+
+      isTransitioning = true;
+      const imageEl = document.getElementById('image');
+      const contentEl = document.getElementById('content');
+      const titleEl = document.getElementById('title');
+      const descEl = document.getElementById('desc');
+      const linkEl = document.getElementById('link');
+      const descBoxEl = document.querySelector('.desc-box');
+      const descToggleEl = document.getElementById('descToggle');
+      const project = projects[index];
+      const viewportW = app.clientWidth;
+      const viewportH = app.clientHeight;
+      const selected = chooseBestVariant(project, viewportW, viewportH);
+      if (!selected) {
+        isTransitioning = false;
+        return;
+      }
+
+      if (withTransition) {
+        imageEl.classList.add('leaving');
+        imageEl.classList.toggle('leaving-left', lastDirection > 0);
+        imageEl.classList.toggle('leaving-right', lastDirection < 0);
+        contentEl.classList.remove('show');
+        await new Promise((resolve) => setTimeout(resolve, 240));
+      } else {
+        imageEl.classList.remove('show');
+        imageEl.classList.remove('leaving', 'leaving-left', 'leaving-right');
+        if (!keepTextAnimation) {
+          contentEl.classList.remove('show');
+        }
+      }
+
+      titleEl.textContent = project.title;
+      descEl.textContent = project.description;
+      linkEl.href = project.url || '#';
+      linkEl.style.pointerEvents = project.url && project.url !== '#' ? 'auto' : 'none';
+      linkEl.style.opacity = project.url && project.url !== '#' ? '1' : '0.6';
+      if (descBoxEl) descBoxEl.classList.remove('expanded');
+      if (descToggleEl) descToggleEl.textContent = 'Afficher plus';
+
+      imageEl.classList.remove('show');
+      imageEl.classList.remove('leaving', 'leaving-left', 'leaving-right', 'enter-from-left', 'enter-from-right');
+      if (withTransition) {
+        imageEl.classList.add(lastDirection > 0 ? 'enter-from-right' : 'enter-from-left');
+      }
+
+      let slideRevealed = false;
+      const revealSlide = () => {
+        if (slideRevealed) return;
+        slideRevealed = true;
+
+        imageEl.classList.remove('enter-from-left', 'enter-from-right');
+        imageEl.classList.add('show');
+        contentEl.classList.remove('show');
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            contentEl.classList.add('show');
+            updateDescToggleVisibility();
+            isTransitioning = false;
+          });
+        });
+      };
+
+      imageEl.onload = revealSlide;
+      imageEl.onerror = () => {
+        imageEl.classList.add('show');
+        contentEl.classList.add('show');
+        updateDescToggleVisibility();
+        isTransitioning = false;
+      };
+
+      imageEl.src = selected.src;
+      imageEl.alt = `Capture ${project.title}`;
+
+      if (imageEl.complete) {
+        revealSlide();
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

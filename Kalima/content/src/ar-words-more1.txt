@@ -1,0 +1,215 @@
+# Arabe standard, mots ajoutés (même format que ar-words.txt)
+A1|أَنْتُمْ|antoum|pron|vous|*أَنْتُمْ* مِنْ أَيْنَ؟|antoum min ayna ?|Vous êtes d'où ?
+A1|مَرْحَبًا|marḥaban|int|bonjour;salut|*مَرْحَبًا*، كَيْفَ حَالُكَ؟|marḥaban, kayfa ḥâlouk ?|Salut, comment ça va ?
+A1|صَبَاح الخَيْر|ṣabâḥ al-khayr|phr|bonjour (le matin)|*صَبَاحَ الخَيْرِ* يَا أُمِّي.|ṣabâḥa l-khayri yâ oummî.|Bonjour maman.
+A1|مَعَ السَّلَامَة|maʿa s-salâma|phr|au revoir|*مَعَ السَّلَامَةِ*، أَرَاكَ غَدًا.|maʿa s-salâma, arâka ghadan.|Au revoir, à demain.
+A1|أَهْلًا|ahlan|int|salut;bienvenue|*أَهْلًا* يَا صَدِيقِي!|ahlan yâ ṣadîqî !|Salut mon ami !
+A1|طِفْل|ṭifl|n|enfant|*الطِّفْل* نَائِم.|aṭ-ṭifl nâ'im.|L'enfant dort.
+A1|أَطْفَال|aṭfâl|n|enfants|عِنْدَهُمْ ثَلَاثَةُ *أَطْفَال*.|ʿindahoum thalâthatou aṭfâl.|Ils ont trois enfants.
+A1|زَوْج|zawj|n|mari|*زَوْجِي* مُهَنْدِس.|zawjî mouhandis.|Mon mari est ingénieur.
+A1|زَوْجَة|zawja|n|femme;épouse|*زَوْجَتُهُ* مُعَلِّمَة.|zawjatouhou mouʿallima.|Sa femme est professeure.
+A1|جَدّ|jadd|n|grand-père|*جَدِّي* كَبِير فِي السِّنّ.|jaddî kabîr fi s-sinn.|Mon grand-père est âgé.
+A1|جَدَّة|jadda|n|grand-mère|أَزُورُ *جَدَّتِي* كُلَّ أُسْبُوع.|azoûrou jaddatî koulla ousboûʿ.|Je rends visite à ma grand-mère chaque semaine.
+A1|عَمّ|ʿamm|n|oncle (paternel)|*عَمِّي* يَسْكُنُ فِي الجَزَائِر.|ʿammî yaskounou fi l-jazâ'ir.|Mon oncle habite en Algérie.
+A1|خَال|khâl|n|oncle (maternel)|*خَالِي* طَبِيب.|khâlî ṭabîb.|Mon oncle est médecin.
+A1|بَاب البَيْت|bâb al-bayt|phr|porte de la maison|*بَابُ البَيْتِ* مَفْتُوح.|bâbou l-bayti maftoûḥ.|La porte de la maison est ouverte.
+A1|نَافِذَة|nâfidha|n|fenêtre|اِفْتَحِ *النَّافِذَة*.|iftaḥi n-nâfidha.|Ouvre la fenêtre.
+A1|مَطْبَخ|maṭbakh|n|cuisine|أُمِّي فِي *المَطْبَخ*.|oummî fi l-maṭbakh.|Ma mère est dans la cuisine.
+A1|حَمَّام|ḥammâm|n|salle de bain;toilettes|*الحَمَّام* هُنَا.|al-ḥammâm houna.|La salle de bain est ici.
+A1|كُرْسِيّ|koursiyy|n|chaise|اِجْلِسْ عَلَى *الكُرْسِيّ*.|ijlis ʿala l-koursiyy.|Assieds-toi sur la chaise.
+A1|بَيْض|bayḍ|n|œufs|آكُلُ *البَيْضَ* فِي الصَّبَاح.|âkoulou l-bayḍa fi ṣ-ṣabâḥ.|Je mange des œufs le matin.
+A1|فَاكِهَة|fâkiha|n|fruits;fruit|أُحِبُّ *الفَاكِهَة*.|ouḥibbou l-fâkiha.|J'aime les fruits.
+A1|خُضَار|khouḍâr|n|légumes|كُلِ *الخُضَارَ*!|koli l-khouḍâr !|Mange les légumes !
+A1|سُكَّر|soukkar|n|sucre|بِدُونِ *سُكَّر*، مِنْ فَضْلِكَ.|bidoûni soukkar, min faḍlik.|Sans sucre, s'il vous plaît.
+A1|مِلْح|milḥ|n|sel|أَعْطِنِي *المِلْحَ*.|aʿṭinî l-milḥ.|Donne-moi le sel.
+A1|عَصِير|ʿaṣîr|n|jus|أُرِيدُ *عَصِيرَ* بُرْتُقَال.|ourîdou ʿaṣîra bourtouqâl.|Je veux un jus d'orange.
+A1|إِفْطَار|ifṭâr|n|petit-déjeuner;rupture du jeûne|*الإِفْطَار* جَاهِز.|al-ifṭâr jâhiz.|Le petit-déjeuner est prêt.
+A1|غَدَاء|ghadâ'|n|déjeuner|نَأْكُلُ *الغَدَاءَ* مَعًا.|na'koulou l-ghadâ'a maʿan.|On déjeune ensemble.
+A1|عَشَاء|ʿachâ'|n|dîner|*العَشَاء* فِي السَّاعَةِ الثَّامِنَة.|al-ʿachâ' fi s-sâʿati th-thâmina.|Le dîner est à huit heures.
+A1|لَيْلَة|layla|n|nuit;soirée|*لَيْلَة* سَعِيدَة!|layla saʿîda !|Bonne nuit !
+A1|يَوْم سَعِيد|yawm saʿîd|phr|bonne journée|*يَوْم سَعِيد*!|yawm saʿîd !|Bonne journée !
+A1|عُمْر|ʿoumr|n|âge|كَمْ *عُمْرُكَ*؟|kam ʿoumrouk ?|Quel âge as-tu ?
+A1|عَرَبِيّ|ʿarabiyy|adj|arabe|أَنَا أَتَعَلَّمُ اللُّغَةَ *العَرَبِيَّة*.|anâ ataʿallamou l-loughata l-ʿarabiyya.|J'apprends la langue arabe.
+A1|فَرَنْسِيّ|faransiyy|adj|français|هُوَ *فَرَنْسِيّ*.|houwa faransiyy.|Il est français.
+A1|أَبْيَض|abyaḍ|adj|blanc|القَمِيصُ *أَبْيَض*.|al-qamîṣou abyaḍ.|La chemise est blanche.
+A1|أَسْوَد|aswad|adj|noir|القِطُّ *أَسْوَد*.|al-qiṭṭou aswad.|Le chat est noir.
+A1|أَحْمَر|aḥmar|adj|rouge|عِنْدِي سَيَّارَة *حَمْرَاء*.|ʿindî sayyâra ḥamrâ'.|J'ai une voiture rouge.
+A1|أَزْرَق|azraq|adj|bleu|السَّمَاءُ *زَرْقَاء*.|as-samâ'ou zarqâ'.|Le ciel est bleu.
+A1|أَخْضَر|akhḍar|adj|vert|أُحِبُّ الشَّايَ *الأَخْضَر*.|ouḥibbou ch-châya l-akhḍar.|J'aime le thé vert.
+A1|طَوِيل|ṭawîl|adj|grand;long|أَخِي *طَوِيل*.|akhî ṭawîl.|Mon frère est grand.
+A1|قَصِير|qaṣîr|adj|petit;court|الطَّرِيقُ *قَصِير*.|aṭ-ṭarîqou qaṣîr.|Le chemin est court.
+A1|بِسُهُولَة|bisouhoûla|adv|facilement|تَعَلَّمْتُ العَرَبِيَّةَ *بِسُهُولَة*.|taʿallamtou l-ʿarabiyyata bisouhoûla.|J'ai appris l'arabe facilement.
+A1|الآنَ|al-âna|adv|maintenant|أَنَا فِي البَيْتِ *الآنَ*.|anâ fi l-bayti l-âna.|Je suis à la maison maintenant.
+A1|بَعْدَ قَلِيل|baʿda qalîl|phr|tout à l'heure;dans un moment|أَرَاكَ *بَعْدَ قَلِيل*.|arâka baʿda qalîl.|À tout à l'heure.
+A1|كُلّ|koull|det|tout;chaque|أَشْرَبُ القَهْوَةَ *كُلَّ* يَوْم.|achrabou l-qahwata koulla yawm.|Je bois du café tous les jours.
+A1|أَيْنَ أَنْتَ|ayna anta|phr|où es-tu ?|*أَيْنَ أَنْتَ* الآن؟|ayna anta l-âna ?|Où es-tu maintenant ?
+A1|أَنَا آسِف|anâ âsif|phr|je suis désolé|*أَنَا آسِف*، لَمْ أَفْهَمْ.|anâ âsif, lam afham.|Je suis désolé, je n'ai pas compris.
+A1|يَا|yâ|int|ô (pour appeler quelqu'un)|*يَا* أَحْمَد، تَعَالَ!|yâ aḥmad, taʿâla !|Ahmed, viens !
+A1|تَعَالَ|taʿâla|v|viens (à un homme)|*تَعَالَ* هُنَا.|taʿâla houna.|Viens ici.
+A1|اِذْهَبْ|idh-hab|v|va (à un homme)|*اِذْهَبْ* إِلَى البَيْت.|idh-hab ila l-bayt.|Va à la maison.
+A1|اُنْظُرْ|ounẓour|v|regarde (à un homme)|*اُنْظُرْ* إِلَى هٰذَا!|ounẓour ilâ hâdhâ !|Regarde ça !
+A1|اِسْمَعْ|ismaʿ|v|écoute (à un homme)|*اِسْمَعْ* جَيِّدًا.|ismaʿ jayyidan.|Écoute bien.
+A1|اِجْلِسْ|ijlis|v|assieds-toi (à un homme)|*اِجْلِسْ*، مِنْ فَضْلِكَ.|ijlis, min faḍlik.|Assieds-toi, s'il te plaît.
+A1|أَنَامُ|anâmou|v|je dors|*أَنَامُ* مُبَكِّرًا.|anâmou moubakkiran.|Je dors tôt.
+A1|أَشْرَبُ|achrabou|v|je bois|*أَشْرَبُ* الشَّاي.|achrabou ch-chây.|Je bois du thé.
+A1|آكُلُ|âkoulou|v|je mange|*آكُلُ* الخُبْزَ وَالجُبْن.|âkoulou l-khoubza wal-joubn.|Je mange du pain et du fromage.
+A1|أَذْهَبُ|adh-habou|v|je vais|*أَذْهَبُ* إِلَى العَمَلِ بِالسَّيَّارَة.|adh-habou ila l-ʿamali bis-sayyâra.|Je vais au travail en voiture.
+A1|أَقْرَأُ|aqra'ou|v|je lis|*أَقْرَأُ* كِتَابًا.|aqra'ou kitâban.|Je lis un livre.
+A1|أَكْتُبُ|aktoubou|v|j'écris|*أَكْتُبُ* رِسَالَة.|aktoubou risâla.|J'écris une lettre.
+A1|أَدْرُسُ|adrousou|v|j'étudie|*أَدْرُسُ* فِي الجَامِعَة.|adrousou fi l-jâmiʿa.|J'étudie à l'université.
+A1|أُحِبُّكَ|ouḥibbouka|phr|je t'aime (à un homme)|*أُحِبُّكَ* كَثِيرًا.|ouḥibbouka kathîran.|Je t'aime beaucoup.
+A1|أَرْبَعَة|arbaʿa|num|quatre|عِنْدِي *أَرْبَعَةُ* أَوْلَاد.|ʿindî arbaʿatou awlâd.|J'ai quatre enfants.
+A1|خَمْسَة|khamsa|num|cinq|*خَمْسَة* أَيَّام.|khamsat ayyâm.|Cinq jours.
+A1|سِتَّة|sitta|num|six|*سِتَّة* كُتُب.|sittat koutoub.|Six livres.
+A1|سَبْعَة|sabʿa|num|sept|*سَبْعَة* أَيَّامٍ فِي الأُسْبُوع.|sabʿatou ayyâmin fi l-ousboûʿ.|Sept jours dans la semaine.
+A1|ثَمَانِيَة|thamâniya|num|huit|*ثَمَانِيَة* طُلَّاب.|thamâniyatou ṭoullâb.|Huit étudiants.
+A1|تِسْعَة|tisʿa|num|neuf|*تِسْعَة* بُيُوت.|tisʿatou bouyoût.|Neuf maisons.
+A1|مِئَة|mi'a|num|cent|*مِئَة* دِينَار.|mi'at dînâr.|Cent dinars.
+A2|يَوْم الجُمُعَة|yawm al-joumouʿa|n|vendredi|*يَوْمَ الجُمُعَةِ* نَذْهَبُ إِلَى البَحْر.|yawma l-joumouʿati nadh-habou ila l-baḥr.|Vendredi, on va à la mer.
+A2|يَوْم السَّبْت|yawm as-sabt|n|samedi|أَعْمَلُ *يَوْمَ السَّبْتِ*.|aʿmalou yawma s-sabt.|Je travaille le samedi.
+A2|يَوْم الأَحَد|yawm al-aḥad|n|dimanche|*يَوْمُ الأَحَدِ* يَوْمُ رَاحَة.|yawmou l-aḥadi yawmou râḥa.|Le dimanche est un jour de repos.
+A2|يَوْم الإِثْنَيْن|yawm al-ithnayn|n|lundi|أَبْدَأُ العَمَلَ *يَوْمَ الإِثْنَيْنِ*.|abda'ou l-ʿamala yawma l-ithnayn.|Je commence le travail lundi.
+A2|عُطْلَة|ʿouṭla|n|vacances;congé|أَيْنَ تَقْضِي *العُطْلَة*؟|ayna taqḍi l-ʿouṭla ?|Où passes-tu les vacances ?
+A2|رِحْلَة|riḥla|n|voyage;excursion|كَانَتِ *الرِّحْلَةُ* جَمِيلَة.|kânati r-riḥlatou jamîla.|Le voyage était beau.
+A2|مَطَار|maṭâr|n|aéroport|أَيْنَ *المَطَار*؟|ayna l-maṭâr ?|Où est l'aéroport ?
+A2|قِطَار|qiṭâr|n|train|*القِطَار* مُتَأَخِّر.|al-qiṭâr mouta'akhkhir.|Le train est en retard.
+A2|تَذْكِرَة|tadhkira|n|billet;ticket|أُرِيدُ *تَذْكِرَةً* إِلَى وَهْرَان.|ourîdou tadhkiratan ilâ wahrân.|Je voudrais un billet pour Oran.
+A2|جَوَاز سَفَر|jawâz safar|n|passeport|أَيْنَ *جَوَازُ سَفَرِكَ*؟|ayna jawâzou safarik ?|Où est ton passeport ?
+A2|حَقِيبَة|ḥaqîba|n|sac;valise|*حَقِيبَتِي* ثَقِيلَة.|ḥaqîbatî thaqîla.|Mon sac est lourd.
+A2|خَرِيطَة|kharîṭa|n|carte;plan|هَلْ عِنْدَكَ *خَرِيطَة*؟|hal ʿindaka kharîṭa ?|Tu as une carte ?
+A2|يَمِين|yamîn|n|droite|اِذْهَبْ إِلَى *اليَمِين*.|idh-hab ila l-yamîn.|Va à droite.
+A2|يَسَار|yasâr|n|gauche|البَنْكُ عَلَى *اليَسَار*.|al-bankou ʿala l-yasâr.|La banque est à gauche.
+A2|أَمَام|amâma|prep|devant|أَنْتَظِرُكَ *أَمَامَ* المَحَطَّة.|antaẓirouka amâma l-maḥaṭṭa.|Je t'attends devant la gare.
+A2|خَلْفَ|khalfa|prep|derrière|الحَدِيقَةُ *خَلْفَ* البَيْت.|al-ḥadîqatou khalfa l-bayt.|Le jardin est derrière la maison.
+A2|بِجَانِبِ|bijânibi|prep|à côté de|اِجْلِسْ *بِجَانِبِي*.|ijlis bijânibî.|Assieds-toi à côté de moi.
+A2|تَحْتَ|taḥta|prep|sous|القِطُّ *تَحْتَ* الطَّاوِلَة.|al-qiṭṭou taḥta ṭ-ṭâwila.|Le chat est sous la table.
+A2|فَوْقَ|fawqa|prep|au-dessus de;sur|الكِتَابُ *فَوْقَ* الرَّفّ.|al-kitâbou fawqa r-raff.|Le livre est sur l'étagère.
+A2|حَدِيقَة|ḥadîqa|n|jardin;parc|نَلْعَبُ فِي *الحَدِيقَة*.|nalʿabou fi l-ḥadîqa.|On joue dans le parc.
+A2|مَسْجِد|masjid|n|mosquée|*المَسْجِدُ* قَرِيب.|al-masjidou qarîb.|La mosquée est proche.
+A2|جَامِعَة|jâmiʿa|n|université|أَدْرُسُ فِي *الجَامِعَة*.|adrousou fi l-jâmiʿa.|J'étudie à l'université.
+A2|صَيْدَلِيَّة|ṣaydaliyya|n|pharmacie|أَيْنَ *الصَّيْدَلِيَّة*؟|ayna ṣ-ṣaydaliyya ?|Où est la pharmacie ?
+A2|دَوَاء|dawâ'|n|médicament|خُذْ هٰذَا *الدَّوَاءَ*.|khoudh hâdhâ d-dawâ'.|Prends ce médicament.
+A2|صُدَاع|ṣoudâʿ|n|mal de tête|عِنْدِي *صُدَاع*.|ʿindî ṣoudâʿ.|J'ai mal à la tête.
+A2|بَطْن|baṭn|n|ventre|*بَطْنِي* يُؤْلِمُنِي.|baṭnî you'limounî.|J'ai mal au ventre.
+A2|رِجْل|rijl|n|jambe;pied|كَسَرْتُ *رِجْلِي*.|kasartou rijlî.|Je me suis cassé la jambe.
+A2|وَجْه|wajh|n|visage|اِغْسِلْ *وَجْهَكَ*.|ighsil wajhak.|Lave-toi le visage.
+A2|شَعْر|chaʿr|n|cheveux|*شَعْرُهَا* طَوِيل.|chaʿrouhâ ṭawîl.|Elle a les cheveux longs.
+A2|فَم|fam|n|bouche|اِفْتَحْ *فَمَكَ*.|iftaḥ famak.|Ouvre la bouche.
+A2|أُذُن|oudhoun|n|oreille|*أُذُنِي* تُؤْلِمُنِي.|oudhounî tou'limounî.|J'ai mal à l'oreille.
+A2|سِنّ|sinn|n|dent|عِنْدِي أَلَم فِي *السِّنّ*.|ʿindî alam fi s-sinn.|J'ai mal à une dent.
+A2|قَمِيص|qamîṣ|n|chemise|اِشْتَرَيْتُ *قَمِيصًا* جَدِيدًا.|ichtaraytou qamîṣan jadîdan.|J'ai acheté une nouvelle chemise.
+A2|حِذَاء|ḥidhâ'|n|chaussures;chaussure|*الحِذَاءُ* صَغِير.|al-ḥidhâ'ou ṣaghîr.|Les chaussures sont petites.
+A2|سِرْوَال|sirwâl|n|pantalon|هٰذَا *السِّرْوَالُ* طَوِيل.|hâdhâ s-sirwâlou ṭawîl.|Ce pantalon est long.
+A2|مِعْطَف|miʿṭaf|n|manteau|خُذْ *مِعْطَفَكَ*، الجَوُّ بَارِد.|khoudh miʿṭafak, al-jawwou bârid.|Prends ton manteau, il fait froid.
+A2|لَوْن|lawn|n|couleur|مَا *لَوْنُ* سَيَّارَتِكَ؟|mâ lawnou sayyâratik ?|De quelle couleur est ta voiture ?
+A2|ثَمَن|thaman|n|prix|كَمْ *ثَمَنُ* هٰذَا؟|kam thamanou hâdhâ ?|Combien coûte ceci ?
+A2|سِعْر|siʿr|n|prix|*السِّعْرُ* مُرْتَفِع.|as-siʿrou mourtafiʿ.|Le prix est élevé.
+A2|دِينَار|dînâr|n|dinar|بِعَشَرَةِ *دَنَانِير*.|bi-ʿacharati danânîr.|Pour dix dinars.
+A2|سُوق|soûq|n|marché|أَذْهَبُ إِلَى *السُّوقِ* يَوْمَ الجُمُعَة.|adh-habou ila s-soûqi yawma l-joumouʿa.|Je vais au marché le vendredi.
+A2|دُكَّان|doukkân|n|boutique;petit magasin|*الدُّكَّانُ* مُغْلَق.|ad-doukkânou moughlaq.|La boutique est fermée.
+A2|مَفْتُوح|maftoûḥ|adj|ouvert|هَلِ المَتْجَرُ *مَفْتُوح*؟|hali l-matjarou maftoûḥ ?|Le magasin est ouvert ?
+A2|مُغْلَق|moughlaq|adj|fermé|البَنْكُ *مُغْلَق* اليَوْم.|al-bankou moughlaq al-yawm.|La banque est fermée aujourd'hui.
+A2|نَظِيف|naẓîf|adj|propre|الغُرْفَةُ *نَظِيفَة*.|al-ghourfatou naẓîfa.|La chambre est propre.
+A2|وَسِخ|wasikh|adj|sale|حِذَاؤُكَ *وَسِخ*.|ḥidhâ'ouka wasikh.|Tes chaussures sont sales.
+A2|ثَقِيل|thaqîl|adj|lourd|الصُّنْدُوقُ *ثَقِيل*.|aṣ-ṣoundoûqou thaqîl.|La boîte est lourde.
+A2|خَفِيف|khafîf|adj|léger|هٰذِهِ الحَقِيبَةُ *خَفِيفَة*.|hâdhihi l-ḥaqîbatou khafîfa.|Ce sac est léger.
+A2|غَنِيّ|ghaniyy|adj|riche|هُوَ رَجُل *غَنِيّ*.|houwa rajoul ghaniyy.|C'est un homme riche.
+A2|فَقِير|faqîr|adj|pauvre|سَاعِدِ *الفُقَرَاءَ*.|sâʿidi l-fouqarâ'.|Aide les pauvres.
+A2|مَسْرُور|masroûr|adj|content|أَنَا *مَسْرُور* بِرُؤْيَتِكَ.|anâ masroûr birou'yatik.|Je suis content de te voir.
+A2|غَاضِب|ghâḍib|adj|en colère|لِمَاذَا أَنْتَ *غَاضِب*؟|limâdhâ anta ghâḍib ?|Pourquoi es-tu en colère ?
+A2|خَائِف|khâ'if|adj|qui a peur|لَا تَكُنْ *خَائِفًا*.|lâ takoun khâ'ifan.|N'aie pas peur.
+A2|عَطْشَان|ʿaṭchân|adj|qui a soif|أَنَا *عَطْشَان*.|anâ ʿaṭchân.|J'ai soif.
+A2|نَائِم|nâ'im|adj|endormi;qui dort|الطِّفْلُ *نَائِم*.|aṭ-ṭiflou nâ'im.|L'enfant dort.
+A2|جَاهِز|jâhiz|adj|prêt|هَلْ أَنْتَ *جَاهِز*؟|hal anta jâhiz ?|Tu es prêt ?
+A2|مُرِيح|mourîḥ|adj|confortable|الكُرْسِيُّ *مُرِيح*.|al-koursiyyou mourîḥ.|La chaise est confortable.
+A2|هَادِئ|hâdi'|adj|calme|الحَيُّ *هَادِئ*.|al-ḥayyou hâdi'.|Le quartier est calme.
+A2|مُمْتِع|moumtiʿ|adj|intéressant;agréable|الفِيلْمُ *مُمْتِع*.|al-filmou moumtiʿ.|Le film est intéressant.
+A2|رَائِع|râ'iʿ|adj|génial;magnifique|هٰذَا *رَائِع*!|hâdhâ râ'iʿ !|C'est génial !
+A2|سَيِّئ|sayyi'|adj|mauvais|الجَوُّ *سَيِّئ* اليَوْم.|al-jawwou sayyi' al-yawm.|Il fait mauvais aujourd'hui.
+A2|أَفْضَل|afḍal|adj|meilleur;mieux|أَنَا *أَفْضَل* اليَوْم.|anâ afḍal al-yawm.|Je vais mieux aujourd'hui.
+A2|كَثِيرًا|kathîran|adv|beaucoup|أُحِبُّكَ *كَثِيرًا*.|ouḥibbouka kathîran.|Je t'aime beaucoup.
+A2|قَلِيلًا|qalîlan|adv|un peu|أَتَكَلَّمُ العَرَبِيَّةَ *قَلِيلًا*.|atakallamou l-ʿarabiyyata qalîlan.|Je parle un peu arabe.
+A2|مَعًا|maʿan|adv|ensemble|نَأْكُلُ *مَعًا*.|na'koulou maʿan.|On mange ensemble.
+A2|وَحْدِي|waḥdî|adv|seul (moi)|أَسْكُنُ *وَحْدِي*.|askounou waḥdî.|J'habite seul.
+A2|أَبَدًا|abadan|adv|jamais|لَا أُدَخِّنُ *أَبَدًا*.|lâ oudakhkhinou abadan.|Je ne fume jamais.
+A2|مَرَّة|marra|n|fois|زُرْتُ مِصْرَ *مَرَّةً* وَاحِدَة.|zourtou miṣra marratan wâḥida.|J'ai visité l'Égypte une fois.
+A2|بِسُرْعَة|bisourʿa|adv|vite;rapidement|تَعَالَ *بِسُرْعَة*!|taʿâla bisourʿa !|Viens vite !
+A2|بِبُطْء|bibouṭ'|adv|lentement|تَكَلَّمْ *بِبُطْء*، مِنْ فَضْلِكَ.|takallam bibouṭ', min faḍlik.|Parle lentement, s'il te plaît.
+A2|مُبَكِّرًا|moubakkiran|adv|tôt|أَسْتَيْقِظُ *مُبَكِّرًا*.|astayqiẓou moubakkiran.|Je me réveille tôt.
+A2|مُتَأَخِّرًا|mouta'akhkhiran|adv|tard|نِمْتُ *مُتَأَخِّرًا*.|nimtou mouta'akhkhiran.|Je me suis couché tard.
+A2|يَسْتَيْقِظُ|yastayqiẓou|v|il se réveille;se réveiller|*أَسْتَيْقِظُ* فِي السَّابِعَة.|astayqiẓou fi s-sâbiʿa.|Je me réveille à sept heures.
+A2|يَغْسِلُ|yaghsilou|v|il lave;laver|*أَغْسِلُ* يَدَيَّ.|aghsilou yadayya.|Je me lave les mains.
+A2|يَطْبُخُ|yaṭboukhou|v|il cuisine;cuisiner|أُمِّي *تَطْبُخُ* كُلَّ يَوْم.|oummî taṭboukhou koulla yawm.|Ma mère cuisine tous les jours.
+A2|يَجْلِسُ|yajlisou|v|il s'assoit;s'asseoir|*أَجْلِسُ* هُنَا.|ajlisou houna.|Je m'assois ici.
+A2|يَمْشِي|yamchî|v|il marche;marcher|*أَمْشِي* إِلَى المَدْرَسَة.|amchî ila l-madrasa.|Je vais à l'école à pied.
+A2|يَرْكُضُ|yarkouḍou|v|il court;courir|*أَرْكُضُ* فِي الصَّبَاح.|arkouḍou fi ṣ-ṣabâḥ.|Je cours le matin.
+A2|يَدْخُلُ|yadkhoulou|v|il entre;entrer|*اُدْخُلْ*، مِنْ فَضْلِكَ.|oudkhoul, min faḍlik.|Entre, s'il te plaît.
+A2|يَخْرُجُ|yakhroujou|v|il sort;sortir|*نَخْرُجُ* اللَّيْلَة.|nakhroujou l-layla.|On sort ce soir.
+A2|يَرْجِعُ|yarjiʿou|v|il revient;rentrer;revenir|*أَرْجِعُ* إِلَى البَيْتِ فِي المَسَاء.|arjiʿou ila l-bayti fi l-masâ'.|Je rentre à la maison le soir.
+A2|يَصِلُ|yaṣilou|v|il arrive;arriver|*يَصِلُ* القِطَارُ فِي العَاشِرَة.|yaṣilou l-qiṭârou fi l-ʿâchira.|Le train arrive à dix heures.
+A2|يُسَافِرُ|yousâfirou|v|il voyage;voyager|*نُسَافِرُ* فِي الصَّيْف.|nousâfirou fi ṣ-ṣayf.|On voyage en été.
+A2|يَدْفَعُ|yadfaʿou|v|il paie;payer|هَلْ *أَدْفَعُ* هُنَا؟|hal adfaʿou houna ?|Je paie ici ?
+A2|يَبِيعُ|yabîʿou|v|il vend;vendre|*يَبِيعُ* الفَوَاكِه.|yabîʿou l-fawâkih.|Il vend des fruits.
+A2|يَأْخُذُ|ya'khoudhou|v|il prend;prendre|*آخُذُ* الحَافِلَة.|âkhoudhou l-ḥâfila.|Je prends le bus.
+A2|يُعْطِي|youʿṭî|v|il donne;donner|*أَعْطِنِي* المَاء.|aʿṭini l-mâ'.|Donne-moi l'eau.
+A2|يَفْتَحُ البَاب|yaftaḥou l-bâb|phr|il ouvre la porte|*اِفْتَحِ البَابَ*، مِنْ فَضْلِكَ.|iftaḥi l-bâba, min faḍlik.|Ouvre la porte, s'il te plaît.
+A2|يُغْلِقُ|youghliqou|v|il ferme;fermer|*أَغْلِقِ* النَّافِذَة.|aghliqi n-nâfidha.|Ferme la fenêtre.
+A2|يَسْأَلُ|yas'alou|v|il demande;demander|*أَسْأَلُ* المُعَلِّم.|as'alou l-mouʿallim.|Je demande au professeur.
+A2|يُجِيبُ|youjîbou|v|il répond;répondre|*أَجِبْ* عَلَى السُّؤَال.|ajib ʿala s-sou'âl.|Réponds à la question.
+A2|يَضْحَكُ|yaḍḥakou|v|il rit;rire|لِمَاذَا *تَضْحَكُ*؟|limâdhâ taḍḥak ?|Pourquoi tu ris ?
+A2|يَبْكِي|yabkî|v|il pleure;pleurer|الطِّفْلُ *يَبْكِي*.|aṭ-ṭiflou yabkî.|L'enfant pleure.
+A2|يَسْمَعُ|yasmaʿou|v|il entend;entendre;écouter|هَلْ *تَسْمَعُنِي*؟|hal tasmaʿounî ?|Tu m'entends ?
+A2|يَرَى|yarâ|v|il voit;voir|*أَرَى* البَحْرَ مِنْ هُنَا.|arâ l-baḥra min houna.|Je vois la mer d'ici.
+A2|يَقُولُ|yaqoûlou|v|il dit;dire|مَاذَا *تَقُولُ*؟|mâdhâ taqoûl ?|Qu'est-ce que tu dis ?
+A2|يَتَّصِلُ|yattaṣilou|v|il appelle;appeler (téléphone)|*سَأَتَّصِلُ* بِكَ غَدًا.|sa-attaṣilou bika ghadan.|Je t'appellerai demain.
+A2|يَلْبَسُ|yalbasou|v|il porte;s'habiller|*أَلْبَسُ* مِعْطَفًا.|albasou miʿṭafan.|Je mets un manteau.
+B1|يَنْجَحُ|yanjaḥou|v|il réussit;réussir|*نَجَحَ* فِي الامْتِحَان.|najaḥa fi l-imtiḥân.|Il a réussi l'examen.
+B1|امْتِحَان|imtiḥân|n|examen|عِنْدِي *امْتِحَان* غَدًا.|ʿindî mtiḥân ghadan.|J'ai un examen demain.
+B1|يَخَافُ|yakhâfou|v|il a peur;avoir peur|*أَخَافُ* مِنَ الكِلَاب.|akhâfou mina l-kilâb.|J'ai peur des chiens.
+B1|يَحْلُمُ|yaḥloumou|v|il rêve;rêver|*أَحْلُمُ* بِالسَّفَر.|aḥloumou bis-safar.|Je rêve de voyager.
+B1|يَتَزَوَّجُ|yatazawwajou|v|il se marie;se marier|*تَزَوَّجَا* فِي الصَّيْف.|tazawwajâ fi ṣ-ṣayf.|Ils se sont mariés en été.
+B1|عُرْس|ʿours|n|mariage (fête)|ذَهَبْنَا إِلَى *عُرْسِ* ابْنِ عَمِّي.|dhahabnâ ilâ ʿoursi bni ʿammî.|On est allés au mariage de mon cousin.
+B1|عِيد|ʿîd|n|fête|*عِيد* مُبَارَك!|ʿîd moubârak !|Bonne fête !
+B1|هَدِيَّة|hadiyya|n|cadeau|هٰذِهِ *هَدِيَّة* لَكَ.|hâdhihi hadiyya lak.|C'est un cadeau pour toi.
+B1|حَفْلَة|ḥafla|n|fête;soirée|هَلْ تَأْتِي إِلَى *الحَفْلَة*؟|hal ta'tî ila l-ḥafla ?|Tu viens à la fête ?
+B1|ضَيْف|ḍayf|n|invité|عِنْدَنَا *ضُيُوف* اللَّيْلَة.|ʿindanâ ḍouyoûf al-layla.|On a des invités ce soir.
+B1|جَار|jâr|n|voisin|*جَارِي* لَطِيف.|jârî laṭîf.|Mon voisin est gentil.
+B1|حَيّ|ḥayy|n|quartier|أَسْكُنُ فِي *حَيّ* هَادِئ.|askounou fî ḥayy hâdi'.|J'habite dans un quartier calme.
+B1|عُنْوَان|ʿounwân|n|adresse;titre|مَا *عُنْوَانُكَ*؟|mâ ʿounwânouk ?|Quelle est ton adresse ?
+B1|رِسَالَة|risâla|n|lettre;message|أَرْسَلْتُ لَكَ *رِسَالَة*.|arsaltou laka risâla.|Je t'ai envoyé un message.
+B1|صُورَة|ṣoûra|n|photo;image|اُنْظُرْ إِلَى هٰذِهِ *الصُّورَة*.|ounẓour ilâ hâdhihi ṣ-ṣoûra.|Regarde cette photo.
+B1|أُغْنِيَة|ougniya|n|chanson|أُحِبُّ هٰذِهِ *الأُغْنِيَة*.|ouḥibbou hâdhihi l-ougniya.|J'aime cette chanson.
+B1|مُوسِيقَى|moûsîqâ|n|musique|أَسْمَعُ *المُوسِيقَى* كُلَّ يَوْم.|asmaʿou l-moûsîqâ koulla yawm.|J'écoute de la musique tous les jours.
+B1|رِيَاضَة|riyâḍa|n|sport|*الرِّيَاضَة* مُفِيدَة.|ar-riyâḍa moufîda.|Le sport est bon pour la santé.
+B1|كُرَة القَدَم|kourat al-qadam|n|football|نَلْعَبُ *كُرَةَ القَدَمِ* يَوْمَ السَّبْت.|nalʿabou kourata l-qadami yawma s-sabt.|On joue au foot le samedi.
+B1|فِيلْم|film|n|film|شَاهَدْنَا *فِيلْمًا* جَمِيلًا.|châhadnâ filman jamîlan.|On a regardé un beau film.
+B1|جَرِيدَة|jarîda|n|journal|أَبِي يَقْرَأُ *الجَرِيدَة*.|abî yaqra'ou l-jarîda.|Mon père lit le journal.
+B1|تِلْفَاز|tilfâz|n|télévision;télé|نُشَاهِدُ *التِّلْفَاز* فِي المَسَاء.|nouchâhidou t-tilfâz fi l-masâ'.|On regarde la télé le soir.
+B1|حَاسُوب|ḥâsoûb|n|ordinateur|أَعْمَلُ عَلَى *الحَاسُوب*.|aʿmalou ʿala l-ḥâsoûb.|Je travaille sur l'ordinateur.
+B1|إِنْتَرْنِت|intarnit|n|internet|لَا يُوجَدُ *إِنْتَرْنِت* هُنَا.|lâ yoûjadou intarnit houna.|Il n'y a pas internet ici.
+B1|سَبَب|sabab|n|raison;cause|مَا *سَبَبُ* المُشْكِلَة؟|mâ sababou l-mouchkila ?|Quelle est la cause du problème ?
+B1|حَلّ|ḥall|n|solution|هُنَاكَ دَائِمًا *حَلّ*.|hounâka dâ'iman ḥall.|Il y a toujours une solution.
+B1|نَصِيحَة|naṣîḥa|n|conseil|أَعْطِنِي *نَصِيحَة*.|aʿṭinî naṣîḥa.|Donne-moi un conseil.
+B1|سُؤَال|sou'âl|n|question|هٰذَا *سُؤَال* جَيِّد.|hâdhâ sou'âl jayyid.|C'est une bonne question.
+B1|جَوَاب|jawâb|n|réponse|لَا أَعْرِفُ *الجَوَاب*.|lâ aʿrifou l-jawâb.|Je ne connais pas la réponse.
+B1|صَحِيح|ṣaḥîḥ|adj|vrai;correct;juste|هٰذَا *صَحِيح*.|hâdhâ ṣaḥîḥ.|C'est vrai.
+B1|خَطَأ|khaṭa'|n|erreur;faute|هٰذَا *خَطَأ*.|hâdhâ khaṭa'.|C'est une erreur.
+B1|مَشْغُولَة|machghoûla|adj|occupée|أُمِّي *مَشْغُولَة*.|oummî machghoûla.|Ma mère est occupée.
+B1|حُبّ|ḥoubb|n|amour|*الحُبُّ* جَمِيل.|al-ḥoubbou jamîl.|L'amour est beau.
+B1|سَعَادَة|saʿâda|n|bonheur|أَتَمَنَّى لَكَ *السَّعَادَة*.|atamannâ laka s-saʿâda.|Je te souhaite le bonheur.
+B1|يَتَمَنَّى|yatamannâ|v|il souhaite;souhaiter|*أَتَمَنَّى* لَكَ يَوْمًا سَعِيدًا.|atamannâ laka yawman saʿîdan.|Je te souhaite une bonne journée.
+B1|يَشْكُرُ|yachkourou|v|il remercie;remercier|*أَشْكُرُكَ* عَلَى المُسَاعَدَة.|achkourouka ʿala l-mousâʿada.|Je te remercie pour ton aide.
+B1|مُسَاعَدَة|mousâʿada|n|aide|شُكْرًا عَلَى *المُسَاعَدَة*.|choukran ʿala l-mousâʿada.|Merci pour l'aide.
+B1|وَظِيفَة|waẓîfa|n|emploi;poste|وَجَدْتُ *وَظِيفَة* جَدِيدَة.|wajadtou waẓîfa jadîda.|J'ai trouvé un nouvel emploi.
+B1|رَاتِب|râtib|n|salaire|*رَاتِبِي* صَغِير.|râtibî ṣaghîr.|Mon salaire est petit.
+B1|مُدِير|moudîr|n|directeur;patron|*المُدِيرُ* فِي اجْتِمَاع.|al-moudîrou fî jtimâʿ.|Le directeur est en réunion.
+B1|زَمِيل|zamîl|n|collègue|*زَمِيلِي* لَطِيف.|zamîlî laṭîf.|Mon collègue est sympa.
+B1|مُهَنْدِس|mouhandis|n|ingénieur|أَخِي *مُهَنْدِس*.|akhî mouhandis.|Mon frère est ingénieur.
+B1|شُرْطَة|chourṭa|n|police|اِتَّصِلْ بِـ*الشُّرْطَة*!|ittaṣil bich-chourṭa !|Appelle la police !
+B1|مَرَض|maraḍ|n|maladie|هٰذَا *مَرَض* خَطِير.|hâdhâ maraḍ khaṭîr.|C'est une maladie grave.
+B1|خَطِير|khaṭîr|adj|dangereux;grave|الطَّرِيقُ *خَطِير*.|aṭ-ṭarîqou khaṭîr.|La route est dangereuse.
+B1|آمِن|âmin|adj|sûr;en sécurité|هَلْ هٰذَا المَكَانُ *آمِن*؟|hal hâdhâ l-makânou âmin ?|Cet endroit est-il sûr ?
+B1|بَلَدِيَّة|baladiyya|n|mairie|أَذْهَبُ إِلَى *البَلَدِيَّة*.|adh-habou ila l-baladiyya.|Je vais à la mairie.
+B1|وَطَن|waṭan|n|patrie;pays|أُحِبُّ *وَطَنِي*.|ouḥibbou waṭanî.|J'aime mon pays.
+B1|تَارِيخ|târîkh|n|histoire;date|أُحِبُّ *التَّارِيخ*.|ouḥibbou t-târîkh.|J'aime l'histoire.
+B1|لُغَة|lougha|n|langue|كَمْ *لُغَةً* تَتَكَلَّمُ؟|kam loughatan tatakallam ?|Combien de langues parles-tu ?

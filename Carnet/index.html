@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="fr" data-theme="dim">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#333940">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Carnet">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="Carnet">
+<meta name="description" content="Notes, tâches et rappels synchronisés sur tous tes appareils.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="app.css?v=52">
+<link rel="stylesheet" href="themes.css?v=52">
+<title>Carnet</title>
+</head>
+<body>
+
+<!-- ================= Connexion ================= -->
+<div id="auth" class="auth hidden">
+  <div class="auth-card">
+    <img class="logo" src="icon.svg" alt="">
+    <h1>Carnet</h1>
+    <div class="seg" id="auth-seg">
+      <button type="button" data-mode="login" class="on">Connexion</button>
+      <button type="button" data-mode="register">Créer un compte</button>
+    </div>
+    <form id="auth-form">
+      <label>Nom d'utilisateur<input id="a-user" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" required></label>
+      <label>Mot de passe<input id="a-pass" type="password" autocomplete="current-password" required></label>
+      <label id="a-code-wrap" class="hidden"><span id="a-code-lbl">Code d'invitation</span><input id="a-code" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX"></label>
+      <button type="button" class="linkish a-askcode hidden" id="a-askcode">Pas de code ? Demander un code</button>
+      <p id="a-err" class="err"></p>
+      <button class="btn primary wide" id="a-submit">Se connecter</button>
+    </form>
+    <div class="auth-or"><span>ou</span></div>
+    <button class="btn wide auth-local" id="a-local" type="button"><span data-icon="phone"></span>Ouvrir en local</button>
+    <p class="small muted auth-local-txt">Sans compte : tout reste sur cet appareil, rien n'est envoyé au serveur. Pas de synchronisation entre appareils.</p>
+  </div>
+</div>
+
+<!-- ================= Application ================= -->
+<div id="app" class="hidden">
+
+  <!-- Volet latéral (PC) -->
+  <aside class="side">
+    <div class="brand"><img src="icon.svg" alt=""><span>Carnet</span></div>
+    <button class="nav-item" data-view="notes"><span data-icon="notes"></span><span>Notes</span><span class="cnt" id="cnt-notes"></span></button>
+    <button class="nav-item" data-view="gallery"><span data-icon="image"></span><span>Images</span></button>
+    <button class="nav-item" data-view="calendar"><span data-icon="cal"></span><span>Calendrier</span></button>
+    <button class="nav-item" data-view="agenda"><span data-icon="agenda"></span><span>Rappels</span><span class="cnt" id="cnt-agenda"></span></button>
+    <button class="nav-item" data-view="tasks"><span data-icon="tasks"></span><span>Tâches</span><span class="cnt" id="cnt-tasks"></span></button>
+    <div class="side-h">Listes</div>
+    <div id="side-lists"></div>
+    <div class="side-sp"></div>
+    <button class="nav-item" data-view="settings"><span data-icon="settings"></span><span>Réglages</span></button>
+    <div class="side-foot" id="side-foot"></div>
+  </aside>
+
+  <div class="selbar hidden" id="selbar">
+    <button class="icon-btn" data-sel="close" aria-label="Annuler la sélection" data-icon="close"></button>
+    <b id="sel-count"></b>
+    <span class="grow"></span>
+    <span id="sel-actions" class="sel-actions"></span>
+  </div>
+
+  <header class="top">
+    <div><h1 id="title">Tâches</h1><div class="sub" id="sub"></div></div>
+    <div class="top-right">
+      <button class="install-btn hidden" id="install-btn" type="button"><span data-icon="download"></span>Installer</button>
+      <button class="access-btn hidden" id="access-btn" type="button" title="Demander un compte pour synchroniser tes appareils"><span data-icon="key"></span><span class="lbl">Demander un accès</span></button>
+      <span class="offline-lbl" id="offline-lbl"></span>
+      <span id="dot" class="dot" title="Synchronisation"></span>
+      <button class="icon-btn top-settings" data-view="settings" aria-label="Réglages" title="Réglages" data-icon="settings"></button>
+      <button class="me-btn" id="me-btn" aria-label="Mon compte"></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="v-tasks" class="view">
+      <div class="chips" id="list-chips"></div>
+      <div class="list-head" id="list-head"></div>
+      <div class="view-bar">
+        <form id="quick" class="quick" autocomplete="off">
+          <input id="quick-in" placeholder="Ajouter une tâche…" enterkeyhint="done">
+          <button class="icon-btn" aria-label="Ajouter" data-icon="plus"></button>
+        </form>
+        <div class="vseg" data-lay="tasks" role="group" aria-label="Affichage"></div>
+      </div>
+      <div id="task-list"></div>
+    </section>
+
+    <section id="v-agenda" class="view hidden">
+      <div class="view-bar">
+        <form id="rquick" class="quick" autocomplete="off">
+          <input id="rquick-in" placeholder="Ex. : Dentiste demain 14h" enterkeyhint="done">
+          <button class="icon-btn" aria-label="Ajouter le rappel" data-icon="plus"></button>
+        </form>
+        <div class="vseg" data-lay="agenda" role="group" aria-label="Affichage"></div>
+      </div>
+      <div id="rquick-hint" class="rq-hint"></div>
+      <div id="agenda"></div>
+    </section>
+
+    <section id="v-calendar" class="view hidden">
+      <div class="cal-bar">
+        <button class="icon-btn" id="cal-prev" type="button" aria-label="Précédent" title="Précédent" data-icon="back"></button>
+        <h2 id="cal-title" class="cal-title"></h2>
+        <button class="icon-btn cal-next" id="cal-next" type="button" aria-label="Suivant" title="Suivant" data-icon="back"></button>
+        <button class="btn cal-today" id="cal-today" type="button">Aujourd'hui</button>
+      </div>
+      <div class="seg cal-modes" id="cal-modes">
+        <button type="button" data-cm="month">Mois</button>
+        <button type="button" data-cm="week">Semaine</button>
+        <button type="button" data-cm="day">Jour</button>
+      </div>
+      <div id="cal-body" class="cal-body"></div>
+      <div id="cal-day" class="cal-day"></div>
+    </section>
+
+    <section id="v-gallery" class="view hidden">
+      <div class="view-bar gal-bar">
+        <button type="button" class="chip-btn gal-pick" id="gal-type" aria-haspopup="menu" aria-expanded="false" title="Type d'image"></button>
+        <span class="grow"></span>
+        <button type="button" class="icon-btn gal-add" id="gal-add" title="Importer une image ou créer un dessin" aria-label="Ajouter" aria-haspopup="menu" aria-expanded="false" data-icon="plus"></button>
+        <div class="vseg" data-lay="gallery" role="group" aria-label="Affichage"></div>
+      </div>
+      <div id="gallery"></div>
+    </section>
+
+    <section id="v-notes" class="view hidden">
+      <div class="view-bar notes-bar">
+        <label class="search"><span data-icon="search"></span><input id="nsearch" type="search" placeholder="Rechercher"></label>
+        <div class="vseg" id="n-views" data-lay="notes" role="group" aria-label="Affichage"></div>
+      </div>
+      <div class="chips" id="note-chips"></div>
+      <div id="notes"></div>
+    </section>
+
+    <section id="v-settings" class="view settings hidden">
+      <details class="card sg" data-sg="account">
+        <summary><span class="sg-ic" data-icon="rename"></span><h2>Compte</h2><span class="sg-hint" id="sg-account"></span></summary>
+        <div class="sg-body">
+        <div class="profile">
+          <button id="s-avatar" aria-label="Changer d'avatar" title="Changer d'avatar"></button>
+          <div class="grow"><b id="s-user"></b><span class="admin-badge hidden" id="s-admin-badge">Admin</span><span class="admin-badge hidden" id="s-local-badge">Local</span></div>
+          <button class="icon-btn" id="s-rename" type="button" title="Renommer" aria-label="Renommer" data-icon="rename"></button>
+        </div>
+        <p class="small muted hidden" id="s-local-info">Mode local : tes données sont enregistrées uniquement dans ce navigateur, sur cet appareil. Rien n'est envoyé au serveur. Pense à exporter régulièrement (Réglages → Données) : effacer les données du navigateur efface aussi tes notes.</p>
+        <div class="inline"><button class="btn danger-text" id="logout" type="button">Se déconnecter</button><button class="btn" id="s-bug" type="button"><span data-icon="send"></span>Signaler un bug</button></div>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="look">
+        <summary><span class="sg-ic" data-icon="palette"></span><h2>Apparence</h2><span class="sg-hint" id="sg-look"></span></summary>
+        <div class="sg-body">
+        <div class="row-label">Thème</div>
+        <div class="themes" id="s-theme"></div>
+        <details class="skins" id="s-skins-wrap">
+          <summary>Thèmes fantaisie</summary>
+          <div class="themes skins-grid" id="s-skins"></div>
+        </details>
+        <div class="row-label">Couleur principale</div>
+        <div class="swatches" id="s-accent"></div>
+        <div class="row-label">Page d'ouverture</div>
+        <div class="seg" id="s-start">
+          <button type="button" data-v="notes">Notes</button>
+          <button type="button" data-v="agenda">Rappels</button>
+          <button type="button" data-v="calendar">Calendrier</button>
+          <button type="button" data-v="tasks">Tâches</button>
+          <button type="button" data-v="last">Dernière</button>
+        </div>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="rem">
+        <summary><span class="sg-ic" data-icon="agenda"></span><h2>Rappels</h2><span class="sg-hint" id="sg-rem"></span></summary>
+        <div class="sg-body">
+        <label class="switch-row">
+          <span class="grow"><b>Suivi des séries</b><span class="small muted">Séries, records, historique et progression du jour</span></span>
+          <input type="checkbox" id="s-streaks" class="switch">
+        </label>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="notes">
+        <summary><span class="sg-ic" data-icon="notes"></span><h2>Notes</h2><span class="sg-hint" id="sg-notes"></span></summary>
+        <div class="sg-body">
+        <div class="row-label">Taille du texte</div>
+        <div class="seg" id="s-notesize">
+          <button type="button" data-v="small">Petit</button>
+          <button type="button" data-v="normal">Normal</button>
+          <button type="button" data-v="large">Grand</button>
+        </div>
+        <label class="switch-row">
+          <span class="grow"><b>Aperçu des liens</b><span class="small muted" id="s-linkprev-txt"></span></span>
+          <input type="checkbox" id="s-linkprev" class="switch">
+        </label>
+        <div class="row-label">Images d'une note supprimée définitivement</div>
+        <div class="seg" id="s-imgpurge">
+          <button type="button" data-v="ask">Demander</button>
+          <button type="button" data-v="drop">Supprimer</button>
+          <button type="button" data-v="keep">Garder</button>
+        </div>
+        <details>
+          <summary>Aide mise en forme</summary>
+          <div class="stack" id="s-help"></div>
+        </details>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="app">
+        <summary><span class="sg-ic" data-icon="download"></span><h2>Données personnelles et application</h2><span class="sg-hint" id="sg-app"></span></summary>
+        <div class="sg-body">
+        <p class="small muted" id="s-install-state"></p>
+        <div><button class="btn primary hidden" id="s-install" type="button"><span data-icon="download"></span>Installer l'application</button></div>
+        <details class="drawer">
+          <summary id="s-sec-title">Compte et sécurité</summary>
+          <div class="stack">
+            <div class="sec-list">
+              <button class="sec-item" id="s-pw" type="button"><span data-icon="rename"></span><span class="grow">Changer le mot de passe</span></button>
+              <button class="sec-item" id="s-syncnow" type="button"><span data-icon="repeat"></span><span class="grow">Synchroniser maintenant</span></button>
+              <button class="sec-item" id="s-others" type="button"><span data-icon="close"></span><span class="grow">Déconnecter les autres appareils</span></button>
+            </div>
+            <div class="danger-zone">
+              <p class="small muted" id="s-delete-txt">Efface définitivement ton compte et toutes tes données, sur tous les appareils.</p>
+              <button class="btn danger-text" id="s-delete" type="button"><span data-icon="trash"></span><span id="s-delete-lbl">Supprimer mon compte</span></button>
+            </div>
+          </div>
+        </details>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="notif">
+        <summary><span class="sg-ic" data-icon="bell"></span><h2>Notifications</h2><span class="sg-hint" id="sg-notif"></span></summary>
+        <div class="sg-body">
+        <p class="small muted" id="s-notif-state"></p>
+        <div class="inline"><button class="btn primary" id="s-notif" type="button">Activer sur cet appareil</button><button class="btn" id="s-push-test" type="button">Envoyer un test</button></div>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="contact">
+        <summary><span class="sg-ic" data-icon="send"></span><h2>Aide et contact</h2><span class="sg-hint" id="sg-contact"></span></summary>
+        <div class="sg-body">
+        <p class="small muted">Un bug, une idée, une remarque ? Le message est envoyé au créateur de Carnet.</p>
+        <div><button class="btn primary" id="s-contact" type="button"><span data-icon="send"></span>Envoyer un message</button></div>
+        </div>
+      </details>
+
+      <details class="card sg" data-sg="data">
+        <summary><span class="sg-ic" data-icon="upload"></span><h2>Données</h2><span class="sg-hint" id="sg-data"></span></summary>
+        <div class="sg-body">
+        <p class="small muted" id="s-stats"></p>
+        <div class="inline">
+          <button class="btn" id="s-export" type="button"><span data-icon="download"></span>Exporter</button>
+          <button class="btn" id="s-import" type="button"><span data-icon="upload"></span>Importer</button>
+          <input type="file" id="s-import-file" accept=".json,application/json" class="hidden">
+        </div>
+        <div class="stack" id="s-imgcheck-wrap">
+          <p class="small muted">Si le serveur a perdu des notes, tâches ou images que cet appareil a encore, Carnet peut les lui renvoyer (une image peut revenir en basse définition s'il ne reste que sa miniature).</p>
+          <p class="small warn-txt hidden" id="s-restore-hint"></p>
+          <div><button class="btn" id="s-imgcheck" type="button"><span data-icon="restore"></span>Vérifier et restaurer</button></div>
+        </div>
+        </div>
+      </details>
+
+      <details class="card sg hidden" id="s-admin" data-sg="admin">
+        <summary><span class="sg-ic" data-icon="settings"></span><h2>Administration</h2><span class="sg-hint" id="sg-admin"></span></summary>
+        <div class="sg-body">
+        <p class="small muted">Tu vois cette section parce que tu es administrateur : compte créé avec le code de <code>config.php</code>, premier compte du serveur, ou nom listé dans <code>ADMIN_USERS</code>. Les autres comptes ne la voient pas.</p>
+        <p class="small" id="s-cron-state"></p>
+        <div class="adm-stats" id="s-adm-stats"></div>
+        <label class="switch-row adm-switch">
+          <span class="grow"><b>Inscription libre</b><span class="small muted">Créer un compte sans code. Les codes restent utilisables (et celui de config.php donne toujours l'accès administrateur).</span></span>
+          <input type="checkbox" id="s-opensignup" class="switch">
+        </label>
+        <div class="adm-head"><h3>Codes d'invitation</h3><button class="btn primary" id="s-code-new" type="button"><span data-icon="plus"></span>Nouveau code</button></div>
+        <p class="small muted">Le code de config.php reste valable : il crée un compte administrateur. Les codes ci-dessous créent des comptes normaux.</p>
+        <div id="s-codes" class="adm-list"></div>
+        <div class="adm-head"><h3>Comptes</h3><button class="icon-btn" id="s-adm-refresh" type="button" title="Actualiser" aria-label="Actualiser" data-icon="repeat"></button></div>
+        <div id="s-accounts" class="adm-list"></div>
+        <details>
+          <summary>Notifications via l'appli ntfy (avancé)</summary>
+          <div class="stack">
+            <p class="small muted">Alternative aux notifications push : abonne-toi au même sujet dans l'appli ntfy.</p>
+            <div class="inline"><input id="s-ntfy" placeholder="Sujet" autocapitalize="none" spellcheck="false"><button class="btn" id="s-ntfy-gen" type="button">Générer</button></div>
+            <div class="inline"><button class="btn primary" id="s-ntfy-save" type="button">Enregistrer</button><button class="btn" id="s-ntfy-test" type="button">Envoyer un test</button></div>
+          </div>
+        </details>
+        </div>
+      </details>
+
+      <details class="card sg desk-only" data-sg="keys">
+        <summary><span class="sg-ic" data-icon="grid"></span><h2>Raccourcis clavier</h2><span class="sg-hint" id="sg-keys"></span></summary>
+        <div class="sg-body">
+        <div class="kv">
+          <span><kbd>N</kbd></span><span>Nouvelle tâche / note</span>
+          <span><kbd>/</kbd></span><span>Rechercher / ajouter vite</span>
+          <span><kbd>1</kbd> … <kbd>6</kbd></span><span>Notes, Images, Calendrier, Rappels, Tâches, Réglages</span>
+          <span><kbd>Échap</kbd></span><span>Fermer</span>
+          <span><kbd>Ctrl</kbd>+<kbd>Z</kbd> / <kbd>Ctrl</kbd>+<kbd>Y</kbd></span><span>Annuler / rétablir (note)</span>
+          <span><kbd>Ctrl</kbd>+<kbd>B</kbd> / <kbd>I</kbd></span><span>Gras / italique</span>
+                    <span><kbd>Ctrl</kbd>+<kbd>Entrée</kbd></span><span>Enregistrer la tâche</span>
+        </div>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <button id="fab" class="fab" aria-label="Nouveau" data-icon="plus"></button>
+
+  <nav class="tabs">
+    <button data-view="notes"><span class="ic" data-icon="notes"></span>Notes</button>
+    <button data-view="gallery"><span class="ic" data-icon="image"></span>Images</button>
+    <button data-view="calendar"><span class="ic" data-icon="cal"></span>Calendrier</button>
+    <button data-view="agenda"><span class="ic" data-icon="agenda"></span>Rappels<span class="badge hidden" id="badge-agenda"></span></button>
+    <button data-view="tasks"><span class="ic" data-icon="tasks"></span>Tâches</button>
+  </nav>
+</div>
+
+<!-- ================= Éditeur de note ================= -->
+<div id="ed-backdrop" class="ed-backdrop"></div>
+<div id="editor" class="editor hidden">
+  <div class="ed-top">
+    <button class="icon-btn" id="ed-back" aria-label="Retour" data-icon="back"></button>
+    <span id="ed-status" class="ed-status"></span>
+    <label class="icon-btn" id="ed-addimg" for="img-input" title="Ajouter une image" aria-label="Ajouter une image" data-icon="image"></label>
+    <button class="icon-btn" id="ed-draw" title="Dessin" aria-label="Dessin" data-icon="brush"></button>
+    <button class="icon-btn" id="ed-pin" aria-label="Épingler" title="Épingler" data-icon="pin"></button>
+    <button class="icon-btn" id="ed-archive" aria-label="Archiver" title="Archiver" data-icon="archive"></button>
+    <button class="icon-btn" id="ed-more" aria-label="Plus d'options" title="Plus d'options" data-icon="more"></button>
+  </div>
+  <div id="ed-trashbar" class="ed-trashbar hidden">
+    <span data-icon="trash"></span><span class="grow">Dans la corbeille</span>
+    <button class="btn" type="button" data-tb="restore">Restaurer</button>
+    <button class="btn danger-text" type="button" data-tb="purge">Supprimer</button>
+  </div>
+  <div class="ed-main" id="ed-main">
+    <input id="ed-title" class="ed-title" placeholder="Titre" enterkeyhint="next">
+    <div id="ed-imgs" class="ed-imgs"></div>
+    <div id="ed-body" class="ed-body live" contenteditable="true" spellcheck="true" role="textbox" aria-multiline="true"
+      data-ph="Note…  (*gras*  _italique_  ~barré~  - liste  [ ] case)"></div>
+    <div id="ed-links" class="ed-links"></div>
+  </div>
+  <div id="ed-move" class="ed-move hidden">
+    <span class="grow">Déplacer l'image</span>
+    <button class="icon-btn" type="button" data-mv="up" aria-label="Monter d'une ligne" title="Monter d'une ligne" data-icon="back"></button>
+    <button class="icon-btn" type="button" data-mv="down" aria-label="Descendre d'une ligne" title="Descendre d'une ligne" data-icon="back"></button>
+    <button class="btn primary" type="button" data-mv="done">OK</button>
+  </div>
+  <div id="ed-link" class="ed-link hidden">
+    <button type="button" data-lk="open"><span data-icon="external"></span>Ouvrir le lien</button>
+    <button type="button" data-lk="copy" title="Copier le lien" aria-label="Copier le lien" data-icon="copy"></button>
+  </div>
+  <div id="ed-panel" class="ed-panel ed-pop hidden">
+    <div class="swatches" id="ed-colors"></div>
+    <div class="patterns" id="ed-pats"></div>
+  </div>
+  <div id="ed-tcolors" class="ed-tcolors ed-pop hidden"></div>
+  <div id="ed-hls" class="ed-tcolors ed-pop hidden"></div>
+  <div id="ed-fmt" class="ed-tools ed-fmt ed-pop hidden">
+    <button class="icon-btn" data-tool="bold" title="Gras (Ctrl+B)"><b class="t">B</b></button>
+    <button class="icon-btn" data-tool="italic" title="Italique (Ctrl+I)"><i class="t">I</i></button>
+    <button class="icon-btn" data-tool="strike" title="Barré"><s class="t">S</s></button>
+    <button class="icon-btn" data-tool="head" title="Titre de section"><b class="t">H</b></button>
+    <button class="icon-btn" data-tool="num" title="Liste numérotée" data-icon="numbers"></button>
+    <button class="icon-btn" data-tool="quote" title="Citation" data-icon="quote"></button>
+    <button class="icon-btn" data-tool="code" title="Code" data-icon="code"></button>
+    <button class="icon-btn" data-tool="date" title="Insérer la date" data-icon="cal"></button>
+  </div>
+  <div class="ed-tools ed-main-tools" id="ed-tools">
+    <button class="icon-btn" data-tool="fmt" title="Mise en forme"><span class="t aa">Aa</span></button>
+    <button class="icon-btn" data-tool="check" title="Case à cocher" data-icon="checkbox"></button>
+    <button class="icon-btn" data-tool="bullet" title="Liste à puces" data-icon="bullets"></button>
+    <button class="icon-btn" data-tool="tcolor" title="Couleur du texte"><span class="t tcolor-ic">A</span></button>
+    <button class="icon-btn" data-tool="hl" title="Surligner" data-icon="marker"></button>
+    <button class="icon-btn" data-tool="undo" id="ed-undo" title="Annuler (Ctrl+Z)" data-icon="undo"></button>
+    <button class="icon-btn" data-tool="redo" id="ed-redo" title="Rétablir (Ctrl+Y)" data-icon="redo"></button>
+    <button class="icon-btn" data-tool="palette" title="Couleur et motif de la note" data-icon="palette"></button>
+  </div>
+</div>
+
+<!-- ================= Édition tâche ================= -->
+<div id="backdrop" class="backdrop"></div>
+<div id="sheet" class="sheet" role="dialog" aria-modal="true" aria-label="Tâche">
+  <div class="grab"></div>
+  <div class="sheet-kind" id="t-kind"></div>
+  <div class="sheet-head">
+    <input id="t-title" class="big-in" placeholder="Titre" enterkeyhint="done">
+    <button class="icon-btn star" id="t-star" type="button" aria-label="Favori" data-icon="star"></button>
+  </div>
+  <textarea id="t-details" rows="2" placeholder="Détails"></textarea>
+  <button type="button" class="linkish hidden" id="t-from"></button>
+  <div class="field-row">
+    <label class="field">Date<input id="t-date" type="date"></label>
+    <label class="field">Heure<input id="t-time" type="time"></label>
+    <label class="field">Fin<input id="t-end" type="time"></label>
+  </div>
+  <div class="quick-dates" id="t-quick">
+    <button type="button" data-q="0" title="Aujourd'hui">Auj.</button>
+    <button type="button" data-q="1" title="Demain">Demain</button>
+    <button type="button" data-q="monday" title="Lundi prochain">Lundi</button>
+    <button type="button" data-q="+1h" title="Dans une heure">+1 h</button>
+    <button type="button" data-q="clear" title="Sans date : devient une tâche">Aucune</button>
+  </div>
+  <label class="field">Répétition
+    <select id="t-repeat">
+      <option value="none">Ne pas répéter</option>
+      <option value="daily">Tous les jours</option>
+      <option value="weekly">Toutes les semaines</option>
+      <option value="monthly">Tous les mois</option>
+      <option value="yearly">Tous les ans</option>
+    </select>
+  </label>
+  <div id="t-days" class="days hidden"></div>
+  <div id="t-stats" class="t-stats hidden"></div>
+  <details class="t-more" id="t-more">
+    <summary>Plus d'options</summary>
+    <div class="stack">
+      <label class="field">Liste<select id="t-list"></select></label>
+      <div class="row-label">Couleur</div>
+      <div id="t-colors" class="swatches"></div>
+    </div>
+  </details>
+  <div class="sheet-actions">
+    <button class="btn danger-text" id="t-del" type="button">Supprimer</button>
+    <span class="grow"></span>
+    <button class="btn" id="t-cancel" type="button">Annuler</button>
+    <button class="btn primary" id="t-save" type="button">Enregistrer</button>
+  </div>
+</div>
+
+<!-- ================= Dialogues ================= -->
+<div id="dlg-backdrop" class="dlg-backdrop"></div>
+<div id="dlg" class="dlg" role="dialog" aria-modal="true"></div>
+
+<!-- ================= Visionneuse d'image ================= -->
+<div id="viewer" class="viewer hidden">
+  <div class="viewer-top">
+    <button class="icon-btn" id="v-close" aria-label="Fermer" data-icon="back"></button>
+    <span class="v-title" id="v-title"></span>
+    <button class="icon-btn" id="v-open" title="Ouvrir la note" aria-label="Ouvrir la note" data-icon="notes"></button>
+    <button class="icon-btn" id="v-place" title="Position dans la note" aria-label="Position dans la note" data-icon="compact"></button>
+    <button class="icon-btn" id="v-edit" title="Modifier le dessin" aria-label="Modifier le dessin" data-icon="brush"></button>
+    <button class="icon-btn" id="v-dl" title="Télécharger" aria-label="Télécharger" data-icon="download"></button>
+    <button class="icon-btn" id="v-share" title="Partager / enregistrer" aria-label="Partager" data-icon="share"></button>
+    <button class="icon-btn" id="v-del" title="Supprimer l'image" aria-label="Supprimer l'image" data-icon="trash"></button>
+  </div>
+  <div class="viewer-body" id="v-body"><div id="v-box" class="imgbox"></div>
+    <div class="v-strip hidden" id="v-strip"></div>
+    <div class="zoom-pill" id="v-zoom"></div>
+  </div>
+</div>
+
+<!-- ================= Dessin ================= -->
+<div id="draw" class="draw hidden">
+  <div class="draw-top">
+    <button class="icon-btn" id="draw-back" aria-label="Terminer" title="Terminer" data-icon="back"></button>
+    <span class="grow"></span>
+    <button class="icon-btn" id="draw-undo" aria-label="Annuler" title="Annuler" data-icon="undo"></button>
+    <button class="icon-btn" id="draw-redo" aria-label="Rétablir" title="Rétablir" data-icon="redo"></button>
+    <button class="icon-btn" id="draw-clear" aria-label="Tout effacer" title="Tout effacer" data-icon="trash"></button>
+  </div>
+  <div class="draw-area" id="draw-area">
+    <div class="draw-stage" id="draw-stage"><canvas id="draw-cv"></canvas><canvas id="draw-ov"></canvas></div>
+    <div class="zoom-pill" id="draw-zoom"></div>
+  </div>
+  <div class="draw-bar">
+    <div class="draw-row" id="draw-tools"></div>
+    <div class="draw-row" id="draw-colors"></div>
+  </div>
+</div>
+
+<input type="file" id="img-input" accept="image/*" multiple class="hidden">
+<div id="toast" class="toast"></div>
+<div id="print-area"></div>
+
+<script src="app.js?v=52"></script>
+</body>
+</html>

@@ -1,0 +1,1027 @@
+# Groupes de mots ou de tournures interchangeables dans une réponse écrite (une ligne = un groupe, séparés par « , »).
+# Une réponse qui utilise un autre élément du groupe est ACCEPTÉE, avec la formulation attendue en rappel.
+# Tournures de plusieurs mots possibles (« look for, search for ») : elles sont remplacées en bloc avant la correction.
+# Ne mettre que des équivalents justes dans la plupart des phrases (pas de faux amis, pas de sens voisins mais différents).
+# Sections : [en] anglais, [fr] français (réponses en français, toutes langues), [ar], puis les langues bêta.
+
+[en]
+# --- Tailles, quantités ---
+big, large, huge
+small, little, tiny
+a lot of, lots of, plenty of
+a lot, very much, loads
+many, a lot of, lots of
+much, a lot of
+a few, some, several
+a little, a bit
+a bit, slightly, a little bit
+enough, sufficient
+whole, entire
+every, each
+everyone, everybody
+someone, somebody
+no one, nobody
+anyone, anybody
+everything, all
+nothing, not anything
+something, anything
+# --- Personnes, famille ---
+mum, mom, mother, mummy
+dad, father, daddy
+grandma, grandmother, granny
+grandpa, grandfather
+child, kid
+children, kids
+baby, infant
+boy, lad
+girl, lass
+man, guy, bloke
+men, guys
+woman, lady
+women, ladies
+friend, mate, buddy, pal
+husband, partner
+wife, partner
+boss, manager
+doctor, physician
+policeman, police officer, cop
+teacher, instructor
+# --- Lieux, objets ---
+film, movie
+cinema, movie theater, movies
+shop, store
+shopping centre, mall, shopping mall
+flat, apartment
+holiday, holidays, vacation
+autumn, fall
+rubbish, garbage, trash
+bin, trash can, garbage can
+lift, elevator
+underground, subway, metro, tube
+mobile, cell phone, phone, mobile phone, cellphone
+car, automobile
+toilet, toilets, bathroom, restroom, loo
+sweets, candy
+biscuit, cookie
+chips, fries, french fries
+crisps, chips
+taxi, cab
+couch, sofa
+road, street
+pavement, sidewalk
+motorway, highway, freeway
+petrol, gas, gasoline
+queue, line
+post, mail
+postman, mailman
+city centre, downtown, town centre
+car park, parking lot
+trousers, pants
+jumper, sweater, pullover
+trainers, sneakers
+nappy, diaper
+tap, faucet
+cupboard, closet, wardrobe
+timetable, schedule
+return ticket, round trip ticket
+single ticket, one way ticket
+mark, grade
+maths, math
+football, soccer
+present, gift
+picture, photo, photograph
+job, work
+journey, trip
+luggage, baggage
+pupil, student
+lorry, truck
+torch, flashlight
+# --- Salutations, politesse ---
+alright, all right, okay, ok, fine
+hi, hello, hey
+bye, goodbye, see you, see ya
+thanks, thank you, cheers
+thanks a lot, thank you very much, thanks very much, many thanks
+sorry, excuse me, pardon
+you're welcome, no problem, not at all, don't mention it, my pleasure
+please, pls
+how are you, how are you doing, how's it going, how are things
+i'm fine, i'm good, i'm well, i'm ok
+good night, night
+see you later, see you soon, catch you later
+of course, sure, certainly, definitely
+yes, yeah, yep, sure
+no, nope
+# --- Adjectifs ---
+glad, happy, pleased
+pretty, beautiful, lovely
+handsome, good looking
+nice, kind, friendly
+nice, pleasant, lovely
+difficult, hard
+easy, simple
+angry, mad, annoyed, cross
+scared, afraid, frightened
+tired, exhausted, worn out
+ill, sick, unwell
+great, amazing, fantastic, wonderful, brilliant, awesome
+bad, awful, terrible, horrible
+quick, fast, rapid
+correct, right
+wrong, incorrect
+rich, wealthy
+poor, broke
+strange, weird, odd
+funny, hilarious
+crazy, mad, insane
+silly, stupid, dumb
+clever, smart, intelligent
+famous, well known
+quiet, calm
+noisy, loud
+hot, warm
+cold, chilly
+wet, soaked
+dirty, filthy
+clean, tidy
+messy, untidy
+expensive, pricey, dear
+cheap, inexpensive
+empty, vacant
+full, packed
+new, brand new
+old, ancient
+old, elderly
+sad, unhappy, upset
+afraid, scared
+sure, certain
+ready, prepared
+busy, occupied
+free, available
+far, far away
+fat, overweight
+thin, slim, skinny
+delicious, tasty, yummy
+important, significant
+possible, doable
+near, close to, nearby
+# --- Adverbes, liaisons ---
+very, really, so
+quickly, fast
+slowly, slow
+maybe, perhaps, possibly
+also, too, as well
+often, frequently
+almost, nearly
+sometimes, occasionally
+usually, generally, normally
+always, all the time
+never, not ever
+again, once more, one more time
+now, right now
+soon, shortly
+later, afterwards, after
+at once, immediately, straight away, right away
+then, after that
+finally, at last, in the end
+actually, in fact
+really, truly
+probably, likely
+especially, particularly
+quite, fairly, pretty, rather
+together, with each other
+abroad, overseas
+outside, outdoors
+inside, indoors
+but, however
+because, cause, cuz
+so, therefore
+if, whether
+although, though, even though
+while, whilst
+till, until
+about, around, approximately
+among, amongst
+towards, toward
+under, below, beneath
+next to, beside, by
+# --- Verbes ---
+start, begin
+started, began
+started, begun
+chose, picked, selected
+spoke, talked
+looked for, searched for
+finished, ended, completed
+finish, end, complete
+stop, quit
+buy, purchase, get
+look for, search for
+speak, talk
+say, tell
+close, shut
+answer, reply, respond
+must, have to, have got to
+can, could, be able to
+think, believe, reckon, guess
+help, assist
+get, receive
+get, obtain
+get, understand
+understand, get
+choose, pick, select
+try, attempt
+want, would like, wish
+like, enjoy
+love, adore
+hate, can't stand, detest
+leave, go away, set off
+come back, return, get back
+go back, return
+go in, enter, come in
+go out, exit, leave
+go up, climb, rise
+go down, descend
+fall, fall down
+put, place
+put on, wear
+take off, remove
+pick up, collect, fetch
+look at, watch
+notice, spot, see
+hear, listen to
+show, display
+keep, hold
+give back, return
+throw away, throw out, get rid of
+find out, discover, learn
+remember, recall
+forget, not remember
+explain, describe
+ask, inquire
+check, verify
+fix, repair, mend
+build, construct
+cook, prepare
+have breakfast, eat breakfast
+have lunch, eat lunch
+have dinner, eat dinner
+call, phone, ring
+send, mail
+meet, see
+meet, get to know
+wait for, await
+look after, take care of
+put off, postpone, delay
+cancel, call off
+turn on, switch on
+turn off, switch off
+find, discover
+lose, misplace
+hurry, rush, hurry up
+win, beat
+use, utilise, utilize
+happen, occur, take place
+sleep, be asleep
+wake up, get up
+go to bed, go to sleep
+live, reside
+allow, let, permit
+have, have got
+hope, wish
+prefer, would rather
+stay, remain
+borrow, take out
+rent, hire
+shout, yell, scream
+cry, weep
+laugh, giggle
+walk, go on foot
+run, jog
+jump, leap
+# --- Questions, tournures ---
+what time is it, what's the time
+how much is it, how much does it cost, what does it cost
+how old are you, what's your age
+where are you from, where do you come from
+what's your name, what is your name
+my name is, i'm called, i am
+nice to meet you, pleased to meet you, glad to meet you
+what's up, what's new
+i don't know, no idea, i have no idea, dunno
+i don't understand, i don't get it
+it doesn't matter, never mind, no worries
+let's go, come on
+be careful, watch out, look out
+hurry up, quick
+good luck, all the best
+have fun, enjoy yourself
+i'm hungry, i'm starving
+i'm thirsty, i need a drink
+there is, there's
+going to, gonna
+want to, wanna
+got to, gotta
+a lot, a great deal
+
+[fr]
+# --- Familier / courant ---
+voiture, auto, bagnole, véhicule
+travail, boulot, emploi, job
+film, long-métrage
+ami, copain, pote
+amie, copine
+enfant, gamin, gosse, môme
+enfants, gamins, gosses, mômes
+garçon, gars
+fille, nana
+homme, mec, type, gars
+femme, dame
+maison, chez moi
+content, heureux, ravi
+contente, heureuse, ravie
+beau, joli
+belle, jolie
+beaux, jolis
+belles, jolies
+très, vraiment, super, hyper
+fatigué, crevé, épuisé
+fatiguée, crevée, épuisée
+commencer, débuter, démarrer
+finir, terminer, achever
+fini, terminé
+finie, terminée
+peut-être, sans doute
+téléphone, portable, mobile
+télé, télévision
+frigo, réfrigérateur
+appart, appartement
+resto, restaurant
+ordi, ordinateur
+vélo, bicyclette
+bus, autobus
+on, nous
+toilettes, wc, salle de bain, cabinets
+magasin, boutique
+difficile, dur, compliqué
+facile, simple
+rapide, vite
+vite, rapidement
+lentement, doucement
+regarder, voir
+parler, discuter
+dire, raconter
+gens, personnes, monde
+aussi, également
+souvent, fréquemment
+d'accord, ok, okay, entendu, ça marche
+salut, bonjour, coucou
+au revoir, salut, à plus, ciao
+merci, merci beaucoup
+merci beaucoup, merci bien, mille mercis
+bien sûr, évidemment, naturellement, bien entendu
+petit, petite
+argent, sous, fric
+dispute, engueulade
+en colère, fâché, énervé
+en colère, fâchée, énervée
+bizarre, étrange
+manger, bouffer
+pas cher, bon marché
+cher, coûteux
+maman, mère
+papa, père
+mamie, grand-mère
+papi, grand-père
+bébé, nourrisson
+mari, époux
+femme, épouse
+docteur, médecin
+prof, professeur, enseignant
+élève, étudiant
+patron, chef
+policier, flic
+livre, bouquin
+chaussures, godasses
+vêtements, habits, fringues
+cadeau, présent
+photo, image
+voyage, trajet
+vacances, congés
+week-end, fin de semaine
+matin, matinée
+soir, soirée
+jour, journée
+an, année
+ans, années
+petit-déjeuner, petit déj
+# --- Adjectifs ---
+malade, souffrant
+triste, malheureux
+peur, crainte
+drôle, marrant, rigolo
+génial, super, top, excellent, formidable
+mauvais, nul
+horrible, affreux, terrible
+intelligent, malin
+bête, idiot, stupide
+fou, dingue, cinglé
+calme, tranquille
+bruyant, fort
+propre, net
+sale, crasseux
+chaud, brûlant
+froid, glacé
+plein, rempli
+vide, désert
+connu, célèbre
+riche, aisé
+pauvre, fauché
+vieux, âgé
+gentil, sympa, sympathique, aimable
+juste, correct, exact
+faux, incorrect, erroné
+vrai, exact
+sûr, certain
+prêt, préparé
+occupé, pris
+libre, disponible
+près, proche
+loin, éloigné
+délicieux, très bon, excellent
+important, essentiel
+possible, faisable
+bizarre, curieux
+énorme, immense
+minuscule, tout petit
+mince, maigre
+rapide, vif
+# --- Adverbes, liaisons ---
+maintenant, en ce moment, à présent, actuellement
+bientôt, sous peu
+tout de suite, immédiatement, de suite
+ensuite, puis, après
+enfin, finalement
+déjà, dès maintenant
+encore, de nouveau, à nouveau
+toujours, tout le temps
+parfois, quelquefois, de temps en temps
+d'habitude, habituellement, en général, généralement, normalement
+beaucoup, plein, énormément
+beaucoup de, plein de, pas mal de
+un peu, légèrement
+assez, suffisamment
+trop, excessivement
+presque, quasiment, pratiquement
+ensemble, à deux
+vraiment, réellement
+en fait, en réalité
+surtout, particulièrement, notamment
+probablement, sûrement, sans doute
+chacun, tout le monde
+ici, là
+là-bas, là
+dehors, à l'extérieur
+dedans, à l'intérieur
+mais, cependant, pourtant, toutefois
+parce que, car, puisque
+donc, alors, du coup
+si, au cas où
+pendant que, alors que, tandis que
+jusqu'à, jusque
+vers, environ, à peu près
+devant, en face de
+sur, au-dessus de
+sous, en dessous de, au-dessous de
+à côté de, près de
+avec, en compagnie de
+# --- Verbes ---
+chercher, rechercher
+trouver, découvrir
+fermer, clore
+ouvrir, déverrouiller
+répondre, rétorquer
+devoir, falloir
+pouvoir, être capable de, arriver à
+penser, croire, trouver
+aider, assister, donner un coup de main
+recevoir, obtenir, avoir
+choisir, sélectionner
+essayer, tenter
+vouloir, désirer, souhaiter
+aimer, adorer, apprécier
+détester, haïr
+aller, se rendre
+partir, s'en aller, quitter
+revenir, retourner, rentrer
+entrer, rentrer
+sortir, quitter
+monter, grimper
+descendre, baisser
+tomber, chuter
+mettre, poser, placer
+mettre, porter, enfiler
+enlever, retirer, ôter
+prendre, attraper, saisir
+regarder, observer
+entendre, écouter
+montrer, faire voir
+garder, conserver
+rendre, rapporter
+jeter, balancer, se débarrasser de
+apprendre, découvrir
+se souvenir, se rappeler
+expliquer, décrire
+demander, questionner
+vérifier, contrôler
+réparer, arranger
+construire, bâtir
+faire, réaliser
+cuisiner, préparer, faire à manger
+appeler, téléphoner
+envoyer, expédier
+rencontrer, voir, retrouver
+attendre, patienter
+s'occuper de, prendre soin de
+reporter, repousser
+annuler, supprimer
+allumer, mettre en marche
+éteindre, arrêter
+perdre, égarer
+se dépêcher, se presser, faire vite
+gagner, remporter
+utiliser, se servir de, employer
+arriver, se passer, se produire
+dormir, roupiller
+se réveiller, se lever
+se coucher, aller au lit, aller se coucher
+habiter, vivre, résider
+marcher, fonctionner
+permettre, laisser, autoriser
+sembler, avoir l'air, paraître
+avoir, posséder
+espérer, souhaiter
+préférer, aimer mieux
+rester, demeurer
+louer, prendre en location
+crier, hurler
+pleurer, sangloter
+rire, rigoler
+courir, cavaler
+sauter, bondir
+travailler, bosser
+comprendre, saisir, piger
+parler, causer
+dire, affirmer
+commencer à, se mettre à
+continuer, poursuivre
+arrêter, cesser, stopper
+réfléchir, penser
+s'amuser, prendre du plaisir
+inquiéter, préoccuper
+s'inquiéter, se faire du souci
+se tromper, faire erreur
+# --- Tournures (formulations également justes) ---
+je ne sais pas, je sais pas, aucune idée, j'en sais rien, je n'en sais rien
+je ne comprends pas, je comprends pas, je ne pige pas
+il y a, y a
+il faut, on doit
+est-ce que tu, tu
+est-ce que vous, vous
+est-ce que c'est, c'est
+qu'est-ce que c'est, c'est quoi
+qu'est-ce que tu fais, tu fais quoi, que fais-tu
+qu'est-ce que tu veux, tu veux quoi, que veux-tu
+où est-ce que tu habites, tu habites où, où habites-tu
+comment tu t'appelles, comment t'appelles-tu, quel est ton nom, c'est quoi ton nom
+je m'appelle, mon nom est, moi c'est
+comment ça va, ça va, comment vas-tu, comment allez-vous, tu vas bien
+je vais bien, ça va bien, ça va
+enchanté, ravi de vous rencontrer, ravi de te rencontrer, enchantée
+combien ça coûte, ça coûte combien, c'est combien, combien c'est
+quelle heure est-il, il est quelle heure, quelle heure il est
+quel âge as-tu, tu as quel âge, quel âge tu as
+d'où viens-tu, tu viens d'où, d'où tu viens
+s'il te plaît, s'il vous plaît, stp, svp
+de rien, je t'en prie, je vous en prie, pas de quoi, avec plaisir
+pardon, excuse-moi, excusez-moi, désolé
+désolé, désolée, je suis désolé, je suis désolée
+pas de problème, aucun problème, pas de souci, ce n'est pas grave, c'est pas grave
+ce n'est pas grave, c'est pas grave, ça ne fait rien, peu importe
+à bientôt, à plus tard, à tout à l'heure, à plus
+à demain, à demain alors
+bonne nuit, dors bien
+bonne chance, bon courage
+attention, fais attention, faites attention
+on y va, allons-y, c'est parti
+j'ai faim, je meurs de faim
+c'est, ce sont
+ça, cela, ceci
+celui-ci, celui-là
+ne pas, pas
+il n'y a pas, y a pas
+je n'ai pas, j'ai pas
+je ne suis pas, je suis pas
+ce n'est pas, c'est pas
+n'est-ce pas, hein
+oui, ouais, si
+non, nan
+
+[ar]
+# Arabe standard : réponses tapées (comparées sans voyelles brèves).
+نعم, أجل, بلى
+شكرا, شكرا جزيلا
+عفوا, لا شكر على واجب
+مرحبا, أهلا, السلام عليكم
+مع السلامة, إلى اللقاء, وداعا
+آسف, عفوا, المعذرة
+جميل, حلو
+كبير, ضخم
+كثير, عديد
+سريع, بسرعة
+الآن, حاليا
+جدا, كثيرا
+بيت, منزل, دار
+سيارة, عربة
+طعام, أكل
+صديق, رفيق
+ولد, صبي
+بنت, فتاة
+امرأة, سيدة
+تعبان, متعب
+سعيد, مسرور, فرحان
+حزين, زعلان
+لماذا, ليش
+ماذا, ما
+كيف حالك, كيف الحال
+أنا بخير, بخير, الحمد لله
+لا بأس, ليست مشكلة, لا مشكلة
+أريد, أود
+رجع, عاد
+بدأ, ابتدأ
+أعرف, أعلم
+
+[es]
+coche, carro, auto, automóvil
+piso, apartamento, departamento
+ordenador, computadora, computador
+móvil, celular, teléfono
+gafas, lentes, anteojos
+zumo, jugo
+patata, papa
+autobús, bus, camión
+coger, tomar, agarrar
+conducir, manejar
+vale, de acuerdo, ok, bueno
+hola, buenas, qué tal
+adiós, hasta luego, chao, chau
+gracias, muchas gracias
+por favor, porfa
+perdón, perdona, disculpa, lo siento
+lo siento, perdón
+de nada, no hay de qué, con gusto
+muy, bastante, súper
+mucho, un montón
+bonito, lindo, hermoso, guapo
+bonita, linda, hermosa, guapa
+grande, enorme
+pequeño, chico, chiquito
+niño, chico, crío, nene
+niña, chica, cría, nena
+hombre, tío, tipo
+mujer, señora
+amigo, colega, compañero
+trabajo, curro, empleo
+dinero, pasta, plata
+enfadado, enojado
+tonto, estúpido, bobo
+listo, inteligente
+difícil, complicado
+fácil, sencillo
+rápido, deprisa
+ahora, ahora mismo
+también, además
+pero, sin embargo
+porque, ya que
+quizás, quizá, tal vez, a lo mejor
+empezar, comenzar
+terminar, acabar
+hablar, charlar
+decir, contar
+mirar, ver
+querer, desear
+poder, ser capaz de
+pensar, creer
+ayudar, echar una mano
+volver, regresar
+cómo estás, qué tal, cómo te va
+estoy bien, bien
+cómo te llamas, cuál es tu nombre
+me llamo, mi nombre es, soy
+no sé, ni idea
+hay que, tenemos que
+irse, marcharse
+
+[de]
+auto, wagen, pkw
+handy, mobiltelefon, telefon
+fahrrad, rad
+geld, kohle, knete
+arbeit, job
+hallo, guten tag, servus, moin, grüß gott
+tschüss, auf wiedersehen, ciao, bis dann
+danke, vielen dank, danke schön
+bitte, bitte schön
+entschuldigung, verzeihung, sorry, tut mir leid
+gern geschehen, bitte, kein problem
+ja, jawohl, jo
+okay, ok, in ordnung, alles klar, gut
+sehr, ganz, echt, total
+viel, eine menge
+schön, hübsch
+toll, super, klasse, prima, geil
+groß, riesig
+klein, winzig
+kind, kleine
+mann, typ, kerl
+frau, dame
+freund, kumpel
+schwierig, schwer
+leicht, einfach
+schnell, rasch
+jetzt, nun
+auch, ebenfalls
+aber, jedoch
+weil, da, denn
+vielleicht, eventuell
+anfangen, beginnen
+beenden, aufhören
+sprechen, reden
+sagen, erzählen
+sehen, schauen, gucken
+wollen, möchten
+denken, glauben, meinen
+helfen, unterstützen
+zurückkommen, wiederkommen
+bekommen, kriegen, erhalten
+wie geht's, wie geht es dir, wie geht es ihnen
+mir geht's gut, gut, es geht mir gut
+wie heißt du, wie ist dein name
+ich heiße, mein name ist, ich bin
+ich weiß nicht, keine ahnung
+krank, nicht gesund
+müde, erschöpft
+böse, wütend, sauer
+dumm, blöd
+klug, schlau, intelligent
+gehen, laufen
+arzt, doktor
+
+[it]
+macchina, auto, automobile
+cellulare, telefonino, telefono
+lavoro, impiego
+soldi, denaro, quattrini
+ciao, salve, buongiorno
+arrivederci, ciao, a dopo, ci vediamo
+grazie, grazie mille
+prego, di niente, figurati
+per favore, per piacere, per cortesia
+scusa, scusi, mi dispiace, perdono
+va bene, d'accordo, ok, okay
+molto, tanto, parecchio
+bello, carino
+bella, carina
+grande, enorme
+piccolo, piccino
+bambino, ragazzino, bimbo
+bambina, ragazzina, bimba
+ragazzo, tipo
+amico, compagno
+difficile, complicato
+facile, semplice
+veloce, rapido
+velocemente, in fretta
+adesso, ora
+anche, pure
+ma, però
+perché, poiché
+forse, magari
+iniziare, cominciare
+finire, terminare
+parlare, chiacchierare
+dire, raccontare
+guardare, vedere
+volere, desiderare
+pensare, credere
+aiutare, dare una mano
+tornare, ritornare
+come stai, come va
+sto bene, bene
+come ti chiami, qual è il tuo nome
+mi chiamo, il mio nome è, sono
+non lo so, non so, boh
+stanco, stanca
+arrabbiato, incazzato
+stupido, scemo
+dottore, medico
+
+[pt]
+carro, automóvel, viatura
+telemóvel, celular, telefone
+autocarro, ônibus
+pequeno-almoço, café da manhã
+comboio, trem
+trabalho, emprego
+dinheiro, grana
+olá, oi, bom dia
+tchau, adeus, até logo, até já
+obrigado, obrigada, muito obrigado
+de nada, não tem de quê, por nada
+por favor, se faz favor
+desculpa, desculpe, perdão, com licença
+desculpa, lamento, sinto muito
+está bem, ok, certo, tá bom, combinado
+muito, bastante
+bonito, lindo, giro
+bonita, linda, gira
+grande, enorme
+pequeno, pequenino
+criança, miúdo, menino
+rapaz, menino, moço
+rapariga, menina, moça
+amigo, colega
+difícil, complicado
+fácil, simples
+rápido, depressa
+agora, já
+também, igualmente
+mas, porém
+porque, pois
+talvez, se calhar, quem sabe
+começar, iniciar
+acabar, terminar
+falar, conversar
+dizer, contar
+ver, olhar
+querer, desejar
+pensar, achar, acreditar
+ajudar, dar uma mão
+voltar, regressar
+como estás, como vai, tudo bem
+estou bem, bem, tudo bem
+como te chamas, qual é o teu nome, como você se chama
+chamo-me, o meu nome é, eu me chamo, sou
+não sei, não faço ideia
+cansado, exausto
+zangado, irritado
+médico, doutor
+
+[nl]
+auto, wagen
+mobiel, gsm, telefoon
+fiets, rijwiel
+geld, poen
+werk, baan
+hallo, hoi, dag, goedendag
+dag, doei, tot ziens, doeg
+dank je, dank u, bedankt, dankjewel, dankuwel
+alsjeblieft, alstublieft
+sorry, pardon, excuseer, het spijt me
+geen probleem, graag gedaan
+oké, ok, goed, in orde, prima
+heel, erg, echt
+veel, een hoop
+mooi, knap
+groot, enorm
+klein, piepklein
+kind, jong
+man, vent, kerel
+vrouw, dame
+vriend, maat
+moeilijk, lastig
+makkelijk, gemakkelijk, eenvoudig
+snel, vlug
+nu, nou
+ook, eveneens
+maar, echter
+omdat, want
+misschien, wellicht
+beginnen, starten
+eindigen, stoppen, ophouden
+praten, spreken
+zeggen, vertellen
+kijken, zien
+willen, wensen
+denken, geloven, vinden
+helpen, bijstaan
+terugkomen, teruggaan
+krijgen, ontvangen
+hoe gaat het, hoe is het
+het gaat goed, goed
+hoe heet je, wat is je naam
+ik heet, mijn naam is, ik ben
+ik weet het niet, geen idee
+moe, uitgeput
+boos, kwaad
+dom, stom
+slim, intelligent
+dokter, arts
+
+[ru]
+машина, автомобиль, авто
+телефон, мобильник, мобильный
+работа, служба
+деньги, бабки
+привет, здравствуйте, здравствуй, добрый день
+пока, до свидания, до встречи
+спасибо, большое спасибо, благодарю
+пожалуйста, не за что
+извините, простите, извини, прости
+ладно, хорошо, окей, договорились
+очень, весьма
+много, куча
+красивый, симпатичный
+большой, огромный
+маленький, небольшой
+ребёнок, малыш
+мальчик, парень
+девочка, девушка
+мужчина, мужик
+друг, приятель
+трудный, сложный
+лёгкий, простой
+быстро, скоро
+сейчас, теперь
+тоже, также
+но, однако
+потому что, так как
+может быть, наверное, возможно
+начинать, начать
+заканчивать, закончить, кончать
+говорить, разговаривать
+сказать, рассказать
+смотреть, видеть
+хотеть, желать
+думать, считать, полагать
+помогать, помочь
+вернуться, возвращаться
+получить, получать
+как дела, как ты, как поживаешь
+хорошо, нормально, всё хорошо
+как тебя зовут, как твоё имя
+меня зовут, моё имя, я
+я не знаю, не знаю, понятия не имею
+устал, устала
+злой, сердитый
+глупый, тупой
+умный, сообразительный
+врач, доктор
+
+[tr]
+araba, otomobil
+cep telefonu, telefon, cep
+iş, meslek
+para, mangır
+merhaba, selam
+güle güle, hoşça kal, görüşürüz
+teşekkürler, teşekkür ederim, sağ ol, sağol, mersi
+lütfen, rica ederim
+özür dilerim, pardon, affedersiniz, kusura bakma
+rica ederim, bir şey değil
+tamam, olur, peki, okey
+çok, pek
+güzel, hoş
+büyük, kocaman
+küçük, ufak
+çocuk, ufaklık
+adam, erkek
+kadın, hanım
+arkadaş, dost
+zor, güç
+kolay, basit
+hızlı, çabuk
+şimdi, şu an
+ama, fakat, ancak
+çünkü, zira
+belki, galiba
+başlamak, başlatmak
+bitirmek, tamamlamak
+konuşmak, söylemek
+demek, söylemek
+bakmak, görmek
+istemek, dilemek
+düşünmek, sanmak
+yardım etmek, yardımcı olmak
+dönmek, geri gelmek
+almak, elde etmek
+nasılsın, ne haber, nasıl gidiyor
+iyiyim, iyi
+adın ne, ismin ne
+benim adım, adım, ben
+bilmiyorum, hiçbir fikrim yok
+yorgun, bitkin
+kızgın, sinirli
+aptal, salak
+akıllı, zeki
+doktor, hekim

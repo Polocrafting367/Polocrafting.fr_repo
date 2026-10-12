@@ -1,0 +1,3 @@
+/VIDEO
+VHS effect
+Crée une émulation que j'essaie la plus réaliste d'un lecteur VHS où chaque paramètre est réglable, passage par des filtres analogiques pour recréer cette texture et ce bavement emblématique

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"pem":"-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgpYtPAlVooD5TMW1X\nAil34yGlOlkXb+dn1zYfz56kwKuhRANCAATj28s+WpQPHWTuklOrVNHSTKfEuPcr\nNcXowtwzi7AKoWW+xU1b\/5QpvPX7tenn1colIlMgdgXQKkZlGdeckPKp\n-----END PRIVATE KEY-----\n","pub":"BOPbyz5alA8dZO6SU6tU0dJMp8S49ys1xejC3DOLsAqhZb7FTVv_lCm89fu16efVyiUiUyB2BdAqRmUZ15yQ8qk"}

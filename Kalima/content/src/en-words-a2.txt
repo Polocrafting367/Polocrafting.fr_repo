@@ -1,0 +1,250 @@
+# Anglais A2
+A2|answer|v|répondre|Please *answer* the question.|Réponds à la question, s'il te plaît.
+A2|answer|n|réponse|I don't know the *answer*.|Je ne connais pas la réponse.
+A2|question|n|question|Can I ask you a *question*?|Je peux te poser une question ?
+A2|bring|v|apporter;amener|Can you *bring* some bread?|Tu peux apporter du pain ?
+A2|carry|v|porter|Can you *carry* my bag?|Tu peux porter mon sac ?
+A2|change|v|changer|I want to *change* my job.|Je veux changer de travail.
+A2|choose|v|choisir|You can *choose* the film.|Tu peux choisir le film.
+A2|clean|v|nettoyer;ranger|I *clean* my room on Saturdays.|Je range ma chambre le samedi.
+A2|clean|adj|propre|The kitchen is *clean*.|La cuisine est propre.
+A2|dirty|adj|sale|Your shoes are *dirty*.|Tes chaussures sont sales.
+A2|cost|v|coûter|How much does it *cost*?|Combien ça coûte ?
+A2|cry|v|pleurer|The baby is *crying*.|Le bébé pleure.
+A2|dance|v|danser|Do you like to *dance*?|Tu aimes danser ?
+A2|decide|v|décider|I can't *decide*.|Je n'arrive pas à me décider.
+A2|drive|v|conduire|Can you *drive*?|Tu sais conduire ?
+A2|enjoy|v|aimer;apprécier;profiter de|I really *enjoyed* the film.|J'ai vraiment aimé le film.
+A2|explain|v|expliquer|Can you *explain* this word?|Tu peux expliquer ce mot ?
+A2|fall|v|tomber|Be careful, don't *fall*!|Fais attention, ne tombe pas !
+A2|feel|v|se sentir;sentir;ressentir|I *feel* better today.|Je me sens mieux aujourd'hui.
+A2|finish|v|finir;terminer|I *finish* work at six.|Je finis le travail à six heures.
+A2|fly|v|voler;prendre l'avion|Birds can *fly*.|Les oiseaux savent voler.
+A2|forget|v|oublier|Don't *forget* your keys!|N'oublie pas tes clés !
+A2|remember|v|se souvenir de;se rappeler;retenir|I don't *remember* his name.|Je ne me souviens pas de son nom.
+A2|get up|v|se lever|I *get up* at seven.|Je me lève à sept heures.
+A2|wake up|v|se réveiller|I *wake up* early.|Je me réveille tôt.
+A2|go out|v|sortir|Let's *go out* tonight.|Sortons ce soir.
+A2|grow|v|grandir;pousser;cultiver|Children *grow* fast.|Les enfants grandissent vite.
+A2|happen|v|arriver;se passer|What *happened*?|Qu'est-ce qui s'est passé ?
+A2|hate|v|détester|I *hate* waiting.|Je déteste attendre.
+A2|hope|v|espérer|I *hope* you're well.|J'espère que tu vas bien.
+A2|invite|v|inviter|I want to *invite* you to my party.|Je veux t'inviter à ma fête.
+A2|keep|v|garder|You can *keep* the change.|Vous pouvez garder la monnaie.
+A2|leave|v|partir;quitter;laisser|The bus *leaves* at eight.|Le bus part à huit heures.
+A2|lose|v|perdre|I always *lose* my keys.|Je perds toujours mes clés.
+A2|meet|v|rencontrer;retrouver;se voir|Nice to *meet* you!|Ravi de te rencontrer !
+A2|move|v|bouger;déménager|We *moved* to London last year.|On a déménagé à Londres l'année dernière.
+A2|plan|v|prévoir;planifier|What do you *plan* to do?|Qu'est-ce que tu prévois de faire ?
+A2|prefer|v|préférer|I *prefer* tea to coffee.|Je préfère le thé au café.
+A2|rent|v|louer|We *rent* a small flat.|On loue un petit appartement.
+A2|send|v|envoyer|I'll *send* you a message.|Je t'envoie un message.
+A2|sell|v|vendre|They *sell* fresh bread.|Ils vendent du pain frais.
+A2|show|v|montrer|*Show* me your photos.|Montre-moi tes photos.
+A2|sing|v|chanter|She *sings* very well.|Elle chante très bien.
+A2|smile|v|sourire|*Smile* for the photo!|Souris pour la photo !
+A2|spend|v|dépenser;passer|I *spend* too much money.|Je dépense trop d'argent.
+A2|swim|v|nager|I *swim* every Sunday.|Je nage tous les dimanches.
+A2|teach|v|enseigner;apprendre à|She *teaches* French.|Elle enseigne le français.
+A2|tell|v|dire;raconter|*Tell* me the truth.|Dis-moi la vérité.
+A2|travel|v|voyager|I love to *travel*.|J'adore voyager.
+A2|try|v|essayer|*Try* this cake!|Goûte ce gâteau !
+A2|turn|v|tourner|*Turn* left at the bank.|Tourne à gauche à la banque.
+A2|use|v|utiliser;se servir de|Can I *use* your phone?|Je peux utiliser ton téléphone ?
+A2|visit|v|visiter;rendre visite à|We *visited* Rome last summer.|On a visité Rome l'été dernier.
+A2|wear|v|porter|She *wears* glasses.|Elle porte des lunettes.
+A2|win|v|gagner|We *won* the match!|On a gagné le match !
+A2|worry|v|s'inquiéter;se faire du souci|Don't *worry*!|Ne t'inquiète pas !
+A2|believe|v|croire|I don't *believe* you.|Je ne te crois pas.
+A2|break|v|casser;briser|I *broke* my glasses.|J'ai cassé mes lunettes.
+A2|build|v|construire|They are *building* a new school.|Ils construisent une nouvelle école.
+A2|catch|v|attraper;prendre|I have to *catch* the train.|Je dois prendre le train.
+A2|check|v|vérifier|*Check* your answers.|Vérifie tes réponses.
+A2|copy|v|copier|Don't *copy* my homework!|Ne copie pas mes devoirs !
+A2|draw|v|dessiner|My son loves to *draw*.|Mon fils adore dessiner.
+A2|fix|v|réparer|Can you *fix* my bike?|Tu peux réparer mon vélo ?
+A2|join|v|rejoindre;s'inscrire à|*Join* us for dinner!|Viens dîner avec nous !
+A2|kiss|v|embrasser|She *kissed* him on the cheek.|Elle l'a embrassé sur la joue.
+A2|laugh|v|rire|He always makes me *laugh*.|Il me fait toujours rire.
+A2|miss|v|manquer;rater|I *miss* you.|Tu me manques.
+A2|order|v|commander|Are you ready to *order*?|Vous êtes prêts à commander ?
+A2|repeat|v|répéter|Can you *repeat*, please?|Tu peux répéter, s'il te plaît ?
+A2|return|v|revenir;rentrer;rendre|I *return* home at six.|Je rentre à la maison à six heures.
+A2|share|v|partager|Let's *share* the pizza.|Partageons la pizza.
+A2|shout|v|crier|Don't *shout*!|Ne crie pas !
+A2|stay|v|rester;séjourner|*Stay* here, I'll be back.|Reste ici, je reviens.
+A2|arrive|v|arriver|We *arrive* at ten.|On arrive à dix heures.
+A2|agree|v|être d'accord|I *agree* with you.|Je suis d'accord avec toi.
+A2|borrow|v|emprunter|Can I *borrow* your pen?|Je peux emprunter ton stylo ?
+A2|lend|v|prêter|Can you *lend* me ten euros?|Tu peux me prêter dix euros ?
+A2|airport|n|aéroport|I'll take you to the *airport*.|Je t'emmène à l'aéroport.
+A2|ticket|n|billet;ticket|I bought two *tickets*.|J'ai acheté deux billets.
+A2|holiday|n|vacances;jour férié|We go on *holiday* in August.|On part en vacances en août.
+A2|trip|n|voyage;excursion;sortie|How was your *trip*?|C'était comment ton voyage ?
+A2|map|n|carte;plan|Do you have a *map* of the city?|Tu as un plan de la ville ?
+A2|flat|n|appartement|I live in a small *flat*.|J'habite dans un petit appartement.
+A2|apartment|n|appartement|Their *apartment* is on the fifth floor.|Leur appartement est au cinquième étage.
+A2|floor|n|sol;étage|The keys are on the *floor*.|Les clés sont par terre.
+A2|garden|n|jardin|We eat in the *garden* in summer.|On mange dans le jardin l'été.
+A2|neighbour|n|voisin;voisine|My *neighbour* is very noisy.|Mon voisin est très bruyant.
+A2|office|n|bureau|I work in an *office*.|Je travaille dans un bureau.
+A2|boss|n|patron;chef|My *boss* is very nice.|Mon patron est très sympa.
+A2|meeting|n|réunion|I have a *meeting* at ten.|J'ai une réunion à dix heures.
+A2|homework|n|devoirs|Did you do your *homework*?|Tu as fait tes devoirs ?
+A2|lesson|n|cours;leçon|My English *lesson* is on Monday.|Mon cours d'anglais est le lundi.
+A2|teacher|n|professeur;prof;enseignant;maître|My *teacher* is from London.|Mon prof vient de Londres.
+A2|student|n|étudiant;élève|She is a *student* at the university.|Elle est étudiante à l'université.
+A2|doctor|n|médecin;docteur|You should see a *doctor*.|Tu devrais voir un médecin.
+A2|nurse|n|infirmier;infirmière|The *nurse* is very kind.|L'infirmière est très gentille.
+A2|police|n|police|Call the *police*!|Appelle la police !
+A2|waiter|n|serveur|The *waiter* brought the menu.|Le serveur a apporté la carte.
+A2|menu|n|carte;menu|Can I see the *menu*, please?|Je peux voir la carte, s'il vous plaît ?
+A2|bill|n|addition;facture|Can we have the *bill*, please?|L'addition, s'il vous plaît.
+A2|price|n|prix|The *price* is too high.|Le prix est trop élevé.
+A2|card|n|carte|Can I pay by *card*?|Je peux payer par carte ?
+A2|clothes|n|vêtements;habits|I need new *clothes*.|J'ai besoin de nouveaux vêtements.
+A2|shirt|n|chemise|He's wearing a white *shirt*.|Il porte une chemise blanche.
+A2|shoes|n|chaussures|These *shoes* are too small.|Ces chaussures sont trop petites.
+A2|dress|n|robe|What a beautiful *dress*!|Quelle belle robe !
+A2|coat|n|manteau|Take your *coat*, it's cold.|Prends ton manteau, il fait froid.
+A2|glasses|n|lunettes|I can't read without my *glasses*.|Je ne peux pas lire sans mes lunettes.
+A2|body|n|corps|Sport is good for the *body*.|Le sport, c'est bon pour le corps.
+A2|face|n|visage|Wash your *face*.|Lave-toi le visage.
+A2|hair|n|cheveux|She has long *hair*.|Elle a les cheveux longs.
+A2|mouth|n|bouche|Open your *mouth*.|Ouvre la bouche.
+A2|tooth|n|dent|I have a bad *tooth*.|J'ai mal à une dent.
+A2|arm|n|bras|My *arm* hurts.|J'ai mal au bras.
+A2|leg|n|jambe|I broke my *leg*.|Je me suis cassé la jambe.
+A2|foot|n|pied|My *foot* hurts.|J'ai mal au pied.
+A2|heart|n|cœur|Her *heart* is beating fast.|Son cœur bat vite.
+A2|health|n|santé|Sport is good for your *health*.|Le sport, c'est bon pour la santé.
+A2|ill|adj|malade|I'm *ill* today.|Je suis malade aujourd'hui.
+A2|sick|adj|malade|My son is *sick*.|Mon fils est malade.
+A2|pain|n|douleur|I have a *pain* in my back.|J'ai une douleur dans le dos.
+A2|medicine|n|médicament;médecine|Take this *medicine* twice a day.|Prends ce médicament deux fois par jour.
+A2|animal|n|animal|What's your favourite *animal*?|C'est quoi ton animal préféré ?
+A2|bird|n|oiseau|A *bird* is singing.|Un oiseau chante.
+A2|horse|n|cheval|She rides a *horse*.|Elle monte à cheval.
+A2|tree|n|arbre|There's a big *tree* in the garden.|Il y a un grand arbre dans le jardin.
+A2|flower|n|fleur|These *flowers* are for you.|Ces fleurs sont pour toi.
+A2|river|n|rivière;fleuve|We swim in the *river*.|On se baigne dans la rivière.
+A2|mountain|n|montagne|We go to the *mountains* every winter.|On va à la montagne chaque hiver.
+A2|island|n|île|They live on an *island*.|Ils habitent sur une île.
+A2|sky|n|ciel|The *sky* is grey today.|Le ciel est gris aujourd'hui.
+A2|snow|n|neige|The children love *snow*.|Les enfants adorent la neige.
+A2|wind|n|vent|The *wind* is very strong.|Le vent est très fort.
+A2|summer|n|été|We go to the beach in *summer*.|On va à la plage en été.
+A2|winter|n|hiver|It's cold in *winter*.|Il fait froid en hiver.
+A2|spring|n|printemps|The flowers come out in *spring*.|Les fleurs sortent au printemps.
+A2|autumn|n|automne|I love the colours of *autumn*.|J'adore les couleurs de l'automne.
+A2|party|n|fête;soirée|Are you coming to my *party*?|Tu viens à ma fête ?
+A2|present|n|cadeau|This *present* is for you.|Ce cadeau est pour toi.
+A2|gift|n|cadeau|Thank you for the *gift*.|Merci pour le cadeau.
+A2|letter|n|lettre|I got a *letter* from my bank.|J'ai reçu une lettre de ma banque.
+A2|message|n|message|I sent you a *message*.|Je t'ai envoyé un message.
+A2|email|n|mail;e-mail;courriel|I'll send you an *email*.|Je t'envoie un mail.
+A2|picture|n|photo;image;tableau|Can I take a *picture*?|Je peux prendre une photo ?
+A2|photo|n|photo|Look at this *photo*!|Regarde cette photo !
+A2|newspaper|n|journal|My father reads the *newspaper*.|Mon père lit le journal.
+A2|news|n|nouvelles;informations;actualités|I have good *news*!|J'ai une bonne nouvelle !
+A2|story|n|histoire|Tell me a *story*.|Raconte-moi une histoire.
+A2|idea|n|idée|That's a great *idea*!|C'est une super idée !
+A2|problem|n|problème|No *problem*!|Pas de problème !
+A2|mistake|n|erreur;faute|I made a *mistake*.|J'ai fait une erreur.
+A2|place|n|endroit;lieu;place|This is a nice *place*.|C'est un endroit sympa.
+A2|way|n|chemin;façon;moyen|Is this the *way* to the station?|C'est le chemin pour la gare ?
+A2|end|n|fin|See you at the *end* of the week.|À la fin de la semaine.
+A2|part|n|partie|This is the best *part* of the film.|C'est le meilleur moment du film.
+A2|thing|n|chose;truc|I have a lot of *things* to do.|J'ai plein de choses à faire.
+A2|world|n|monde|I want to travel around the *world*.|Je veux faire le tour du monde.
+A2|life|n|vie|*Life* is beautiful.|La vie est belle.
+A2|language|n|langue|How many *languages* do you speak?|Tu parles combien de langues ?
+A2|word|n|mot|What does this *word* mean?|Que veut dire ce mot ?
+A2|sentence|n|phrase|Read this *sentence*.|Lis cette phrase.
+A2|kind|adj|gentil;aimable|She is very *kind*.|Elle est très gentille.
+A2|funny|adj|drôle;marrant|He is so *funny*!|Il est trop drôle !
+A2|boring|adj|ennuyeux;nul|This film is *boring*.|Ce film est ennuyeux.
+A2|interesting|adj|intéressant|It's an *interesting* book.|C'est un livre intéressant.
+A2|important|adj|important|This is very *important*.|C'est très important.
+A2|different|adj|différent|My brother is very *different*.|Mon frère est très différent.
+A2|same|adj|même;pareil|We have the *same* phone.|On a le même téléphone.
+A2|full|adj|plein;complet|The bus is *full*.|Le bus est plein.
+A2|empty|adj|vide|The fridge is *empty*.|Le frigo est vide.
+A2|early|adv|tôt;en avance|I get up *early*.|Je me lève tôt.
+A2|late|adj|en retard;tard|Sorry, I'm *late*.|Désolé, je suis en retard.
+A2|fast|adj|rapide;vite|This car is very *fast*.|Cette voiture est très rapide.
+A2|slow|adj|lent|The internet is *slow* today.|Internet est lent aujourd'hui.
+A2|slowly|adv|lentement|Can you speak more *slowly*?|Tu peux parler plus lentement ?
+A2|quickly|adv|vite;rapidement|Come *quickly*!|Viens vite !
+A2|heavy|adj|lourd|This box is *heavy*.|Cette boîte est lourde.
+A2|light|adj|léger;clair|This bag is very *light*.|Ce sac est très léger.
+A2|dark|adj|sombre;foncé|It's *dark* outside.|Il fait nuit dehors.
+A2|quiet|adj|calme;silencieux;tranquille|It's a *quiet* street.|C'est une rue calme.
+A2|noisy|adj|bruyant|The street is very *noisy*.|La rue est très bruyante.
+A2|strong|adj|fort;solide|He's very *strong*.|Il est très fort.
+A2|weak|adj|faible|I feel *weak* today.|Je me sens faible aujourd'hui.
+A2|rich|adj|riche|They are very *rich*.|Ils sont très riches.
+A2|poor|adj|pauvre|It's a *poor* country.|C'est un pays pauvre.
+A2|safe|adj|en sécurité;sûr;sans danger|Is this area *safe*?|Ce quartier est sûr ?
+A2|dangerous|adj|dangereux|This road is *dangerous*.|Cette route est dangereuse.
+A2|famous|adj|célèbre;connu|She's a *famous* singer.|C'est une chanteuse célèbre.
+A2|delicious|adj|délicieux;très bon|This soup is *delicious*!|Cette soupe est délicieuse !
+A2|angry|adj|en colère;fâché|Why are you *angry*?|Pourquoi tu es en colère ?
+A2|afraid|adj|qui a peur;effrayé|I'm *afraid* of dogs.|J'ai peur des chiens.
+A2|surprised|adj|surpris|I was very *surprised*.|J'ai été très surpris.
+A2|bored|adj|qui s'ennuie|I'm *bored*.|Je m'ennuie.
+A2|worried|adj|inquiet|I'm *worried* about my exam.|Je suis inquiet pour mon examen.
+A2|married|adj|marié|Are you *married*?|Tu es marié ?
+A2|single|adj|célibataire;seul;simple|I'm *single*.|Je suis célibataire.
+A2|alone|adj|seul|I live *alone*.|J'habite seul.
+A2|together|adv|ensemble|Let's go *together*.|Allons-y ensemble.
+A2|already|adv|déjà|I've *already* eaten.|J'ai déjà mangé.
+A2|still|adv|encore;toujours|Are you *still* at work?|Tu es encore au travail ?
+A2|yet|adv|encore;déjà|I haven't finished *yet*.|Je n'ai pas encore fini.
+A2|just|adv|juste;seulement;venir de|I *just* want to sleep.|Je veux juste dormir.
+A2|only|adv|seulement;ne… que;uniquement|I *only* have five euros.|Je n'ai que cinq euros.
+A2|almost|adv|presque|I'm *almost* ready.|Je suis presque prêt.
+A2|enough|adv|assez;suffisamment|I don't have *enough* time.|Je n'ai pas assez de temps.
+A2|maybe|adv|peut-être|*Maybe* tomorrow.|Peut-être demain.
+A2|probably|adv|probablement|It will *probably* rain.|Il va probablement pleuvoir.
+A2|really|adv|vraiment|I *really* like it.|Ça me plaît vraiment.
+A2|soon|adv|bientôt|See you *soon*!|À bientôt !
+A2|later|adv|plus tard|I'll call you *later*.|Je t'appelle plus tard.
+A2|usually|adv|d'habitude;en général|I *usually* walk to work.|D'habitude, je vais au travail à pied.
+A2|ago|adv|il y a|I met him two years *ago*.|Je l'ai rencontré il y a deux ans.
+A2|outside|adv|dehors;à l'extérieur|Let's eat *outside*.|Mangeons dehors.
+A2|inside|adv|dedans;à l'intérieur|Come *inside*, it's cold.|Rentre, il fait froid.
+A2|upstairs|adv|en haut;à l'étage|My room is *upstairs*.|Ma chambre est en haut.
+A2|abroad|adv|à l'étranger|She lives *abroad*.|Elle vit à l'étranger.
+A2|between|prep|entre|The bank is *between* the café and the shop.|La banque est entre le café et le magasin.
+A2|behind|prep|derrière|The garden is *behind* the house.|Le jardin est derrière la maison.
+A2|in front of|prep|devant|I'm *in front of* the cinema.|Je suis devant le cinéma.
+A2|next to|prep|à côté de|Sit *next to* me.|Assieds-toi à côté de moi.
+A2|opposite|prep|en face de|The bank is *opposite* the station.|La banque est en face de la gare.
+A2|during|prep|pendant;durant|I slept *during* the film.|J'ai dormi pendant le film.
+A2|until|prep|jusqu'à|I work *until* six.|Je travaille jusqu'à six heures.
+A2|since|prep|depuis|I've lived here *since* 2020.|J'habite ici depuis 2020.
+A2|about|prep|sur;à propos de;de|It's a film *about* a dog.|C'est un film sur un chien.
+A2|if|conj|si|*If* it rains, we'll stay home.|S'il pleut, on reste à la maison.
+A2|so|conj|donc;alors|I was tired, *so* I went to bed.|J'étais fatigué, donc je suis allé me coucher.
+A2|then|adv|ensuite;puis;alors|First eat, *then* go out.|D'abord tu manges, ensuite tu sors.
+A2|which|q|quel;quelle;lequel;laquelle|*Which* one do you want?|Lequel tu veux ?
+A2|whose|q|à qui|*Whose* bag is this?|C'est le sac de qui ?
+A2|somebody|pron|quelqu'un|*Somebody* is at the door.|Il y a quelqu'un à la porte.
+A2|nobody|pron|personne|*Nobody* knows.|Personne ne sait.
+A2|anything|pron|quelque chose;n'importe quoi;rien|Do you need *anything*?|Tu as besoin de quelque chose ?
+A2|somewhere|adv|quelque part|I left my keys *somewhere*.|J'ai laissé mes clés quelque part.
+A2|everywhere|adv|partout|I looked *everywhere*.|J'ai cherché partout.
+A2|of course|phr|bien sûr|*Of course* you can come!|Bien sûr que tu peux venir !
+A2|look for|v|chercher|I'm *looking for* my glasses.|Je cherche mes lunettes.
+A2|look after|v|s'occuper de;garder|Can you *look after* my cat?|Tu peux garder mon chat ?
+A2|put on|v|mettre;enfiler|*Put on* your coat.|Mets ton manteau.
+A2|take off|v|enlever;retirer;décoller|*Take off* your shoes, please.|Enlève tes chaussures, s'il te plaît.
+A2|turn on|v|allumer|*Turn on* the light.|Allume la lumière.
+A2|turn off|v|éteindre|*Turn off* your phone.|Éteins ton téléphone.
+A2|give up|v|abandonner;arrêter|Don't *give up*!|N'abandonne pas !
+A2|find out|v|découvrir;apprendre|I *found out* the truth.|J'ai découvert la vérité.
+A2|hurry up|v|se dépêcher|*Hurry up*, we're late!|Dépêche-toi, on est en retard !
+A2|sit down|v|s'asseoir|Please *sit down*.|Asseyez-vous, je vous en prie.
+A2|come back|v|revenir|*Come back* soon!|Reviens vite !
+A2|fill in|v|remplir|*Fill in* this form, please.|Remplissez ce formulaire, s'il vous plaît.

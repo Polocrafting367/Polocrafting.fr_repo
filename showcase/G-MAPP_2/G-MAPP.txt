@@ -1,0 +1,4 @@
+/G-MAPP
+Démo G-MAPP
+G-MAPP est un projet permettant de créer des interventions correctives et préventives, gestion du parc machine, planning préventifs, création d'interventions avec type, cause, résumé d'intervention. Une gestion de la sortie de pièce, gestion des utilisateurs, historique.
+Création d'intervention via QR Code, sortie de pièces via Code Barre
